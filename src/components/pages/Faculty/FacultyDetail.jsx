@@ -83,9 +83,9 @@ export default function FacultyDetails() {
   <div className="faculty-members">
     {facultyMembers.map((faculty, index) => (
       <div key={index} className="faculty-member">
+         <h3>{faculty.name}</h3>
         <img src={faculty.picture} alt={faculty.name} className="faculty-picture" />
         <div className="faculty-details">
-          <h4>{faculty.name}</h4>
           <p><strong>Department:</strong> {faculty.Department}</p>
           <p><strong>Qualification:</strong> {faculty.Qualification}</p>
           <p><strong>Designation:</strong> {faculty.Designition}</p>
