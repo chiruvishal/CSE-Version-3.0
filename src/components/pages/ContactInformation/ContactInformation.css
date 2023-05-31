@@ -1,0 +1,303 @@
+.contact-container {
+  -ms-text-combine-horizontal: 960px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 1.5rem;
+background: white;
+box-shadow: 0.5rem;
+border-radius: 10px;
+overflow: hidden;
+margin-bottom: 25px;
+}
+.form-container {
+font-size: 1.2rem;
+font-weight: 600;
+margin-bottom: 1 rem;
+width: 100%;
+}
+.form-container h3 {
+margin: 10px;
+}
+.contact-form {
+display: grid;
+row-gap: 1rem;
+}
+.contact-form input {
+width: 100%;
+border: none;
+background: #2c2f48;
+padding: 10px;
+border-radius: 0.4rem;
+margin: 10px;
+}
+.contact-form input:hover {
+background: white;
+}
+.contact-form textarea:hover {
+background: white;
+}
+.contact-form textarea {
+width: 100%;
+height: 200px;
+resize: none;
+background: #2c2f48;
+padding: 10px;
+border-radius: 0.4rem;
+margin: 10px;
+border: none;
+}
+.contact-form .send-button {
+border: none;
+outline: none;
+background: #00dbde;
+font-size: 1rem;
+text-transform: uppercase;
+cursor: pointer;
+}
+.contact-form .send-button:hover {
+background: hs1(181, 100%, 44%, 0.8);
+transition: 0.3s all linear;
+}
+.map{
+margin-right: 20px;
+}
+.map iframe {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+margin-right: 10%;
+}
+@media (max-width: 700px) {
+.contact-container {
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 20rem !important;
+}
+.map iframe {
+  height: 400px;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.container {
+position: relative;
+background: #fff;
+margin-top: 50px;
+margin-bottom: 30px;
+border-radius: 10px;
+filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.accordion {
+position: relative;
+width: 350px;
+margin-left: 40px;
+}
+
+.title {
+margin-top: 20px;
+font-size: 2rem;
+text-align: center;
+}
+
+.content-accordion {
+margin-top: 35px;
+margin-right: 50px;
+}
+
+.question-answer {
+width: 100%;
+border-bottom: 1px solid #e8e8e8;
+}
+
+.question {
+display: flex;
+justify-content: space-between;
+}
+
+.accordion-img {
+position: relative;
+width: 320px;
+}
+
+.title-question {
+margin: 1.4rem 0rem;
+font-size: 1.2rem;
+font-weight: 500;
+color: black;
+}
+
+.question-btn {
+font-size: 1.5rem;
+background: transparent;
+border-color: transparent;
+cursor: pointer;
+}
+
+.up-icon {
+display: none;
+}
+
+.answer {
+font-size: 1.2rem;
+line-height: 1.8;
+display: none;
+}
+
+.show-text .answer {
+display: block;
+}
+
+.show-text .up-icon {
+display: inline;
+}
+
+.show-text .down-icon {
+display: none;
+}
+.container {
+display: flex;
+flex-direction: column;
+}
+.accordion {
+display: flex;
+flex-direction: row;
+}
+.question-answer {
+color: black;
+}
+.sub_con h1 {
+width: 700px;
+}
+@media screen and (min-width: 992px) {
+.accordion {
+  width: 920px;
+  height: auto;
+  display: flex;
+}
+
+.accordion-img {
+  position: relative;
+  width: 420px;
+  top: 20px;
+  margin-left: 70px;
+}
+
+.question-answer {
+  width: 380px;
+}
+
+.content-accordion {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 3rem;
+}
+}
+section {
+position: relative;
+z-index: 3;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.contain {
+max-width: 1080px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.section-header {
+margin-bottom: 50px;
+text-align: center;
+}
+
+.section-header h2 {
+color: rgb(5, 5, 5);
+font-weight: bold;
+font-size: 3em;
+margin-bottom: 20px;
+}
+
+.section-header p {
+color: rgb(8, 8, 8);
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.chase {
+background-image: url('https://static.zollege.in/public/college_data/images/appImage/1647325094NITRaipur1.jpg?tr=h-250,w-400,c-force');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+overflow: hidden;
+padding: 5%;
+margin-top: 125px;
+}
+
+.contact-info {
+width: 50%;
+}
+
+.contact-info-item {
+display: flex;
+margin-bottom: 30px;
+}
+
+.contact-info-icon {
+height: 70px;
+width: 70px;
+background-color: #fff;
+text-align: center;
+border-radius: 50%;
+}
+
+.contact-info-icon i {
+font-size: 30px;
+line-height: 70px;
+}
+
+.contact-info-content {
+margin-left: 20px;
+}
+
+.contact-info-content h4 {
+color: #020202;
+font-size: 1.4em;
+margin-bottom: 5px;
+}
+
+.contact-info-content p {
+color: rgb(8, 8, 8);
+font-size: 1em;
+}
+
+@media (max-width: 991px) {
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+  width: 100%;
+}
+.accordion {
+  flex-direction: column;
+}
+}

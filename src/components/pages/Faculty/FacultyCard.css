@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 16px;
+}
+
+.card + .card {
+  margin-top: 16px; 
+}
+
+.picture img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.contact-details h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.contact-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  text-align: left;
+}
