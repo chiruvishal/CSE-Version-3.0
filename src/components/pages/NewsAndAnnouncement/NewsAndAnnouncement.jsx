@@ -18,16 +18,16 @@ const myComponent = {
 };
 export default function NewsAndAnnouncement() {
   const newsArray = [
-    { date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
-    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date: '30 may 2023', link: '/', descript: 'Lorem ipsum dolor sit' },
   ];
   return (
     <>
@@ -37,14 +37,14 @@ export default function NewsAndAnnouncement() {
           <div className="news" style={myComponent}>
             <div></div>
             <table className="newstable">
-              {newsArray.map(({date, link, descript }) => (
+              {newsArray.map(({ date, link, descript }) => (
                 <tr>
-                  <Tablerow />
+                  {/* <Tablerow /> */}
                   <div classname="datenews">
                     <p>{date}</p>
-                  <a href="link">
-                    <div classname="descript">{descript}</div>
-                  </a>
+                    <a href="link">
+                      <div classname="descript">{descript}</div>
+                    </a>
                   </div>
                 </tr>
               ))}

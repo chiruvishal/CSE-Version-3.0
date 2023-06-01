@@ -65,6 +65,12 @@ tr:nth-child(even) {
 .descript > tr:nth-child(even) {
   color: white !important;
 }
+tr:nth-child(even) a{
+  color: white;
+}
+tr:nth-child(odd) a{
+  color: black;
+}
 /* .datenews>tr:nth-child(even){
   color: white;
 } */
