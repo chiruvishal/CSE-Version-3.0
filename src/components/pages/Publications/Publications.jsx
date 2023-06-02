@@ -56,94 +56,30 @@ export default function Publications() {
   //     })
   //   );
   // };
-  const year = [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015];
-  const [selectedyear, setyear] = useState([2023]);
+  const years = [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015];
+  const [year, setyear] = useState(2023);
+  let currentyear = 2023;
   const selectHandler = (event) => {
     setyear(event.target.value);
+    console.log(event.target.value);
+    console.log(year);
   };
   const publish = [
     {
       year: 2023,
       publishs: [
         {
-          discription: 'hknhujbujv',
+          description:
+            'Domngam Boje, Mini Loya, Ananta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
           link: 'jbjbj',
         },
         {
-          discription: 'jbjbjb',
+          description: 'jbjbjb',
           link: 'jojoj',
         },
         {
-          discription: 'jjbuj',
+          description: 'jjbuj',
           link: 'hihih',
-        },
-      ],
-    },
-    {
-      year: 2022,
-      publishs: [
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-      ],
-    },
-    {
-      year: 2021,
-      publishs: [
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-      ],
-    },
-    {
-      year: 2020,
-      publishs: [
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-      ],
-    },
-    {
-      year: 2019,
-      publishs: [
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
-        },
-        {
-          discription: '',
-          link: '',
         },
       ],
     },
@@ -184,37 +120,48 @@ export default function Publications() {
             />
           ))}
         </div> */}
-        <div>
+        <div className="publication">
           <h3>Publications</h3>
-          <select name="Year">
-            {year.map((yr) => (
-              <option value={yr} onChange={selectHandler}>
-                {yr}
-              </option>
-            ))}
-          </select>
-          <div>
-            <h2>Year: {setyear}</h2>
-          </div>
-          <div>
-            {publish.map(({ year, publishs }) => (
-              <table>
-                <tr>
-                  <th>Index</th>
-                  <th>Publications</th>
-                  <th>Link</th>
-                </tr>
-                {publishs.map(({ description, link, index }) => (
-                  <tr>
-                    <td>{index}</td>
-                    <td>{description}</td>
-                    <td>
-                      <a href={link}>Link</a>
-                    </td>
-                  </tr>
-                ))}
-              </table>
-            ))}
+          <div className="maint">
+            <div className="selectyr">
+            <div className="selectyeasr">
+            <select name="Year" id="sel">
+              <option>--Select Year--</option>
+              {years.map((yr) => (
+                <option value={yr} onChange={selectHandler}>
+                  {yr}
+                </option>
+              ))}
+            </select>
+            </div>
+            <div className="syear">
+              <h2>Year: {year}</h2>
+            </div>
+            </div>
+            <div className="pubtable">
+              {publish.map(({ year, publishs }) => (
+                <table className="publishtable">
+                  <thead>
+                    <tr>
+                      <th className='wid'>S.no.</th>
+                      <th>Publications</th>
+                      <th className='wid'>Link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {publishs.map((pub, idx) => (
+                      <tr>
+                        <td>{idx + 1}</td>
+                        <td>{pub.description}</td>
+                        <td>
+                          <a href={pub.link}>Link</a>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              ))}
+            </div>
           </div>
         </div>
       </div>
