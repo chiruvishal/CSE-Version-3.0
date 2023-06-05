@@ -59,70 +59,35 @@ export default function CourseOverview() {
             </ul>
           </div>
         </div>
-        <div className="to-center">
-          <div className="containers">
-            <div className="bloc-tabs">
+        <div className="to-centerx">
+          <div className="containersy">
+            <div className="bloc-tabsx">
               <button
-                className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'}
+                className={toggleState === 1 ? 'tabsx active-tabsx' : 'tabsx'}
                 onClick={() => toggleTab(1)}
               >
                 Curriculum
               </button>
               <button
-                className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'}
+                className={toggleState === 2 ? 'tabsx active-tabsx' : 'tabsx'}
                 onClick={() => toggleTab(2)}
               >
                 Schedule
               </button>
             </div>
 
-            <div className="content-tabs">
+            <div className="content-tabsx">
               <div
                 className={
-                  toggleState === 1 ? 'content active-content' : 'content'
+                  toggleState === 1 ? 'contentx active-contentx' : 'contentx'
                 }
               >
-                <div className="box">
-                  <div className="column">Curriculum</div>
-                  <div className="dropdown-container">
-                    <select
-                      className="dropdown"
-                      value={selectedYear}
-                      onChange={handleYearChange}
-                    >
-                      <option value="1st Year">1st Year</option>
-                      <option value="2nd Year">2nd Year</option>
-                      <option value="3rd Year">3rd Year</option>
-                      <option value="4th Year">4th Year</option>
-                    </select>
-                    <div className="gap"></div>
-                    <select
-                      className="dropdown"
-                      value={selectedSemester}
-                      onChange={handleSemesterChange}
-                    >
-                      <option value="Semester I">Semester I</option>
-                      <option value="Semester II">Semester II</option>
-                    </select>
-                  </div>
-                  <br />
-                  <button className="button" onClick={handleShowButtonClick}>
-                    Show
-                  </button>
-                </div>
-              </div>
-
-              <div
-                className={
-                  toggleState === 2 ? 'content active-content' : 'content'
-                }
-              >
-                
-                  <div className="box">
-                    <div className="column">Schedule</div>
-                    <div className="dropdown-container">
+                <div className="containerxy">
+                  <div className="boxx">
+                    <div className="columnx">Curriculum</div>
+                    <div className="dropdown-containerx">
                       <select
-                        className="dropdown"
+                        className="dropdownx"
                         value={selectedYear}
                         onChange={handleYearChange}
                       >
@@ -131,9 +96,9 @@ export default function CourseOverview() {
                         <option value="3rd Year">3rd Year</option>
                         <option value="4th Year">4th Year</option>
                       </select>
-                      <div className="gap"></div>
+                      <div className="gapx"></div>
                       <select
-                        className="dropdown"
+                        className="dropdownx"
                         value={selectedSemester}
                         onChange={handleSemesterChange}
                       >
@@ -142,11 +107,48 @@ export default function CourseOverview() {
                       </select>
                     </div>
                     <br />
-                    <button className="button" onClick={handleShowButtonClick}>
+                    <button className="buttonx" onClick={handleShowButtonClick}>
                       Show
                     </button>
                   </div>
-               
+                </div>
+              </div>
+
+              <div
+                className={
+                  toggleState === 2 ? 'contentx active-contentx' : 'contentx'
+                }
+              >
+                <div className="containerxy">
+                  <div className="boxx">
+                    <div className="columnx">Schedule</div>
+                    <div className="dropdown-containerx">
+                      <select
+                        className="dropdownx"
+                        value={selectedYear}
+                        onChange={handleYearChange}
+                      >
+                        <option value="1st Year">1st Year</option>
+                        <option value="2nd Year">2nd Year</option>
+                        <option value="3rd Year">3rd Year</option>
+                        <option value="4th Year">4th Year</option>
+                      </select>
+                      <div className="gapx"></div>
+                      <select
+                        className="dropdownx"
+                        value={selectedSemester}
+                        onChange={handleSemesterChange}
+                      >
+                        <option value="Semester I">Semester I</option>
+                        <option value="Semester II">Semester II</option>
+                      </select>
+                    </div>
+                    <br />
+                    <button className="buttonx" onClick={handleShowButtonClick}>
+                      Show
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
