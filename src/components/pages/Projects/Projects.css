@@ -87,6 +87,7 @@ h3 {
 }
 .publishtable {
   padding: 15px;
+  max-width: 90%;
 }
 .publishtable thead {
   background-color: #82308e;
@@ -103,6 +104,7 @@ h3 {
 }
 .pubtable {
   padding: 10px;
+  width: fit-content;
 }
 .publishtable {
   margin-top: 20px;
@@ -133,5 +135,17 @@ h3 {
 @media screen and (max-width: 650px) {
   .side-box {
     display: none;
+  }
+}
+@media screen and (max-width:450px){
+  .pubtable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pubtable table{
+    width:350px;
+  }
+  .pwid{
+    width: 40px;
   }
 }

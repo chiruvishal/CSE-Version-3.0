@@ -14,14 +14,23 @@ export default function Projects() {
         {
           description:
             'Domngam Boje, Mini Loya, Ananta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'jbjbj',
         },
         {
           description: 'jbjbjb',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'jojoj',
         },
         {
           description: 'jjbuj',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'hihih',
         },
       ],
@@ -32,14 +41,23 @@ export default function Projects() {
         {
           description:
             'Domngam Boje, Mini Loya, anuanta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'jbjbj',
         },
         {
           description: 'jbjbjb',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'jojoj',
         },
         {
           description: 'jjbuj',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
           link: 'hihih',
         },
       ],
@@ -65,7 +83,7 @@ export default function Projects() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">Areas</Link>
+                <Link to="/Research-Areas">Areas</Link>
               </li>
               <li>
                 <div className="side-border-left" />
@@ -74,7 +92,7 @@ export default function Projects() {
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Publications</Link>
+                <Link to="/Publications">Publications</Link>
               </li>
             </ul>
           </div>
@@ -102,8 +120,11 @@ export default function Projects() {
                     <thead>
                       <tr>
                         <th className="wid">S.no.</th>
-                        <th>Publications</th>
-                        <th className="wid">Link</th>
+                        <th className="pwid">Projects</th>
+                        <th className="wid2">Students Name</th>
+                        <th className="wid2">Professor</th>
+                        <th className="wid">Technologies used</th>
+                        {/* <th className="wid">Link</th> */}
                       </tr>
                     </thead>
                     <tbody>
@@ -111,9 +132,12 @@ export default function Projects() {
                         <tr>
                           <td>{idx + 1}</td>
                           <td>{pub.description}</td>
-                          <td>
+                          <td>{pub.studentname}</td>
+                          <td>{pub.professorname}</td>
+                          <td>{pub.Technologis}</td>
+                          {/* <td>
                             <a href={pub.link}>Link</a>
-                          </td>
+                          </td> */}
                         </tr>
                       ))}
                     </tbody>

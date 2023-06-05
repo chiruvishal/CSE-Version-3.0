@@ -65,7 +65,7 @@ export default function Publications() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">Areas</Link>
+                <Link to="/Research-Areas">Areas</Link>
               </li>
               <li>
                 <div className="side-border-left" />
@@ -74,7 +74,7 @@ export default function Publications() {
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Publications</Link>
+                <Link to="/Publications">Publications</Link>
               </li>
             </ul>
           </div>
