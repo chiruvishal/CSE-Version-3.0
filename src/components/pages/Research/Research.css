@@ -23,9 +23,10 @@
   height: 125px;
   background: linear-gradient(to right, #82308e, #323232);
 }
-h3 {
+.hea{
   font-size: xx-large;
   margin-top: 3rem;
+  color: #82308e;
 }
 .side-top-box > p {
   color: #fff;
@@ -88,7 +89,7 @@ h3 {
   margin-top: 1rem;
   flex-wrap: wrap;
 }
-.content {
+.contentarea {
   max-width: 125px;
   display: flex;
   flex-direction: row;
@@ -98,6 +99,9 @@ h3 {
 }
 .content > a {
   padding: 7px;
+}
+.profname{
+  margin-left: 0.5rem;
 }
 @keyframes borderAnimation {
   0% {

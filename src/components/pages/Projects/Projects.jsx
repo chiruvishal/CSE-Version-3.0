@@ -1,105 +1,151 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-// import Navbar from './Navbar';
-// import Footer from './components/pages/Footer';
-import Drop from './Drop';
-import './Drop.css';
 export default function Projects() {
-  const [publishs, setpublish] = useState([
+  const years = [2023, 2022];
+  const [Year, setYear] = useState('2023');
+  let currentyear = 2023;
+  const publish = [
     {
-      question: 'Dr. Dilip Singh Sisodia',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.',
-      open: false,
+      year: '2023',
+      publishs: [
+        {
+          description:
+            'Domngam Boje, Mini Loya, Ananta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'jbjbj',
+        },
+        {
+          description: 'jbjbjb',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'jojoj',
+        },
+        {
+          description: 'jjbuj',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'hihih',
+        },
+      ],
     },
     {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
+      year: '2022',
+      publishs: [
+        {
+          description:
+            'Domngam Boje, Mini Loya, anuanta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'jbjbj',
+        },
+        {
+          description: 'jbjbjb',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'jojoj',
+        },
+        {
+          description: 'jjbuj',
+          studentname: 'anumay',
+          professorname: 'Dr.dilip singh sisodia',
+          Technologis: 'React php',
+          link: 'hihih',
+        },
+      ],
     },
-    {
-      question: 'Sonal Yadav',
-      answer: 'This many!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-  ]);
-
-  const toggledrop = (index) => {
-    setpublish(
-      publishs.map((publish, i) => {
-        if (i === index) {
-          publish.open = !publish.open;
-        } else {
-          publish.open = false;
-        }
-
-        return publish;
-      })
-    );
+  ];
+  const selectHandler = (event) => {
+    // if(event.target.value=='--Select Year--')
+    // setYear(2023);
+    // else
+    setYear(event.target.value);
   };
-
+  // //const res = publish.find(({ year }) => year === Year);
+  // const result = publish.find(({ year }) => year === Year);
+  // console.log(result);
   return (
     <>
-      {/* <Navbar /> */}
       <div className="main-box">
         <div className="side-box">
           <div className="side-container">
             <div className="side-top-box">
               <p>Research Areas</p>
             </div>
-
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Research-Areas"><p>Research Areas</p></Link>
+                <Link to="/Research-Areas">Areas</Link>
               </li>
               <li>
                 <div className="side-border-left" />
-                <Link to="/Project"><p>Projects</p></Link>
+                <Link to="/Project">Project</Link>
               </li>
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publications"><p>Publications</p></Link>
+                <Link to="/Publications">Publications</Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className="drops">
-          <h3>Projects</h3>
-          {publishs.map((publish, index) => (
-            <Drop
-              publish={publish}
-              index={index}
-              key={index}
-              toggledrop={toggledrop}
-            />
-          ))}
+        <div className="publication">
+          <h3 className="he">Projects</h3>
+          <div className="maint">
+            <div className="selectyr">
+              <div className="selectyeasr">
+                <select name="Year" id="sel" onChange={selectHandler}>
+                  <option value="2023">--Select Year--</option>
+                  {years.map((yr) => (
+                    <option value={yr}>{yr}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="syear">
+                <h2>Year: {Year}</h2>
+              </div>
+            </div>
+            <div className="pubtable">
+              {publish.map(({ year, publishs }) =>
+                year === Year ? (
+                  <table className="publishtable">
+                    <thead>
+                      <tr>
+                        <th className="wid">S.no.</th>
+                        <th className="pwid">Projects</th>
+                        <th className="wid2">Students Name</th>
+                        <th className="wid2">Professor</th>
+                        <th className="wid">Technologies used</th>
+                        {/* <th className="wid">Link</th> */}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {publishs.map((pub, idx) => (
+                        <tr>
+                          <td>{idx + 1}</td>
+                          <td>{pub.description}</td>
+                          <td>{pub.studentname}</td>
+                          <td>{pub.professorname}</td>
+                          <td>{pub.Technologis}</td>
+                          {/* <td>
+                            <a href={pub.link}>Link</a>
+                          </td> */}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : null
+              )}
+            </div>
+          </div>
         </div>
       </div>
-      {/* <h1 className="consulting">Publications</h1> */}
-      {/* <Footer /> */}
     </>
   );
 }

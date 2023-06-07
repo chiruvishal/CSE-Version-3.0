@@ -1,6 +1,7 @@
 .main-box {
   display: flex;
   flex-direction: row;
+  margin-top: 11rem;
 }
 .side-box {
   display: flex;
@@ -21,24 +22,21 @@
   justify-content: center;
   align-items: center;
   height: 125px;
-  background: linear-gradient(to right, #82308e,#323232);
+  background: linear-gradient(to right, #82308e, #323232);
 }
-h3 {
+.he {
   font-size: xx-large;
+  color: #82308e;
+  margin-top: 30px;
 }
 .side-top-box > p {
   color: #fff;
   font-weight: 400;
 }
-.side-border-left>p{
-  text-align: left;
-  align-content: center;
-  align-items: center;
-}
 .side-link {
   display: flex;
   flex-direction: column;
- text-align: left;
+  text-align: left;
 
   text-decoration: none;
   list-style: none;
@@ -53,10 +51,6 @@ h3 {
 .side-link > li:hover > a {
   color: #82308e;
 }
-
-.slide-link > li:hover .side-border-left {
-}
-
 .side-link > li {
   position: relative;
   padding: 15px 0;
@@ -74,9 +68,64 @@ h3 {
 }
 .side-link > li > a {
   text-decoration: none;
-  text-align: left;
 }
-
+#sel {
+  width: 200px;
+}
+.selectyear {
+  padding: 10px;
+}
+.selectyr {
+  padding: 20px;
+}
+.syear h2 {
+  padding-top: 30px;
+}
+.publication {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.publishtable {
+  padding: 15px;
+  max-width: 90%;
+}
+.publishtable thead {
+  background-color: #82308e;
+  color: white;
+}
+.wid {
+  width: 10px;
+}
+.publishtable a {
+  color: #323232;
+}
+.publishtable a:hover {
+  color: #82308e;
+}
+.pubtable {
+  padding: 10px;
+  width: fit-content;
+}
+.publishtable {
+  margin-top: 20px;
+  width: 99%;
+  border-collapse: collapse;
+}
+.publishtable th,
+.publishtable td {
+  border: 1px solid rgb(52, 52, 59);
+  padding: 5px;
+}
+.maint {
+  display: flex;
+  flex-direction: column;
+}
+.publishtable {
+  margin-left: 2px;
+  margin-right: 5px;
+}
 @keyframes borderAnimation {
   0% {
     height: 0;
@@ -88,5 +137,17 @@ h3 {
 @media screen and (max-width: 650px) {
   .side-box {
     display: none;
+  }
+}
+@media screen and (max-width:450px){
+  .pubtable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pubtable table{
+    width:350px;
+  }
+  .pwid{
+    width: 40px;
   }
 }
