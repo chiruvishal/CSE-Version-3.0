@@ -274,6 +274,7 @@ textarea.inputt {
   line-height: 35px;
   margin-right: 0.5rem;
   transition: 0.3s;
+  justify-content: center;
 }
 
 .social-iconst a:hover {
