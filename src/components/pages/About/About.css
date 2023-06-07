@@ -22,12 +22,12 @@
   background-color: #333;
 }
 
-.row {
+.r1 {
   display: flex;
   justify-content: center;
 }
 
-.col-md-12 {
+.c1 {
   width: 80%;
 }
 
