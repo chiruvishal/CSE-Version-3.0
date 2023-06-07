@@ -23,7 +23,7 @@ a:link {
   display: flex;
   flex-direction: column;
 }
-h3 {
+.hen {
   margin-bottom: 2vh;
   color: #82308e;
 }
