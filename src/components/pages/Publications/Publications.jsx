@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Publications.css';
 import { Link } from 'react-router-dom';
-import Drop from './Drop';
-import './Drop.css';
 export default function Publications() {
   const years = [2023, 2022];
   const [Year, setYear] = useState('2023');
@@ -80,7 +78,7 @@ export default function Publications() {
           </div>
         </div>
         <div className="publication">
-          <h3>Publications</h3>
+          <h3 className="heap">Publications</h3>
           <div className="maint">
             <div className="selectyr">
               <div className="selectyeasr">

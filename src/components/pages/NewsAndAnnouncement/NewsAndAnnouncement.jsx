@@ -1,6 +1,5 @@
 import React from 'react';
 import './NewsAndAnnouncement.css';
-import Tablerow from './Tablerow';
 const myComponent = {
   width: '100%',
   height: '300px',
@@ -24,13 +23,12 @@ export default function NewsAndAnnouncement() {
     <>
       <div className="first">
         <div className="heading">
-          <h3>News And Announcement</h3>
+          <h3 className="hen">News And Announcement</h3>
           <div className="news" style={myComponent}>
             <div></div>
             <table className="newstable">
               {newsArray.map(({ date, link, descript }) => (
-                <tr className='tret'>
-                  {/* <Tablerow /> */}
+                <tr className="tret">
                   <div classname="datenews">
                     <p>{date}</p>
                     <a href="link">
@@ -43,7 +41,6 @@ export default function NewsAndAnnouncement() {
           </div>
         </div>
       </div>
-      {/* <h1 className="consulting">NewsAndAnnouncement</h1> */}
     </>
   );
 }

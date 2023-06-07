@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import Drop from './Drop';
-import './Drop.css';
 export default function Projects() {
   const years = [2023, 2022];
   const [Year, setYear] = useState('2023');
@@ -98,7 +96,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="publication">
-          <h3>Projects</h3>
+          <h3 className="he">Projects</h3>
           <div className="maint">
             <div className="selectyr">
               <div className="selectyeasr">

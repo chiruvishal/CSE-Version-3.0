@@ -24,8 +24,10 @@
   height: 125px;
   background: linear-gradient(to right, #82308e, #323232);
 }
-h3 {
+.he {
   font-size: xx-large;
+  color: #82308e;
+  margin-top: 30px;
 }
 .side-top-box > p {
   color: #fff;

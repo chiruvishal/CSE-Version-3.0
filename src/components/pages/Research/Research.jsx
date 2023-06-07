@@ -113,7 +113,7 @@ export default function Research() {
           </div>
         </div>
         <div>
-          <h3>Research Areas</h3>
+          <h3 className="hea">Research Areas</h3>
           {areas.map(({ areaname, content }) => (
             <div className="Aiml">
               <p>{areaname}</p>
