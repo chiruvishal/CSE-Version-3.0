@@ -1,3 +1,12 @@
+// import React from 'react';
+// import './NewsAndAnnouncement.css';
+// export default function NewsAndAnnouncement() {
+//   return (
+//     <>
+//       <h1 className="consulting">NewsAndAnnouncement</h1>
+//     </>
+//   );
+// }
 import React from 'react';
 import './NewsAndAnnouncement.css';
 import Tablerow from './Tablerow';
@@ -29,7 +38,7 @@ export default function NewsAndAnnouncement() {
             <div></div>
             <table className="newstable">
               {newsArray.map(({ date, link, descript }) => (
-                <tr className='tret'>
+                <tr>
                   {/* <Tablerow /> */}
                   <div classname="datenews">
                     <p>{date}</p>

@@ -1,4 +1,4 @@
-.containersy {
+.containers {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -14,10 +14,10 @@
 h1 {
   padding: 3%;
 }
-.bloc-tabsx {
+.bloc-tabs {
   display: flex;
 }
-.tabsx {
+.tabs {
   padding: 25px;
   color: rgb(3, 3, 3);
   text-align: center;
@@ -35,15 +35,15 @@ h1 {
   border-radius: 10px 10px 0px 0px;
   text-transform: uppercase;
 }
-.tabsx :hover {
+.tabs :hover {
   text-decoration-color: #0736d1;
 }
-.tabsx:not(:last-child) {
+.tabs:not(:last-child) {
   border-right: 1px solid rgba(0, 0, 0, 0.274);
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
 }
 
-.active-tabsx {
+.active-tabs {
   background: #072ff7;
   border-bottom: 1px solid transparent;
   text-align: center;
@@ -55,7 +55,7 @@ h1 {
   border-radius: 10px 10px 0px 0px;
 }
 
-.active-tabsx::before {
+.active-tabs::before {
   content: '';
   display: block;
   position: fixed;
@@ -71,21 +71,21 @@ h1 {
 button {
   border: none;
 }
-.content-tabsx {
+.content-tabs {
   flex-grow: 1;
 }
-.contentx {
+.content {
   background: white;
   padding: 10px;
   display: none;
   align-items: center;
 }
-.active-contentx {
+.active-content {
   display: block;
   align-items: center;
   justify-content: center;
 }
-.containerxy {
+.container {
   display: flex;
   justify-content: center;
   padding: 0px;
@@ -95,7 +95,7 @@ button {
   margin: auto;
 }
 
-.boxx {
+.box {
   width: 350px;
   height: 300px;
   border: 1px solid #000;
@@ -104,7 +104,7 @@ button {
   border-radius: 10px;
 }
 
-.columnx {
+.column {
   border-radius: 10px 10px 0px 0px;
   color: #fff;
   padding: 10px;
@@ -118,7 +118,7 @@ button {
   );
 }
 
-.dropdown-containerx {
+.dropdown-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ button {
   margin-bottom: 10px;
 }
 
-.dropdownx {
+.dropdown {
   width: 150px;
   padding: 10px;
   font-size: 16px;
@@ -136,7 +136,7 @@ button {
   color: #fff;
 }
 
-.buttonx {
+.button {
   background-image: -webkit-linear-gradient(
     -180deg,
     rgb(42, 39, 167) 0%,

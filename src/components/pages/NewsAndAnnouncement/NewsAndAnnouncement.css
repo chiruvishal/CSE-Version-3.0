@@ -1,6 +1,7 @@
 .first {
   display: flex;
   flex-direction: row;
+  /* justify-content: center; */
   align-items: center;
   margin: auto;
   margin-bottom: 4%;
@@ -8,11 +9,11 @@
   margin-left: 20px;
   margin-top: 4%;
 }
-.newstable {
-  /* border-collapse: collapse; */
+table {
+  border-collapse: collapse;
   width: 100%;
 }
-.newstable table tr p {
+table > tr > p {
   align-items: center;
 }
 a:link {
@@ -27,7 +28,7 @@ h3 {
   margin-bottom: 2vh;
   color: #82308e;
 }
-.newscontent p {
+.newscontent > p {
   display: flex;
   flex-direction: row;
   text-align: left;
@@ -35,10 +36,12 @@ h3 {
 .img {
   margin-left: 5%;
 }
-.newstable tr a {
+.newstable > tr > a {
   color: black;
 }
-
+.newstable > tr > a:hover {
+  color: white;
+}
 .news {
   border: 0px solid black;
   display: flex;
@@ -47,7 +50,7 @@ h3 {
   padding: 4px;
   text-align: left;
 }
-.newstable tr {
+tr {
   border: solid;
   border-width: 0px 0;
   display: flex;
@@ -55,19 +58,22 @@ h3 {
   text-align: left;
   padding: 0.5rem;
 }
-.newstable tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #82308e;
+  color: white !important;
+}
+.descript > tr:nth-child(even) {
+  color: white !important;
+}
+tr:nth-child(even) a{
   color: white;
 }
-.newstable tr:nth-child(even) {
-  color: white;
-}
-.newstable tr:nth-child(even) a {
-  color: white;
-}
-.newstable tr:nth-child(odd) a {
+tr:nth-child(odd) a{
   color: black;
 }
+/* .datenews>tr:nth-child(even){
+  color: white;
+} */
 @media screen and (max-width: 800px) {
   div > .first {
     flex-direction: column;

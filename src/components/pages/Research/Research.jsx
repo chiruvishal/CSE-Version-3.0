@@ -119,9 +119,11 @@ export default function Research() {
               <p>{areaname}</p>
               <div className="prof">
                 {content.map(({ imglink, name, proflink }) => (
-                  <div className="content">
+                  <div className="contentarea">
                     <img src={imglink} height="72" width="50"></img>
+                    <div className="profname">
                     <a href={proflink}>{name}</a>
+                    </div>
                   </div>
                 ))}
               </div>

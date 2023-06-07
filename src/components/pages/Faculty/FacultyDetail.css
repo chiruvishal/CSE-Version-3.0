@@ -87,21 +87,18 @@ h3 {
 }
 .drops {
   align-items: center;
-  
 }
 
 .faculty-members {
   display: flex;
   gap: 100px;
-  
 }
 
 .faculty-member {
-  margin-top: 0cm;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  align-items:center;
-  /* width: 250px; */
+  align-items: center;
+  width: 250px;
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 5px;
@@ -116,8 +113,7 @@ h3 {
 }
 
 .faculty-member .faculty-details {
-  text-align:left;
-  padding:
+  text-align: left;
 }
 
 .faculty-member .faculty-details h4 {
