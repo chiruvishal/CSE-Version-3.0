@@ -18,7 +18,7 @@ const ContactInformation = () => {
     <body>
       <div className="containert">
         <span className="big-circlet" />
-        <img src="img/shape.png" className="squaret" alt="" />
+        <img src="Images/shape.png" className="squaret" alt="" />
         <div className="formt">
           <div className="contact-infot">
             <h3 className="titlet">Let's get in touch</h3>
@@ -29,7 +29,7 @@ const ContactInformation = () => {
             <div className="infot">
               <div className="informationt">
                 <img
-                  src="componentspages/img/location.png"
+                  src="components/pages/Images/location.png"
                   className="icont"
                   alt=""
                 />
@@ -37,7 +37,7 @@ const ContactInformation = () => {
               </div>
               <div className="informationt">
                 <img
-                  src="components/pages/img/email.png"
+                  src="components/pages/Images/email.png"
                   className="icont"
                   alt=""
                 />
@@ -45,7 +45,7 @@ const ContactInformation = () => {
               </div>
               <div className="informationt">
                 <img
-                  src="components/pages/img/phone.png"
+                  src="./components/pages/Images/phone.png"
                   className="icont"
                   alt=""
                 />
