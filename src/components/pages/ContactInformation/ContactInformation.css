@@ -189,7 +189,11 @@ textarea.inputt {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: rgb(42, 39, 167);
+  background: -webkit-linear-gradient(
+    -180deg,
+    rgb(42, 39, 167) 0%,
+    rgb(130, 48, 142) 100%
+  );
   top: 50%;
   transform: translateY(-50%);
 }
@@ -221,7 +225,8 @@ textarea.inputt {
 }
 
 .contact-infot .titlet {
-  color: #1abc9c;
+  color: rgb(42, 39, 167);
+  font-style: bold;
 }
 
 .text {
