@@ -36,7 +36,7 @@ export default function POs() {
             <span></span>
           </div>
           <div class="r1 about2">
-            <div class="col-12">
+            <div class="c1">
               <p className="p2">
                 The institute is committed to the challenging task of
                 development of technical education by preparing seasoned

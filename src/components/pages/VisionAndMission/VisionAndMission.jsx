@@ -35,7 +35,7 @@ export default function VisionAndMission() {
             <span></span>
           </div>
           <div class="r1 about2">
-            <div class="col-12">
+            <div class="c1">
               <p className="p2">
                 To promote Research and Development in the frontier areas of
                 Computer Science & Engineering. To generate Competent
@@ -52,9 +52,16 @@ export default function VisionAndMission() {
             <span></span>
           </div>
           <div class="r1 about2">
-            <div class="col-12">
+            <div class="c1">
               <p className="p2">
-              To impart effective education at undergraduate levels in the field of Computer Science and Engineering. To strive steadily for the overall growth and development of intellect and personality of the students who, as professionals, would be confident to face the challenges of the world of work. To conduct Research and Development and offer consultancy services. To improve continuously the quality of teaching-learning process.
+                To impart effective education at undergraduate levels in the
+                field of Computer Science and Engineering. To strive steadily
+                for the overall growth and development of intellect and
+                personality of the students who, as professionals, would be
+                confident to face the challenges of the world of work. To
+                conduct Research and Development and offer consultancy services.
+                To improve continuously the quality of teaching-learning
+                process.
               </p>
             </div>
           </div>
