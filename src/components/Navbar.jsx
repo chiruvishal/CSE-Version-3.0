@@ -3,19 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-const VisitorCounter = () => {
-  const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const increaseCount = () => {
-      setCount((prevCount) => prevCount + 1);
-    };
-
-    increaseCount();
-  }, []);
-
-  return <div className="visitor-counter">Total visitors: {count}</div>;
-};
 
 export default function Navbar() {
   const googleTranslateElementInit = () => {
@@ -42,15 +30,30 @@ export default function Navbar() {
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const [isLogoScrolled, setIsLogoScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scroll = window.scrollY;
+      setIsLogoScrolled(scroll >= 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+ 
 
   return (
-    <div className="head-box">
-      <header id="header1">
+    <div className={`head-box ${isLogoScrolled ? 'scrolled' : ''}`}>
+      <header id="header" className={isLogoScrolled ? 'scrolled1' : ''}>
         <div className="clear wrap">
           <div className="logo fl">
             <a href="" title="">
               <img
-                className="logo1"
+                              className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
                 src="https://i.postimg.cc/gc66cnjk/4-F4-BA61-B-8331-4369-A3-FC-24-D6-F239-A800-preview-rev-1.png"
               />
             </a>
@@ -67,7 +70,6 @@ export default function Navbar() {
           <span className="menu-icon__line"></span>
           <span className="menu-icon__line"></span>
         </div>
-        <VisitorCounter />
         <ul className="animenu__nav wrap">
           <li className="parent-menu">
             <Link to="/" className="icon" onClick={handleMenuToggle}>
