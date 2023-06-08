@@ -3,17 +3,9 @@
   flex-direction: row;
   align-items: center;
   margin: auto;
+  justify-content: center;
   margin-bottom: 4%;
-  align-items: stretch;
-  margin-left: 20px;
   margin-top: 4%;
-}
-.newstable {
-  /* border-collapse: collapse; */
-  width: 100%;
-}
-.newstable table tr p {
-  align-items: center;
 }
 a:link {
   text-decoration: none;
@@ -27,47 +19,14 @@ a:link {
   margin-bottom: 2vh;
   color: #82308e;
 }
-.newscontent p {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-}
-.img {
-  margin-left: 5%;
-}
-/* .newstable tr a {
-  color: black;
-} */
-
 .news {
   border: 0px solid black;
   display: flex;
-  max-width: 475px;
+  max-width: 550px;
   flex-wrap: wrap;
   padding: 4px;
   text-align: left;
 }
-/* .newstable tr {
-  border: solid;
-  border-width: 0px 0;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  padding: 0.5rem;
-}
-.newstable tr:nth-child(even) {
-  background-color: #82308e;
-  color: white;
-}
-.newstable tr:nth-child(even) {
-  color: white;
-}
-.newstable tr:nth-child(even) a {
-  color: white;
-}
-.newstable tr:nth-child(odd) a {
-  color: black;
-} */
 .main-news-box {
   display: flex;
   flex-direction: column;
@@ -78,9 +37,8 @@ a:link {
   /* border: 2px solid black; */
   width: 100%;
   margin: 0.5rem;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   border-radius: 4px;
+  box-shadow: 8px 8px 8px 8px #c4bfbf;
 }
 .for-border {
   margin-left: 10px;
@@ -93,8 +51,20 @@ a:link {
   background-color: rgb(103, 88, 231);
   color: white;
 }
-.inside-news-box a:nth-child(2n){
+.newsdes{
+  padding: 5px;
+}
+.alink{
+  padding: 5px;
+}
+.inside-news-box:nth-child(2n) a{
   color: white;
+}
+.inside-news-box:nth-child(2n) a:hover{
+  color: ;
+}
+.inside-news-box:nth-child(2n+1) a{
+  color: black;
 }
 @media screen and (max-width: 800px) {
   div > .first {
