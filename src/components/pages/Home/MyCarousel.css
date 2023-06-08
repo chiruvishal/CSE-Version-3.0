@@ -1,16 +1,27 @@
+.carsel {
+  display: flex;
+  flex-direction: row;
+}
+.part1 {
+  width: 30%;
+}
+
+.part2 {
+  width: 70%;
+}
+
 .slide_img {
-    height: 500px;
-  }
-  .slide_box {
-    padding-top: 20px;
-  }
-  .row {
-    background-repeat: initial;
-    width: 100%;
-  }
-  .row img {
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 6rem;
-  }
-  
+  height: 500px;
+}
+.slide_box {
+  padding-top: 20px;
+}
+.row {
+  background-repeat: initial;
+  width: 100%;
+}
+.row img {
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 6rem;
+}
