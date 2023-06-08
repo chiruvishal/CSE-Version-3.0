@@ -3,6 +3,7 @@
   flex-direction: row;
 }
 .part1 {
+  padding-top: 20px;
   width: 30%;
 }
 
