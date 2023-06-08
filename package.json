@@ -20,7 +20,9 @@
     "react-fontawesome": "1.7.1",
     "react-gallery-carousel": "0.4.0",
     "react-owl-carousel": "^2.3.3",
-    "react-router-dom": "5.3.4"
+    "react-router-dom": "5.3.4",
+    "infinite-react-carousel": "1.2.11",
+    "react-multi-carousel": "2.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
