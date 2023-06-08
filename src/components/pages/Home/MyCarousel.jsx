@@ -22,11 +22,19 @@ function MyCarousel() {
   return (
     <div className="carsel">
       <div className="part1">
-        <img
+         <img
           src={cloud_mountains}
           className="slide_img col-lg-12"
           alt="Responsive img"
-        />
+        /> 
+         <div className="img_overlay">
+            <div className="img_title">
+              Hello
+            </div>
+            <p className = "img_desc">
+              Welcome to CSE Department of National Institute of Technology Raipur. 
+            </p>
+          </div>
       </div>
       <div className="part2">
         <Slider {...settings}>
