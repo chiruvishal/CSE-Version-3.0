@@ -25,34 +25,37 @@
 .r1 {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
-
 .c1 {
-  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.c1 {
+  width: 100%;
+}
+.c{
+  width:100%;
 }
 .p1 {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
   margin-bottom: 10px;
-  justify-content: left;
 }
 .p2 {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
   margin-bottom: 10px;
-  justify-content: right;
-}
-.para2{
-  justify-content: right;
-  text-align: left;
 }
 .image-right {
   float: right;
   margin-left: 5px;
   margin-bottom: 20px;
-  justify-content: right;
 }
 
 .image-left {
@@ -60,4 +63,3 @@
   margin-right: 10px;
   margin-bottom: 20px;
 }
-
