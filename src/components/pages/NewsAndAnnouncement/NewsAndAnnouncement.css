@@ -35,9 +35,9 @@ a:link {
 .img {
   margin-left: 5%;
 }
-.newstable tr a {
+/* .newstable tr a {
   color: black;
-}
+} */
 
 .news {
   border: 0px solid black;
@@ -47,7 +47,7 @@ a:link {
   padding: 4px;
   text-align: left;
 }
-.newstable tr {
+/* .newstable tr {
   border: solid;
   border-width: 0px 0;
   display: flex;
@@ -67,6 +67,34 @@ a:link {
 }
 .newstable tr:nth-child(odd) a {
   color: black;
+} */
+.main-news-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 100%;
+}
+.inside-news-box {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 0.5rem;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 4px;
+}
+.for-border {
+  margin-left: 10px;
+  padding: 15px;
+  border-left: 5px solid #82308e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inside-news-box:nth-child(2n) {
+  background-color: rgb(103, 88, 231);
+  color: white;
+}
+.inside-news-box a:nth-child(2n){
+  color: white;
 }
 @media screen and (max-width: 800px) {
   div > .first {

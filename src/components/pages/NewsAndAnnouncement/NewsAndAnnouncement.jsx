@@ -25,19 +25,28 @@ export default function NewsAndAnnouncement() {
         <div className="heading">
           <h3 className="hen">News And Announcement</h3>
           <div className="news" style={myComponent}>
-            <div></div>
-            <table className="newstable">
-              {newsArray.map(({ date, link, descript }) => (
-                <tr className="tret">
-                  <div classname="datenews">
-                    <p>{date}</p>
-                    <a href="link">
-                      <div classname="descript">{descript}</div>
-                    </a>
+            <div className="main-news-box">
+            {/* <table className="newstable"> */}
+              {newsArray.map((news,idx) => (
+                // <tr className="tret">
+                //   <div classname="datenews">
+                //     <p>{date}</p>
+                //     <a href="link">
+                //       <div classname="descript">{descript}</div>
+                //     </a>
+                //   </div>
+                // </tr>
+                <div className="inside-news-box">
+                  <div className="for-border">
+                  <div>{news.date}</div>
+                  <div className="">
+                    <a href={news.link}>{news.descript}</a>  
                   </div>
-                </tr>
+                </div>
+                </div>
               ))}
-            </table>
+              </div>
+            {/* </table> */}
           </div>
         </div>
       </div>
