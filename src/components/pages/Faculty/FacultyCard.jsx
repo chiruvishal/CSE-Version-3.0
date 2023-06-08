@@ -14,7 +14,7 @@ const FacultyCard = ({ id, name, picture, Designition, email, phone }) => {
         <img src={picture} alt={name} onClick={handleImageClick} />
       </div>
       <div className="contact-details">
-        <h3>{name}</h3>
+        <h4>{name}</h4>
         <p>{Designition}</p>
         <p>{email}</p>
         <p>{phone}</p>

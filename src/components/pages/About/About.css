@@ -35,17 +35,24 @@
   line-height: 1.5;
   text-align: left;
   margin-bottom: 10px;
+  justify-content: left;
 }
 .p2 {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
   margin-bottom: 10px;
+  justify-content: right;
+}
+.para2{
+  justify-content: right;
+  text-align: left;
 }
 .image-right {
   float: right;
   margin-left: 5px;
   margin-bottom: 20px;
+  justify-content: right;
 }
 
 .image-left {

@@ -69,7 +69,7 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Temparary Faculty</h4>
+            <h3>Temparary Faculty</h3>
 
             <div>
               {facultyMembers.map((faculty, index) => (
