@@ -49,6 +49,8 @@ export default function POs() {
                 The first President of independent India honorable Dr. Rajendra Prasad laid the Foundation stone of the college building on 14th September 1956. The construction work was completed in 1962 and inauguration was on 14th March 1963 by India's first Prime Minister Pt. Jawaharlal Nehru. After independence and with reorganisation of the state of Madhya Pradesh, the government attention was directed towards giving priority to overall development of technical education.
                 </p>
               </div>
+              </div>
+              <div className = "c1">
               <div className="c">
               <p className="p2">Till as late as 1956 there were only three technical institutes in the country offering courses in the important fields of Mining and Metallurgical Engineering. In view of this fact and also with an aim of harnessing the ample mineral resources of the region, this institute was set-up on 1st May 1956 as Government College of Mining and Metallurgy. The first session of the college commenced from 1st July 1956 with the admission of 15 students each in Mining and Metallurgy Engineering.
             </p>
@@ -57,11 +59,7 @@ export default function POs() {
             <div className="c1">
               <div className="c2">
                 <p className="p2">
-                  This is the second paragraph of the content. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Vestibulum varius,
-                  felis in porttitor tincidunt, lacus ante pellentesque ligula,
-                  ac varius sapien arcu et neque. Curabitur at nunc efficitur,
-                  sollicitudin nulla at, tempor quam.
+                In 1958-59 with the commencement of additional courses in Civil, Mechanical and Electrical Engineering the college came to be known as Government College of Engineering and Technology. Later graduate courses in Chemical Engineering (1965), Architecture (1984), Electronics (1985), Information Technology, Computer Science and Technology (2000), Biotechnology, Biomedical Engineering (2003) were also started. In view of its great past with 50 years old record of excellence and several strengths, the institute has been declared as National Institute of Technology (NIT) by the Central Government on 1st Dec. 2005.
                 </p>
               </div>
               <div className="c2">
