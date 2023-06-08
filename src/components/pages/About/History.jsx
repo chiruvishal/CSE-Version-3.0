@@ -30,7 +30,7 @@ export default function POs() {
           </div>
         </div>
         <div className="drops">
-          <h3>Hisd</h3>
+          <h3>Hisdop</h3>
 
           <div class="title-section text-center about1">
             <span></span>
@@ -49,6 +49,15 @@ export default function POs() {
                 present the institute offers graduate level courses in twelve
                 disciplines.
               </p>
+              <img src='https://i.postimg.cc/tghyxPQn/nehru2.gif' alt="Image 1" className="image-right" />
+            <p className="p2">
+              This is the second paragraph of the content. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Vestibulum varius, felis in
+              porttitor tincidunt, lacus ante pellentesque ligula, ac varius
+              sapien arcu et neque. Curabitur at nunc efficitur, sollicitudin
+              nulla at, tempor quam.
+            </p>
+            <img src='https://i.postimg.cc/tghyxPQn/nehru2.gif' alt="Image 2" className="image-left" />
             </div>
           </div>
         </div>

@@ -30,7 +30,8 @@ export default function VisionAndMission() {
           </div>
         </div>
         <div className="drops">
-          <h3>Vision</h3>
+          <h3> <i className="fas fa-eye icon"></i>
+          <span className="icon-text">Vision</span></h3>
           <div class="title-section text-center about1">
             <span></span>
           </div>
@@ -47,7 +48,9 @@ export default function VisionAndMission() {
             </div>
           </div>
           <div style={{ margin: '20px 0' }}></div>
-          <h3>Mission</h3>
+          <h3><i className="fas fa-plane icon-rotate"></i>
+          <span className="icon-text">Mission</span>
+          </h3>
           <div class="title-section text-center about1">
             <span></span>
           </div>

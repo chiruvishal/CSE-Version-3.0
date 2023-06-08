@@ -37,7 +37,8 @@ export default function POs() {
           </div>
           <div class="r1 about2">
             <div class="c1">
-              <p className="p2">
+            <img src='https://i.postimg.cc/tghyxPQn/nehru2.gif' alt="Image 1" className="image-right" />
+              <p className="p1">
                 The institute is committed to the challenging task of
                 development of technical education by preparing seasoned
                 graduates in highly sophisticated field of engineering and
@@ -49,6 +50,14 @@ export default function POs() {
                 present the institute offers graduate level courses in twelve
                 disciplines.
               </p>
+              <img src='https://i.postimg.cc/tghyxPQn/nehru2.gif' alt="Image 2" className="image-left" />
+            <p className="p2">
+              This is the second paragraph of the content. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Vestibulum varius, felis in
+              porttitor tincidunt, lacus ante pellentesque ligula, ac varius
+              sapien arcu et neque. Curabitur at nunc efficitur, sollicitudin
+              nulla at, tempor quam.
+            </p>
             </div>
           </div>
         </div>
