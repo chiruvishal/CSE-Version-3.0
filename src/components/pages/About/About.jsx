@@ -59,7 +59,11 @@ export default function POs() {
             <div className="c1">
               <div className="c2">
                 <p className="p2">
-                In 1958-59 with the commencement of additional courses in Civil, Mechanical and Electrical Engineering the college came to be known as Government College of Engineering and Technology. Later graduate courses in Chemical Engineering (1965), Architecture (1984), Electronics (1985), Information Technology, Computer Science and Technology (2000), Biotechnology, Biomedical Engineering (2003) were also started. In view of its great past with 50 years old record of excellence and several strengths, the institute has been declared as National Institute of Technology (NIT) by the Central Government on 1st Dec. 2005.
+                  This is the second paragraph of the content. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Vestibulum varius,
+                  felis in porttitor tincidunt, lacus ante pellentesque ligula,
+                  ac varius sapien arcu et neque. Curabitur at nunc efficitur,
+                  sollicitudin nulla at, tempor quam.
                 </p>
               </div>
               <div className="c2">
