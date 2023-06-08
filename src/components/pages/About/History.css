@@ -7,6 +7,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  background-color: #381fc3;
 }
 
 .title-section {
@@ -19,7 +20,7 @@
 .title-section span {
   width: 60px;
   height: 3px;
-  background-color: #333;
+  background-color: rgb(150, 16, 16);
 }
 
 .r1 {
@@ -27,7 +28,7 @@
   justify-content: center;
 }
 
-.c1{
+.c1 {
   width: 80%;
 }
 
