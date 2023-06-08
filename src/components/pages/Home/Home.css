@@ -1,13 +1,13 @@
 .mu {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .mu {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-  @media (max-width: 700px) {
-    .mu {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
+}
