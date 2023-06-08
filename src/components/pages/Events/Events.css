@@ -27,12 +27,14 @@
     margin: 0;
     padding: 0;
     top: 2px;
-    width: 290px;
+    width: 330px;
     position: relative;
     transform-style: preserve-3d;
     box-sizing: border-box;
   }
-  
+  .page-container{
+  padding: 15px;
+  }
   .cardp {
     width: 70%;
     padding: 25px;
