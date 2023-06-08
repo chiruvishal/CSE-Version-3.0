@@ -30,7 +30,7 @@ export default function POs() {
           </div>
         </div>
         <div className="drops">
-          <h3>H</h3>
+          <h3>Hisd</h3>
 
           <div class="title-section text-center about1">
             <span></span>
