@@ -1,4 +1,4 @@
-.card {
+.cardp {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
@@ -7,7 +7,7 @@
   margin-bottom: 16px;
 }
 
-.card + .card {
+.cardp + .cardp {
   margin-top: 16px; 
 }
 

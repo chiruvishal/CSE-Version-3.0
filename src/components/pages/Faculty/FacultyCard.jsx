@@ -9,7 +9,7 @@ const FacultyCard = ({ id, name, picture, Designition, email, phone }) => {
   };
 
   return (
-    <div className="card">
+    <div className="cardp">
       <div className="picture">
         <img src={picture} alt={name} onClick={handleImageClick} />
       </div>
