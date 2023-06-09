@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import './FacultyDetail.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 // import FacultyCard from './FacultyCard';
 // import './FacultyCard.css';
 import Drop from './Drop';
 import './Drop.css';
-export default function FacultyDetails() {
+export default function FacultyDetail() {
+  ///use this to get id or any param
+  const queryParameters = new URLSearchParams(window.location.search);
+  const id = queryParameters.get("id");
+  
   const facultyMembers = [
-    {
+    { 
+      id:'0',
       name: 'Dr. Dilip Singh Sisodia ',
       picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
       Department: 'Computer science and Engineering',
@@ -15,9 +20,110 @@ export default function FacultyDetails() {
       Designition: 'Associate Professor & Head of the Department',
       email: ' dssisodia.cs@nitrr.ac.in',
       phone: '8462808174',
-    },],
+    },
+    { id:'0',
+      name: 'Dr. ABC ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'1',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'2',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'3',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'4',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'5',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'6',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'7',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'8',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'9',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+    { id:'10',
+      name: 'Dr. XYZ ',
+      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      Department: 'Computer science and Engineering',
+      Qualification:'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
+      Designition: 'Associate Professor & Head of the Department',
+      email: ' dssisodia.cs@nitrr.ac.in',
+      phone: '8462808174',
+    },
+  
+  ],
   const [publishs, setpublish] = useState([
-    {
+    { 
       question: 'Area Of Intrest',
       answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.',
       open: false,
@@ -33,7 +139,7 @@ export default function FacultyDetails() {
       open: false,
     },
   ]);
-
+  let  faculty = facultyMembers[id];
   const toggledrop = (index) => {
     setpublish(
       publishs.map((publish, i) => {
@@ -100,8 +206,8 @@ export default function FacultyDetails() {
   <div className="drops">
   {/* <h3>Dr Dilip Singh Sisodia</h3> */}
   <div className="faculty-members">
-    {facultyMembers.map((faculty, index) => (
-      <div key={index} className="faculty-member">
+    {
+     <div  className="faculty-member">
          <h3>{faculty.name}</h3>
         <img src={faculty.picture} alt={faculty.name} className="faculty-picture" />
         <div className="faculty-details">
@@ -112,9 +218,9 @@ export default function FacultyDetails() {
           <p><strong>Phone:</strong> {faculty.phone}</p>
         </div>
       </div>
-    ))}
+    
+}
   </div>
-
 
           {publishs.map((publish, index) => (
             <Drop

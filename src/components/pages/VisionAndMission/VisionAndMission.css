@@ -1,5 +1,5 @@
 .drops {
-  margin-top: 20px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -7,6 +7,10 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: rgb(238, 230, 237);
+  background-color: rgb(85, 18, 105);
+  border: 5px solid rgb(85, 18, 105);
+  /* border-radius: 5px; */
 }
 
 .title-section {
@@ -36,4 +40,15 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
+}
+.icon {
+  margin-right: 5px;
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+.icon-rotate {
+  transform: rotate(-90deg); /* Rotate the icon 90 degrees counter-clockwise */
+}
+.icon-text {
+  margin-left: 5px; /* Adjust the margin as needed */
 }
