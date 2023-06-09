@@ -7,7 +7,7 @@ const DirectorMessage = () => {
     <div id="director-message" className="containerw mx-auto my-10">
       <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
         <div className="basis-4/12">
-          <img src="https://v1.nitj.ac.in/images/admin_page/Director/Director.jpg" className="basis-4/12 h-full w-full object-cover" alt="Director's Image" />
+          <img src="https://i.postimg.cc/bwYT06wH/360-C2536-C9-B1-4-FAA-B4-E8-1-B3-E1184-E490.jpg" className="basis-4/12 h-full w-full object-cover" alt="Director's Image" />
         </div>
         <div id="content" className="flexw flex-colw basis-8/12 space-y-4 p-6">
           <div className="flexw space-x-4 items-center justify-start groupw">
