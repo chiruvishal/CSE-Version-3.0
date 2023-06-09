@@ -5,6 +5,11 @@
   padding: 0% !important;
 }
 
+.animenu a {
+    padding-top: 0px!important;
+    color: #fff;
+    text-decoration: none;
+}
 .head-box {
   margin: 0%;
   position: fixed;
