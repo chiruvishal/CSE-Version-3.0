@@ -20,30 +20,47 @@ function MyCarousel() {
     arrows: true,
   };
   return (
-    <div>
-      <Slider {...settings}>
-        <div className="row">
-          <img
-            src={cloud_mountains}
-            className="slide_img col-lg-12"
-            alt="Responsive img"
-          />
-        </div>
-        <div className="row">
-          <img
-            src={groups}
-            className="slide_img col-lg-12"
-            alt="Responsive img"
-          />
-        </div>
-        <div className="row">
-          <img
-            src={hills}
-            className="slide_img col-lg-12"
-            alt="Responsive img"
-          />
-        </div>
-      </Slider>
+    <div className="carsel">
+      <div className="part1">
+         <img
+          src={cloud_mountains}
+          className="slide_img col-lg-12"
+          alt="Responsive img"
+        /> 
+         <div className="img_overlay">
+            <div className="img_title">
+              Hello
+            </div>
+            <p className = "img_desc">
+              Welcome to CSE Department of National Institute of Technology Raipur. 
+            </p>
+          </div>
+      </div>
+      <div className="part2">
+        <Slider {...settings}>
+          <div className="row">
+            <img
+              src={cloud_mountains}
+              className="slide_img col-lg-12"
+              alt="Responsive img"
+            />
+          </div>
+          <div className="row">
+            <img
+              src={groups}
+              className="slide_img col-lg-12"
+              alt="Responsive img"
+            />
+          </div>
+          <div className="row">
+            <img
+              src={hills}
+              className="slide_img col-lg-12"
+              alt="Responsive img"
+            />
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }

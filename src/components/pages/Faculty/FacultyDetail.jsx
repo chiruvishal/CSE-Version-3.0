@@ -51,6 +51,25 @@ export default function FacultyDetails() {
   return (
     <>
       {/* <Navbar /> */}
+      <div>
+        <div
+          className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
+          style={{
+            backgroundImage: 'url(https://i.postimg.cc/T3nsTnj5/IMG-2597.jpg)',
+          }}
+        >
+          <div className="nitr-header-transparent-substitute "></div>
+          <div className="nitr-page-title-bottom-gradient"></div>
+          <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
+            <div
+              className="nitr-page-title-content nitr-item-pdlr"
+              style={{ paddingBottom: '60px' }}
+            >
+              <div className="green-line-text">People</div>
+
+            </div>
+          </div>
+        </div>
       <div className="main-box">
           <div className="side-box">
             <div className="side-container">
@@ -109,6 +128,7 @@ export default function FacultyDetails() {
       </div>
       {/* <h1 className="consulting">Publications</h1> */}
       {/* <Footer /> */}
+      </div>
     </>
   );
 }
