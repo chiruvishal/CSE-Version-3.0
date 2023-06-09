@@ -1,0 +1,59 @@
+/*for header image*/
+
+.nitr-page-title-wrap {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.nitr-page-title-wrap .nitr-page-title-bottom-gradient {
+  height: 413px;
+}
+.nitr-left-align {
+  text-align: left;
+}
+.nitr-page-title-wrap .nitr-page-title-bottom-gradient {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.nitr-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nitr-page-title-wrap .nitr-page-title-container {
+  position: relative;
+}
+
+.nitr-page-title-wrap .nitr-page-title-overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.nitr-page-title-wrap .nitr-page-title-bottom-gradient {
+  position: relative;
+  z-index: 2;
+}
+
+.green-line-text {
+  position: absolute;
+  bottom: -80px;
+  left: 39px;
+  color: white;
+  font-size: 50px;
+  font-weight: 1000;
+  padding: 10px;
+  z-index: 3;
+}
+
+.green {
+  border-bottom: 100px solid rgba(42, 39, 167, 0.4);
+  border-right: 100px solid transparent;
+  z-index: 1;
+}
