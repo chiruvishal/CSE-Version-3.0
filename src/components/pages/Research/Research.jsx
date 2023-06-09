@@ -82,51 +82,72 @@ export default function Research() {
   ];
   return (
     <>
-      <div className="main-box">
-        <div className="side-box">
-          <div className="side-container">
-            <div className="side-top-box">
-              <p>Research Areas</p>
+      <div>
+        <div
+          className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
+          style={{
+            backgroundImage: 'url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)',
+          }}
+        >
+          <div className="nitr-header-transparent-substitute "></div>
+          <div className="nitr-page-title-bottom-gradient"></div>
+          <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
+            <div
+              className="nitr-page-title-content nitr-item-pdlr"
+              style={{ paddingBottom: '60px' }}
+            >
+              <div className="green-line-text">Research</div>
             </div>
-
-            <ul className="side-link">
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Research-Areas">
-                  <p>Research Areas</p>
-                </Link>
-              </li>
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Project">
-                  <p>Projects</p>
-                </Link>
-              </li>
-              <li>
-                {' '}
-                <div className="side-border-left" />
-                <Link to="/Publications">
-                  <p>Publications</p>
-                </Link>
-              </li>
-            </ul>
           </div>
         </div>
-        <div>
-          <h3>Research Areas</h3>
-          {areas.map(({ areaname, content }) => (
-            <div className="Aiml">
-              <p>{areaname}</p>
-              <div className="prof">
-                {content.map(({ imglink, name, proflink }) => (
-                  <div className="content">
-                    <img src={imglink} height="72" width="50"></img>
-                    <a href={proflink}>{name}</a>
-                  </div>
-                ))}
+        <div className="main-box">
+          <div className="side-box">
+            <div className="side-container">
+              <div className="side-top-box">
+                <p>Research Areas</p>
               </div>
+
+              <ul className="side-link">
+                <li>
+                  <div className="side-border-left" />
+                  <Link to="/Research-Areas">
+                    <p>Research Areas</p>
+                  </Link>
+                </li>
+                <li>
+                  <div className="side-border-left" />
+                  <Link to="/Project">
+                    <p>Projects</p>
+                  </Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/Publications">
+                    <p>Publications</p>
+                  </Link>
+                </li>
+              </ul>
             </div>
-          ))}
+          </div>
+          <div>
+            <h3 className="hea">Research Areas</h3>
+            {areas.map(({ areaname, content }) => (
+              <div className="Aiml">
+                <p>{areaname}</p>
+                <div className="prof">
+                  {content.map(({ imglink, name, proflink }) => (
+                    <div className="contentarea">
+                      <img src={imglink} height="72" width="50"></img>
+                      <div className="profname">
+                        <a href={proflink}>{name}</a>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

@@ -38,58 +38,78 @@ export default function FacultyOverview() {
     <div>
       <>
         {/* <Navbar /> */}
-        <div className="main-box">
-          <div className="side-box">
-            <div className="side-container">
-              <div className="side-top-box">
-                <p>Faculty</p>
+        <div>
+          <div
+            className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
+            style={{
+              backgroundImage:
+                'url(https://i.postimg.cc/T3nsTnj5/IMG-2597.jpg)',
+            }}
+          >
+            <div className="nitr-header-transparent-substitute "></div>
+            <div className="nitr-page-title-bottom-gradient"></div>
+            <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
+              <div
+                className="nitr-page-title-content nitr-item-pdlr"
+                style={{ paddingBottom: '60px' }}
+              >
+                <div className="green-line-text">People</div>
               </div>
-
-              <ul className="side-link">
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Faculty">Associate Professor</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/AssistantProfessor">Assistant Professor</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/TempararyFaculty">Temparary Faculty</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Staff">Staff</Link>
-                </li>
-              </ul>
             </div>
           </div>
-          <div className="drops">
-            <h3>Head Of The Department</h3>
+          <div className="main-box">
+            <div className="side-box">
+              <div className="side-container">
+                <div className="side-top-box">
+                  <p>Faculty</p>
+                </div>
 
-            <div>
-              {facultyMembers.map((faculty, index) => (
-                <React.Fragment key={faculty.name}>
-                  <FacultyCard
-                    id={faculty.id}
-                    name={faculty.name}
-                    picture={faculty.picture}
-                    Designition={faculty.Designition}
-                    email={faculty.email}
-                    phone={faculty.phone}
-                  />
+                <ul className="side-link">
+                  <li>
+                    <div className="side-border-left" />
+                    <Link to="/Faculty">Associate Professor</Link>
+                  </li>
+                  <li>
+                    <div className="side-border-left" />
+                    <Link to="/AssistantProfessor">Assistant Professor</Link>
+                  </li>
+                  <li>
+                    <div className="side-border-left" />
+                    <Link to="/TempararyFaculty">Temparary Faculty</Link>
+                  </li>
+                  <li>
+                    <div className="side-border-left" />
+                    <Link to="/Staff">Staff</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="drops">
+              <h3>Head Of The Department</h3>
 
-                  {index === 0 && <h3>Associate Professor</h3>}
-                </React.Fragment>
-              ))}
+              <div>
+                {facultyMembers.map((faculty, index) => (
+                  <React.Fragment key={faculty.name}>
+                    <FacultyCard
+                      id={faculty.id}
+                      name={faculty.name}
+                      picture={faculty.picture}
+                      Designition={faculty.Designition}
+                      email={faculty.email}
+                      phone={faculty.phone}
+                    />
+
+                    {index === 0 && <h3>Associate Professor</h3>}
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
           </div>
+          {/* <h1 className="consulting">Publications</h1> */}
+          {/* <Footer /> */}
         </div>
-
-        {/* <h1 className="consulting">Publications</h1> */}
-        {/* <Footer /> */}
       </>
     </div>
   );
 }
+

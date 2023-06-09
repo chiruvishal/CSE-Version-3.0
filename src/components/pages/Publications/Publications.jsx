@@ -1,79 +1,88 @@
 import React, { useState } from 'react';
 import './Publications.css';
 import { Link } from 'react-router-dom';
-// import Navbar from './Navbar';
-// import Footer from './components/pages/Footer';
-import Areas from '../Research/Research';
-import Project from '../Projects/Projects';
-import Drop from './Drop';
-import './Drop.css';
 export default function Publications() {
-  const [publishs, setpublish] = useState([
+  const years = [2023, 2022];
+  const [Year, setYear] = useState('2023');
+  let currentyear = 2023;
+  const publish = [
     {
-      question: 'Dr. Dilip Singh Sisodia',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.',
-      open: false,
+      year: '2023',
+      publishs: [
+        {
+          description:
+            'Domngam Boje, Mini Loya, Ananta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          link: 'jbjbj',
+        },
+        {
+          description: 'jbjbjb',
+          link: 'jojoj',
+        },
+        {
+          description: 'jjbuj',
+          link: 'hihih',
+        },
+      ],
     },
     {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
+      year: '2022',
+      publishs: [
+        {
+          description:
+            'Domngam Boje, Mini Loya, anuanta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
+          link: 'jbjbj',
+        },
+        {
+          description: 'jbjbjb',
+          link: 'jojoj',
+        },
+        {
+          description: 'jjbuj',
+          link: 'hihih',
+        },
+      ],
     },
-    {
-      question: 'Sonal Yadav',
-      answer: 'This many!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-    {
-      question: 'Deepak Singh',
-      answer: 'You! The viewer!',
-      open: false,
-    },
-  ]);
-
-  const toggledrop = (index) => {
-    setpublish(
-      publishs.map((publish, i) => {
-        if (i === index) {
-          publish.open = !publish.open;
-        } else {
-          publish.open = false;
-        }
-
-        return publish;
-      })
-    );
+  ];
+  const selectHandler = (event) => {
+    // if(event.target.value=='--Select Year--')
+    // setYear(2023);
+    // else
+    setYear(event.target.value);
   };
-
+  // //const res = publish.find(({ year }) => year === Year);
+  // const result = publish.find(({ year }) => year === Year);
+  // console.log(result);
   return (
     <>
+    <div>
+        <div
+          className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
+          style={{
+            backgroundImage: 'url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)',
+          }}
+        >
+          <div className="nitr-header-transparent-substitute "></div>
+          <div className="nitr-page-title-bottom-gradient"></div>
+          <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
+            <div
+              className="nitr-page-title-content nitr-item-pdlr"
+              style={{ paddingBottom: '60px' }}
+            >
+              <div className="green-line-text">Publications</div>
+
+            </div>
+          </div>
+        </div>
       <div className="main-box">
         <div className="side-box">
           <div className="side-container">
             <div className="side-top-box">
               <p>Research Areas</p>
             </div>
-
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">Areas</Link>
+                <Link to="/Research-Areas">Areas</Link>
               </li>
               <li>
                 <div className="side-border-left" />
@@ -82,25 +91,57 @@ export default function Publications() {
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Publications</Link>
+                <Link to="/Publications">Publications</Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className="drops">
-          <h3>Publications</h3>
-          {publishs.map((publish, index) => (
-            <Drop
-              publish={publish}
-              index={index}
-              key={index}
-              toggledrop={toggledrop}
-            />
-          ))}
+        <div className="publication">
+          <h3 className="heap">Publications</h3>
+          <div className="maint">
+            <div className="selectyr">
+              <div className="selectyeasr">
+                <select name="Year" id="sel" onChange={selectHandler}>
+                  <option value="2023">--Select Year--</option>
+                  {years.map((yr) => (
+                    <option value={yr}>{yr}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="syear">
+                <h2>Year: {Year}</h2>
+              </div>
+            </div>
+            <div className="pubtable">
+              {publish.map(({ year, publishs }) =>
+                year === Year ? (
+                  <table className="publishtable">
+                    <thead>
+                      <tr>
+                        <th className="wid">S.no.</th>
+                        <th>Publications</th>
+                        <th className="wid">Link</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {publishs.map((pub, idx) => (
+                        <tr>
+                          <td>{idx + 1}</td>
+                          <td>{pub.description}</td>
+                          <td>
+                            <a href={pub.link}>Link</a>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : null
+              )}
+            </div>
+          </div>
         </div>
       </div>
-      {/* <h1 className="consulting">Publications</h1> */}
-      {/* <Footer /> */}
+      </div>
     </>
   );
 }

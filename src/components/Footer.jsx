@@ -1,78 +1,171 @@
 import React from 'react';
-export default function Footer() {
+import $ from 'jquery';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.min.js';
+import $ from 'jquery';
+import ReactPlayer from 'react-player';
+import { TfiLocationPin } from 'react-icons/tfi';
+import { AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFacebook } from 'react-icons/bs';
+import { CiTwitter } from 'react-icons/ci';
+import { FiMail } from 'react-icons/fi';
+import { CiLinkedin } from 'react-icons/ci';
+import { SlSocialInstagram } from 'react-icons/sl';
+import './Footer.css';
+const Footer = () => {
   return (
-    <>
-      <div class="footer">
-        <footer className="footer footer1">
-          <div className="footer-left col-md-4 col-sm-6">
-            <a href="" title="">
-              <img
-                className="logo1"
-                src="https://i.postimg.cc/2js2MXj5/Logowhite.png"
-              />
-            </a>
-            <h3 className="quick">Quick Links</h3>
-            <p className="menu">
-              <a href="#">Home</a> |<a href="#">About</a> |
-              <a href="#">Services</a> |<a href="#">Portfolio</a> |
-              <a href="#">News</a> |<a href="#">Contact</a>
-            </p>
+    <div>
+      <footer id="dk-footer" className="dk-footer">
+        <div className="container">
+          <div className="row1">
+            <div className="two-column">
+              <div className="col-md-121 col-lg-4">
+                <div className="dk-footer-box-info">
+                  <a href="index.html" className="footer-logo">
+                    <img
+                      src="https://i.postimg.cc/2js2MXj5/Logowhite.png"
+                      alt="footer_logo"
+                      className="img-fluid temp"
+                    />
+                  </a>
+                  <p className="footer-info-text p1">
+                    "Exploring Boundless Horizons, Empowering Future Innovators.
+                    Nationa Institute of Technology Raipur: Igniting Minds,
+                    Shaping Futures."
+                  </p>
+                  <div class="connect-section">
+                    <p class="connect-text">Connect with us:</p>
+                    <div class="social-icons-wrapper">
+                      <a href="#" class="social-link facebook-link">
+                        <i class="fab fa-facebook-f facebook-icon" />
+                      </a>
+                      <a href="#" class="social-link twitter-link">
+                        <i class="fab fa-twitter twitter-icon" />
+                      </a>
+                      <a href="#" class="social-link instagram-link">
+                        <i class="fab fa-instagram instagram-icon" />
+                      </a>
+                      <a href="#" class="social-link linkedin-link">
+                        <i class="fab fa-linkedin-in linkedin-icon" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-121 col-lg-4">
+                <div className="contact-us">
+                  <div className="contact-info">
+                    <p>
+                      <TfiLocationPin color="white" size="32" />
+                      <span> </span>
+                      National Institute of Technology Raipur G.E. Road, Raipur
+                      Chhatisgarh - 492010
+                    </p>
+                    <p>
+                      <AiOutlinePhone size={32} color="white" />
+                      <span> </span> Phone:(+91)-771-2254200
+                    </p>
+                    <p>
+                      <a
+                        href="#"
+                        style={{ color: 'white', textDecoration: 'none' }}
+                      >
+                        <AiOutlineMail size={32} />
+                        <span> </span> Email- director@nitrr.ac.in
+                        registrar@nitrr.ac.in
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="footer-widget footer-left-widget">
+                  <div className="section-heading">
+                    <h3>Useful Links</h3>
+                    <span className="animate-border border-black"></span>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#">Our Team</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-121 col-lg-4">
+              <div className="section-heading glance">
+                <h3 style={{ color: 'white' }}>A Glance</h3>
+                <span className="animate-border1"></span>
+              </div>
+              <div className="player-wrapper">
+                <div>
+                  <iframe
+                    className="container"
+                    type="text/html"
+                    width="635px"
+                    height="413px"
+                    src="https://www.youtube.com/embed/tSQVgiwr3lU?autoplay=1&rel=0&modestbranding=1"
+                    frameBorder="0"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <div className="icons">
-              <a href="#">
-                <i className="fa fa-facebook"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-google-plus"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-instagram"></i>
-              </a>
+        <div className="copyright">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <span>Developed By ACE Web Team</span>
+              </div>
+              <div className="col-md-6">
+                <div className="copyright-menu">
+                  <ul>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">Terms</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="footer-center col-md-4 col-sm-6">
-            <div>
-              <i className="fa fa-map-marker"></i>
-              <p>
-                <span>National Institute of Technology Raipur</span> G.E. Road,
-                Raipur Chhatisgarh - 492010
-              </p>
-            </div>
-            <div>
-              <i className="fa fa-phone"></i>
-              <p>(+91)-771-2254200</p>
-            </div>
-            <div>
-              <i className="fa fa-envelope"></i>
-              <p>
-                <a href="#">
-                  Email- director@nitrr.ac.in<br></br>
-                  registrar@nitrr.ac.in
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="footer-center col-md-4 col-sm-6">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.548957101439!2d81.60245417485478!3d21.249727180153215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dde213f66723%3A0x21543965c50c43c7!2sNational%20Institute%20of%20Technology(NIT)%2C%20Raipur!5e0!3m2!1sen!2sin!4v1685458396214!5m2!1sen!2sin"
-              width="400"
-              height="350"
-              style={{ border: '0' }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div className="footer-right col-md-4 col-sm-6"></div>
-          <p className="name">ACE WEB TEAM &copy; 2023</p>
-        </footer>
-      </div>
-    </>
+        </div>
+      </footer>
+    </div>
   );
-}
+};
+
+export default Footer;

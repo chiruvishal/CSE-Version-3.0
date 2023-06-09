@@ -1,0 +1,65 @@
+.carsel {
+  display: flex;
+  flex-direction: row;
+}
+.part1 {
+  padding-top: 20px;
+  width: 30%;
+
+  position: relative;
+  color: rgb(245, 244, 244);
+}
+.part1 img {
+  display: block;
+  width: 100%;
+}
+.img_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 47, 201, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img_title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.img_desc {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  text-align: center;
+}
+.part2 {
+  width: 70%;
+}
+
+.slide_img {
+  height: 500px;
+}
+.slide_box {
+  padding-top: 20px;
+}
+.row {
+  background-repeat: initial;
+  width: 100%;
+}
+.row img {
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .part1 {
+    display: none;
+  }
+  .part2 {
+    width: 100%;
+  }
+}

@@ -1,20 +1,12 @@
 .first {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   align-items: center;
   margin: auto;
+  justify-content: center;
   margin-bottom: 4%;
-  align-items: stretch;
-  margin-left: 20px;
   margin-top: 4%;
-}
-table {
-  border-collapse: collapse;
   width: 100%;
-}
-table > tr > p {
-  align-items: center;
 }
 a:link {
   text-decoration: none;
@@ -23,51 +15,69 @@ a:link {
 .heading {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
 }
-h3 {
+.hen {
   margin-bottom: 2vh;
   color: #82308e;
-}
-.newscontent > p {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-}
-.img {
-  margin-left: 5%;
-}
-.newstable > tr > a {
-  color: black;
-}
-.newstable > tr > a:hover {
-  color: white;
 }
 .news {
   border: 0px solid black;
   display: flex;
-  max-width: 475px;
+  max-width: 550px;
   flex-wrap: wrap;
   padding: 4px;
   text-align: left;
 }
-tr {
-  border: solid;
-  border-width: 0px 0;
+.main-news-box {
   display: flex;
-  flex-direction: row;
-  text-align: left;
+  flex-direction: column;
   padding: 0.5rem;
+  width: 100%;
 }
-tr:nth-child(even) {
-  background-color: #82308e;
-  color: white !important;
+.inside-news-box {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 3px #c4bfbf;
 }
-.descript > tr:nth-child(even) {
-  color: white !important;
+.inside-news-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
-/* .datenews>tr:nth-child(even){
-  color: white;
+/* .inside-news-box:hover{
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 } */
+.for-border {
+  margin-left: 10px;
+  padding: 15px;
+  border-left: 5px solid #82308e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inside-news-box:nth-child(2n) {
+  background-color: rgb(103, 88, 231);
+  color: white;
+}
+.newsdes {
+  padding: 5px;
+}
+.alink {
+  padding: 5px;
+}
+.inside-news-box:nth-child(2n) a {
+  color: white;
+}
+/* .inside-news-box:nth-child(2n) a:hover{
+  color: ;
+} */
+.inside-news-box:nth-child(2n + 1) a {
+  color: black;
+}
 @media screen and (max-width: 800px) {
   div > .first {
     flex-direction: column;
