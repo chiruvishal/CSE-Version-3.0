@@ -7,6 +7,7 @@ const FacultyCard = ({ name, picture, Designition, email, phone }) => {
   };
 
   return (
+    <>
     <div className="card">
       <div className="picture">
         <img src={picture} alt={name} onClick={handleImageClick} />
@@ -18,6 +19,7 @@ const FacultyCard = ({ name, picture, Designition, email, phone }) => {
         <p>{phone}</p>
       </div>
     </div>
+  </>
   );
 };
 

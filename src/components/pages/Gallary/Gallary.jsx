@@ -42,59 +42,78 @@ export default function Gallary() {
   }));
   return (
     <>
-      <div className="main-box">
-        <div className="side-box">
-          <div className="side-container">
-            <div className="side-top-box">
-              <p>Student Zone</p>
+      <div>
+        <div
+          className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
+          style={{
+            backgroundImage: 'url(https://i.postimg.cc/FsMqtTSQ/IMG-2725.jpg)',
+          }}
+        >
+          <div className="nitr-header-transparent-substitute "></div>
+          <div className="nitr-page-title-bottom-gradient"></div>
+          <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
+            <div
+              className="nitr-page-title-content nitr-item-pdlr"
+              style={{ paddingBottom: '60px' }}
+            >
+              <div className="green-line-text">Gallery</div>
             </div>
+          </div>
+        </div>
+        <div className="main-box">
+          <div className="side-box">
+            <div className="side-container">
+              <div className="side-top-box">
+                <p>Student Zone</p>
+              </div>
 
-            <ul className="side-link">
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Areas">Course</Link>
-              </li>
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Project">Alumini-Network</Link>
-              </li>
-              <li>
-                {' '}
-                <div className="side-border-left" />
-                <Link to="/Publication">Gallary</Link>
-              </li>
-              <li>
-                {' '}
-                <div className="side-border-left" />
-                <Link to="/Publication">Student Section</Link>
-              </li>
-              <li>
-                {' '}
-                <div className="side-border-left" />
-                <Link to="/Publication">Activities</Link>
-              </li>
-            </ul>
+              <ul className="side-link">
+                <li>
+                  <div className="side-border-left" />
+                  <Link to="/Areas">Course</Link>
+                </li>
+                <li>
+                  <div className="side-border-left" />
+                  <Link to="/Project">Alumini-Network</Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/Publication">Gallary</Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/Publication">Student Section</Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/Publication">Activities</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="tocenter">
+            <div id="gallary" class="section-cotent">
+              <div class="container1">
+                <div class="title-section text-center gallary1">
+                  <h2>Media Coverage</h2>
+                  <span></span>
+                </div>
+                <Container className="container2">
+                  <div className="gallary">
+                    <Carousel
+                      className="gallaryRes"
+                      images={images}
+                      hasIndexBoard={false}
+                    />
+                  </div>
+                </Container>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="tocenter">
-        <div id="gallary" class="section-cotent">
-      <div class="container1">
-        <div class="title-section text-center gallary1">
-          <h2>Media Coverage</h2>
-          <span></span>
-        </div>
-        <Container className="container2">
-          <div className="gallary">
-            <Carousel
-              className="gallaryRes"
-              images={images}
-              hasIndexBoard={false}
-            />
-          </div>
-        </Container>
-      </div>
-    </div>
-    </div>
       </div>
     </>
   );
