@@ -23,7 +23,7 @@ const responsive = {
 class Events extends React.Component {
   render() {
     return (
-      <div className="cardp">
+      <div className="cardeve">
         <div className="anu">
           <h3>Events</h3>
         </div>
