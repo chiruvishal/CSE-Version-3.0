@@ -29,7 +29,8 @@ export default function CourseOverview() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/prR0XdvQ/c5df7fde-108f-4ff4-ad60-670db73b8bd2.jpg)',
+            backgroundImage:
+              'url(https://i.postimg.cc/prR0XdvQ/c5df7fde-108f-4ff4-ad60-670db73b8bd2.jpg)',
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -53,26 +54,26 @@ export default function CourseOverview() {
               <ul className="side-link">
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/Areas">Course</Link>
+                  <Link to="/Course">Course</Link>
                 </li>
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/Project">Alumini-Network</Link>
-                </li>
-                <li>
-                  {' '}
-                  <div className="side-border-left" />
-                  <Link to="/Publication">Gallary</Link>
+                  <Link to="/AluminiNetwork">Alumini-Network</Link>
                 </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Student Section</Link>
+                  <Link to="/Gallary">Gallary</Link>
                 </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Activities</Link>
+                  <Link to="/StudentSection">Student Section</Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/Achievements">Achievements</Link>
                 </li>
               </ul>
             </div>
