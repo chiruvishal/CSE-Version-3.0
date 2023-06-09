@@ -37,7 +37,42 @@ export default function Activities() {
         category: 'Student Achievements',
       },
       {
-        imageUrl: 'medal_image3.jpg',
+        imageUrl:
+          'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+        name: 'Alex Johnson',
+        description: 'Bronze Medalist',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        year: '2022',
+        category: 'Department Achievements',
+      },
+      {
+        imageUrl: 'medal_image4.jpg',
+        name: 'Sarah Wilson',
+        description: 'Gold Medalist',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        year: '2023',
+        category: 'Department Achievements',
+      },
+      {
+        imageUrl: 'medal_image1.jpg',
+        name: 'John Doe',
+        description: 'Gold Medalist',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        year: '2021',
+        category: 'Student Achievements',
+      },
+      {
+        imageUrl:
+          'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+        name: 'Jane Smith',
+        description: 'Silver Medalist',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        year: '2021',
+        category: 'Student Achievements',
+      },
+      {
+        imageUrl:
+          'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
         name: 'Alex Johnson',
         description: 'Bronze Medalist',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -100,6 +135,7 @@ export default function Activities() {
             cards.map((card, index) => (
               <div key={index} className="card">
                 <div className="card-image-container">
+                  <span class="overlay"></span>
                   <div className="card-image-circle">
                     <img
                       src={card.imageUrl}
