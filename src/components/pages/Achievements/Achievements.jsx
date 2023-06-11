@@ -210,35 +210,36 @@ export default function Achievements() {
                 </option>
               </select>
             </div>
-
-            <div className="slider-container">
-              <div className="card-slider">
-                {cards.length > 0 ? (
-                  cards.map((card, index) => (
-                    <div key={index} className="card">
-                      <div className="image-content">
-                        <span className="overlay" />
-                        <div className="card-image">
-                          <img
-                            src={card.imageUrl}
-                            alt={card.name}
-                            className="card-img"
-                          />
+            <div className="body">
+              <div className="slider-container">
+                <div className="card-slider">
+                  {cards.length > 0 ? (
+                    cards.map((card, index) => (
+                      <div key={index} className="card">
+                        <div className="image-content">
+                          <span className="overlay" />
+                          <div className="card-image">
+                            <img
+                              src={card.imageUrl}
+                              alt={card.name}
+                              className="card-img"
+                            />
+                          </div>
+                        </div>
+                        <div className="card-content">
+                          <h2 className="name">{card.name}</h2>
+                          <p className="description">{card.description}</p>
+                          <button className="button">View More</button>
                         </div>
                       </div>
-                      <div className="card-content">
-                        <h2 className="name">{card.name}</h2>
-                        <p className="description">{card.description}</p>
-                        <button className="button">View More</button>
-                      </div>
-                    </div>
-                  ))
-                ) : (
-                  <p className="no-cards-message">No cards to display.</p>
-                )}
-                <div class="swiper-button-next swiper-navBtn"></div>
-                <div class="swiper-button-prev swiper-navBtn"></div>
-                <div class="swiper-pagination"></div>
+                    ))
+                  ) : (
+                    <p className="no-cards-message">No cards to display.</p>
+                  )}
+                  <div class="swiper-button-next swiper-navBtn"></div>
+                  <div class="swiper-button-prev swiper-navBtn"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
               </div>
             </div>
           </div>
