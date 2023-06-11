@@ -52,7 +52,7 @@ function App() {
         <Route path="/AluminiNetwork" component={AluminiNetwork} />
         <Route path="/Gallery" component={Gallary} />
         <Route path="/StudentSection" component={StudentSection} />
-        <Route path="/Activities" component={Activities} />
+        <Route path="/Achievements" component={Achievements} />
         <Route path="/Placements" component={Placements} />
         <Route path="/ContactUs" component={ContactUs} />
       </Switch>
