@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.min.css';
 import './Achievements.css';
 
 export default function Achievements() {
@@ -104,6 +106,43 @@ export default function Achievements() {
     setCards(generatedCards);
   };
 
+  useEffect(() => {
+    const swiper = new Swiper('.slide-content', {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      centeredSlides: true,
+      fadeEffect: {
+        crossFade: true,
+      },
+      grabCursor: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
+    return () => {
+      swiper.destroy();
+    };
+  }, []);
+
   return (
     <>
       <div className="main-box">
@@ -177,83 +216,29 @@ export default function Achievements() {
                 {cards.length > 0 ? (
                   cards.map((card, index) => (
                     <div key={index} className="card">
-                      <div className="card-image-container">
-                        <div className="card-image-circle">
+                      <div className="image-content">
+                        <span className="overlay" />
+                        <div className="card-image">
                           <img
                             src={card.imageUrl}
                             alt={card.name}
-                            className="card-image"
+                            className="card-img"
                           />
                         </div>
                       </div>
-                      <div className="card-details">
-                        <h2 className="card-title">{card.name}</h2>
-                        <p className="card-description">{card.description}</p>
-                        <p className="card-content">{card.content}</p>
+                      <div className="card-content">
+                        <h2 className="name">{card.name}</h2>
+                        <p className="description">{card.description}</p>
+                        <button className="button">View More</button>
                       </div>
                     </div>
                   ))
                 ) : (
                   <p className="no-cards-message">No cards to display.</p>
                 )}
-              </div>
-            </div>
-          </div>
-          <div className="activities-container">
-            <h1 className="consulting">Activities</h1>
-
-            <div className="dropdown-container">
-              <label htmlFor="year">Year:</label>
-              <select
-                id="year"
-                value={selectedYear}
-                onChange={handleYearChange}
-              >
-                <option value="">Select Year</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-              </select>
-              <label htmlFor="category">Category:</label>
-              <select
-                id="category"
-                value={selectedCategory}
-                onChange={handleCategoryChange}
-              >
-                <option value="">Select Category</option>
-                <option value="Student Achievements">
-                  Student's achievements
-                </option>
-                <option value="Department Achievements">
-                  Department Achievements
-                </option>
-              </select>
-            </div>
-
-            <div className="slider-container">
-              <div className="card-slider">
-                {cards.length > 0 ? (
-                  cards.map((card, index) => (
-                    <div key={index} className="card">
-                      <div className="card-image-container">
-                        <div className="card-image-circle">
-                          <img
-                            src={card.imageUrl}
-                            alt={card.name}
-                            className="card-image"
-                          />
-                        </div>
-                      </div>
-                      <div className="card-details">
-                        <h2 className="card-title">{card.name}</h2>
-                        <p className="card-description">{card.description}</p>
-                        <p className="card-content">{card.content}</p>
-                      </div>
-                    </div>
-                  ))
-                ) : (
-                  <p className="no-cards-message">No cards to display.</p>
-                )}
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
