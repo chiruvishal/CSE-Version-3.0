@@ -109,7 +109,7 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Staff</h4>
+            <h3>Staff</h3>
 
             <div>
               {facultyMembers.map((faculty, index) => (

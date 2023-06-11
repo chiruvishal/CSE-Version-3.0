@@ -1,7 +1,7 @@
 .main-box {
   display: flex;
   flex-direction: row;
-  margin-top: 11rem;
+  /* margin-top: 11rem; */
 }
 .side-box {
   display: flex;

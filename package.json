@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "11.11.1",
-    "@emotion/styled": "11.11.0",
     "@fortawesome/fontawesome-free": "6.4.0",
     "@fortawesome/fontawesome-svg-core": "6.4.0",
     "@fortawesome/free-brands-svg-icons": "6.4.0",
@@ -22,8 +20,7 @@
     "react-dom": "16.14.0",
     "react-fontawesome": "1.7.1",
     "react-gallery-carousel": "0.4.0",
-    "react-icons": "4.9.0",
-    "react-image-overlay-effect": "^1.0.0",
+    "react-icons": "^4.9.0",
     "react-multi-carousel": "2.8.4",
     "react-owl-carousel": "2.3.3",
     "react-router-dom": "5.3.4"
@@ -37,4 +34,3 @@
   "devDependencies": {
     "react-scripts": "latest"
   }
-}

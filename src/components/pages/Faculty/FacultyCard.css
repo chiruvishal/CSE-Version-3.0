@@ -1,4 +1,4 @@
-.card {
+.cardp {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
@@ -7,7 +7,7 @@
   margin-bottom: 16px;
 }
 
-.card + .card {
+.cardp + .cardp {
   margin-top: 16px; 
 }
 
@@ -29,4 +29,13 @@
   margin: 8px 0;
   font-size: 14px;
   text-align: left;
+}
+.drops h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(238, 230, 237);
+  background-color: rgb(85, 18, 105);
+  border: 5px solid rgb(85, 18, 105);
+  border-radius: 5px;
 }

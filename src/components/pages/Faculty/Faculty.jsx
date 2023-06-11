@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 import FacultyCard from './FacultyCard';
 import './FacultyCard.css';
 export default function FacultyOverview() {
+  /// make the spi start from id =0
   const facultyMembers = [
     {
+      id: '0',
       name: 'Dr. Dilip Singh Sisodia ',
       picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
       Designition: 'Associate Professor',
@@ -14,13 +16,7 @@ export default function FacultyOverview() {
     },
 
     {
-      name: 'Dr. Dilip Singh Sisodia ',
-      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
-      Designition: 'Associate Professor',
-      email: 'Email: dssisodia.cs@nitrr.ac.in',
-      phone: 'Phone: 8462808174',
-    },
-    {
+      id: '1',
       name: 'Dr. Naresh K. Nagwani',
       picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
       Designition: 'Associate Professor',
@@ -28,6 +24,7 @@ export default function FacultyOverview() {
       phone: 'Phone:9993312001',
     },
     {
+      id: '2',
       name: 'Dr. Pradeep Singh',
       picture: 'https://i.postimg.cc/r0wcxggr/img3.png',
       Designition: 'Associate Professor',
@@ -94,6 +91,7 @@ export default function FacultyOverview() {
                 {facultyMembers.map((faculty, index) => (
                   <React.Fragment key={faculty.name}>
                     <FacultyCard
+                      id={faculty.id}
                       name={faculty.name}
                       picture={faculty.picture}
                       Designition={faculty.Designition}
@@ -107,7 +105,6 @@ export default function FacultyOverview() {
               </div>
             </div>
           </div>
-
           {/* <h1 className="consulting">Publications</h1> */}
           {/* <Footer /> */}
         </div>
@@ -115,3 +112,4 @@ export default function FacultyOverview() {
     </div>
   );
 }
+

@@ -134,7 +134,9 @@ export default function Research() {
             <h3 className="hea">Research Areas</h3>
             {areas.map(({ areaname, content }) => (
               <div className="Aiml">
+                <div className="areahead">
                 <p>{areaname}</p>
+                </div>
                 <div className="prof">
                   {content.map(({ imglink, name, proflink }) => (
                     <div className="contentarea">

@@ -2,7 +2,7 @@ import React from 'react';
 import './NewsAndAnnouncement.css';
 const myComponent = {
   width: '100%',
-  height: '300px',
+  height: '450px',
   overflowX: 'hidden',
   overflowY: 'scroll',
 };
