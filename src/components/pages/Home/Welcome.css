@@ -1,3 +1,29 @@
+.areaheadm{
+  border: 2px solid rgb(42, 39, 167);
+  width: fit-content;
+  padding: 15px;;
+  background-color: rgb(42, 39, 167);
+  border-radius: 20px;
+  color: white;
+  margin-top: -20px;
+  margin-left:40px;
+  font-size: 22px;
+  height: fit-content;
+}
+.hodimg{
+  padding-top: 0%;
+  margin-top: 0%!important;
+  transform: scale(0.9);
+}
+
+.mess{
+  font-size: 16px;
+}
+.mess1{
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 #director-message {
   display: flex;
   justify-content: center;
@@ -84,9 +110,7 @@
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.basis-4/12 {
-  flex-basis: 33.333333%;
-}
+
 
 .h-full {
   height: 100%;
