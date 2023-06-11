@@ -199,21 +199,21 @@ export default function Gallary() {
               <ul className="side-link">
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/Areas">Course</Link>
+                  <Link to="/Course">Course</Link>
                 </li>
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/Project">Alumini-Network</Link>
-                </li>
-                <li>
-                  {' '}
-                  <div className="side-border-left" />
-                  <Link to="/Publication">Gallery</Link>
+                  <Link to="/AluminiNetwork">Alumini-Network</Link>
                 </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Student Section</Link>
+                  <Link to="/Gallery">Gallery</Link>
+                </li>
+                <li>
+                  {' '}
+                  <div className="side-border-left" />
+                  <Link to="/StudentSection">Student Section</Link>
                 </li>
                 <li>
                   {' '}
