@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Activites.css';
+import './Achievements.css';
 
-export default function Activities() {
+export default function Achievements() {
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [cards, setCards] = useState([]);
@@ -116,26 +116,26 @@ export default function Activities() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">Course</Link>
+                <Link to="/Course">Course</Link>
               </li>
               <li>
                 <div className="side-border-left" />
-                <Link to="/Project">Alumini-Network</Link>
-              </li>
-              <li>
-                {' '}
-                <div className="side-border-left" />
-                <Link to="/Publication">Gallary</Link>
+                <Link to="/Alumini-Network">Alumini-Network</Link>
               </li>
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Student Section</Link>
+                <Link to="/Gallary">Gallary</Link>
               </li>
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Activities</Link>
+                <Link to="/StudentSection">Student Section</Link>
+              </li>
+              <li>
+                {' '}
+                <div className="side-border-left" />
+                <Link to="/Achievements">Achievements</Link>
               </li>
             </ul>
           </div>

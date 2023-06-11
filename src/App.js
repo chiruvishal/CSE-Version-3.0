@@ -14,7 +14,7 @@ import Course from './components/pages/CourseOverview/CourseOverview';
 import AluminiNetwork from './components/pages/AluminiNetwork/AluminiNetwork';
 import Gallary from './components/pages/Gallary/Gallary';
 import StudentSection from './components/pages/StudentSection/StudentSection';
-import Activities from './components/pages/Activities/Activities';
+import Achievements from './components/pages/Achievements/Achievements';
 import Placements from './components/pages/PlacementStatistics/PlacementStatistics';
 import ContactUs from './components/pages/ContactInformation/ContactInformation';
 
