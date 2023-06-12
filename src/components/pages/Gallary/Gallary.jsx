@@ -243,7 +243,7 @@ export default function Gallary() {
                   ))}
                 </ul>
                 <p style={{ color: 'white' }}>
-                  To view the image in fullscreen mode, please click on it.
+                  To view the more information about the achievement click on know more.
                 </p>
               </div>
             </div>
