@@ -22,19 +22,26 @@ function MyCarousel() {
   return (
     <div className="carsel">
       <div className="part1">
-         <img
+        <img
           src={cloud_mountains}
           className="slide_img col-lg-12"
           alt="Responsive img"
-        /> 
-         <div className="img_overlay">
-            <div className="img_title">
-              Hello
+        />
+        <div className="img_overlay">
+          <div class="gfg">
+            <div class="gfgcard">
+              <div class="content">
+                <h2>Hello !!!</h2>
+                <p>
+                  Welcome to the CSE department of NIT Raipur! As one of the
+                  premier institutions in India, we pride ourselves on offering
+                  a dynamic and innovative learning environment for aspiring
+                  computer science engineers.
+                </p>
+              </div>
             </div>
-            <p className = "img_desc">
-              Welcome to CSE Department of National Institute of Technology Raipur. 
-            </p>
           </div>
+        </div>
       </div>
       <div className="part2">
         <Slider {...settings}>
