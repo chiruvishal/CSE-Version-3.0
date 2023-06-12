@@ -162,8 +162,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/Activities" onClick={handleMenuToggle}>
-                  Activities
+                <Link to="/Achievements" onClick={handleMenuToggle}>
+                Achievements
                 </Link>
               </li>
             </ul>

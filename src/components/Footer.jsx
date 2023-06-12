@@ -1,7 +1,5 @@
 import React from 'react';
 import $ from 'jquery';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.min.js';
 import $ from 'jquery';
 import ReactPlayer from 'react-player';
 import { TfiLocationPin } from 'react-icons/tfi';
@@ -12,6 +10,8 @@ import { CiTwitter } from 'react-icons/ci';
 import { FiMail } from 'react-icons/fi';
 import { CiLinkedin } from 'react-icons/ci';
 import { SlSocialInstagram } from 'react-icons/sl';
+import { Link } from 'react-router-dom';
+
 import './Footer.css';
 const Footer = () => {
   return (
@@ -37,46 +37,54 @@ const Footer = () => {
                   <div class="connect-section">
                     <p class="connect-text">Connect with us:</p>
                     <div class="social-icons-wrapper">
-                      <a href="#" class="social-link facebook-link">
-                        <i class="fab fa-facebook-f facebook-icon" />
-                      </a>
-                      <a href="#" class="social-link twitter-link">
-                        <i class="fab fa-twitter twitter-icon" />
-                      </a>
-                      <a href="#" class="social-link instagram-link">
-                        <i class="fab fa-instagram instagram-icon" />
-                      </a>
-                      <a href="#" class="social-link linkedin-link">
-                        <i class="fab fa-linkedin-in linkedin-icon" />
-                      </a>
+                      <button class="btnp">
+                        <a href="#">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </button>
+                      <button class="btnp">
+                        <a href="#">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                      </button>
+                      <button class="btnp">
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </button>
+                      <button class="btnp">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-121 col-lg-4">
                 <div className="contact-us">
-                  <div className="contact-info">
-                    <p>
-                      <TfiLocationPin color="white" size="32" />
-                      <span> </span>
-                      National Institute of Technology Raipur G.E. Road, Raipur
-                      Chhatisgarh - 492010
-                    </p>
-                    <p>
-                      <AiOutlinePhone size={32} color="white" />
-                      <span> </span> Phone:(+91)-771-2254200
-                    </p>
-                    <p>
-                      <a
-                        href="#"
-                        style={{ color: 'white', textDecoration: 'none' }}
-                      >
-                        <AiOutlineMail size={32} />
-                        <span> </span> Email- director@nitrr.ac.in
-                        registrar@nitrr.ac.in
-                      </a>
-                    </p>
-                  </div>
+                <div className="contact-info">
+      <p className="contact-info-item">
+        <span className="iconf">
+          <TfiLocationPin size={32} />
+        </span>
+        National Institute of Technology Raipur G.E. Road, Raipur Chhatisgarh - 492010
+      </p>
+      <p className="contact-info-item">
+        <span className="iconf">
+          <AiOutlinePhone size={32} />
+        </span>
+        Phone:(+91)-771-2254200
+      </p>
+      <p>
+        <a href="#" className="contact-info-link">
+          <span className="iconf">
+            <AiOutlineMail size={32} />
+          </span>
+          Email- director@nitrr.ac.in registrar@nitrr.ac.in
+        </a>
+      </p>
+    </div>
                 </div>
                 <div className="footer-widget footer-left-widget">
                   <div className="section-heading">
@@ -85,30 +93,31 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#">About us</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <Link to="/StudentSection">Student Section</Link>
+                    </li>
+
+                    <li>
+                      <Link to="/Gallery">Gallery</Link>
                     </li>
                     <li>
-                      <a href="#">Projects</a>
-                    </li>
-                    <li>
-                      <a href="#">Our Team</a>
+                      <Link to="/Achievements">Achievements</Link>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <a href="#">Contact us</a>
+                      <Link to="/Placements">Placements</Link>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <Link to="/Course">Course</Link>
                     </li>
                     <li>
-                      <a href="#">Testimonials</a>
+                      <Link to="/Research-Areas">Research Areas</Link>
                     </li>
                     <li>
-                      <a href="#">Faq</a>
+                      <Link to="/ContactUs">Contact Us</Link>
                     </li>
                   </ul>
                 </div>

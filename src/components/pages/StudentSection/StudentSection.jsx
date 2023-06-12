@@ -35,7 +35,7 @@ function StudentSection() {
               <ul className="side-link">
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/Areas">Course</Link>
+                  <Link to="/Course">Course</Link>
                 </li>
                 <li>
                   <div className="side-border-left" />
@@ -44,17 +44,17 @@ function StudentSection() {
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Gallary</Link>
+                  <Link to="/Gallery">Gallery</Link>
                 </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Student Section</Link>
+                  <Link to="/StudentSection">Student Section</Link>
                 </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Activities</Link>
+                  <Link to="/Achievements">Achievements</Link>
                 </li>
               </ul>
             </div>

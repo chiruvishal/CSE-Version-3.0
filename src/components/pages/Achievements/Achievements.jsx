@@ -164,7 +164,7 @@ export default function Achievements() {
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Gallary">Gallary</Link>
+                <Link to="/Gallery">Gallery</Link>
               </li>
               <li>
                 {' '}

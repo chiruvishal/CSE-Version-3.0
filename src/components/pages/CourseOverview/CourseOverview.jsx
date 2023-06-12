@@ -63,7 +63,7 @@ export default function CourseOverview() {
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Gallary">Gallary</Link>
+                  <Link to="/Gallery">Gallery</Link>
                 </li>
                 <li>
                   {' '}
