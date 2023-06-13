@@ -1,63 +1,70 @@
+.icon-rotate {
+  transform: rotate(-90deg);
+}
+.fas {
+  margin-right: 10px;
+}
+
 .headm {
   /* font-size: 24px; */
-  font-weight:bold;
+  font-weight: bold;
   margin-bottom: 15px;
   font-size: xx-large;
   background-color: rgb(85, 18, 105);
   /* color:rgb(85, 18, 105); */
-  color:white;
+  color: white;
   border-radius: 5px;
 }
-.fas{
+.fas {
   padding-left: 2px;
 }
-.mess{
+.mess {
   padding-top: 16px;
-  padding-right:16px;
+  padding-right: 16px;
   font-size: 16px;
   line-height: 1.5;
 }
-.pic{
+.pic {
   justify-content: center;
-  margin:0px;
-  padding-left:240px;
-  padding-right:240px;
+  margin: 0px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
-.ab1{
+.ab1 {
   padding-top: 8px;
-  padding-right:16px;
+  padding-right: 16px;
   font-size: 16px;
   line-height: 1.5;
 }
-.ab{
+.ab {
   padding-top: 8px;
-  padding-right:16px;
+  padding-right: 16px;
   font-size: 16px;
   line-height: 1.5;
 }
-.flexi{
+.flexi {
   padding-bottom: 20px;
 }
-.mv1{
+.mv1 {
   margin-top: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   font-size: 16px;
   line-height: 1.5;
-  text-align:left;
+  text-align: left;
   font-weight: bold;
   align-items: center;
 }
-.mv{
+.mv {
   margin-top: 10px;
   padding-left: 24px;
   font-size: 16px;
   line-height: 1.5;
-  text-align:left;
+  text-align: left;
   font-weight: bold;
   align-items: center;
 }
-.flexw1{
-  padding:10px 10px 10px 10px;
+.flexw1 {
+  padding: 10px 10px 10px 10px;
 }
 .dro {
   margin-top: 5px;
@@ -88,34 +95,33 @@
   height: auto;
   object-fit: cover;
 }
-.dr h2{
+.dr h2 {
   text-align: left;
   padding-left: 16px;
   margin-top: 20px;
 }
-.peo{
- padding-top: 16px;
- padding-left: 50px;
+.peo {
+  padding-top: 16px;
+  padding-left: 50px;
 }
 .pos {
   counter-reset: pe-counter;
   list-style-type: none;
 }
 .pos li:before {
-  content: "PO" counter(pe-counter) ". ";
+  content: 'PO' counter(pe-counter) '. ';
   counter-increment: pe-counter;
   font-weight: bold;
- 
 }
-.pos li{
-  margin-bottom:2px;
+.pos li {
+  margin-bottom: 2px;
   padding-top: 16px;
- padding-left: 32px;
+  padding-left: 32px;
 }
-.pso{
+.pso {
   padding-top: 16px;
- padding-left: 50px;
+  padding-left: 50px;
 }
-.ps{
-  padding:16px 16px 16px 16px;
+.ps {
+  padding: 16px 16px 16px 16px;
 }
