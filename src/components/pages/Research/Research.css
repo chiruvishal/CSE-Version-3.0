@@ -5,10 +5,11 @@
 .side-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   margin: 2%;
   margin-left: 10%;
+  margin-top: 200px;
 }
 
 .side-container {
