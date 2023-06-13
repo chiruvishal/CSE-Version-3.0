@@ -22,8 +22,7 @@ export default function Achievements() {
           imageUrl: 'medal_image2.jpg',
           achiename: 'Jane Smith',
           description: 'Silver Medalist',
-          content:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit ihdhiaudgahjdjshdfggsfujsgfuywgfuygashjfbasjhfgu.',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           year: '2021',
           category: 'Student Achievements',
         },
@@ -219,7 +218,7 @@ export default function Achievements() {
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Activities">Activities</Link>
+                  <Link to="/Achievements">Achievements</Link>
                 </li>
               </ul>
             </div>
@@ -327,7 +326,7 @@ export default function Achievements() {
                                           </div>
                                           <div className="card-content">
                                             <h2 className="name">
-                                              {slide.name}
+                                              {slide.achiename}
                                             </h2>
                                             <p className="description">
                                               {slide.description}
@@ -372,7 +371,7 @@ export default function Achievements() {
                                     </div>
                                   </div>
                                   <div className="card-content">
-                                    <h2 className="name">{slide.name}</h2>
+                                    <h2 className="name">{slide.chiename}</h2>
                                     <p className="description">
                                       {slide.description}
                                     </p>

@@ -20,7 +20,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4070f4;
+  background-color: #6d67e4;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -31,11 +31,11 @@
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #4070f4;
+  background: #6d67e4;
 }
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: rgb(243, 242, 242);
+  background: rgb(243, 242, 242);
 }
 .card-image {
   position: relative;
@@ -50,17 +50,19 @@
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #4070f4;
+  border: 4px solid #9a0680;
 }
 .name {
   font-size: 18px;
   font-weight: 500;
   color: #333;
+  font-style: bold;
 }
 .description {
   font-size: 14px;
   color: #707070;
   text-align: center;
+  font-style: bold;
 }
 .content {
   font-size: 14px;
@@ -72,12 +74,12 @@
   font-size: 16px;
   color: #fff;
   padding: 8px 16px;
-  background-color: #4070f4;
+  background-color: rgb(42, 39, 167);
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button:hover {
-  background: #265df2;
+  background: #6d67e4;
 }
