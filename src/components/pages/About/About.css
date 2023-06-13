@@ -1,4 +1,4 @@
-.headm{
+.headm {
   /* font-size: 24px; */
   font-weight:bold;
   margin-bottom: 15px;
@@ -87,4 +87,35 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.dr h2{
+  text-align: left;
+  padding-left: 16px;
+  margin-top: 20px;
+}
+.peo{
+ padding-top: 16px;
+ padding-left: 50px;
+}
+.pos {
+  counter-reset: pe-counter;
+  list-style-type: none;
+}
+.pos li:before {
+  content: "PO" counter(pe-counter) ". ";
+  counter-increment: pe-counter;
+  font-weight: bold;
+ 
+}
+.pos li{
+  margin-bottom:2px;
+  padding-top: 16px;
+ padding-left: 32px;
+}
+.pso{
+  padding-top: 16px;
+ padding-left: 50px;
+}
+.ps{
+  padding:16px 16px 16px 16px;
 }
