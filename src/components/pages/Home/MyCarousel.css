@@ -3,7 +3,7 @@
   flex-direction: row;
 }
 .part1 {
-  padding-top: 20px;
+  margin-top: 20px;
   width: 30%;
 
   position: relative;
@@ -19,16 +19,59 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(20, 47, 201, 0.6);
+  background: rgba(123, 23, 136, 0.6);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.gfg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.gfg .gfgcard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 36px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.4);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+
+.gfg .gfgcard .content {
+  padding: 40px;
+  text-align: center;
+}
+.glasscard {
+  background: rgba(142, 26, 217, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  --webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.content h1 {
+  border-bottom: 3px solid white;
+}
+.content p {
+  padding-top: 10px;
+}
 .img_title {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
 }
 .img_desc {
   font-size: 1.25em;
