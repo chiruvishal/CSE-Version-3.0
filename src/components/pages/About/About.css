@@ -1,61 +1,90 @@
-.drops {
+h3 {
+  /* font-size: 24px; */
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: xx-large;
+  background-color: rgb(85, 18, 105);
+  /* color:rgb(85, 18, 105); */
+  color: white;
+  border-radius: 5px;
+}
+.fas {
+  padding-left: 2px;
+}
+.mess {
+  padding-top: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.pic {
+  justify-content: center;
+  margin: 0px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.ab1 {
+  padding-top: 8px;
+  padding-right: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ab {
+  padding-top: 8px;
+  padding-right: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.flexi {
+  padding-bottom: 20px;
+}
+.mv1 {
   margin-top: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: bold;
+  align-items: center;
+}
+.mv {
+  margin-top: 10px;
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: bold;
+  align-items: center;
+}
+.flexw1 {
+  padding: 10px 10px 10px 10px;
+}
+.dro {
+  margin-top: 5px;
   text-align: center;
 }
-
-.drops h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+/* Laptop */
+@media screen and (min-width: 1024px) {
+  /* Add your styles for laptop here */
 }
 
-.title-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add your styles for tablet here */
+  .flex-colw {
+    flex-direction: column !important;
+  }
 }
 
-.title-section span {
-  width: 60px;
-  height: 3px;
-  background-color: #333;
+/* Mobile */
+@media screen and (max-width: 767px) {
+  /* Add your styles for mobile here */
+  .flex-colw {
+    flex-direction: column !important;
+  }
 }
-
-.r1 {
-  display: flex;
-  flex-direction: column;
+.hodimg {
   width: 100%;
-}
-.c1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.c1 {
-  width: 100%;
-}
-.p1 {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.p2 {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.image-right {
-  float: right;
-  margin-left: 5px;
-  margin-bottom: 20px;
-}
-
-.image-left {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  height: auto;
+  object-fit: cover;
 }
