@@ -1,15 +1,8 @@
 import React from 'react';
-import $ from 'jquery';
-import $ from 'jquery';
-import ReactPlayer from 'react-player';
 import { TfiLocationPin } from 'react-icons/tfi';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFacebook } from 'react-icons/bs';
-import { CiTwitter } from 'react-icons/ci';
-import { FiMail } from 'react-icons/fi';
-import { CiLinkedin } from 'react-icons/ci';
-import { SlSocialInstagram } from 'react-icons/sl';
+
 import { Link } from 'react-router-dom';
 
 import './Footer.css';
