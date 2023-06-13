@@ -15,9 +15,9 @@ function MyCarousel() {
     autoplaySpeed: 3000,
     className: 'slide_box',
     dots: false,
-    // virtualList: true,
-    arrows: false,
-    pauseOnHover: false,
+    virtualList: true,
+    arrows: true,
+    pauseOnHover: true,
   };
   return (
     <div className="carsel">
