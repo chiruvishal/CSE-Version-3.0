@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
 export default function Projects() {
   const years = [2023, 2022];
+  const [isVisible, setIsVisible] = useState(false);
   const [Year, setYear] = useState('2023');
   let currentyear = 2023;
+  const sectionRef = useRef(null);
   const publish = [
     {
       year: '2023',
@@ -70,6 +72,27 @@ export default function Projects() {
   // //const res = publish.find(({ year }) => year === Year);
   // const result = publish.find(({ year }) => year === Year);
   // console.log(result);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
   return (
     <>
     <div>
@@ -91,7 +114,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      <div className="main-box">
+      <div className="main-box" ref={sectionRef}>
         <div className="side-box">
           <div className="side-container">
             <div className="side-top-box">
@@ -114,7 +137,9 @@ export default function Projects() {
             </ul>
           </div>
         </div>
-        <div className="publication">
+        <div className={`publication ${
+              isVisible ? 'animate__animated animate__slideInRight' : ''
+            }`}>
           <h3 className="he">Projects</h3>
           <div className="maint">
             <div className="selectyr">

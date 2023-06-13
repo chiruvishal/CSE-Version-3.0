@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Research.css';
 import { Link } from 'react-router-dom';
 
 export default function Research() {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
   const areas = [
     {
       areaname: 'Artificial Intelligence | Machine Learning',
@@ -80,6 +82,27 @@ export default function Research() {
       ],
     },
   ];
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
   return (
     <>
       <div>
@@ -100,7 +123,7 @@ export default function Research() {
             </div>
           </div>
         </div>
-        <div className="main-box">
+        <div className="main-box" ref={sectionRef}>
           <div className="side-box">
             <div className="side-container">
               <div className="side-top-box">
@@ -130,12 +153,16 @@ export default function Research() {
               </ul>
             </div>
           </div>
-          <div>
+          <div
+            className={`${
+              isVisible ? 'animate__animated animate__slideInLeft' : ''
+            }`}
+          >
             <h3 className="hea">Research Areas</h3>
             {areas.map(({ areaname, content }) => (
               <div className="Aiml">
                 <div className="areahead">
-                <p>{areaname}</p>
+                  <p>{areaname}</p>
                 </div>
                 <div className="prof">
                   {content.map(({ imglink, name, proflink }) => (
