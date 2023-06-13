@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-
-
 export default function Navbar() {
   const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
@@ -28,6 +26,7 @@ export default function Navbar() {
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
+    
   };
   const [isLogoScrolled, setIsLogoScrolled] = useState(false);
 
@@ -43,7 +42,11 @@ export default function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
- 
+
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    handleMenuToggle();
+  };
 
   return (
     <div className={`head-box ${isLogoScrolled ? 'scrolled' : ''}`}>
@@ -52,7 +55,7 @@ export default function Navbar() {
           <div className="logo fl">
             <a href="" title="">
               <img
-                              className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
+                className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
                 src="https://i.postimg.cc/gc66cnjk/4-F4-BA61-B-8331-4369-A3-FC-24-D6-F239-A800-preview-rev-1.png"
               />
             </a>
@@ -62,8 +65,8 @@ export default function Navbar() {
       <div id="google_translate_element"></div>
       <nav className={`animenu ${isMenuOpen ? 'open' : ''}`}>
         <div className="menu-icon" onClick={handleMenuToggle}>
-          <label for="menu-toggle" class="menu-toggle">
-            <i class="fas fa-bars"></i>
+          <label htmlFor="menu-toggle" className="menu-toggle">
+            <i className="fas fa-bars"></i>
           </label>
           <span className="menu-icon__line"></span>
           <span className="menu-icon__line"></span>
@@ -71,35 +74,35 @@ export default function Navbar() {
         </div>
         <ul className="animenu__nav wrap">
           <li className="parent-menu">
-            <Link to="/" className="icon" onClick={handleMenuToggle}>
+            <Link to="/" className="icon" onClick={handleLinkClick}>
               Home
             </Link>
           </li>
           <li className="parent-menu">
-            <Link to="/About" onClick={handleMenuToggle}>
+            <Link to="/About" onClick={handleLinkClick}>
               About
             </Link>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
-                <Link to="/About" onClick={handleMenuToggle}>
+                <Link to="/About" onClick={handleLinkClick}>
                   History
                 </Link>
               </li>
               <li>
-                <Link to="/VisionAndMission" onClick={handleMenuToggle}>
+                <Link to="/VisionAndMission" onClick={handleLinkClick}>
                   Vision and Mission
                 </Link>
               </li>
               <li>
-                <Link to="/POs" onClick={handleMenuToggle}>
+                <Link to="/POs" onClick={handleLinkClick}>
                   POs, PEOs, PSOs
                 </Link>
               </li>
             </ul>
           </li>
           <li className="parent-menu">
-            <Link to="/Faculty" onClick={handleMenuToggle}>
+            <Link to="/Faculty" onClick={handleLinkClick}>
               People
             </Link>
           </li>
@@ -107,24 +110,24 @@ export default function Navbar() {
             <Link
               to="/Research-Areas"
               className="mobile-line-break"
-              onClick={handleMenuToggle}
+              onClick={handleLinkClick}
             >
               Research Areas
             </Link>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
-                <Link to="/Research-Areas" onClick={handleMenuToggle}>
+                <Link to="/Research-Areas" onClick={handleLinkClick}>
                   Areas
                 </Link>
               </li>
               <li>
-                <Link to="/Project" onClick={handleMenuToggle}>
+                <Link to="/Project" onClick={handleLinkClick}>
                   Project
                 </Link>
               </li>
               <li>
-                <Link to="/Publications" onClick={handleMenuToggle}>
+                <Link to="/Publications" onClick={handleLinkClick}>
                   Publications
                 </Link>
               </li>
@@ -134,46 +137,46 @@ export default function Navbar() {
             <Link
               to="/Course"
               className="mobile-line-break"
-              onClick={handleMenuToggle}
+              onClick={handleLinkClick}
             >
               Student Zone
             </Link>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
-                <Link to="/Course" onClick={handleMenuToggle}>
+                <Link to="/Course" onClick={handleLinkClick}>
                   Course
                 </Link>
               </li>
               <li>
-                <Link to="/AluminiNetwork" onClick={handleMenuToggle}>
+                <Link to="/AluminiNetwork" onClick={handleLinkClick}>
                   Alumni Network
                 </Link>
               </li>
               <li>
-                <Link to="/Gallery" onClick={handleMenuToggle}>
+                <Link to="/Gallery" onClick={handleLinkClick}>
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link to="/StudentSection" onClick={handleMenuToggle}>
+                <Link to="/StudentSection" onClick={handleLinkClick}>
                   Student Section
                 </Link>
               </li>
               <li>
-                <Link to="/Achievements" onClick={handleMenuToggle}>
-                Achievements
+                <Link to="/Achievements" onClick={handleLinkClick}>
+                  Achievements
                 </Link>
               </li>
             </ul>
           </li>
           <li className="parent-menu">
-            <Link to="/Placements" onClick={handleMenuToggle}>
+            <Link to="/Placements" onClick={handleLinkClick}>
               Placements
             </Link>
           </li>
           <li className="parent-menu">
-            <Link to="/ContactUs" onClick={handleMenuToggle}>
+            <Link to="/ContactUs" onClick={handleLinkClick}>
               Contact Us
             </Link>
           </li>

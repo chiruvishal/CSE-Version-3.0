@@ -5,8 +5,12 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 import { Link } from 'react-router-dom';
 
+
 import './Footer.css';
 const Footer = () => {
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <div>
       <footer id="dk-footer" className="dk-footer">
@@ -85,33 +89,48 @@ const Footer = () => {
                     <span className="animate-border border-black"></span>
                   </div>
                   <ul>
-                    <li>
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                      <Link to="/StudentSection">Student Section</Link>
-                    </li>
-
-                    <li>
-                      <Link to="/Gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link to="/Achievements">Achievements</Link>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <Link to="/Placements">Placements</Link>
-                    </li>
-                    <li>
-                      <Link to="/Course">Course</Link>
-                    </li>
-                    <li>
-                      <Link to="/Research-Areas">Research Areas</Link>
-                    </li>
-                    <li>
-                      <Link to="/ContactUs">Contact Us</Link>
-                    </li>
+                  <li>
+                    <Link to="/" onClick={handleLinkClick}>
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/StudentSection" onClick={handleLinkClick}>
+                      Student Section
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Gallery" onClick={handleLinkClick}>
+                      Gallery
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Achievements" onClick={handleLinkClick}>
+                      Achievements
+                    </Link>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <Link to="/Placements" onClick={handleLinkClick}>
+                      Placements
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Course" onClick={handleLinkClick}>
+                      Course
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Research-Areas" onClick={handleLinkClick}>
+                      Research Areas
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/ContactUs" onClick={handleLinkClick}>
+                      Contact Us
+                    </Link>
+                  </li>
                   </ul>
                 </div>
               </div>
