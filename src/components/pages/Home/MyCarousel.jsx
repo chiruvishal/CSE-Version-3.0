@@ -12,12 +12,12 @@ import './MyCarousel.css';
 function MyCarousel() {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     className: 'slide_box',
     dots: false,
-    virtualList: true,
-    duration: 20,
-    arrows: true,
+    // virtualList: true,
+    arrows: false,
+    pauseOnHover: false,
   };
   return (
     <div className="carsel">
@@ -31,7 +31,7 @@ function MyCarousel() {
           <div class="gfg">
             <div class="gfgcard">
               <div class="content">
-                <h2>Hello !!!</h2>
+                <h1>Discover a Whole New World</h1>
                 <p>
                   Welcome to the CSE department of NIT Raipur! As one of the
                   premier institutions in India, we pride ourselves on offering
