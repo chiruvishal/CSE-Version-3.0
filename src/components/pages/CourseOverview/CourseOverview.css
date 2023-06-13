@@ -1,12 +1,13 @@
 .containersy {
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 540px;
   height: 540px;
   background: #f1f1f1;
   margin: 250px;
-  margin-left: 100px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 0;
   word-break: break-all;
   border: 1px solid rgba(0, 0, 0, 0.274);
   border-radius: 10px 10px 0px 0px;
@@ -25,7 +26,6 @@ h1 {
   background: rgb(253, 253, 255);
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   box-sizing: content-box;
-  position: relative;
   outline: none;
   display: flex;
   justify-content: space-between;
@@ -58,7 +58,6 @@ h1 {
 .active-tabsx::before {
   content: '';
   display: block;
-  position: fixed;
   top: -5px;
   left: 50%;
   transform: translateX(-50%);
@@ -120,9 +119,10 @@ button {
 
 .dropdown-containerx {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
   margin-bottom: 10px;
 }
 
@@ -152,7 +152,6 @@ button {
   font-size: 16px;
   cursor: pointer;
   width: 50%;
-  position: relative;
   overflow: hidden;
   transition: 0.4s all;
   margin-left: 75px;
@@ -170,14 +169,14 @@ button {
   display: flex;
   flex-direction: row;
 }
-.side-box {
+.side-boxxx {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
   margin: 2%;
   margin-left: 10%;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .side-container {
@@ -248,8 +247,75 @@ h3 {
     height: 100%;
   }
 }
-@media screen and (max-width: 650px) {
-  .side-box {
+@media screen and (max-width: 800px) {
+  .side-boxxx {
     display: none;
+  }
+  .to-centerx {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .to-centerx {
+    width: 300px;
+  }
+  .main-box {
+    width: 300px;
+  }
+  .containersy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 350px;
+    height: 490px;
+    background: #f1f1f1;
+    margin-top: 150px;
+    margin-left: 10px;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 10px 10px 0px 0px;
+  }
+  .boxx {
+    width: 220px;
+    height: 220px;
+    border: 1px solid #000;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 350px;
+  }
+  .containerxy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+    height: 400px;
+  }
+  .dropdown-containerx {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+  }
+  .buttonx {
+    margin-left: 40px;
+  }
+}
+@media screen and(max-width:400px) {
+  .to-centerx {
+    margin-left: 0px;
+  }
+  .containersy {
+    margin-left: 5px;
+    padding-left: 0;
+  }
+  .bloc-tabsx {
+    margin-left: 0px;
+  }
+  .content-tabsx {
+    margin-left: 0px;
   }
 }
