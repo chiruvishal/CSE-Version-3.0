@@ -4,11 +4,13 @@ import Events from '../Events/Events';
 import './Home.css';
 import MyCarousel from './MyCarousel';
 import Welcome from './Welcome';
+import TopAchievementsHome from './TopAchievementsHome';
 export default function Home() {
   return (
     <div>
       <MyCarousel />
-      <Welcome/>
+      <Welcome />
+      <TopAchievementsHome />
       <div className="mu">
         <NewsAndAnnouncement />
         <Events />

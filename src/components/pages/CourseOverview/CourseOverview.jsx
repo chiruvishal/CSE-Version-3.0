@@ -44,7 +44,7 @@ export default function CourseOverview() {
           </div>
         </div>
         <div className="main-box">
-          <div className="side-box">
+          <div className="side-boxxx">
             <div className="side-container">
               <div className="side-top-box">
                 <p>Student Zone</p>
