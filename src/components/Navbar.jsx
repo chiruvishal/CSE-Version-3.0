@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-
-
 export default function Navbar() {
   const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
@@ -44,7 +42,6 @@ export default function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
- 
 
   return (
     <div className={`head-box ${isLogoScrolled ? 'scrolled' : ''}`}>
@@ -53,7 +50,7 @@ export default function Navbar() {
           <div className="logo fl">
             <a href="" title="">
               <img
-                              className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
+                className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
                 src="https://i.postimg.cc/gc66cnjk/4-F4-BA61-B-8331-4369-A3-FC-24-D6-F239-A800-preview-rev-1.png"
               />
             </a>
@@ -162,8 +159,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/Activities" onClick={handleMenuToggle}>
-                  Activities
+                <Link to="/Achievements" onClick={handleMenuToggle}>
+                  Achievements
                 </Link>
               </li>
             </ul>
