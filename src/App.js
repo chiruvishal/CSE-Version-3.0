@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
@@ -25,7 +25,19 @@ import Staff from './components/pages/Faculty/Staff';
 import POs from './components/pages/POs/POs';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate page loading time
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1500); // Adjust the duration as desired
+  }, []);
   return (
+    <div>
+      {isLoading ? (  
+        <div className="loader"><h3>WELCOME TO NIT RAIPUR</h3></div>
+      ) : (
     <Router>
       <Navbar />
       <Switch>
@@ -54,6 +66,8 @@ function App() {
       </Switch>
       <Footer />
     </Router>
+    )}
+    </div>
   );
 }
 

@@ -1,5 +1,64 @@
-/*for header image*/
+@keyframes load-loop {
+  0% {
+    background-position: 100%;
+  }
 
+  40% {
+    background-position: 50%;
+  }
+
+  50% {
+    background-position: 50%; 
+  }
+
+  90% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: rgba(214, 0, 0, 0.8);
+  border-radius: 4px;
+  letter-spacing: 3px; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  font-size: 2em;
+  color: transparent;
+  background: linear-gradient(to right,rgb(233, 3, 3) 33.3%,#180084 33.3%,
+   #0028db 66.6%, rgb(119, 0, 0) 66.6%) no-repeat;
+  background-size: 300%;
+  background-position: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: infinite 1.5s load-loop ease;
+}
+
+.loader::after {
+  content: ''; 
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: linear-gradient(to right,#0429d1 33.3%, transparent 33.3% , transparent 66.6%, #2000d3 66.6%) no-repeat;
+  background-size: 300%;
+  background-position: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation: infinite 1.5s load-loop ease;
+} 
+
+  
 .nitr-page-title-wrap {
   background-position: center;
   background-size: cover;
