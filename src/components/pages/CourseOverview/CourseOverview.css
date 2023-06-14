@@ -165,7 +165,7 @@ button {
   outline: none;
 }
 
-.main-box {
+.main-boxx {
   display: flex;
   flex-direction: row;
 }
@@ -259,7 +259,7 @@ h3 {
   .to-centerx {
     width: 300px;
   }
-  .main-box {
+  .main-boxx {
     width: 300px;
   }
   .containersy {

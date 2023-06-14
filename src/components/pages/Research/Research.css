@@ -133,6 +133,10 @@
   .side-box {
     display: none;
   }
+  .Aiml{
+    margin: 5px;
+    
+  }
 }
 @media screen and (max-width: 650px) {
   .prof {

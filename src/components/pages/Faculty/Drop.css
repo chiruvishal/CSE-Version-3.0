@@ -1,4 +1,95 @@
+.drs {
+  align-items: center;
+  padding-left: 24px;
+}
 
+.faculty-members {
+  display: flex;
+  gap: 100px;
+  width:100%;
+}
+
+.faculty-member {
+  margin-top: 0cm;
+  display: flex; 
+  flex-direction: column;
+  align-items:center;
+  /* width: 250px; */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-member .faculty-picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.faculty-member .faculty-details {
+  text-align:left;
+  padding:
+}
+
+.faculty-member .faculty-details h4 {
+  margin-bottom: 5px;
+}
+
+.faculty-member .faculty-details p {
+  margin: 0;
+}
+.areafd {
+  border: 1px solid rgb(85, 18, 105);
+  width: fit-content;
+  padding: 15px;
+  background-color: rgb(85, 18, 105);
+  border-radius: 20px;
+  color: white;
+  margin: 0 auto; /* Added margin property */
+  display: flex; /* Added display property */
+  justify-content: center; /* Added justify-content property */
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  height: fit-content;
+  margin-top: -20px;
+}
+.Fdm{
+  margin-top: 30px;
+}
+
+.info-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.info-table td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  height: 50px; /* Adjust the desired row height */
+  vertical-align: middle;
+}
+.area{
+  padding-left: 20px;
+}
+.area li{
+  margin-bottom: 10px;
+}
+
+.question-label{
+  font-weight: bold;
+  color: rgb(167, 42, 173);
+}
+.area-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.area-list li {
+  margin-bottom: 5px;
+}
 
 .drops {
   width: 100%;

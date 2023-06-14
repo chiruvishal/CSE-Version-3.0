@@ -43,7 +43,7 @@ export default function CourseOverview() {
             </div>
           </div>
         </div>
-        <div className="main-box">
+        <div className="main-boxx">
           <div className="side-boxxx">
             <div className="side-container">
               <div className="side-top-box">
