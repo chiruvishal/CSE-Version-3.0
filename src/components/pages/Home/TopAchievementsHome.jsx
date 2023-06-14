@@ -98,9 +98,9 @@ export default function TopAchievements() {
       setIsLoading(false);
     }, 2000);
   };
-  const handleLinkClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div ref={galleryRef}>
@@ -159,7 +159,7 @@ export default function TopAchievements() {
                   {selectedEvent.cards.length > 3 && (
                     <div className="showMoreButton">
                       <button className="button1">
-                        <Link to="/Achievements" onclick={handleLinkClick}>
+                        <Link to="/Achievements" onclick={useEffect}>
                           Show More
                         </Link>
                       </button>
