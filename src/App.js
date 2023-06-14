@@ -35,38 +35,40 @@ function App() {
   }, []);
   return (
     <div>
-      {isLoading ? (  
-        <div className="loader"><h3>WELCOME TO NIT RAIPUR</h3></div>
+      {isLoading ? (
+        <div className="loader">
+          <h3>WELCOME TO NIT RAIPUR</h3>
+        </div>
       ) : (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="About" component={About} />
-        <Route path="/POs" component={POs} />
-        <Route path="/Faculty" component={Faculty} />
-        <Route path="/FacultyDetail" component={FacultyDetail} />
-        <Route path="/Faculty/:FacultyId" component={FacultyDetail} />
-        <Route path="/AssistantProfessor" component={AssistantProfessor} />
-        <Route path="/TempararyFaculty" component={TempararyFaculty} />
-        <Route path="/Staff" component={Staff} />
-        <Route path="/About" component={About} />
-        <Route path="/VisionAndMission" component={VisionAndMission} />
-        <Route path="/Research-Areas" component={ResearchAreas} />
-        <Route path="/Research-Areas" component={ResearchAreas} />
-        <Route path="/Project" component={Project} />
-        <Route path="/Publications" component={Publications} />
-        <Route path="/Course" component={Course} />
-        <Route path="/AluminiNetwork" component={AluminiNetwork} />
-        <Route path="/Gallery" component={Gallary} />
-        <Route path="/StudentSection" component={StudentSection} />
-        <Route path="/Achievements" component={Achievements} />
-        <Route path="/Placements" component={Placements} />
-        <Route path="/ContactUs" component={ContactUs} />
-      </Switch>
-      <Footer />
-    </Router>
-    )}
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="About" component={About} />
+            <Route path="/POs" component={POs} />
+            <Route path="/Faculty" component={Faculty} />
+            <Route path="/FacultyDetail" component={FacultyDetail} />
+            <Route path="/Faculty/:FacultyId" component={FacultyDetail} />
+            <Route path="/AssistantProfessor" component={AssistantProfessor} />
+            <Route path="/TempararyFaculty" component={TempararyFaculty} />
+            <Route path="/Staff" component={Staff} />
+            <Route path="/About" component={About} />
+            <Route path="/VisionAndMission" component={VisionAndMission} />
+            <Route path="/Research-Areas" component={ResearchAreas} />
+            <Route path="/Research-Areas" component={ResearchAreas} />
+            <Route path="/Project" component={Project} />
+            <Route path="/Publications" component={Publications} />
+            <Route path="/Course" component={Course} />
+            <Route path="/AluminiNetwork" component={AluminiNetwork} />
+            <Route path="/Gallery" component={Gallary} />
+            <Route path="/StudentSection" component={StudentSection} />
+            <Route path="/Achievements" component={Achievements} />
+            <Route path="/Placements" component={Placements} />
+            <Route path="/ContactUs" component={ContactUs} />
+          </Switch>
+          <Footer />
+        </Router>
+      )}
     </div>
   );
 }
