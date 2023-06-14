@@ -52,43 +52,41 @@ const responsive = {
   },
 };
 
-class Events extends React.Component {
-  render() {
-    return (
-      <div className="cardeve">
-        <div className="anu">
-          <h3>Events</h3>
-        </div>
-        <div>
-          <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={false}
-            responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
-            infinite={true}
-            autoPlay={this.props.deviceType !== 'mobile' ? true : false}
-            autoPlaySpeed={3000}
-            keyBoardControl={true}
-            containerClass="carousel-container"
-            className="caro"
-          >
-            {EventsArray.map((p, idx) => (
-              <div className="page-container">
-                <BlogCard
-                  para={p.para}
-                  date={p.date}
-                  back={p.back}
-                  image={p.image}
-                />
-              </div>
-            ))}
-          </Carousel>
-        </div>
+const Events = (props) => {
+  return (
+    <div className="cardeve">
+      <div className="anu">
+        <h3>Events</h3>
       </div>
-    );
-  }
-}
+      <div>
+        <Carousel
+          swipeable={false}
+          draggable={false}
+          showDots={false}
+          responsive={responsive}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlay={props.deviceType !== 'mobile' ? true : false}
+          autoPlaySpeed={3000}
+          keyBoardControl={true}
+          containerClass="carousel-container"
+          className="caro"
+        >
+          {EventsArray.map((p, idx) => (
+            <div className="page-container">
+              <BlogCard
+                para={p.para}
+                date={p.date}
+                back={p.back}
+                image={p.image}
+              />
+            </div>
+          ))}
+        </Carousel>
+      </div>
+    </div>
+  );
+};
 
 // class Events extends React.Component {
 //   render() {
