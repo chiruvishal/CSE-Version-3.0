@@ -3,6 +3,7 @@ import './TopAchievementsHome.css';
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
 import LazyLoad from 'react-lazyload';
+import { Link } from 'react-router-dom';
 
 export default function TopAchievements() {
   const topAchievements = [
@@ -10,12 +11,11 @@ export default function TopAchievements() {
       name: 'TopAchievementsss 2023',
       cards: [
         {
-          imageUrl: 'medal_image1.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
           achiename: 'John Doe',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2021',
-          category: 'Student Achievements',
         },
         {
           imageUrl:
@@ -23,21 +23,24 @@ export default function TopAchievements() {
           achiename: 'Alex Johnson',
           description: 'Bronze Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2022',
-          category: 'Department Achievements',
         },
         {
-          imageUrl: 'medal_image4.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
           achiename: 'Sarah Wilson',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2023',
-          category: 'Department Achievements',
+        },
+        {
+          imageUrl:
+            'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
+          achiename: 'Sarah Wilson',
+          description: 'Gold Medalist',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
       ],
     },
   ];
-
   const [selectedEvent, setSelectedEvent] = useState(topAchievements[0]);
   const [showMore, setShowMore] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -95,13 +98,16 @@ export default function TopAchievements() {
       setIsLoading(false);
     }, 2000);
   };
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div ref={galleryRef}>
       {galleryInView && (
-        <div className="Aiml" style={{ paddingLeft: '1rem' }}>
+        <div className="Aiml" style={{ paddingLeft: '0rem' }}>
           {selectedEvent && (
-            <div className="gallery">
+            <div className="gallery12">
               <div className="areahead">
                 <p>{selectedEvent.name}</p>
               </div>
@@ -137,8 +143,8 @@ export default function TopAchievements() {
                                   </div>
                                 </div>
                                 <div className="card-content">
-                                  <h2 className="name">{slide.achiename}</h2>
-                                  <p className="description">
+                                  <h2 className="namez">{slide.achiename}</h2>
+                                  <p className="descriptionz">
                                     {slide.description}
                                   </p>
                                   <p className="content">{slide.content}</p>
@@ -150,10 +156,12 @@ export default function TopAchievements() {
                         ))}
                   </div>
 
-                  {selectedEvent.cards.length > 6 && (
+                  {selectedEvent.cards.length > 3 && (
                     <div className="showMoreButton">
-                      <button className="button1" onClick={toggleShowMore}>
-                        {showMore ? 'Show Less' : 'Show More'}
+                      <button className="button1">
+                        <Link to="/Achievements" onclick={handleLinkClick}>
+                          Show More
+                        </Link>
                       </button>
                     </div>
                   )}
