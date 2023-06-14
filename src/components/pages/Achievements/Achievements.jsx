@@ -11,21 +11,32 @@ export default function Achievements() {
       name: 'achievements 2023',
       cards: [
         {
-          imageUrl: 'medal_image1.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
           achiename: 'John Doe',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2021',
-          category: 'Student Achievements',
         },
         {
-          imageUrl: 'medal_image2.jpg',
-          achiename: 'Jane Smith',
-          description: 'Silver Medalist',
-          content:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit ihdhiaudgahjdjshdfggsfujsgfuywgfuygashjfbasjhfgu.',
-          year: '2021',
-          category: 'Student Achievements',
+          imageUrl:
+            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+          achiename: 'Alex Johnson',
+          description: 'Bronze Medalist',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        },
+        {
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
+          achiename: 'Sarah Wilson',
+          description: 'Gold Medalist',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        },
+        {
+          imageUrl:
+            'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
+          achiename: 'Sarah Wilson',
+          description: 'Gold Medalist',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
         {
           imageUrl:
@@ -50,45 +61,34 @@ export default function Achievements() {
       name: 'Achuevements 2023',
       cards: [
         {
-          imageUrl: 'medal_image1.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
           achiename: 'John Doe',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2021',
-          category: 'Student Achievements',
-        },
-        {
-          imageUrl:
-            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
-          achiename: 'Jane Smith',
-          description: 'Silver Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2021',
-          category: 'Student Achievements',
         },
         {
           imageUrl:
             'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
           achiename: 'Alex Johnson',
           description: 'Bronze Medalist',
-          content:
-            'The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.',
-          year: '2022',
-          category: 'Department Achievements',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
         {
-          imageUrl: 'medal_image4.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
           achiename: 'Sarah Wilson',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2023',
-          category: 'Department Achievements',
+        },
+        {
+          imageUrl:
+            'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
+          achiename: 'Sarah Wilson',
+          description: 'Gold Medalist',
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
       ],
-    },
-    {
-      name: 'Farewell 2023',
-      cards: [],
     },
   ];
   const [selectedEvent, setSelectedEvent] = useState(achievement[0]);
@@ -140,27 +140,6 @@ export default function Achievements() {
       setAnimateGallery(true);
     }
   }, [galleryInView]);
-
-  const handleOpenModal = (index) => {
-    setSlideNumber(index);
-    setOpenModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setOpenModal(false);
-  };
-
-  const prevSlide = () => {
-    slideNumber === 0
-      ? setSlideNumber(selectedEvent.cards.length - 1)
-      : setSlideNumber(slideNumber - 1);
-  };
-
-  const nextSlide = () => {
-    slideNumber + 1 === selectedEvent.cards.length
-      ? setSlideNumber(0)
-      : setSlideNumber(slideNumber + 1);
-  };
 
   const handleEventSelect = (achievement) => {
     setSelectedEvent(achievement);

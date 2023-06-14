@@ -7,8 +7,8 @@ export default function CourseOverview() {
   const toggleTab = (index) => {
     setToggleState(index);
   };
-  const [selectedYear, setSelectedYear] = useState('1st Year');
-  const [selectedSemester, setSelectedSemester] = useState('Semester I');
+  const [selectedYear, setSelectedYear] = useState(' ');
+  const [selectedSemester, setSelectedSemester] = useState(' ');
 
   const handleYearChange = (event) => {
     setSelectedYear(event.target.value);
@@ -43,7 +43,7 @@ export default function CourseOverview() {
             </div>
           </div>
         </div>
-        <div className="main-box">
+        <div className="main-boxx">
           <div className="side-boxxx">
             <div className="side-container">
               <div className="side-top-box">
@@ -109,6 +109,7 @@ export default function CourseOverview() {
                           value={selectedYear}
                           onChange={handleYearChange}
                         >
+                          <option value="">-select Year-</option>
                           <option value="1st Year">1st Year</option>
                           <option value="2nd Year">2nd Year</option>
                           <option value="3rd Year">3rd Year</option>
@@ -120,6 +121,7 @@ export default function CourseOverview() {
                           value={selectedSemester}
                           onChange={handleSemesterChange}
                         >
+                          <option value="">-select Sem-</option>
                           <option value="Semester I">Semester I</option>
                           <option value="Semester II">Semester II</option>
                         </select>

@@ -30,7 +30,7 @@ function MyCarousel() {
         <div className="img_overlay">
           <div class="gfg">
             <div class="gfgcard">
-              <div class="content">
+              <div class="contentyz">
                 <h1>Discover a Whole New World</h1>
                 <p>
                   Welcome to the CSE department of NIT Raipur! As one of the
