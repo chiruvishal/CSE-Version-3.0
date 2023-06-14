@@ -141,7 +141,7 @@ export default function TopAchievements() {
                                   <p className="description">
                                     {slide.description}
                                   </p>
-                                  <p className="content">{slide.content}</p>
+                                  <p className="contenth">{slide.content}</p>
                                   <button className="button">View More</button>
                                 </div>
                               </div>
