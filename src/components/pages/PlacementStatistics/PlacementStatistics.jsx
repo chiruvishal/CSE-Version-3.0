@@ -1,6 +1,6 @@
 import React from 'react';
 import './PlacementStatistics.css';
-import React from 'react';
+
 
 const PlacementSection = () => {
   return (

@@ -22,7 +22,8 @@ import FacultyDetail from './components/pages/Faculty/FacultyDetail';
 import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
 import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
 import Staff from './components/pages/Faculty/Staff';
-import POs from './components/pages/POs/POs';
+
+import ShowData from './components/pages/Publications/ShowData';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -58,6 +59,9 @@ function App() {
             <Route path="/Research-Areas" component={ResearchAreas} />
             <Route path="/Project" component={Project} />
             <Route path="/Publications" component={Publications} />
+
+            <Route path="/Show" component={ShowData} />
+
             <Route path="/Course" component={Course} />
             <Route path="/AluminiNetwork" component={AluminiNetwork} />
             <Route path="/Gallery" component={Gallary} />

@@ -133,13 +133,40 @@
   .side-box {
     display: none;
   }
-  .Aiml{
+  .Aiml {
     margin: 5px;
-    
+  }
+}
+@media screen and (max-width: 800px) {
+  .prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 650px) {
   .prof {
     flex-basis: 2;
+  }
+}
+@media screen and (max-width: 450px) {
+  .prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Aiml {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .main-box {
+    justify-content: center;
+    align-items: center;
+  }
+  .areasa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
