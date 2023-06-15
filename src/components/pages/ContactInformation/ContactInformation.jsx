@@ -1,7 +1,15 @@
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import './ContactInformation.css';
 
 const ContactInformation = () => {
+
+const [state, handleSubmit] = useForm("xvoneryz");
+if (state.succeeded) {
+   return <p>Thanks for joining!</p>;
+}
   const focusFunc = (event) => {
     let parent = event.target.parentNode;
     parent.classList.add('focus');
@@ -101,7 +109,7 @@ const ContactInformation = () => {
             <div className="contact-formt">
               <span className="circle one" />
               <span className="circle two" />
-              <form action="index.html" autoComplete="off">
+              <form action="index.html" autoComplete="off" onSubmit={handleSubmit}>
                 <h3 className="titlet">Contact us</h3>
                 <div className="input-containert">
                   <input
@@ -147,7 +155,7 @@ const ContactInformation = () => {
                   <label htmlFor="">Message</label>
                   <span>Message</span>
                 </div>
-                <input type="submit" defaultValue="Send" className="btnt" />
+                <input type="submit"  disabled={state.submitting} defaultValue="Send" className="btnt" />
               </form>
             </div>
           </div>
