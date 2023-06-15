@@ -17,6 +17,7 @@
     "infinite-react-carousel": "1.2.11",
     "jquery": "3.7.0",
     "owl.carousel": "2.3.4",
+    "papaparse": "^5.4.1",
     "prop-types": "15.8.1",
     "react": "16.14.0",
     "react-bootstrap": "2.7.4",
