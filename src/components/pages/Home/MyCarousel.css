@@ -1,6 +1,7 @@
 .carsel {
   display: flex;
   flex-direction: row;
+  padding-top:68px;
 }
 .part1 {
   margin-top: 20px;
