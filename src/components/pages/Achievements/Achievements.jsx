@@ -40,7 +40,7 @@ export default function Achievements() {
         },
         {
           imageUrl:
-            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
           achiename: 'Alex Johnson',
           description: 'Bronze Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -48,7 +48,8 @@ export default function Achievements() {
           category: 'Department Achievements',
         },
         {
-          imageUrl: 'medal_image4.jpg',
+          imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
           achiename: 'Sarah Wilson',
           description: 'Gold Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -69,7 +70,7 @@ export default function Achievements() {
         },
         {
           imageUrl:
-            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
           achiename: 'Alex Johnson',
           description: 'Bronze Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',

@@ -19,7 +19,7 @@ export default function TopAchievements() {
         },
         {
           imageUrl:
-            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
           achiename: 'Alex Johnson',
           description: 'Bronze Medalist',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
