@@ -461,6 +461,7 @@ html {
     rgb(42, 39, 167) 0%,
     rgb(130, 48, 142) 100%
   );
+  background-image: linear-gradient( 268deg, rgb(42, 39, 167) 0%, rgb(130, 48, 142) 100% );
 }
 .animenu ul {
   padding: 0;
