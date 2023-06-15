@@ -30,31 +30,16 @@
   font-size: 20px;
 }
 
-.gallery1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: rgb(238, 230, 237);
-  background-color: rgb(85, 18, 105);
-  border: 5px solid rgb(85, 18, 105);
-  background-image: -moz-linear-gradient(
-    -180deg,
-    rgb(42, 39, 167) 0%,
-    rgb(130, 48, 142) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    -180deg,
-    rgb(42, 39, 167) 0%,
-    rgb(130, 48, 142) 100%
-  );
-  background-image: -ms-linear-gradient(
-    -180deg,
-    rgb(42, 39, 167) 0%,
-    rgb(130, 48, 142) 100%
-  );
+.galleryg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
 }
 
 .galleryWrap {
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -169,6 +154,11 @@
     rgb(130, 48, 142) 100%
   );
   background-image: -ms-linear-gradient(
+    -180deg,
+    rgb(42, 39, 167) 0%,
+    rgb(130, 48, 142) 100%
+  );
+  background-image: linear-gradient(
     -180deg,
     rgb(42, 39, 167) 0%,
     rgb(130, 48, 142) 100%
