@@ -22,7 +22,7 @@ import FacultyDetail from './components/pages/Faculty/FacultyDetail';
 import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
 import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
 import Staff from './components/pages/Faculty/Staff';
-import POs from './components/pages/POs/POs';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

@@ -12,8 +12,8 @@ export default function Home() {
       <Welcome />
       <TopAchievementsHome />
       <div className="mu">
-        <NewsAndAnnouncement />
-        <Events />
+      <NewsAndAnnouncement  heading="News" tag="1"/>
+        <Events heading="Events" tag="2"/>
       </div>
     </div>
   );
