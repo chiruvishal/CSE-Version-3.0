@@ -1,39 +1,13 @@
+import React, { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+
+// import BlogCard from './BlogCard';
+import { getPosts } from "./../../../actions/home";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import React from 'react';
+
 import './Events.css';
-import BlogCard from './BlogCard';
-
-const EventsArray = [
-  {
-    image: `https://78.media.tumblr.com/d98fb931adb117c70f0dbced9e947520/tumblr_pe582mbWip1tlgv32o1_1280.png`,
-    date: new Date().toLocaleDateString(),
-    para: `Some sample text to demonstrate how these cards will work,
-  including how they truncate long sentences.`,
-    back: `Some sample text to demonstrate how these cards will work, including
-  how they truncate long sentences. This section displays the
-  full-length blog post.`,
-  },
-  {
-    image: `https://i.postimg.cc/QM7Sm9BF/wallpaperflare-com-wallpaper-7.jpg`,
-    date: new Date().toLocaleDateString(),
-    para: `Some sample text to demonstrate how these cards will work,
-  including how they truncate long sentences.`,
-    back: `Some sample text to demonstrate how these cards will work, including
-  how they truncate long sentences. This section displays the
-  full-length blog post.`,
-  },
-  {
-    image: `https://78.media.tumblr.com/d98fb931adb117c70f0dbced9e947520/tumblr_pe582mbWip1tlgv32o1_1280.png`,
-    date: new Date().toLocaleDateString(),
-    para: `Some sample text to demonstrate how these cards will work,
-  including how they truncate long sentences.`,
-    back: `Some sample text to demonstrate how these cards will work, including
-  how they truncate long sentences. This section displays the
-  full-length blog post.`,
-  },
-];
-
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1200 },
@@ -52,8 +26,60 @@ const responsive = {
   },
 };
 
-const Events = (props) => {
+
+const  BlogCard= ({post})=> {
+  const [flipped, setFlipped] = useState(false);
+
+  const flip = () => {
+    setFlipped(!flipped);
+  };
+
   return (
+    <div
+      onClick={flip}
+      onMouseLeave={flip}
+      className={'card-container' + (flipped ? ' flipped' : '')}
+    >
+      {/* <Front /> */}
+      <div className="front">
+        <div className="image-container">
+          <img
+            className="card-image"
+            src={post.image}
+            alt=""
+          ></img>
+        </div>
+        <div className="main-area">
+          <div className="blog-post">
+            <p className="date">{new Date().toLocaleDateString()}</p>
+            <p className="blog-content">
+              {post.title}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="back">
+        <p>
+         {post.message}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+const Post = ({  setCurrentId, post }) => {
+  const dispatch = useDispatch();
+
+    return (
+      <div className="page-container">
+        <BlogCard post={post}/>
+      </div>
+    );
+};
+const Posts= (props)=> {
+  const posts = useSelector((state) => state.posts);
+  // const isMobile = useMediaQuery('(max-width: 600px)');
+  return posts.length ?(
     <div className="cardeve">
       <div className="anu">
         <h3>Events</h3>
@@ -72,77 +98,40 @@ const Events = (props) => {
           containerClass="carousel-container"
           className="caro"
         >
-          {EventsArray.map((p, idx) => (
-            <div className="page-container">
-              <BlogCard
-                para={p.para}
-                date={p.date}
-                back={p.back}
-                image={p.image}
-              />
-            </div>
-          ))}
+
+                {posts.map((post) => (
+                  post.tags===props.tag ?(
+                  <div  item key={post._id} >
+                  <Post setCurrentId={props.setCurrentId} post={post} />
+                  </div>
+                ): null ))
+               }
+
         </Carousel>
       </div>
     </div>
-  );
+  ):  null ;
 };
 
-// class Events extends React.Component {
-//   render() {
-//     return (
-// <div className="page-container">
-//   <BlogCard />
-//       </div>
-//     )
-//   }
-// }
+const Events=(props)=>{
+  const [currentId, setCurrentId] = useState(0);
 
-// class BlogCard extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = { flipped: false };
-//     this.flip = this.flip.bind(this);
-//   }
+  const dispatch = useDispatch();
 
-//   flip = () => {
-//     this.setState({ flipped: !this.state.flipped });
-//   };
-//   render() {
-//     return (
-//       <div
-//         onClick={this.flip}
-//         onMouseLeave={this.flip}
-//         className={'card-container' + (this.state.flipped ? ' flipped' : '')}
-//       >
-//         {/* <Front /> */}
-//         <div className="front">
-//           <div className="image-container">
-//             <img
-//               className="card-image"
-//               src="https://78.media.tumblr.com/d98fb931adb117c70f0dbced9e947520/tumblr_pe582mbWip1tlgv32o1_1280.png"
-//             ></img>
-//           </div>
-//           <div className="main-area">
-//             <div className="blog-post">
-//               <p className="date">{new Date().toLocaleDateString()}</p>
-//               <p className="blog-content">
-//                 Some sample text to demonstrate how these cards will work,
-//                 including how they truncate long sentences.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="back">
-//           <p>
-//             Some sample text to demonstrate how these cards will work, including
-//             how they truncate long sentences. This section displays the
-//             full-length blog post.
-//           </p>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
+  useEffect(() => {
+    dispatch(getPosts());
+  }, [currentId, dispatch]);
+  return (
+        <Posts setCurrentId={setCurrentId} tag={props.tag} deviceType={props.deviceType} />
+  );
+
+};
+
+
+
+
+
+
+
 
 export default Events;

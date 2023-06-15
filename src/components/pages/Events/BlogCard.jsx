@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BlogCard = (props) => {
+const BlogCard = ({post}) => {
   const [flipped, setFlipped] = useState(false);
 
   const flip = () => {
@@ -16,17 +16,17 @@ const BlogCard = (props) => {
       {/* <Front /> */}
       <div className="front">
         <div className="image-container">
-          <img className="card-image" src={props.image} alt="Blog Card Image" />
+          <img className="card-image" src={post.image} alt="Blog Card Image" />
         </div>
         <div className="main-area">
           <div className="blog-post">
-            <p className="date">{props.date}</p>
-            <p className="blog-content">{props.para}</p>
+            <p className="date">{post.date}</p>
+            <p className="blog-content">{post.title}</p>
           </div>
         </div>
       </div>
       <div className="back">
-        <p>{props.back}</p>
+        <p>{post.message}</p>
       </div>
     </div>
   );

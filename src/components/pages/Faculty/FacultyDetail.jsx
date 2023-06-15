@@ -9,9 +9,9 @@ export default function FacultyDetail() {
   ///use this to get id or any param
   const queryParameters = new URLSearchParams(window.location.search);
   const id = queryParameters.get("id");
-  
+
   const facultyMembers = [
-    { 
+    {
       id:'0',
       name: 'Dr. Dilip Singh Sisodia ',
       picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
@@ -81,8 +81,8 @@ export default function FacultyDetail() {
       ],
       scholor:"ehfcebcfierfhrehbfhrfu"
     },
-  
-  ],
+
+  ];
   const [publishs, setpublish] = useState([
     {
       question: 'Area Of Interest',
@@ -204,7 +204,7 @@ export default function FacultyDetail() {
                     toggledrop={toggledrop}
                   />
                 ))}
-                
+
               </div>
             </div>
           </div>
