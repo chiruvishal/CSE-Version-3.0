@@ -1,4 +1,4 @@
-.card {
+.cardhari {
   border-radius: 25px;
   background-color: rgb(243, 242, 242);
   margin: 20px;
@@ -44,7 +44,7 @@
   background-color: rgb(243, 242, 242);
 }
 
-.card-image {
+.card-imagehar {
   position: relative;
   height: 150px;
   width: 150px;
@@ -53,7 +53,7 @@
   padding: 3px;
 }
 
-.card-image .card-img {
+.card-imagehar .card-imghar {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -96,19 +96,19 @@
 }
 
 @media (max-width: 425px) {
-  .card {
+  .cardhari {
     width: calc(50% - 40px);
   }
 }
 
 @media (max-width: 375px) {
-  .card {
+  .cardhari {
     width: calc(50% - 10px);
   }
 }
 
 @media (max-width: 320px) {
-  .card {
+  .cardhari {
     width: calc(100% - 30px);
   }
 }
