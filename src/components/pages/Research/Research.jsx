@@ -7,7 +7,7 @@ export default function Research() {
   const sectionRef = useRef(null);
   const areas = [
     {
-      areaname: 'Artificial Intelligence | Machine Learning',
+      areaname: 'Artificial Intelligence',
       content: [
         {
           imglink: 'https://i.postimg.cc/C52R1xhg/Mr-Dilip-Singh-Sisodia.jpg',
@@ -154,7 +154,7 @@ export default function Research() {
             </div>
           </div>
           <div
-            className={`${
+            className={` areasa ${
               isVisible ? 'animate__animated animate__slideInLeft' : ''
             }`}
           >
