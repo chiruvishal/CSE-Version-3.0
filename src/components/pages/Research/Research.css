@@ -157,7 +157,8 @@
   }
   .Aiml {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
+    width: 300px;
   }
   .main-box {
     justify-content: center;
@@ -168,5 +169,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Aiml {
+    margin-top: 30px;
+    margin-left: 10px;
   }
 }
