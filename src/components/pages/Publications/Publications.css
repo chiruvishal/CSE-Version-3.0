@@ -138,3 +138,23 @@
     display: none;
   }
 }
+@media screen and (max-width: 450px) {
+  .publishtable {
+    padding: 5px;
+    padding-right: 0;
+  }
+  .pubtable {
+    padding: 2px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .publishtable {
+    padding: 0px;
+  }
+  .pubtable {
+    padding: 1px;
+    margin-left: 3px;
+    width: 290px;
+  }
+}
