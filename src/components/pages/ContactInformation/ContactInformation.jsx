@@ -45,8 +45,11 @@ const ContactInformation = () => {
             <div className="contact-infot">
               <h3 className="titlet">Let's get in touch</h3>
               <p className="textt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                dolorum adipisci recusandae praesentium dicta!
+                We would love to hear from you! If you have any questions,
+                suggestions, or feedback, please don't hesitate to get in touch
+                with us . Our team is here to assist you and provide the
+                information you need. We value your input and look forward to
+                connecting with you!
               </p>
               <div className="infot">
                 <div className="informationt">
@@ -55,7 +58,10 @@ const ContactInformation = () => {
                     className="icont"
                     alt=""
                   />
-                  <p>92 Cherry Drive Uniondale, NY 11553</p>
+                  <p>
+                    National Institute of Technology Raipur G.E. Road, Raipur
+                    Chhatisgarh - 492010
+                  </p>
                 </div>
                 <div className="informationt">
                   <img
@@ -63,7 +69,7 @@ const ContactInformation = () => {
                     className="icont"
                     alt=""
                   />
-                  <p>lorem@ipsum.com</p>
+                  <p>director@nitrr.ac.in registrar@nitrr.ac.in</p>
                 </div>
                 <div className="informationt">
                   <img
@@ -71,7 +77,7 @@ const ContactInformation = () => {
                     className="icont"
                     alt=""
                   />
-                  <p>123-456-789</p>
+                  <p>(+91)-771-2254200</p>
                 </div>
               </div>
               <div className="social-mediat">
