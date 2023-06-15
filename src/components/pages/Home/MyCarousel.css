@@ -3,6 +3,7 @@
   flex-direction: row;
   padding-top:68px;
 }
+
 .part1 {
   margin-top: 20px;
   width: 30%;
@@ -102,6 +103,9 @@
 @media screen and (max-width: 1200px) {
   .part1 {
     display: none;
+  }
+  .carsel{
+    padding-top: 0px;
   }
   .part2 {
     width: 100%;

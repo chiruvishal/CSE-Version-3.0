@@ -131,14 +131,14 @@ export default function TopAchievements() {
                                   : ''
                               }`}
                             >
-                              <div className="card">
+                              <div className="cardhar">
                                 <div className="image-content">
                                   <span className="overlay" />
-                                  <div className="card-image">
+                                  <div className="card-imagehar">
                                     <img
                                       src={slide.imageUrl}
                                       alt={slide.achiename}
-                                      className="card-img"
+                                      className="card-imghar"
                                     />
                                   </div>
                                 </div>
