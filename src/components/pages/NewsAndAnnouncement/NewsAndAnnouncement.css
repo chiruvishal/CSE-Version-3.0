@@ -12,12 +12,13 @@ a:link {
   text-decoration: none;
   padding-top: 0.5rem;
 }
-.heading {
+.headingnews {
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
   width: 90%;
+  margin-left: 10px;
 }
 .hen {
   margin-bottom: 2vh;

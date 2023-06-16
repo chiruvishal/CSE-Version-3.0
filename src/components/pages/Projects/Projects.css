@@ -81,40 +81,40 @@
 .syear h2 {
   padding-top: 30px;
 }
-.publication {
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
 }
-.publishtable {
+.projecttable {
   padding: 15px;
   max-width: 90%;
 }
-.publishtable thead {
+.projecttable thead {
   background-color: #82308e;
   color: white;
 }
 .wid {
   width: 10px;
 }
-.publishtable a {
+.projecttable a {
   color: #323232;
 }
-.publishtable a:hover {
+.projecttable a:hover {
   color: #82308e;
 }
-.pubtable {
+.protable {
   padding: 10px;
   width: fit-content;
 }
-.publishtable {
+.projecttable {
   margin-top: 20px;
   width: 99%;
   border-collapse: collapse;
 }
-.publishtable th,
-.publishtable td {
+.projecttable th,
+.projecttable td {
   border: 1px solid rgb(52, 52, 59);
   padding: 5px;
 }
@@ -122,7 +122,7 @@
   display: flex;
   flex-direction: column;
 }
-.publishtable {
+.projecttable {
   margin-left: 2px;
   margin-right: 5px;
 }
@@ -140,11 +140,11 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .pubtable {
+  .protable {
     display: flex;
     flex-wrap: wrap;
   }
-  .pubtable table {
+  .protable table {
     width: 350px;
   }
   .pwid {
