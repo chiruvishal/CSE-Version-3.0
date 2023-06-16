@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <MyCarousel />
       <Welcome />
-      <TopAchievementsHome />
+      <TopAchievementsHome heading="Achievements" tag="3"/>
       <div className="mu">
       <NewsAndAnnouncement  heading="News" tag="1"/>
         <Events heading="Events" tag="2"/>
