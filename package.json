@@ -38,11 +38,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
+
   },
   "browserslist": {
     "production": [
