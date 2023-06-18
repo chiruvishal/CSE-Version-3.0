@@ -26,19 +26,167 @@ export default function FacultyDetail() {
     },
     {
       id: '1',
-      name: 'Dr. ABC',
-      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
       Department: 'Computer Science and Engineering',
-      Qualification: 'Ph.D. (Computer Science & Engineering), M.Tech. (Information Technology with Specialization in Artificial Intelligence), B.E. (Computer Science & Engineering)',
-      Designition: 'Associate Professor & Head of the Department',
-      email: 'dssisodia.cs@nitrr.ac.in',
-      phone: '8462808174',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
       publications: [
-        'Publication 1',
-        'Publication 2',
-        'Publication 3'
+        'Publication 1'
       ],
-      area: 'Research Area',
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '2',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'Ph. D (Computer Science & Engineering)',
+      Designition: 'Associate Professor',
+      email: 'psingh.cs@nitrr.ac.in',
+      phone: '9407627366',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Software Engineering, Machine Learning, Database Systems, Evolutionary Computing, Deep learning, Business Analytics and  Computational Intelligence',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '3',
+      name: 'Dr. Aakanksha  Sharaff',
+      picture: 'https://i.postimg.cc/r0wcxggr/img3.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'Ph.D. (Computer Science & Engineering), M.Tech. (Honours- Computer Science & Engineering), B.E. (Honours-Computer Science & Engineering)',
+      Designition: 'Assistant Professor Grade I',
+      email: 'asharaff.cs@nitrr.ac.in',
+      phone: '8817813946',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data  Analytics, Text Mining, Social Media Mining, Machine Learning, Information  Retrieval, Sentiment Ananlysis, Soft Computing, Evolutionary Computation, Biostatistics',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '4',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'Ph. D (Computer Science & Engineering)',
+      Designition: 'Associate Professor',
+      email: 'psingh.cs@nitrr.ac.in',
+      phone: '9407627366',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Software Engineering, Machine Learning, Database Systems, Evolutionary Computing, Deep learning, Business Analytics and  Computational Intelligence',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '5',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '6',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '7',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '8',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '9',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '10',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
+      scholor: 'Scholar Information'
+    },
+    {
+      id: '11',
+      name: 'Dr. Naresh K. Nagwani',
+      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
+      Department: 'Computer Science and Engineering',
+      Qualification: 'B.E. (Hons - CS&E), M.Tech. - IT (ABV-IIITM Gwalior), Ph.D. - CS&E (NIT Raipur)',
+      Designition: 'Associate Professor',
+      email: 'nknagwani.cs@nitrr.ac.in',
+      phone: '9993312001',
+      publications: [
+        'Publication 1'
+      ],
+      area: 'Data Mining, Graph Mining, Fuzzy Logic, Information Retrieval, Text Mining, NLP,  Software Engineering, Object Oriented Methodologies.',
       scholor: 'Scholar Information'
     }
     // Add more faculty members...
