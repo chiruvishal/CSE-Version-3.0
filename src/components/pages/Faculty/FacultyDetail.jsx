@@ -21,21 +21,10 @@ export default function FacultyDetail() {
       email: ' dssisodia.cs@nitrr.ac.in',
       phone: '8462808174',
       publications: [
-        'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning, Expert Systems with Applications, vol.213, 2023.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. A Hybrid Data-Level Sampling Approach in Learning from Skewed User-Click Data for Click Fraud Detection in Online Advertising, Expert Systems, vol.-, 2022.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. EEG-based cross-subject Emotion Recognition using Fourier-Bessel series expansion based empirical wavelet transform and NCA feature selection method, Information Sciences, 2022.',
-    'Saurabh Agrawal, Dilip Singh Sisodia, Naresh Kumar Nagwani. Functional Characterization of Unknown Protein Sequences using Neuro-Fuzzy Based Machine Learning Approach and Sequence Augmented Feature, Expert Systems with Applications, vol.205, 2022.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. Feature space transformation of user-clicks and deep transfer learning framework for fraudulent publisher detection in online advertising, Applied Soft Computing, vol.125, 2022.',
-    'Abinash Pujahari, Dilip Singh Sisodia. Item feature refinement using matrix factorization and boosted learning-based user profile generation for content-based recommender systems, Expert Systems with Applications, vol.205, 2022.',
-    'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. An Optimized Recommendation Framework Exploiting Textual Review based Opinion Mining for Generating Pleasantly Surprising, Novel yet Relevant Recommendations, Pattern Recognition Letters, vol.159, pp.91-99, 2022.',
-    'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Utility optimization-based multi-stakeholder personalized recommendation system, Data Technologies and Applications, 2022.',
-    'Abinash Pujahari, Dilip Singh Sisodia. Handling Dynamic User Preferences using Integrated Point and Distribution Estimations in Collaborative Filtering, IEEE Transactions on Systems Man and Cybernetics: Systems, 2022.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. Feature distillation and accumulated selection for automated fraudulent publisher classification from user click data of online advertising, Data Technologies and Applications, 2022.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. Epileptic-seizure classification using phase-space representation of FBSE-EWT based EEG sub-band signals and ensemble learners, Biomedical Signal Processing and Control, 2021.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. Automated FBSE-EWT based Learning Framework for Detection of Epileptic Seizures using Time-segmented EEG Signals, Computers in Biology and Medicine, vol.136, 2021.'
+        'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning, Expert Systems with Applications, vol.213, 2023.'
     ],
       area: "Applications of Machine Learning and Soft Computing Techniques, Artificial Intelligence, Computational Intelligence, Biomedical Image/Signal Processing, Theoretical Computer Science",
-      scholor:"ehfcebcfierfhrehbfhrfu"
+      scholor:"8999fierfhrehbfhrfu"
 
     },
     { id:'1',
@@ -59,18 +48,7 @@ export default function FacultyDetail() {
       email: ' dssisodia.cs@nitrr.ac.in',
       phone: '8462808174',
       publications: [
-        'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning, Expert Systems with Applications, vol.213, 2023.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. A Hybrid Data-Level Sampling Approach in Learning from Skewed User-Click Data for Click Fraud Detection in Online Advertising, Expert Systems, vol.-, 2022.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. EEG-based cross-subject Emotion Recognition using Fourier-Bessel series expansion based empirical wavelet transform and NCA feature selection method, Information Sciences, 2022.',
-    'Saurabh Agrawal, Dilip Singh Sisodia, Naresh Kumar Nagwani. Functional Characterization of Unknown Protein Sequences using Neuro-Fuzzy Based Machine Learning Approach and Sequence Augmented Feature, Expert Systems with Applications, vol.205, 2022.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. Feature space transformation of user-clicks and deep transfer learning framework for fraudulent publisher detection in online advertising, Applied Soft Computing, vol.125, 2022.',
-    'Abinash Pujahari, Dilip Singh Sisodia. Item feature refinement using matrix factorization and boosted learning-based user profile generation for content-based recommender systems, Expert Systems with Applications, vol.205, 2022.',
-    'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. An Optimized Recommendation Framework Exploiting Textual Review based Opinion Mining for Generating Pleasantly Surprising, Novel yet Relevant Recommendations, Pattern Recognition Letters, vol.159, pp.91-99, 2022.',
-    'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Utility optimization-based multi-stakeholder personalized recommendation system, Data Technologies and Applications, 2022.',
-    'Abinash Pujahari, Dilip Singh Sisodia. Handling Dynamic User Preferences using Integrated Point and Distribution Estimations in Collaborative Filtering, IEEE Transactions on Systems Man and Cybernetics: Systems, 2022.',
-    'Deepti Sisodia, and Dilip Singh Sisodia. Feature distillation and accumulated selection for automated fraudulent publisher classification from user click data of online advertising, Data Technologies and Applications, 2022.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. Epileptic-seizure classification using phase-space representation of FBSE-EWT based EEG sub-band signals and ensemble learners, Biomedical Signal Processing and Control, 2021.',
-    'Arati Anuragi, Dilip Singh Sisodia, Rambilas Pachori. Automated FBSE-EWT based Learning Framework for Detection of Epileptic Seizures using Time-segmented EEG Signals, Computers in Biology and Medicine, vol.136, 2021.'
+        'Rahul Shrivastava, Dilip Singh Sisodia, Naresh Kumar Nagwani. Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning, Expert Systems with Applications, vol.213, 2023.'
     ],
       area: [
         'Applications of Machine Learning and Soft Computing Techniques',
@@ -87,7 +65,7 @@ export default function FacultyDetail() {
     {
       question: 'Area Of Interest',
       answer: facultyMembers[id].area,
-      open: false
+      open: true
     },
     {
       question: 'publications',
