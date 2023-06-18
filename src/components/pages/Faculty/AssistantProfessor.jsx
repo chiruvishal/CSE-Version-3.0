@@ -6,7 +6,7 @@ import './FacultyCard.css';
 export default function FacultyOverview() {
   const facultyMembers = [
     {
-      name: 'Dr.Aakanksha Sharaff',
+      name: 'Dr.Aakank Sharaff',
       picture: 'https://i.postimg.cc/3d48tShj/img4.png',
       Designition: 'Assistant Professor',
       email: 'Email: asharaff.cs@nitrr.ac.in',
