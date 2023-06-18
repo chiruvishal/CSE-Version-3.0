@@ -37,7 +37,6 @@ const  BlogCard= ({post})=> {
   return (
     <div
       onClick={flip}
-      onMouseLeave={flip}
       className={'card-container' + (flipped ? ' flipped' : '')}
     >
       {/* <Front /> */}

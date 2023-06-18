@@ -157,33 +157,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="copyright">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <span>Developed By ACE Web Team</span>
-              </div>
-              <div className="col-md-6">
-                <div className="copyright-menu">
-                  <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">Terms</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="copyright">
+  <div class="containerf">
+    <div class="rowf">
+      <div class="column-1">
+        <span>Developed By ACE Web Team</span>
+      </div>
+      <div class="column-2">
+        <div class="menuf">
+          <h3>Our Team</h3>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </footer>
     </div>
   );

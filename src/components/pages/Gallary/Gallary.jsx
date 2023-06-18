@@ -249,10 +249,10 @@ export default function Gallary() {
             </div>
             <div ref={galleryRef}>
               {galleryInView && (
-                <div className="Aiml" style={{ paddingLeft: '1rem' }}>
+                <div className="Aiml galleryg" style={{ paddingLeft: '1rem' }}>
                   {selectedEvent && (
-                    <div className="gallery">
-                      <div className="areahead">
+                    <div >
+                      <div className="areafd">
                         <p>{selectedEvent.name}</p>
                       </div>
 
