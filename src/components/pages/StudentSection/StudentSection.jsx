@@ -8,9 +8,10 @@ function StudentSection() {
       <div>
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
-          style={{
+          style={{ 
             backgroundImage:
               'url(https://i.postimg.cc/x1c6d7wZ/f7075b94-4c69-4bb5-857a-fcedb4e740ad.jpg)',
+            
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
