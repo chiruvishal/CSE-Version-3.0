@@ -15,6 +15,7 @@
     "@types/react": "18.2.7",
     "animate.css": "4.1.1",
     "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
     "infinite-react-carousel": "1.2.11",
     "jquery": "3.7.0",
     "owl.carousel": "2.3.4",
@@ -38,7 +39,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -47,7 +47,6 @@
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
-
   },
   "browserslist": {
     "production": [

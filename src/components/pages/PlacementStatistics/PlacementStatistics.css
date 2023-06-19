@@ -1,4 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.counter-up {
+  background: url("https://i.postimg.cc/MpB7CMrr/IMG-8636.jpg") no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.counter-up::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(39, 38, 38, 0.8);
+  opacity: 75%;
+}
+
+.counter-up .content {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter-up .content .box {
+  border: 1px dashed rgba(255, 255, 255, 0.6);
+  width: calc(25% - 30px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content .box .icon {
+  font-size: 48px;
+  color: #e6e6e6;
+}
+
+.content .box .counter {
+  font-size: 50px;
+  font-weight: 500;
+  color: #f2f2f2;
+  font-family: sans-serif;
+}
+
+.content .box .text {
+  font-weight: 400;
+  color: #ccc;
+}
+
+@media screen and (max-width: 1036px) {
+  .counter-up {
+    padding: 50px 50px 0 50px;
+  }
+
+  .counter-up .content .box {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .counter-up .content .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  .counter-up {
+    padding: 30px 20px 0 20px;
+  }
+}
+
+
+
 .placement-section {
+  margin-top: 135px;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -13,62 +116,247 @@
 }
 
 .placement-description {
-  border: 1px solid #a9c6e0;
+  box-shadow: inset;
+  border-radius: 4px;
+  border: 1px solid #484848;
   padding: 10px;
   margin-bottom: 20px;
+  background: rgb(205, 202, 202);
 }
 
 .placement-description p {
-  color: #555;
+  color: rgb(46, 46, 46);
 }
 
 .rectangle-image {
+  border-radius: 5px;
   width: 100%;
   height: auto;
-
   margin-bottom: 20px;
 }
+
 .placed-image {
   width: 100%;
   height: auto;
-
   margin-bottom: 20px;
 }
 
-/* Style for the placement stats image */
-.placement-stats {
-  width:inherit;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.placement-stats img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Style for the recruiters' section */
-.recruiters-section {
-  text-align: center;
-}
-
-/* Style for the recruiters heading */
-.recruiters-section h2 {
+.placement-trends h2 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #337ab7;
 }
 
-/* Style for the recruiters' logos */
-.recruiters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.subheading {
+  text-align: center;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
-.recruiters img {
-  width: 100px;
+.placement-stats {
+  margin-top: 20px;
+  width: inherit;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.placement-stats img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.placement-stats:hover img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.second-heading {
+  color: blue;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.second-image {
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.second-image:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.recruiters-section {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.company-logos-carousel {
+  display:  flex;
+  justify-content: center;
+}
+
+.company-logos-carousel img {
+  max-width: 100px;
   height: auto;
   margin: 10px;
 }
+
+.owl-carousel {
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:   hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.owl-carousel .owl-item {
+  display: inline-table;
+}
+
+.owl-carousel .owl-nav {
+  position:  inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.owl-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Responsive styles for tablets and larger screens */
+
+@media (min-width: 768px) {
+  .placement-section {
+    margin-top: 175px;
+  }
+
+  .placement-section h2 {
+    font-size: 30px;
+  }
+
+  .placement-description p {
+    font-size: 18px;
+  }
+
+  .subheading {
+    font-size: 24px;
+  }
+
+  .placement-stats img {
+    max-width: 100%;
+  }
+
+  .second-heading {
+    font-size: 30px;
+  }
+
+  .second-image {
+    max-width: 100%;
+  }
+
+  .company-logos-carousel img {
+    max-width: 150px;
+  }
+}
+
+
+/* Responsive styles for phones and smaller screens */
+
+@media (max-width: 767px) {
+  .placement-section {
+    margin-top: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .placement-section h2 {
+    font-size: 20px;
+  }
+
+  .placement-description p {
+    font-size: 14px;
+  }
+
+  .rectangle-image,
+  .placed-image {
+    margin-bottom: 10px;
+  }
+
+  .placement-trends h2 {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .placement-stats {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .placement-stats img {
+    max-width: 80%;
+  }
+
+  .second-heading {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .second-image {
+    max-width: 80%;
+    margin: 10px auto;
+  }
+
+  .company-logos-carousel img {
+    max-width: 80px;
+    margin: 5px;
+  }
+}
+
+
+
