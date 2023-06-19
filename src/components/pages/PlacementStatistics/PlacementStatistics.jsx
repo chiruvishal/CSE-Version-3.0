@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-
 import OwlCarousel from 'react-owl-carousel';
-
 import './PlacementStatistics.css';
+import BarChart from './BarChart';
 
 
 const PlacementSection = () => {
@@ -74,6 +73,10 @@ const PlacementSection = () => {
     </div>
       <img  src="https://i.postimg.cc/ZqhL1WjY/sta.jpg" alt="placed image"
       className="placed-image" />
+      <div>
+      <h1>Bar Chart Example</h1>
+      <BarChart />
+    </div>
       <div className="placement-trends">
         <h2 style={{color: "#337ab7"}}>Placement Trends</h2>
       </div>
