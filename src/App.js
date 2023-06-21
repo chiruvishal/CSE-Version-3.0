@@ -11,7 +11,7 @@ import Project from './components/pages/Projects/Projects';
 import Publications from './components/pages/Publications/Publications';
 import Course from './components/pages/CourseOverview/CourseOverview';
 import AluminiNetwork from './components/pages/AluminiNetwork/AluminiNetwork';
-import Gallary from './components/pages/Gallary/Gallary';
+import Gal from './components/pages/Gallary/Gal';
 import StudentSection from './components/pages/StudentSection/StudentSection';
 import Achievements from './components/pages/Achievements/Achievements';
 import Placements from './components/pages/PlacementStatistics/PlacementStatistics';
@@ -64,7 +64,7 @@ function App() {
 
             <Route path="/Course" component={Course} />
             <Route path="/AluminiNetwork" component={AluminiNetwork} />
-            <Route path="/Gallery" component={Gallary} />
+            <Route path="/Gallery" component={Gal } />
             <Route path="/StudentSection" component={StudentSection} />
             <Route path="/Achievements" component={Achievements} />
             <Route path="/Placements" component={Placements} />
