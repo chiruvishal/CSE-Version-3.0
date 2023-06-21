@@ -1,98 +1,105 @@
 import React, { useState, useEffect } from 'react';
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+
+// import BlogCard from './BlogCard';
+import { getPosts } from "./../../../actions/home";
 import { Link } from 'react-router-dom';
 import './Achievements.css';
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
 import LazyLoad from 'react-lazyload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-export default function Achievements() {
-  const achievement = [
-    {
-      name: 'achievements 2023',
-      cards: [
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
-          achiename: 'John Doe',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
-          achiename: 'Alex Johnson',
-          description: 'Bronze Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-          achiename: 'Sarah Wilson',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
-          achiename: 'Sarah Wilson',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
-          achiename: 'Alex Johnson',
-          description: 'Bronze Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2022',
-          category: 'Department Achievements',
-        },
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-          achiename: 'Sarah Wilson',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          year: '2023',
-          category: 'Department Achievements',
-        },
-      ],
-    },
-    {
-      name: 'Achuevements 2023',
-      cards: [
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
-          achiename: 'John Doe',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
-          achiename: 'Alex Johnson',
-          description: 'Bronze Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-          achiename: 'Sarah Wilson',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-          imageUrl:
-            'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
-          achiename: 'Sarah Wilson',
-          description: 'Gold Medalist',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-      ],
-    },
-  ];
-  const [selectedEvent, setSelectedEvent] = useState(achievement[0]);
+const Posts=(props)=> {
+  // const achievement = [
+  //   {
+  //     name: 'achievements 2023',
+  //     cards: [
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
+  //         achiename: 'John Doe',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
+  //         achiename: 'Alex Johnson',
+  //         description: 'Bronze Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
+  //         achiename: 'Sarah Wilson',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
+  //         achiename: 'Sarah Wilson',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
+  //         achiename: 'Alex Johnson',
+  //         description: 'Bronze Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //         year: '2022',
+  //         category: 'Department Achievements',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
+  //         achiename: 'Sarah Wilson',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //         year: '2023',
+  //         category: 'Department Achievements',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     name: 'Achuevements 2023',
+  //     cards: [
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
+  //         achiename: 'John Doe',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
+  //         achiename: 'Alex Johnson',
+  //         description: 'Bronze Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
+  //         achiename: 'Sarah Wilson',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //       {
+  //         imageUrl:
+  //           'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
+  //         achiename: 'Sarah Wilson',
+  //         description: 'Gold Medalist',
+  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //       },
+  //     ],
+  //   },
+  // ];
+  const posts = useSelector((state) => state.posts);
+  //
+  // const [selectedEvent, setSelectedEvent] = useState(0);
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
   const [showMore, setShowMore] = useState(false);
@@ -130,7 +137,7 @@ export default function Achievements() {
   useEffect(() => {
     if (loadingMore) {
       setTimeout(() => {
-        setLoadedImages(selectedEvent.cards.length);
+        setLoadedImages(posts.length);
         setLoadingMore(false);
       }, 2000);
     }
@@ -150,7 +157,43 @@ export default function Achievements() {
       setIsLoading(false);
     }, 2000);
   };
-  return (
+
+
+    const Post = ({  setCurrentId, post })=>{
+    const dispatch = useDispatch();
+
+      return(
+        <div
+          className={`single ${
+            animateGallery
+              ? 'animate_animated animate_fadeInUp'
+              : ''
+          }`}
+        >
+          <div className="cardhar">
+            <div className="image-content">
+              <span className="overlay" />
+              <div className="card-imagehar">
+                <img
+                  src={post.image}
+                  className="card-imghar"
+                />
+              </div>
+            </div>
+            <div className="card-content">
+              <h2 className="namez">{post.title}</h2>
+              <p className="descriptionz">
+                {post.creator}
+              </p>
+              <p className="content">{post.message}</p>
+            </div>
+          </div>
+        </div>
+      );
+
+    };
+
+  return posts.length ?(
     <>
       <div>
         <div
@@ -209,33 +252,14 @@ export default function Achievements() {
               <h3 className="student-box-heading1">
                 "Enlightened Moments: Capturing NIT Raipur's Eventful Gallery"
               </h3>
-              <div className="eventList">
-                <ul>
-                  {achievement.map((achievement, index) => (
-                    <li
-                      key={index}
-                      className={
-                        selectedEvent.name === achievement.name ? 'active' : ''
-                      }
-                      onClick={() => handleEventSelect(achievement)}
-                    >
-                      {achievement.name}
-                    </li>
-                  ))}
-                </ul>
-                <p style={{ color: 'white' }}>
-                  To view the more information about the achievement click on
-                  know more.
-                </p>
-              </div>
             </div>
             <div ref={galleryRef}>
               {galleryInView && (
                 <div className="Aiml" style={{ paddingLeft: '1rem' }}>
-                  {selectedEvent && (
+                  {posts && (
                     <div className="gallery">
                       <div className="areahead">
-                        <p>{selectedEvent.name}</p>
+                        <p>Achievements</p>
                       </div>
 
                       {isLoading ? (
@@ -245,58 +269,16 @@ export default function Achievements() {
                       ) : (
                         <>
                           <div className="galleryWrap">
-                            {selectedEvent.cards &&
-                              selectedEvent.cards
-                                .slice(
-                                  0,
-                                  showMore ? selectedEvent.cards.length : 6
-                                )
-                                .map((slide, index) => (
-                                  <LazyLoad
-                                    key={index}
-                                    height={200}
-                                    offset={100}
-                                    once
-                                  >
-                                    <div
-                                      className={`single ${
-                                        animateGallery
-                                          ? 'animate_animated animate_fadeInUp'
-                                          : ''
-                                      }`}
-                                    >
-                                      <div className="card">
-                                        <div className="image-content">
-                                          <span className="overlay" />
-                                          <div className="card-image">
-                                            <img
-                                              src={slide.imageUrl}
-                                              alt={slide.achiename}
-                                              className="card-img"
-                                            />
-                                          </div>
-                                        </div>
-                                        <div className="card-content">
-                                          <h2 className="name">
-                                            {slide.achiename}
-                                          </h2>
-                                          <p className="description">
-                                            {slide.description}
-                                          </p>
-                                          <p className="content">
-                                            {slide.content}
-                                          </p>
-                                          <button className="button">
-                                            View More
-                                          </button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </LazyLoad>
-                                ))}
+                          {posts.map((post) => (
+                                 post.tags===props.tag ?(
+                                <LazyLoad item key={post._id} height={200} offset={100} once>
+                                  <Post setCurrentId={props.setCurrentId} post={post} />
+                                </LazyLoad>):null
+                              ))}
+
                           </div>
 
-                          {selectedEvent.cards.length > 6 && (
+                          {posts.length > 6 && (
                             <div className="showMoreButton">
                               <button
                                 className="button1"
@@ -317,5 +299,25 @@ export default function Achievements() {
         </div>
       </div>
     </>
-  );
+  ):null;
 }
+
+
+const Achievements=(props)=>{
+  const [currentId, setCurrentId] = useState(0);
+
+  const dispatch = useDispatch();
+console.log(props.tag);
+  useEffect(() => {
+    dispatch(getPosts());
+  }, [currentId, dispatch]);
+  return (
+
+        <Posts setCurrentId={setCurrentId} tag={props.tag} />
+  );
+
+};
+
+
+
+export default Achievements;

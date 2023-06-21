@@ -13,7 +13,7 @@ import Course from './components/pages/CourseOverview/CourseOverview';
 import AluminiNetwork from './components/pages/AluminiNetwork/AluminiNetwork';
 import Gal from './components/pages/Gallary/Gal';
 import StudentSection from './components/pages/StudentSection/StudentSection';
-import Achievements from './components/pages/Achievements/Achievements';
+import Ach from './components/pages/Achievements/Ach';
 import Placements from './components/pages/PlacementStatistics/PlacementStatistics';
 import ContactUs from './components/pages/ContactInformation/ContactInformation';
 import VisionAndMission from './components/pages/VisionAndMission/VisionAndMission';
@@ -66,7 +66,7 @@ function App() {
             <Route path="/AluminiNetwork" component={AluminiNetwork} />
             <Route path="/Gallery" component={Gal } />
             <Route path="/StudentSection" component={StudentSection} />
-            <Route path="/Achievements" component={Achievements} />
+            <Route path="/Achievements" component={Ach}  />
             <Route path="/Placements" component={Placements} />
             <Route path="/ContactUs" component={ContactUs} />
           </Switch>
