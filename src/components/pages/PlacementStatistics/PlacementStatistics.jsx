@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import './PlacementStatistics.css';
 import BarChart from './BarChart';
+import BarChart2 from './BarChart2';
 
 
 const PlacementSection = () => {
@@ -30,20 +31,20 @@ const PlacementSection = () => {
   return (
     <div className="placement-section">
       <h2 style={{color: "#337ab7"}}>Placements</h2>
-      <div className="placement-description">
+    <div className="placement-description">
         <p>
           Our placement program has been highly successful, providing numerous opportunities for our students to embark on their professional journeys. With strong industry collaborations and dedicated career development resources, we are proud to have achieved outstanding placement results this year.
         </p>
-      </div>
-      <div>
+        </div>
+         <div>
       
      
-      <div className="counter-up">
-        <div className="content">
+            <div className="counter-up">
+              <div className="content">
           
-          <div className="box">
-            <div className="icon">
-              <i className="fas fa-gift"></i>
+                <div className="box">
+                  <div className="icon">
+                    <i className="fas fa-gift"></i>
             </div>
             <div className="counter" data-target="508">
               0
@@ -70,22 +71,75 @@ const PlacementSection = () => {
           </div>
         </div>
       </div>
+
+      <div className="placement-details">
+      <h2 style={{color: "#337ab7"}}>YEARWISE PLACEMENT DETAILS</h2>
+      </div>
+      <h3 style={{color:"black", fontSize: '24px'}}>Number of Students Placed</h3>
+
+      <div className="counter-upp">
+              <div className="content">               
+          <div className="box">
+            <div className="icon">
+              <i className="fas fa-users"></i>
+            </div>
+            <div className="counter" data-target="78">
+              0
+            </div>
+            <div className="text">2021-22</div>
+          </div>
+
+          <div className="box">
+            <div className="icon">
+              <i className="fas fa-users"></i>
+            </div>
+            <div className="counter" data-target="75">
+              0
+            </div>
+            <div className="text">2020-21</div>
+          </div>
+
+          <div className="box">
+            <div className="icon">
+              <i className="fas fa-users"></i>
+            </div>
+            <div className="counter" data-target="75">
+              0
+            </div>
+            <div className="text">2019-20</div>
+          </div>
+          <div className="box">
+            <div className="icon">
+              <i className="fas fa-users"></i>
+            </div>
+            <div className="counter" data-target="74">
+              0
+            </div>
+            <div className="text">2018-19</div>
+          </div>
+          
+        </div>
+      </div>
+
     </div>
-      <img  src="https://i.postimg.cc/ZqhL1WjY/sta.jpg" alt="placed image"
-      className="placed-image" />
-      <div>
-      <h1>Bar Chart Example</h1>
-      <BarChart />
-    </div>
+      
+
+      
+      
       <div className="placement-trends">
         <h2 style={{color: "#337ab7"}}>Placement Trends</h2>
       </div>
-      <h3 className="subheading">Total offers over the past 5 Sessions</h3>
-      <div className="placement-stats">
-        <img src="https://i.postimg.cc/hGYGMwC9/pla1.png" alt="Placement Stats" />
-      </div>
-      <h3 className="subheading">Average CTC and No of companies participated</h3>
-      <img className="second-image" src="https://i.postimg.cc/C1ygRVP6/pla2.png" alt="Second Image" />
+      
+      <div>
+      <h3>Total offers over the past 5 Sessions</h3>
+      <BarChart /> []
+    </div>
+      
+      <div>
+      <h3>No of companies participated</h3>
+      <BarChart2 />
+    </div>
+      
       <div className="recruiters-section">
         <h2 style={{color: "#337ab7"}}>Our Recruiters</h2>
         <div className="company-logos-carousel">
