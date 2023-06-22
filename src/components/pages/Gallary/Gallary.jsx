@@ -97,7 +97,7 @@ const Posts=(props)=>{
 
   const posts = useSelector((state) => state.posts);
   //
-  const [selectedEvent, setSelectedEvent] = useState(0);
+  const [selectedEvent, setSelectedEvent] = useState(null);
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
   const [showMore, setShowMore] = useState(false);
