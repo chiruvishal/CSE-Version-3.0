@@ -378,6 +378,11 @@ const HPost = ({  setCurrentId, post })=>{
                       )}
                     </div>
                   )}
+                  {!selectedEvent && (
+        <div className="noEventSelected">
+          <h4>Select an event to see images</h4>
+        </div>
+      )}
                 </div>
               )}
             </div>
