@@ -1,20 +1,19 @@
 import React, { useEffect, useRef } from 'react';
 import {Chart} from 'chart.js/auto';
 
-const BarChart = () => {
+const BarChart2 = () => {
   const chartRef = useRef(null);
 
   useEffect(() => {
     const chartOptions = {
       type: 'bar',
       data: {
-        labels: ['2018-19', '2019-20', '2020-21', '2021-22', '2022-23'],
+        labels: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23'],
         datasets: [
           {
-            label: '# Offers Recieved',
-            data: [ 552, 287, 599, 738, 750],
+            label: '# No. of companies participated',
+            data: [80, 101, 92, 101, 125, 130],
             borderWidth: 1,
-            
           },
         ],
       },
@@ -43,4 +42,4 @@ const BarChart = () => {
   return <canvas ref={chartRef} />;
 };
 
-export default BarChart;
+export default BarChart2;
