@@ -67,10 +67,12 @@
 }
 .contentyz h1 {
   border-bottom: 3px solid white;
+  text-align: center;
 }
 .contentyz p {
   padding-top: 10px;
   padding: 5%;
+  text-align: center;
 }
 .img_title {
   font-size: 1.5em;
