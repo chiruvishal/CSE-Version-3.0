@@ -54,7 +54,6 @@
   border: 1px solid rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
-  align-items: center;
   border-radius: 15%;
   background: #e3edf7;
   height: 45px;
@@ -86,8 +85,9 @@
 .btnp:hover .fa-youtube {
   color: #c4302b;
 }
-.btnp:hover .fa-instagram {
-  color: #f14843;
+.btnp:hover .fa-linkedin {
+  color: #3b5998;
+
 }
 .btnp:hover .fa-twitter {
   color: #00acee;

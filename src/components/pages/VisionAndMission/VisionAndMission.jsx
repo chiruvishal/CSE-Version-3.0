@@ -92,7 +92,7 @@ export default function VisionAndMission() {
           </div>
         </div> */}
     <div className="dro">
-     <div className="Aiml">
+     <div className="Aiml wel">
        <h3 className="headm">  <i className="fas fa-eye icon"></i>
               <span className="icon-text">Vision</span></h3>
        {/* <div id="director-message" className="containerw mx-auto my-10"> */}
@@ -120,7 +120,7 @@ export default function VisionAndMission() {
         {/* </div> */}
       </div>
       <div style={{ margin: '50px 0' }}></div>
-      <div className="Aiml">
+      <div className="Aiml wel">
        <h3 className="headm">  <i className="fas fa-plane icon-rotate"></i>
               <span className="icon-text">Mission</span></h3>
        {/* <div id="director-message" className="containerw mx-auto my-10"> */}

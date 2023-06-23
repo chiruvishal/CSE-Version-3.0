@@ -1,3 +1,20 @@
+.welp{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+.wel{
+  width: 95%!important;
+}
+.welp{
+  padding: 0%!important;
+}
+}
+
 .areaheadm{
   border: 2px solid rgb(42, 39, 167);
   width: fit-content;

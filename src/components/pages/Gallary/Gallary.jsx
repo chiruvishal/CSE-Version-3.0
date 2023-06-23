@@ -17,84 +17,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const Posts=(props)=>{
-
-  // const events = [
-  //   {
-  //     name: 'Farewell 2023',
-  //     images: [
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/XqLsZ0NR/c6454d4d-4ee3-4844-9f86-4befa39cab8b.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/XqLsZ0NR/c6454d4d-4ee3-4844-9f86-4befa39cab8b.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/pLMbnLhc/Whats-App-Image-2023-01-14-at-00-01-52.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/XqLsZ0NR/c6454d4d-4ee3-4844-9f86-4befa39cab8b.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       // Add more images for the farewell event
-  //     ],
-  //   },
-  //   {
-  //     name: 'Welcome Party',
-  //     images: [
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/G2JQN1D4/2824932f-48db-4606-8052-c0829d8a7565.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/GhMMdr5Y/e22ceac9-c82a-4a3b-9d2c-b5697292df3d.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //       {
-  //         original:
-  //           'https://i.postimg.cc/XqLsZ0NR/c6454d4d-4ee3-4844-9f86-4befa39cab8b.jpg',
-  //         thumbnail: 'https://i.postimg.cc/SKWTw8GW/nit3e3e23e-min.jpg',
-  //       },
-  //
-  //       // Add more images for Event 2
-  //     ],
-  //   },
-  //   // Add more event objects as needed
-  // ];
-
   const posts = useSelector((state) => state.posts);
   //
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -191,28 +113,6 @@ const HPost = ({  setCurrentId, post })=>{
     </li>
   );
 };
-// const Post = ({  setCurrentId, post })=>{
-//   const dispatch = useDispatch();
-//   return(
-//     <div
-//       className={`single ${
-//         animateGallery
-//           ? 'animate__animated animate__fadeInUp'
-//           : ''
-//       }`}
-//       onClick={() => handleOpenModal(post._id)}
-//     >
-//       {openModal && slideNumber === index ? (
-//         <img src={post.image} alt="" />
-//       ) : (
-//         <img src={post.image} alt="" />
-//       )}
-//     </div>
-//
-//   );
-// };
-
-
 
   return  posts.length ? (
     <>
@@ -279,7 +179,6 @@ const HPost = ({  setCurrentId, post })=>{
                     (post.tags===props.tag ?(
 
                       <div item key={post._id}>
-                        {console.log(post)}
                     <HPost setCurrentId={props.setCurrentId} post={post} />
                   </div>):null
                   ))}
@@ -291,7 +190,7 @@ const HPost = ({  setCurrentId, post })=>{
             </div>
             <div ref={galleryRef}>
               {galleryInView && (
-                <div className="Aiml galleryg" style={{ paddingLeft: '1rem' }}>
+                <div className="Aiml galleryg wel" style={{ paddingLeft: '1rem' }}>
                   {selectedEvent && (
                     <div >
                       <div className="areafd">

@@ -316,7 +316,7 @@ const Posts= (props)=> {
   return posts.length ?(
       <div ref={galleryRef}>
         {galleryInView && (
-          <div className="Aiml" style={{ paddingLeft: '0rem' }}>
+          <div className="Aiml wel" style={{ paddingLeft: '0rem' }}>
             {posts && (
               <div className="gallery12">
                 <div className="areahead">

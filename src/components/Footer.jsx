@@ -30,27 +30,27 @@ const Footer = () => {
                     Nationa Institute of Technology Raipur: Igniting Minds,
                     Shaping Futures."
                   </p>
-                  <div class="connect-section">
-                    <p class="connect-text">Connect with us:</p>
-                    <div class="social-icons-wrapper">
-                      <button class="btnp">
-                        <a href="#">
-                          <i class="fab fa-facebook"></i>
+                  <div className="connect-section">
+                    <p className="connect-text">Connect with us:</p>
+                    <div className="social-icons-wrapper">
+                      <button className="btnp">
+                        <a href="https://www.facebook.com/nitrr.ac.in">
+                          <i className="fab fa-facebook"></i>
                         </a>
                       </button>
-                      <button class="btnp">
-                        <a href="#">
-                          <i class="fab fa-youtube"></i>
+                      <button className="btnp">
+                        <a href="https://www.youtube.com/channel/UC0esbqS3Lc9zXRddcf0uwPw">
+                          <i className="fab fa-youtube"></i>
                         </a>
                       </button>
-                      <button class="btnp">
-                        <a href="#">
-                          <i class="fab fa-instagram"></i>
+                      <button className="btnp">
+                        <a href="https://www.linkedin.com/school/national-institute-of-technology-raipur">
+                          <i className="fab fa-linkedin"></i>
                         </a>
                       </button>
-                      <button class="btnp">
-                        <a href="#">
-                          <i class="fab fa-twitter"></i>
+                      <button className="btnp">
+                        <a href="https://twitter.com/NITRR">
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </button>
                     </div>
@@ -157,14 +157,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="copyright">
-  <div class="containerf">
-    <div class="rowf">
-      <div class="column-1">
+        <div className="copyright">
+  <div className="containerf">
+    <div className="rowf">
+      <div className="column-1">
         <span>Developed By ACE Web Team</span>
       </div>
-      <div class="column-2">
-        <div class="menuf">
+      <div className="column-2">
+        <div className="menuf">
           <h3>Our Team</h3>
         </div>
       </div>

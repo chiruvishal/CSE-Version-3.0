@@ -271,7 +271,7 @@ export default function FacultyDetail() {
           </div>
         </div>
 
-        <div className="Aiml Fdm">
+        <div className="Aiml Fdm wel">
           <div className="areafd">
             <p>{faculty.name}</p>
           </div>

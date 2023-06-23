@@ -79,9 +79,9 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-            <Link to="/About" onClick={handleLinkClick}>
+            <a className='hover1'>
               About
-            </Link>
+            </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
@@ -107,13 +107,9 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-            <Link
-              to="/Research-Areas"
-              className="mobile-line-break"
-              onClick={handleLinkClick}
-            >
+          <a className='hover1'>
               Research Areas
-            </Link>
+            </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
@@ -134,13 +130,9 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="parent-menu">
-            <Link
-              to="/Course"
-              className="mobile-line-break"
-              onClick={handleLinkClick}
-            >
+          <a className='hover1'>
               Student Zone
-            </Link>
+            </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
