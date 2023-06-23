@@ -124,7 +124,7 @@ const PlacementSection = () => {
       </div>
       <h3 style={{color:"black", fontSize: '24px'}}>Number of Students Placed</h3>
 
-      <div className="counter-upp">
+      <div className="counter-up">
               <div className="content">               
           <div className="box">
             <div className="icon">

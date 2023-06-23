@@ -59,7 +59,7 @@ export default function Home() {
       <div>
       
      
-      <div className="counter-uppp">
+      <div className="counter-up">
         <div className="content">
     
           <div className="box">
