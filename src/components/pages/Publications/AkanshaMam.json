@@ -1,0 +1,878 @@
+[
+ {
+   "article": "Extra-tree classifier with metaheuristics approach for email classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:YsMSGLbcyi4C",
+   "contributors": "A Sharaff, H Gupta",
+   "about": "Advances in Computer Communication and Computational Sciences: Proceedings …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 106,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13388180632796923343"
+},
+ {
+   "article": "SMS spam filtering and thread identification using bi-level text classification and clustering techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:u5HHmVD_uO8C",
+   "contributors": "NK Nagwani, A Sharaff",
+   "about": "Journal of Information Science 43 (1), 75-87",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 60,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9594462571816133356"
+},
+ {
+   "article": "Comparative study of classification algorithms for spam email detection",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:d1gkVwhDpl0C",
+   "contributors": "A Sharaff, NK Nagwani, A Dhadse",
+   "about": "Emerging Research in Computing, Information, Communication and Applications …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 41,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13138111038766468789"
+},
+ {
+   "article": "Sentiment analysis of customer reviews based on hidden markov model",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:9yKSN-GCB0IC",
+   "contributors": "S Soni, A Sharaff",
+   "about": "Proceedings of the 2015 International Conference on Advanced Research in …",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 38,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3371138586856737240"
+},
+ {
+   "article": "Email thread identification using latent Dirichlet allocation and non-negative matrix factorization based clustering techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:u-x6o8ySG0sC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "Journal of Information Science 42 (2), 200-212",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 31,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7112089415973423014"
+},
+ {
+   "article": "Comparative analysis of temperature prediction using regression methods and back propagation neural network",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:roLk4NBRz8UC",
+   "contributors": "A Sharaff, SR Roy",
+   "about": "2018 2nd international conference on trends in electronics and informatics …",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 27,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12705839070332513374"
+},
+ {
+   "article": "Comparative analysis of various stock prediction techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:LkGwnXOMwfcC",
+   "contributors": "A Sharaff, M Choudhary",
+   "about": "2018 2nd International conference on trends in electronics and informatics …",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 18,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10007563936399393336"
+},
+ {
+   "article": "Impact of feature selection technique on email classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:UeHWp8X0CEIC",
+   "contributors": "A Sharaff, NK Nagwani, K Swami",
+   "about": "Int. J. Knowl. Eng 1 (1), 59-63",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 16,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10162016244874033599"
+},
+ {
+   "article": "ML-EC2: an algorithm for multi-label email classification using clustering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:WF5omc3nYNoC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "International Journal of Web-Based Learning and Teaching Technologies …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 14,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8086999643728359541"
+},
+ {
+   "article": "Analysing fuzzy based approach for extractive text summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:UebtZRa9Y70C",
+   "contributors": "A Sharaff, AS Khaire, D Sharma",
+   "about": "2019 International conference on intelligent computing and control systems …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 12,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17084485108268851680"
+},
+ {
+   "article": "Spam detection in SMS based on feature selection Techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:W7OEmFMy1HYC",
+   "contributors": "A Sharaff",
+   "about": "Emerging Technologies in Data Mining and Information Security: Proceedings …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14097978200061793773"
+},
+ {
+   "article": "Document Summarization by Agglomerative nested clustering approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:zYLM7Y9cAGgC",
+   "contributors": "A Sharaff, H Shrawgi, P Arora, A Verma",
+   "about": "2016 IEEE International Conference on Advances in Electronics, Communication …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 10,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2567146311407651390"
+},
+ {
+   "article": "An enhanced authentication scheme for Internet of Things and cloud based on elliptic curve cryptography",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:_kc_bZDykSQC",
+   "contributors": "P Bhuarya, P Chandrakar, R Ali, A Sharaff",
+   "about": "International Journal of Communication Systems 34 (10), e4834",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 9,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2151847839522873983"
+},
+ {
+   "article": "Towards classification of email through selection of informative features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:8k81kl-MbHgC",
+   "contributors": "A Sharaff, U Srinivasarao",
+   "about": "2020 First International Conference on Power, Control and Computing …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 9,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15382474215480389838"
+},
+ {
+   "article": "Feature based cluster ranking approach for single document summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:HDshCWvjkbEC",
+   "contributors": "A Sharaff, M Jain, G Modugula",
+   "about": "International Journal of Information Technology 14 (4), 2057-2065",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2522559753094884328"
+},
+ {
+   "article": "Spam message detection using Danger theory and Krill herd optimization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:ZeXyd9-uunAC",
+   "contributors": "A Sharaff, C Kamal, S Porwal, S Bhatia, K Kaur, MM Hassan",
+   "about": "Computer Networks 199, 108453",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1858987017780235417"
+},
+ {
+   "article": "Sentiment analysis from email pattern using feature selection algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:hC7cP41nSMkC",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "Expert Systems, e12867",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2865517213651984817"
+},
+ {
+   "article": "Personalized recommendation system with user interaction based on LMF and popularity model",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:KlAtU1dfN6UC",
+   "contributors": "A Sharaff, S Khurana, K Cheepurupalli, T Sahu",
+   "about": "2020 international conference on system, computation, automation and …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16884398432610198886"
+},
+ {
+   "article": "Feature Fusion based Growth Analysis of Chhattisgarh Rice Plants using Machine Learning Technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:5nxA0vEk-isC",
+   "contributors": "B Patel, A Sharaff",
+   "about": "2020 7th International Conference on Signal Processing and Integrated …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13455286547389716630"
+},
+ {
+   "article": "Identifying spam patterns in sms using genetic programming approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&citation_for_view=c8_w41EAAAAJ:Se3iqnhoufwC",
+   "contributors": "D Sharma, A Sharaff",
+   "about": "2019 international conference on intelligent computing and control systems …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5368845727172278530"
+},
+ {
+   "article": "Identifying categorical terms based on latent Dirichlet allocation for email categorization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:Y0pCki6q_DkC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "Emerging Technologies in Data Mining and Information Security: Proceedings …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3930724021635879701"
+},
+ {
+   "article": "A methodology for validation of OCL constraints using coloured petri nets",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:2osOgNQ5qMEC",
+   "contributors": "A Sharaff",
+   "about": "International Journal of Scientific & Engineering Research, 4 (1)",
+   "year": [
+      ", 2013",
+      2013
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17307891077829736884"
+},
+ {
+   "article": "Email thread sentiment sequence identification using PLSA clustering algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:hFOr9nPyWt4C",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "Expert Systems with Applications 193, 116475",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16195725656037558294"
+},
+ {
+   "article": "Email sentiment classification using lexicon-based opinion labeling",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:qxL8FJ1GzNcC",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "Intelligent computing and communication systems, 211-218",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8846728908180097947"
+},
+ {
+   "article": "Biological management of rice crop by using contour based masking technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:hqOjcs7Dif8C",
+   "contributors": "B Patel, A Sharaff",
+   "about": "2020 First International Conference on Power, Control and Computing …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1803451336138907172"
+},
+ {
+   "article": "Improving topic coherence using parsimonious language model and latent semantic indexing",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:3fE2CSJIrl8C",
+   "contributors": "JK Dewangan, A Sharaff, S Pandey",
+   "about": "ICDSMLA 2019: Proceedings of the 1st International Conference on Data …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3275424395322971822"
+},
+ {
+   "article": "Emerging research in computing, information, communication and applications",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:_Qo2XoVZTnwC",
+   "contributors": "A Sharaff, NK Nagwani, A Dhadse",
+   "about": "Comparative Study of Classification Algorithms for Spam Email Detection",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16094447158802108083"
+},
+ {
+   "article": "A Comparative Overview of Hybrid Recommender Systems: Review, Challenges, and Prospects",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:e5wmG9Sq2KIC",
+   "contributors": "R Seth, A Sharaff",
+   "about": "Data Mining and Machine Learning Applications, 57-98",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8102161219546676236"
+},
+ {
+   "article": "Biomedical text summarization: a graph-based ranking approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:QIV2ME_5wuYC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Applied Information Processing Systems: Proceedings of ICCET 2021, 147-156",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6785876815031411003"
+},
+ {
+   "article": "Rice crop disease prediction using machine learning technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:M3ejUd6NZC8C",
+   "contributors": "B Patel, A Sharaff",
+   "about": "International Journal of Agricultural and Environmental Information Systems …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=770507295521961382"
+},
+ {
+   "article": "Performance enhancement of gene mention tagging by using deep learning and biomedical named entity recognition",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:kNdYIx-mwKoC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "Intelligent Data Engineering and Analytics: Frontiers in Intelligent …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6495136946656740295"
+},
+ {
+   "article": "Research trends and systematic review of plant phenotyping",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:eQOLeE2rZwMC",
+   "contributors": "B Patel, A Sharaff",
+   "about": "Advances in Biometrics: Modern Methods and Implementation Strategies, 211-225",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3446277626707727223"
+},
+ {
+   "article": "Analyzing sentiments of product reviews based on features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:ufrVoPGSRksC",
+   "contributors": "A Sharaff, A Soni",
+   "about": "2018 2nd International Conference on Trends in Electronics and Informatics …",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3109960108110841420"
+},
+ {
+   "article": "Data science and its applications",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:aqlVkmm33-oC",
+   "contributors": "A Sharaff, GR Sinha",
+   "about": "CRC Press",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10867470414157543812"
+},
+ {
+   "article": "NER based biomedical entities association extraction using transfer learning technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:Zph67rFs4hoC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "IOP Conference Series: Materials Science and Engineering 1022 (1), 012055",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15976132786805522118"
+},
+ {
+   "article": "Formalization of UML Class Diagram Using Colored Petri Nets",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:0EnyYjriUFMC",
+   "contributors": "A Sharaff, SK Rath",
+   "about": "2020 First International Conference on Power, Control and Computing …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4134361287445902418"
+},
+ {
+   "article": "Effect of N-Grams Technique in Preprocessing of Email Spam Filtering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:qjMakFHDy7sC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "International Journal of Applied Evolutionary Computation (IJAEC) 8 (1), 26-37",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9842726579264386937"
+},
+ {
+   "article": "Prospecting the Effect of Topic Modeling in Information Retrieval",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:dhFuZR0502QC",
+   "contributors": "A Sharaff, JK Dewangan, DS Sisodia",
+   "about": "International Journal on Semantic Web and Information Systems (IJSWIS) 17 (3 …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6924141649010341484"
+},
+ {
+   "article": "Time and feature specific sentiment analysis of product reviews",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:_FxGoFyzp5QC",
+   "contributors": "A Sharaff, A Soni",
+   "about": "Cognitive Informatics, Computer Modelling, and Cognitive Science, 255-272",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5322667721924233952"
+},
+ {
+   "article": "Generic Document Classification Using Clustering, Centrality, and Voting",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:Tyk-4Ss8FVUC",
+   "contributors": "A Sharaff, A Verma, H Shrawgi",
+   "about": "Proceedings of the International Conference on Computing and Communication …",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9177836680662275612"
+},
+ {
+   "article": "Systematic Review on Quality Assessment of Test Case Prioritization Techniques in Software Testing",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:IjCSPb-OGe4C",
+   "contributors": "A Goyal, A Sharaff, NK Nagwani",
+   "about": "International Proceedings of Economics Development and Research 75, 19",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13764629233426205803"
+},
+ {
+   "article": "Machine intelligence based hybrid classifier for spam detection and sentiment analysis of SMS messages",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:k_IJM867U9cC",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "Multimedia Tools and Applications, 1-31",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10215895097789342231"
+},
+ {
+   "article": "Frequent item-set mining and clustering based ranked biomedical text summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:r0BpntZqJG4C",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "The Journal of Supercomputing 79 (1), 139-159",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16747879015276433760"
+},
+ {
+   "article": "Remodeling Rainfall Prediction Using Artificial Neural Network and Machine Learning Algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:R3hNpaxXUhUC",
+   "contributors": "A Sharaff, K Ukey, R Choure, V Ujee, G Tripathy",
+   "about": "Intelligent Data Engineering and Analytics: Proceedings of the 9th …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14981478730894423048"
+},
+ {
+   "article": "Ransomware Attack: Threats & Different Detection Technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:mB3voiENLucC",
+   "contributors": "R Seth, A Sharaff, JM Chatterjee, NZ Jhanjhi",
+   "about": "Information Security Handbook, 157-176",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16797694698834214446"
+},
+ {
+   "article": "Quality Assessment of Text Data Using C-RNN",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:IWHjjKOFINEC",
+   "contributors": "A Sharaff, S Khurana, T Sahu",
+   "about": "Proceedings of Sixth International Congress on Information and Communication …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14346580301946502917"
+},
+ {
+   "article": "Deep Learning Based Sentiment Analysis for Phishing SMS Detection",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:L8Ckcad2t8MC",
+   "contributors": "A Sharaff, R Allenki, R Seth",
+   "about": "Research Anthology on Implementing Sentiment Analysis Across Multiple …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16603760570318340065"
+},
+ {
+   "article": "Introduction to Data Science: Review, Challenges, and Opportunities",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:mVmsd5A6BfQC",
+   "contributors": "U Srinivasarao, A Sharaff, GR Sinha",
+   "about": "Data Science and Its Applications, 1-13",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1754814699575732974"
+},
+ {
+   "article": "Automatic dimension detection of fish images",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:ULOm3_A8WrAC",
+   "contributors": "A Sharaff, KS Ukey, R Choure, A Couradiya, GR Sinha",
+   "about": "Data Driven Approach Towards Disruptive Technologies: Proceedings of MIDAS …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10296376479834315963"
+},
+ {
+   "article": "Graph Ranked Clustering Based Biomedical Text Summarization Using Top k Similarity.",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:ns9cj8rnVeAC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Computer Systems Science & Engineering 46 (1)",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "SnorkelPlus: A Novel Approach for Identifying Relationships Among Biomedical Entities Within Abstracts",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:BqipwSGYUEgC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "The Computer Journal, bxad051",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Rice variety classification & yield prediction using semantic segmentation of agro-morphological characteristics",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:YFjsv_pBGBYC",
+   "contributors": "B Patel, A Sharaff",
+   "about": "Multimedia Tools and Applications, 1-18",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "PubExN: An Automated PubMed Bulk Article Extractor with Affiliation Normalization Package",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:NMxIlDl6LWMC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "SN Computer Science 4 (4), 353",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "ABEE: automated bio entity extraction from biomedical text documents",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:isC4tDSrTZIC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "Data Technologies and Applications 57 (2), 222-244",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "SMS sentiment classification using an evolutionary optimization based fuzzy recurrent neural network",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:hMod-77fHWUC",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "Multimedia Tools and Applications, 1-32",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "AEGA: enhanced feature selection based on ANOVA and extended genetic algorithm for online customer review analysis",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:blknAaTinKkC",
+   "contributors": "G Tripathy, A Sharaff",
+   "about": "The Journal of Supercomputing, 1-30",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Automatic Rice Plant’s disease diagnosis using gated recurrent network",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:JV2RwH3_ST0C",
+   "contributors": "B Patel, A Sharaff",
+   "about": "Multimedia Tools and Applications, 1-20",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Special Issue on: Investigation of Robustness in Image Enhancement and Pre-Processing Techniques for Biometrics and Computer Vision Applications",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:O3NaXMp0MMsC",
+   "contributors": "GR Sinha, SL Ullo, CP Fan, R Chandrakar, KK Nagwanshi, N Bhaskar, ...",
+   "about": "Special Issue on: Investigation of Robustness in Image Enhancement and Pre …",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "An empirical analysis of deep ensemble approach on COVID-19 and tuberculosis X-ray images",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:GnPB-g6toBAC",
+   "contributors": "A Sharaff, M Singhal, A Chouradiya, P Gupta",
+   "about": "International Journal of Biometrics 15 (3-4), 459-479",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Spam email classification and sentiment analysis based on semantic similarity methods",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:M3NEmzRMIkIC",
+   "contributors": "U Srinivasarao, A Sharaff",
+   "about": "International Journal of Computational Science and Engineering 26 (1), 65-77",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "A Hybridized GA-Based Feature Selection for Text Sentiment Analysis",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:TFP_iSt0sucC",
+   "contributors": "G Tripathy, A Sharaff",
+   "about": "Encyclopedia of Data Science and Machine Learning, 1858-1870",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Deep learning‐based smishing message identification using regular expression feature generation",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:bEWYMUwI8FkC",
+   "contributors": "A Sharaff, V Pathak, SS Paul",
+   "about": "Expert Systems, e13153",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "A Hybrid Feature Selection Framework for Breast Cancer Prediction Using Mutual Information and AdaBoost-RFE",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:maZDTaKrznsC",
+   "contributors": "H Dhoke, A Sharaff",
+   "about": "International Conference on Frontiers of Intelligent Computing: Theory and …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Review on phenotype traits analysis of Rice plants by using Machine Learning Techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:j3f4tGmQtD8C",
+   "contributors": "B Patel, A Sharaff",
+   "about": "",
+   "year": [
+      "",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Statistical Growth Analysis of Rice Plants in Chhattisgarh Region Using Automated Pixel-Based Mapping Technique",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:iH-uZ7U-co4C",
+   "contributors": "B Patel, A Sharaff, S Verulkar",
+   "about": "International Journal of System Dynamics Applications (IJSDA) 11 (1), 1-20",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "C-RNN",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:-f6ydRqryjwC",
+   "contributors": "A Sharaff, S Khurana, T Sahu",
+   "about": "Proceedings of Sixth International Congress on Information and Communication …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "PageRank–Based Extractive Text Summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:Wp0gIr-vW9MC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Data Science and Its Applications, 315-330",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Deep Parallel-Embedded BioNER Model for Biomedical Entity Extraction",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:4DMP91E08xMC",
+   "contributors": "A Kumar, A Sharaff",
+   "about": "Data Science and Its Applications, 277-294",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Ontology-Based Modeling of Cloud Application Using Security Patterns",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:YOwf2qJgpHMC",
+   "contributors": "A Sharaff",
+   "about": "Internet of Things and Connected Technologies: Conference Proceedings on 5th …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Biomedical Text Summarization Based on the Itemset Mining Approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:7PzlFSSx8tAC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "New Opportunities for Sentiment Analysis and Information Processing, 140-152",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "Ontology-Based Modeling of Cloud Application Using Security Patterns",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:4TOpqqG69KYC",
+   "contributors": "AK Dwivedi, SM Satapathy, A Sharaff",
+   "about": "International Conference on Internet of Things and Connected Technologies …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "2020 First International Conference on Power, Control and Computing Technologies (ICPC2T) 03-05 January 2020 Department of Electrical Engineering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:MXK_kJrjxJIC",
+   "contributors": "AD Prasad, AY Abdelaziz, A Sharaff, A Roy, A Kumar, A Pujahari, ...",
+   "about": "",
+   "year": [
+      "",
+      2020
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+},
+ {
+   "article": "An Efficient Hybrid Textual Similarity Technique for Analyzing COVID-19 Dataset",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c8_w41EAAAAJ&cstart=20&pagesize=80&citation_for_view=c8_w41EAAAAJ:RHpTSmoSYBkC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "MLWA-D-22-00191",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=c8_w41EAAAAJ&hl=en&oi=sra"
+}
+]

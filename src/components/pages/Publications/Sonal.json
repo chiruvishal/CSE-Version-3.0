@@ -1,0 +1,173 @@
+[
+  {
+    "article": "A Power Efficient Dual Link Mesh NoC Architecture to Support Nonuniform Traffic Arbitration at Routing Logic",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:qjMakFHDy7sC",
+    "contributors": "S Yadav, V Laxmi, MS Gaur",
+    "about": "29th International Conference on VLSI Design",
+    "year": [", 2016", 2016],
+    "cited": 9,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15064428920867150998"
+  },
+  {
+    "article": "Multiple-NoC exploration and customization for energy efficient traffic distribution",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:MXK_kJrjxJIC",
+    "contributors": "S Yadav, V Laxmi, MS Gaur",
+    "about": "2020 IFIP/IEEE 28th International Conference on Very Large Scale Integration …",
+    "year": [", 2020", 2020],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11371543509612526364"
+  },
+  {
+    "article": "Improving Static Power Efficiency via Placement of Network Demultiplexer over Control Plane of Router in Multi-NoCs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:eQOLeE2rZwMC",
+    "contributors": "S Yadav, V Laxmi, MS Gaur, HK Kapoor",
+    "about": "Proceedings of the 56th Annual Design Automation Conference 2019, 1-2",
+    "year": [", 2019", 2019],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14104569775150397886"
+  },
+  {
+    "article": "C-DLM: Cache coherence aware dual link mesh for on-chip interconnect",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:2osOgNQ5qMEC",
+    "contributors": "S Yadav, V Laxmi, MS Gaur, M Bhargava",
+    "about": "2015 19th International Symposium on VLSI Design and Test, 1-2",
+    "year": [", 2015", 2015],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=41905821399423387"
+  },
+  {
+    "article": "Ns-3 emulation on ORBIT testbed",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:u-x6o8ySG0sC",
+    "contributors": "S Yadav, MS Gaur, V Laxmi",
+    "about": "2013 International Conference on Advances in Computing, Communications and …",
+    "year": [", 2013", 2013],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8710848432077898707"
+  },
+  {
+    "article": "CNN-based device-free health monitoring and prediction system using WiFi signals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:KlAtU1dfN6UC",
+    "contributors": "A Kumar, S Singh, V Rawal, S Garg, A Agrawal, S Yadav",
+    "about": "International Journal of Information Technology, 1-13",
+    "year": [", 2022", 2022],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17571822875374759147"
+  },
+  {
+    "article": "Power efficient network selector placement in control plane of multiple networks-on-chip",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:8k81kl-MbHgC",
+    "contributors": "S Yadav, R Raj",
+    "about": "The Journal of Supercomputing 78 (5), 6664-6695",
+    "year": [", 2022", 2022],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9047370795292852374"
+  },
+  {
+    "article": "Lightweight message encoding of power-gating controller for on-time wakeup of gated router in network-on-chip",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:0EnyYjriUFMC",
+    "contributors": "S Yadav, HK Kapoor",
+    "about": "2019 9th International symposium on embedded computing and system design …",
+    "year": [", 2019", 2019],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9911112962219035523"
+  },
+  {
+    "article": "A Power Efficient Crossbar Arbitration in Multi-NoC for Multicast and Broadcast Traffic",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:YsMSGLbcyi4C",
+    "contributors": "S Yadav, V Laxmi, HK Kapoor, MS Gaur, M Zwolinski",
+    "about": "2018 IEEE International Symposium on Smart Electronic Systems (iSES …",
+    "year": [", 2018", 2018],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3337592482440264088"
+  },
+  {
+    "article": "Interconnect Paradigm Shift Towards Networks-on-Chip in Manycore Processors: A Review on Challenges",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:Zph67rFs4hoC",
+    "contributors": "S Yadav",
+    "about": "Soft Computing: Theories and Applications: Proceedings of SoCTA 2021, 685-695",
+    "year": [", 2022", 2022],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9124307961284697647"
+  },
+  {
+    "article": "A Study on Requests Serialization in Directory-Based Protocol for MESI Cache Coherence Protocol",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:kNdYIx-mwKoC",
+    "contributors": "S Yadav",
+    "about": "Soft Computing: Theories and Applications: Proceedings of SoCTA 2021, 761-768",
+    "year": [", 2022", 2022],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12196540697760511962"
+  },
+  {
+    "article": "A power, thermal and reliability-aware network-on-chip",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:W7OEmFMy1HYC",
+    "contributors": "A Sharma, Y Gupta, S Yadav, L Bhargava, MS Gaur, V Laxmi",
+    "about": "2017 IEEE International Symposium on Nanoelectronic and Information Systems …",
+    "year": [", 2017", 2017],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=661507038643996692"
+  },
+  {
+    "article": "Fault tolerant adaptive XY routing for HPC mesh",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:9yKSN-GCB0IC",
+    "contributors": "S Yadav, MS Gaur, V Laxmi, S Sharma, S Shiwani",
+    "about": "2014 9th International Conference on Industrial and Information Systems …",
+    "year": [", 2014", 2014],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5448140177214257333"
+  },
+  {
+    "article": "Dynamic fault injection model for on-chip 2D mesh network",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:d1gkVwhDpl0C",
+    "contributors": "S Yadav, MS Gaur, V Laxmi, M Bhargava",
+    "about": "Proceedings of the 7th ACM India Computing Conference, 1-6",
+    "year": [", 2014", 2014],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9230230694217059614"
+  },
+  {
+    "article": "Energy scavenging based HybridGSM model for mobile towers",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:u5HHmVD_uO8C",
+    "contributors": "S Yadav, MS Gaur, V Laxmi",
+    "about": "Recent Advances in Intelligent Informatics: Proceedings of the Second …",
+    "year": [", 2014", 2014],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12032280437463431189"
+  },
+  {
+    "article": "Real-time interception performance evaluation of certain proportional navigation based guidance laws in aerial ground engagement",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:3fE2CSJIrl8C",
+    "contributors": "A Kumar, A Ojha, S Yadav, A Kumar",
+    "about": "Intelligent Service Robotics 15 (1), 95-114",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=NKe86HMAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Stable and efficient task assignment to pairs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:hqOjcs7Dif8C",
+    "contributors": "A Nicolo, P Salmaso, A Sen, S Yadav",
+    "about": "",
+    "year": ["", 2019],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=NKe86HMAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Multiple NoC based Custom Implementation and Traffic Distribution to attain Energy Efficient CMPs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:WF5omc3nYNoC",
+    "contributors": "S Yadav, V Laxmi, MS Gaur",
+    "about": "2019 Design, Automation & Test in Europe (DATE), PhD Forum ACM-SIGDA/IEEE …",
+    "year": [", 2019", 2019],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=NKe86HMAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Matching with Affirmative Action",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NKe86HMAAAAJ&citation_for_view=NKe86HMAAAAJ:_FxGoFyzp5QC",
+    "contributors": "S Yadav",
+    "about": "",
+    "year": ["", 2018],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=NKe86HMAAAAJ&hl=en&oi=ao"
+  }
+]

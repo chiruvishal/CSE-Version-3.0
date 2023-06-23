@@ -71,7 +71,12 @@
   text-decoration: none;
 }
 #sel {
-  width: 200px;
+  width: 250px;
+  height: 30px;
+  font-size: 1.2rem;
+  background-color: #b666c3;
+  color: white;
+  padding: 5px;
 }
 .selectyear {
   padding: 10px;

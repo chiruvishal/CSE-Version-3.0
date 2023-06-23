@@ -1,0 +1,1838 @@
+[
+ {
+   "article": "Analysis and study of incremental k-means clustering algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:IjCSPb-OGe4C",
+   "contributors": "S Chakraborty, NK Nagwani",
+   "about": "High Performance Architecture and Grid Computing: International Conference …",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 105,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9069122909412061715"
+},
+ {
+   "article": "Summarizing large text collection using topic modeling and clustering based on MapReduce framework",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:mVmsd5A6BfQC",
+   "contributors": "NK Nagwani",
+   "about": "Journal of Big Data 2 (1), 6",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 87,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13580294239830185326"
+},
+ {
+   "article": "Performance comparison of incremental k-means and incremental dbscan algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:2osOgNQ5qMEC",
+   "contributors": "S Chakraborty, NK Nagwani, L Dey",
+   "about": "arXiv preprint arXiv:1406.4751",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 83,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4504534642537435077"
+},
+ {
+   "article": "SMS spam filtering and thread identification using bi-level text classification and clustering techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:-f6ydRqryjwC",
+   "contributors": "NK Nagwani, A Sharaff",
+   "about": "Journal of Information Science 43 (1), 75-87",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 60,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9594462571816133356"
+},
+ {
+   "article": "A frequent term and semantic similarity based single document text summarization algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:5nxA0vEk-isC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "International Journal of Computer Applications 17 (2), 36-40",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 58,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9470650540464526812"
+},
+ {
+   "article": "Comparative study of classification algorithms for spam email detection",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:L8Ckcad2t8MC",
+   "contributors": "A Sharaff, NK Nagwani, A Dhadse",
+   "about": "Emerging Research in Computing, Information, Communication and Applications …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 41,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13138111038766468789"
+},
+ {
+   "article": "Analysis and study of Incremental DBSCAN clustering algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:P5F9QuxV20EC",
+   "contributors": "S Chakraborty, NK Nagwani",
+   "about": "arXiv preprint arXiv:1406.4754",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 39,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16069840198106181686"
+},
+ {
+   "article": "Weather forecasting using incremental K-means clustering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:kNdYIx-mwKoC",
+   "contributors": "S Chakraborty, NK Nagwani, L Dey",
+   "about": "arXiv preprint arXiv:1406.4756",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 37,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10450457407675913509"
+},
+ {
+   "article": "An object oriented email clustering model using weighted similarities between emails attributes",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:u5HHmVD_uO8C",
+   "contributors": "NK Nagwani, A Bhansali",
+   "about": "International Journal of research and reviews in Computer Science 1 (2), 1",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 35,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6818261860791749285"
+},
+ {
+   "article": "Selecting best answer: An empirical analysis on community question answering sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:_Qo2XoVZTnwC",
+   "contributors": "TP Sahu, NK Nagwani, S Verma",
+   "about": "IEEE Access 4, 4797-4808",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 34,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8205947642096536976"
+},
+ {
+   "article": "A comment on “a similarity measure for text classification and clustering”",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:7PzlFSSx8tAC",
+   "contributors": "NK Nagwani",
+   "about": "IEEE Transactions on Knowledge and Data Engineering 27 (9), 2589-2590",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 34,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2337203301037901732"
+},
+ {
+   "article": "Email thread identification using latent Dirichlet allocation and non-negative matrix factorization based clustering techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:9ZlFYXVOiuMC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "Journal of Information Science 42 (2), 200-212",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 31,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7112089415973423014"
+},
+ {
+   "article": "Predicting expert developers for newly reported bugs using frequent terms similarities of bug attributes",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:YsMSGLbcyi4C",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "2011 Ninth International Conference on ICT and Knowledge Engineering, 113-117",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 29,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4026455667700991803"
+},
+ {
+   "article": "CLUBAS: an algorithm and Java based tool for software bug classification using bug attributes similarities",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:9yKSN-GCB0IC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "Scientific Research Publishing",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 25,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17025282491960842910"
+},
+ {
+   "article": "Estimating the concrete compressive strength using hard clustering and fuzzy clustering based regression techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:M3ejUd6NZC8C",
+   "contributors": "NK Nagwani, SV Deo",
+   "about": "The Scientific World Journal 2014",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 24,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6113962132738684106"
+},
+ {
+   "article": "Multivariate beta mixture model for automatic identification of topical authoritative users in community question answering sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:RHpTSmoSYBkC",
+   "contributors": "TP Sahu, NK Nagwani, S Verma",
+   "about": "IEEE Access 4, 5343-5355",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 22,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2266387025015526993"
+},
+ {
+   "article": "Weight similarity measurement model based, object oriented approach for bug databases mining to detect similar and duplicate bugs",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:d1gkVwhDpl0C",
+   "contributors": "NK Nagwani, P Singh",
+   "about": "Proceedings of the International Conference on Advances in Computing …",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 22,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14531050746140310453"
+},
+ {
+   "article": "A data mining model to predict software bug complexity using bug estimation and clustering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:eQOLeE2rZwMC",
+   "contributors": "NK Nagwani, A Bhansali",
+   "about": "2010 International Conference on Recent Trends in Information …",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 21,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9798700675396041164"
+},
+ {
+   "article": "Predictive data mining model for software bug estimation using average weighted similarity",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:u-x6o8ySG0sC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "2010 IEEE 2nd International Advance Computing Conference (IACC), 373-378",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 21,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11705625523770885148"
+},
+ {
+   "article": "A comparative study of bug classification algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&citation_for_view=9_TJhGEAAAAJ:KlAtU1dfN6UC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "International Journal of Software Engineering and Knowledge Engineering 24 …",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 20,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13896347688300722349"
+},
+ {
+   "article": "Generating taxonomic terms for software bug classification by utilizing topic models based on Latent Dirichlet Allocation",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:MXK_kJrjxJIC",
+   "contributors": "NK Nagwani, S Verma, KK Mehta",
+   "about": "2013 Eleventh International Conference on ICT and Knowledge Engineering, 1-5",
+   "year": [
+      ", 2013",
+      2013
+   ],
+   "cited": 20,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7794245870064874129"
+},
+ {
+   "article": "Application of time series based prediction model to forecast per capita disposable income",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:QIV2ME_5wuYC",
+   "contributors": "D Sena, NK Nagwani",
+   "about": "2015 IEEE International Advance Computing Conference (IACC), 454-457",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 18,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12445225745630146779"
+},
+ {
+   "article": "Performance evaluation of incremental K-means clustering algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:YOwf2qJgpHMC",
+   "contributors": "S Chakraborty, NK Nagwani",
+   "about": "arXiv preprint arXiv:1406.4737",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 18,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17925842021587478979"
+},
+ {
+   "article": "An incremental feature reordering (IFR) algorithm to classify eye state identification using EEG",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:4DMP91E08xMC",
+   "contributors": "M Sahu, NK Nagwani, S Verma, S Shirke",
+   "about": "Information Systems Design and Intelligent Applications: Proceedings of …",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 17,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9979192555320268771"
+},
+ {
+   "article": "Impact of feature selection technique on email classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:qUcmZB5y_30C",
+   "contributors": "A Sharaff, NK Nagwani, K Swami",
+   "about": "Int. J. Knowl. Eng 1 (1), 59-63",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 16,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10162016244874033599"
+},
+ {
+   "article": "Rank-me: A java tool for ranking team members in software bug repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:UeHWp8X0CEIC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "Scientific Research Publishing",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 16,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1193455889623397760"
+},
+ {
+   "article": "Performance comparison of Ryu and floodlight controllers in different SDN topologies",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:nb7KW1ujOQ8C",
+   "contributors": "RK Chouhan, M Atulkar, NK Nagwani",
+   "about": "2019 1st International Conference on Advanced Technologies in Intelligent …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 15,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2860903871300461525"
+},
+ {
+   "article": "ML-EC2: an algorithm for multi-label email classification using clustering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:zA6iFVUQeVQC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "International Journal of Web-Based Learning and Teaching Technologies …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 14,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8086999643728359541"
+},
+ {
+   "article": "Performance Evaluation of Different Classifier for Eye State Prediction Using EEG Signal",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:hC7cP41nSMkC",
+   "contributors": "M Sahu, NK Nagwani, S Verma, S Shirke",
+   "about": "International Journal of Knowledge Engineering 1 (2), 141-145",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 14,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15856686802738909517"
+},
+ {
+   "article": "TAGme: A topical folksonomy based collaborative filtering for tag recommendation in community sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:M3NEmzRMIkIC",
+   "contributors": "AK Singh, NK Nagwani, S Pandey",
+   "about": "Proceedings of the 4th Multidisciplinary International Social Networks …",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 13,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15830275447865084682"
+},
+ {
+   "article": "A neural network autoregression model to forecast per capita disposable income",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:RYcK_YlVTxYC",
+   "contributors": "D Sena, NK Nagwani",
+   "about": "Rpn Journal Of Engineering And Applied Sciences 11 (22)",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 13,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=753564740293162384"
+},
+ {
+   "article": "Prof. Nagwani NK, Analysis and Study of Incremental DBSCAN Clustering Algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:B3FOqHPlNUQC",
+   "contributors": "S Chakraborty",
+   "about": "International Journal of Enterprise Computing And Business Systems 1",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 12,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8540123144703767208"
+},
+ {
+   "article": "Software bug categorization technique based on fuzzy similarity",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:fPk4N6BV_jEC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "2019 IEEE 9th International Conference on Advanced Computing (IACC), 1-6",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15660913150215309127"
+},
+ {
+   "article": "A Bi-Level Text Classification Approach for SMS Spam Filtering and Identifying Priority Messages.",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:bEWYMUwI8FkC",
+   "contributors": "NK Nagwani",
+   "about": "International Arab Journal of Information Technology (IAJIT) 14 (4)",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2212409406226972518"
+},
+ {
+   "article": "TagLDA based user persona model to identify topical experts for newly posted questions in community question answering sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:HDshCWvjkbEC",
+   "contributors": "TP Sahu, NK Nagwani, S Verma",
+   "about": "International Journal of Applied Engineering Research 11 (10), 7072-7078",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7628724616519958631"
+},
+ {
+   "article": "Cluster based-SPIN routing protocol for wireless sensors networks",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:dhFuZR0502QC",
+   "contributors": "S Pandey, NK Nagwani, C Kumar",
+   "about": "Indian Journal of Science and Technology 8 (15), 1-6",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14424931643798464910"
+},
+ {
+   "article": "Software bug classification using suffix tree clustering (STC) algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:qxL8FJ1GzNcC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "International Journal of Computer Science and Technology 2 (1), 36-41",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4529231498750128991"
+},
+ {
+   "article": "Performance measurement analysis for multi-agent systems",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:Y0pCki6q_DkC",
+   "contributors": "NK Nagwani",
+   "about": "2009 international conference on intelligent agent & multi-agent systems, 1-4",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 11,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14043990402133996191"
+},
+ {
+   "article": "Multi-label software bug categorisation based on fuzzy similarity",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:xtRiw3GOFMkC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "International Journal of Computational Science and Engineering 24 (3), 244-258",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16098062909241824034"
+},
+ {
+   "article": "Folksonomy based trend analysis on community question answering sites: A perspective on software technologies",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:e5wmG9Sq2KIC",
+   "contributors": "AK Singh, D Sena, NK Nagwani, S Pandey",
+   "about": "IEEE Access 4, 5223-5233",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9541381369559118319"
+},
+ {
+   "article": "An empirical analysis on reducing open source software development tasks using stack overflow",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:ZHo1McVdvXMC",
+   "contributors": "TP Sahu, NK Nagwani, S Verma",
+   "about": "Indian Journal of Science and Technology 9 (21), 10.17485",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12237918447490561881"
+},
+ {
+   "article": "An agile methodology based model for change-oriented software engineering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:UebtZRa9Y70C",
+   "contributors": "NK Nagwani, P Singh",
+   "about": "International Journal of Recent Trends in Engineering 1 (1), 128",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 8,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17665685274416581237"
+},
+ {
+   "article": "Classification and intuitionistic fuzzy set based software bug triaging techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:q3oQSFYPqjQC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Journal of King Saud University-Computer and Information Sciences 34 (8 …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 7,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14385585030528903646"
+},
+ {
+   "article": "Prof. NK Nagwani, Lopamudra dey,“",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:8AbLer7MMksC",
+   "contributors": "S Chakraborty",
+   "about": "Weather Forecasting using Incremental K-means Clustering”, International …",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 7,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12121929138503220455"
+},
+ {
+   "article": "Analysis and design of high performance deep learning algorithm: convolutional neural networks",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:fQNAKQ3IYiAC",
+   "contributors": "S Pandey, NK Nagwani, S Verma",
+   "about": "International Journal of Engineering Trends and Technology 69 (6), 216-224",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13414322154594825524"
+},
+ {
+   "article": "Time series analysis using ARIMA model for air pollution prediction in Hyderabad city of India",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:b0M2c_1WBrUC",
+   "contributors": "P Gopu, RR Panda, NK Nagwani",
+   "about": "Soft Computing and Signal Processing: Proceedings of 3rd ICSCSP 2020, Volume …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11207099530345631322"
+},
+ {
+   "article": "Predicting bug estimation time for newly reported bug using machine learning algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:4OULZ7Gr8RgC",
+   "contributors": "R Sawarkar, NK Nagwani, S Kumar",
+   "about": "2019 IEEE 5th International Conference for Convergence in Technology (I2CT), 1-4",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=781251981733294088"
+},
+ {
+   "article": "Identifying categorical terms based on latent Dirichlet allocation for email categorization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:BqipwSGYUEgC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "Emerging Technologies in Data Mining and Information Security: Proceedings …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3930724021635879701"
+},
+ {
+   "article": "A parametric study of partitioning and density based clustering techniques for Boxplot generation",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:ldfaerwXgEUC",
+   "contributors": "K Patil, NK Nagwani, S Tripathi",
+   "about": "2018 3rd International Conference for Convergence in Technology (I2CT), 1-5",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12867882903888444884"
+},
+ {
+   "article": "Impact of discretization on classification of data using divide and conquer paradigm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:mB3voiENLucC",
+   "contributors": "M Sahu, S Sharma, V Raj, NK Nagwani, S Verma",
+   "about": "2016 International Conference on Electrical, Electronics, and Optimization …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5121442942736225856"
+},
+ {
+   "article": "Clustering homogeneous XML documents using weighted similarities on XML attributes",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:W7OEmFMy1HYC",
+   "contributors": "NK Nagwani, A Bhansali",
+   "about": "2010 IEEE 2nd International Advance Computing Conference (IACC), 369-372",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 6,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=637132057971968418"
+},
+ {
+   "article": "Topic modeling and intuitionistic fuzzy set-based approach for efficient software bug triaging",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:olpn-zPbct0C",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Knowledge and Information Systems 64 (11), 3081-3111",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4062014055360915071"
+},
+ {
+   "article": "Automatic question tagging using multi-label classification in community question answering sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:SeFeTyx0c_EC",
+   "contributors": "TP Sahu, RS Thummalapudi, NK Nagwani",
+   "about": "2019 6th IEEE International Conference on Cyber Security and Cloud Computing …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15166043625682645208"
+},
+ {
+   "article": "Topical authoritative answerer identification on q&a posts using supervised learning in cqa sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:r0BpntZqJG4C",
+   "contributors": "TP Sahu, NK Nagwani, S Verma",
+   "about": "Proceedings of the 9th Annual ACM India Conference, 129-132",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17174650504082343636"
+},
+ {
+   "article": "A time-series forecasting-based prediction model to estimate groundwater levels in India",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:j3f4tGmQtD8C",
+   "contributors": "D Sena, NK Nagwani",
+   "about": "Current Science, 1083-1090",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4360726284619146750"
+},
+ {
+   "article": "Emerging research in computing, information, communication and applications",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:geHnlv5EZngC",
+   "contributors": "A Sharaff, NK Nagwani, A Dhadse",
+   "about": "Comparative Study of Classification Algorithms for Spam Email Detection",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16094447158802108083"
+},
+ {
+   "article": "ML-CLUBAS: A multi label bug classification algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:_FxGoFyzp5QC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "Scientific Research Publishing",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15578993734897984555"
+},
+ {
+   "article": "Nagwani. NK, Verma Shrish., Shirke. Saransh. 2015",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:BrmTIyaxlBUC",
+   "contributors": "M Sahu",
+   "about": "Performance Evaluation of Different Classifier for Eye State Prediction …",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": 5,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18270436094651023228"
+},
+ {
+   "article": "A framework to detect DDoS attack in Ryu controller based software defined networks using feature extraction and classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:J-pR_7NvFogC",
+   "contributors": "RK Chouhan, M Atulkar, NK Nagwani",
+   "about": "Applied Intelligence 53 (4), 4268-4288",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14961309502699987578"
+},
+ {
+   "article": "An optimized recommendation framework exploiting textual review based opinion mining for generating pleasantly surprising, novel yet relevant recommendations",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:V3AGJWp-ZtQC",
+   "contributors": "R Shrivastava, DS Sisodia, NK Nagwani, UR BP",
+   "about": "Pattern Recognition Letters 159, 91-99",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6532849997412521273"
+},
+ {
+   "article": "Long short term memory based functional characterization model for unknown protein sequences using ensemble of shallow and deep features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:l7t_Zn2s7bgC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "Neural Computing and Applications, 1-11",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2999180795147438126"
+},
+ {
+   "article": "Exploring the effectiveness of word embedding based deep learning model for improving email classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:tS2w5q8j5-wC",
+   "contributors": "DS Asudani, NK Nagwani, P Singh",
+   "about": "Data Technologies and Applications",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1498978121967721012"
+},
+ {
+   "article": "Biomedical text summarization: a graph-based ranking approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:1sJd4Hv_s6UC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Applied Information Processing Systems: Proceedings of ICCET 2021, 147-156",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6785876815031411003"
+},
+ {
+   "article": "Global best guided crow search algorithm for optimization problems",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:D03iK_w7-QYC",
+   "contributors": "R Roy, TP Sahu, NK Nagwani, S Das",
+   "about": "Intelligent Algorithms for Analysis and Control of Dynamical Systems, 13-22",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5282868146224853873"
+},
+ {
+   "article": "EEG signal analysis and classification on P300 speller-based BCI performance in ALS patients",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:dfsIfKJdRG4C",
+   "contributors": "M Sahu, S Verma, NK Nagwani, S Shukla",
+   "about": "International Journal of Medical Engineering and Informatics 12 (4), 375-400",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13026862018137589405"
+},
+ {
+   "article": "Applying auto regression techniques on amyotrophic lateral sclerosis patients EEG dataset with P300 speller",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:k_IJM867U9cC",
+   "contributors": "M Sahu, N Nagwani, S Verma",
+   "about": "Indian Journal of Science and Technology 9 (48), 1-8",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10601709058612515229"
+},
+ {
+   "article": "Impact of Ranked Ordered Feature List (ROFL) on classification with visual data mining techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:iH-uZ7U-co4C",
+   "contributors": "M Sahu, S Sharma, V Raj, NK Nagwani, S Verma",
+   "about": "2016 International Conference on Electrical, Electronics, and Optimization …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6697280063313724158"
+},
+ {
+   "article": "A frequent term based approach for generating discriminative terms in software bug repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:LPZeul_q3PIC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "IEEE 1st International Conference on Recent Advances in Information …",
+   "year": [
+      ", 2012",
+      2012
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13282769172029373254"
+},
+ {
+   "article": "Clustering based URL normalization technique for Web mining",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:zYLM7Y9cAGgC",
+   "contributors": "NK Nagwani",
+   "about": "2010 International Conference on Advances in Computer Engineering, 349-351",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9897491911996894581"
+},
+ {
+   "article": "An agile based model for change-Oriented software engineering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:OU6Ihb5iCvQC",
+   "contributors": "NK Nagwani, P Singh",
+   "about": "IEEE International Journal of Recent Trends in Engineering 1 (1)",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18341355168521218657"
+},
+ {
+   "article": "Bug Mining Model Based on Event-Component Similarity to Discover Similar and Duplicate GUI Bugs",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:roLk4NBRz8UC",
+   "contributors": "NK Nagwani, P Singh",
+   "about": "2009 IEEE International Advance Computing Conference, 1388-1392",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17579481232387067170"
+},
+ {
+   "article": "Weight Similarity Measurement Model Based",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:XiVPGOgt02cC",
+   "contributors": "NK Nagwani, P Singh",
+   "about": "Object Oriented Approach for Bug Databases Mining to Detect Similar and …",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 4,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17011345895603482357"
+},
+ {
+   "article": "A hybrid deep learning approach for stock price prediction",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:yD5IFk8b50cC",
+   "contributors": "A Dutta, G Pooja, N Jain, RR Panda, NK Nagwani",
+   "about": "Machine Learning for Predictive Analysis: Proceedings of ICTIS 2020, 1-10",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4306688542282068646"
+},
+ {
+   "article": "RANKuser: A folksonomy and user profile based algorithm to identify experts in Community Question Answering sites",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:hMod-77fHWUC",
+   "contributors": "AK Singh, NK Nagwani, S Pandey",
+   "about": "Data Technologies and Applications",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1985449118786974260"
+},
+ {
+   "article": "Optimal channel selection on Electroencephalography (EEG) device data using feature re-ranking and rough set theory on eye state classification problem",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:JV2RwH3_ST0C",
+   "contributors": "M Sahu, NK Nagwani",
+   "about": "Journal of Medical Imaging and Health Informatics 8 (2), 214-222",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11808266637222557297"
+},
+ {
+   "article": "Effect of N-Grams Technique in Preprocessing of Email Spam Filtering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:maZDTaKrznsC",
+   "contributors": "A Sharaff, NK Nagwani",
+   "about": "International Journal of Applied Evolutionary Computation (IJAEC) 8 (1), 26-37",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9842726579264386937"
+},
+ {
+   "article": "Generating intelligent summary terms for improving knowledge discovery in software bug repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:R3hNpaxXUhUC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "International Journal of Software Engineering and Knowledge Engineering 26 …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11966501208355776433"
+},
+ {
+   "article": "On studying the effect of sample size in evaluation of bug classifiers",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:WF5omc3nYNoC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "Indian Journal of Science and Technology 6 (1), 3849-55",
+   "year": [
+      ", 2013",
+      2013
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9998454241740745757"
+},
+ {
+   "article": "Prof. NK Nagwani",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:D_sINldO8mEC",
+   "contributors": "S Chakraborty",
+   "about": "Analysis and Study of Incremental DBSCAN Clustering Algorithm",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": 3,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16113356372835022860"
+},
+ {
+   "article": "Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:HE397vMXCloC",
+   "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+   "about": "Expert Systems with Applications 213, 119071",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9796191177380605904"
+},
+ {
+   "article": "Augmented sequence features and subcellular localization for functional characterization of unknown protein sequences",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:738O_yMBCRsC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "Medical & Biological Engineering & Computing 59, 2297-2310",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=768551732891367237"
+},
+ {
+   "article": "Multi-function prediction of unknown protein sequences using multilabel classifiers and augmented sequence features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:_xSYboBqXhAC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "Iranian Journal of Science and Technology, Transactions A: Science 45 (4 …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4294879715135033724"
+},
+ {
+   "article": "A Prototype of Doctor Recommendation System Using Classification Algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:vRqMK49ujn8C",
+   "contributors": "A Bhansali, NK Nagwani",
+   "about": "2021 Emerging Trends in Industry 4.0 (ETI 4.0), 1-4",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12092349847175084844"
+},
+ {
+   "article": "A Neuro Fuzzy System Based Inflation Prediction of Agricultural Commodities",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:cFHS6HbyZ2cC",
+   "contributors": "A Dutta, A Nayak, RR Panda, NK Nagwani",
+   "about": "2020 11th International Conference on Computing, Communication and …",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10907999892855632567"
+},
+ {
+   "article": "Efficient Management of Community Question Answering Sites using Improved Spectral Clustering.",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:blknAaTinKkC",
+   "contributors": "A Kumar Singh, N Kumar Nagwani, S Pandey",
+   "about": "Journal of Digital Information Management 16 (2)",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12980058775725177468"
+},
+ {
+   "article": "Performance Evaluation of Incremental K-means Clustering Algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:eJXPG6dFmWUC",
+   "contributors": "C Sanjay, NK Nagwani",
+   "about": "Computer Science 3, 389-393",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15400584798775197101"
+},
+ {
+   "article": "Analysis and study of Incremental DBSCAN clustering algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:UxriW0iASnsC",
+   "contributors": "C Sanjay, NK Nagwani",
+   "about": "arXiv preprint arXiv: 1406 4754",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10967339738253166370"
+},
+ {
+   "article": "Systematic Review on Quality Assessment of Test Case Prioritization Techniques in Software Testing",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:3fE2CSJIrl8C",
+   "contributors": "A Goyal, A Sharaff, NK Nagwani",
+   "about": "International Proceedings of Economics Development and Research 75, 19",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13764629233426205803"
+},
+ {
+   "article": "Prof. NK Nagwani,” Analysis and Study of Incremental DBSCAN Clustering Algorithm”",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:VOx2b1Wkg3QC",
+   "contributors": "S Chakrobarty",
+   "about": "International Journal of Enterprise Computing and Business 1 (2)",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14639897746668755286"
+},
+ {
+   "article": "Analysis and study of incremental DBSCAN clustering agorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:bnK-pcrLprsC",
+   "contributors": "S Chakraborty, NK Nagwani",
+   "about": "Eprint Arxiv 1 (2), 1-15",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4586846807629844334"
+},
+ {
+   "article": "Study and Analysis of Incremental Apriori Algorithm",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:Se3iqnhoufwC",
+   "contributors": "NK Sharma, NK Nagwani",
+   "about": "High Performance Architecture and Grid Computing: International Conference …",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17641738085608153093"
+},
+ {
+   "article": "OSIM: An Open Source Framework For Measuring Weighted Similarities Between Objects",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:KxtntwgDAa4C",
+   "contributors": "NK Nagwani",
+   "about": "International Journal of Emerging Technologies And Applications in …",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4992624127757227283"
+},
+ {
+   "article": "Dr. Shrish Verma Associate “A Frequent Term and Semantic Similarity based Single Document Text Summarization Algorithm”",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:dshw04ExmUIC",
+   "contributors": "NK Nagwani",
+   "about": "International Journal of Computer Applications, 0975-8887",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": 2,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5456335569432744296"
+},
+ {
+   "article": "An artificial intelligence framework on software bug triaging, technological evolution, and future challenges: A review",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:AXPGKjj_ei8C",
+   "contributors": "NK Nagwani, JS Suri",
+   "about": "International Journal of Information Management Data Insights 3 (1), 100153",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5866626018604954886"
+},
+ {
+   "article": "Impact of word embedding models on text analytics in deep learning environment: a review",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:_B80troHkn4C",
+   "contributors": "DS Asudani, NK Nagwani, P Singh",
+   "about": "Artificial Intelligence Review, 1-81",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=151156941868078995"
+},
+ {
+   "article": "Frequent item-set mining and clustering based ranked biomedical text summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:wbdj-CoPYUoC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "The Journal of Supercomputing 79 (1), 139-159",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16747879015276433760"
+},
+ {
+   "article": "An Improved Software Bug Triaging Approach Based on Topic Modeling and Fuzzy Logic",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:WA5NYHcadZ8C",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Proceedings of Third Doctoral Symposium on Computational Intelligence: DoSCI …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1587912645568860818"
+},
+ {
+   "article": "IPSFS: Intuitionistic, pythagorean, and spherical fuzzy similarity computation package in R",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:t6usbXjVLHcC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Software Impacts 14, 100424",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12616340007570670883"
+},
+ {
+   "article": "Utility optimization-based multi-stakeholder personalized recommendation system",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:mvPsJ3kp5DgC",
+   "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+   "about": "Data Technologies and Applications",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18271001442048329540"
+},
+ {
+   "article": "Stream Mining: Introduction, Tools & Techniques and Applications",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=20&pagesize=80&citation_for_view=9_TJhGEAAAAJ:4fKUyHm3Qg0C",
+   "contributors": "NK Nagwani",
+   "about": "Data Mining and Machine Learning Applications, 99-124",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17038703901095045996"
+},
+ {
+   "article": "Aspects of programming for implementation of convolutional neural networks on multisystem HPC architectures",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:08ZZubdj9fEC",
+   "contributors": "S Pandey, NK Nagwani, S Verma",
+   "about": "Journal of Physics: Conference Series 2062 (1), 012016",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5157417195980893732"
+},
+ {
+   "article": "SPIN: A Novel Hybrid Dimensionality Reduction Technique for Cervical Cancer Risk Classification",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:K3LRdlH-MEoC",
+   "contributors": "H Sharma, RR Panda, NK Nagwani",
+   "about": "2021 8th International Conference on Signal Processing and Integrated …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1851634411537553867"
+},
+ {
+   "article": "A Study on Impact of Feature Selection on Product Valuation",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:EUQCXRtRnyEC",
+   "contributors": "S Jain, NK Nagwani",
+   "about": "2021 6th International Conference for Convergence in Technology (I2CT), 1-5",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15732274144460381238"
+},
+ {
+   "article": "Impact of Dimensionality on the Evaluation of Stream Data Clustering Algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:a0OBvERweLwC",
+   "contributors": "NK Nagwani",
+   "about": "Proceedings of Fifth International Congress on Information and Communication …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4328640789292414072"
+},
+ {
+   "article": "KMHSO: -Means and Harmony Search-Based Optimization Algorithm for Relay Node Selection in Smart Transportation System",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:2P1L_qKh6hAC",
+   "contributors": "S Pandey, R Jain, S Tripathi, NK Nagwani, S Kumar",
+   "about": "National Academy Science Letters 42, 503-507",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2446515437740790096"
+},
+ {
+   "article": "A user ranking algorithm for efficient information management of community sites using spectral clustering and folksonomy",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:O3NaXMp0MMsC",
+   "contributors": "AK Singh, NK Nagwani, S Pandey",
+   "about": "Journal of Information Science 45 (5), 592-606",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7098569023345132645"
+},
+ {
+   "article": "Neuro-Fuzzy Approach for Reconstruction of 3-D Spine Model Using 2-D Spine Images and Human Anatomy",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:3s1wT3WcHBgC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "Next Generation Computing Technologies on Computational Intelligence: 4th …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11637205217423242353"
+},
+ {
+   "article": "Detection and classification of noise using bark domain features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:NMxIlDl6LWMC",
+   "contributors": "S Mohdiwale, TP Sahu, RK Chaurasia, NK Nagwani, S Verma",
+   "about": "Proceedings of the 6th International Conference on Communications and …",
+   "year": [
+      ", 2018",
+      2018
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14904929558480971245"
+},
+ {
+   "article": "Abnormal activity detection in forest reserve using cumulative short time fourier transform features",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:YFjsv_pBGBYC",
+   "contributors": "S Mohdiwale, TP Sahu, NK Nagwani, RK Chaurasia, S Verma",
+   "about": "2017 International Conference on Intelligent Sustainable Systems (ICISS …",
+   "year": [
+      ", 2017",
+      2017
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9206599215122503854"
+},
+ {
+   "article": "On visualizing the price distribution information of rice. And wheat across India",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:Wp0gIr-vW9MC",
+   "contributors": "NK Nagwani, K Verma, S Verma",
+   "about": "Int. J. Eng. Res. Sci. Technol 4 (1), 145-152",
+   "year": [
+      ", 2015",
+      2015
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11718176456427217217"
+},
+ {
+   "article": "Adopting E-learning and social networking in medical education",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:Zph67rFs4hoC",
+   "contributors": "NK Nagwani, D Bhawnani",
+   "about": "KMJ-Kuwait Medical Journal 46 (2), 163-164",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17194102850775326140"
+},
+ {
+   "article": "An Open Source Multi Agent System for Data Preprocessing of Online Software Bug Repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:ufrVoPGSRksC",
+   "contributors": "NK Nagwani",
+   "about": "International Journal of Computer Applications 1 (8), 55-59",
+   "year": [
+      ", 2010",
+      2010
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13005302836664969758"
+},
+ {
+   "article": "An Open Source Framework for Data Pre-Processing of Online Software Bug Repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:qjMakFHDy7sC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "CiiT International Journal of Data Mining Knowledge Engineering 1 (7), 329-338",
+   "year": [
+      ", 2009",
+      2009
+   ],
+   "cited": 1,
+   "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11757522715647339571"
+},
+ {
+   "article": "Graph Ranked Clustering Based Biomedical Text Summarization Using Top k Similarity.",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:eq2jaN3J8jMC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Computer Systems Science & Engineering 46 (1)",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "An intuitionistic fuzzy representation based software bug severity prediction approach for imbalanced severity classes",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:JoZmwDi-zQgC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Engineering Applications of Artificial Intelligence 122, 106110",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "On Diverse and Serendipitous Item Recommendation: A Reinforced Similarity and Multi-objective Optimization-Based Composite Recommendation Framework",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:5awf1xo2G04C",
+   "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+   "about": "Machine Intelligence Techniques for Data Analysis and Signal Processing …",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Detecting influential nodes with topological structure via Graph Neural Network approach in social networks",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:dTyEYWd-f8wC",
+   "contributors": "R Bhattacharya, NK Nagwani, S Tripathi",
+   "about": "International Journal of Information Technology, 1-14",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Fuzzy Logic Based Computational Technique for Analyzing Software Bug Repository",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:Mojj43d5GZwC",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "Computational Intelligence Applications for Software Engineering Problems …",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "CommunityGCN: community detection using node classification with graph convolution network",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:tkaPQYYpVKoC",
+   "contributors": "R Bhattacharya, NK Nagwani, S Tripathi",
+   "about": "Data Technologies and Applications",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Fuzzy modelling techniques for improving multi-label classification of software bugs",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:WqliGbK-hY8C",
+   "contributors": "RR Panda, NK Nagwani",
+   "about": "International Journal of Innovative Computing and Applications 14 (3), 141-154",
+   "year": [
+      ", 2023",
+      2023
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "An Unsupervised Attack Detection Approach for Software Defined Networks",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:Y5dfb0dijaUC",
+   "contributors": "RK Chouhan, M Atulkar, NK Nagwani",
+   "about": "2022 International Conference on Augmented Intelligence and Sustainable …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Functional characterization of unknown protein sequences using Neuro-Fuzzy based machine learning approach and sequence augmented feature",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:1qzjygNMrQYC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "Expert Systems with Applications 205, 117760",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "A hybrid approach for predicting missing follower–followee links in social networks using topological features with ensemble learning",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:5ugPr518TE4C",
+   "contributors": "R Bhattacharya, NK Nagwani, S Tripathi",
+   "about": "Data Technologies and Applications, 1-23",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "A Novel Approach for Bug Triaging Using TOPSIS",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:PELIpwtuRlgC",
+   "contributors": "P Rathoriya, RR Panda, NK Nagwani",
+   "about": "International Conference on Frontiers of Intelligent Computing: Theory and …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "A Clustering and TOPSIS-Based Developer Ranking Model for Decision-Making in Software Bug Triaging",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:SdhP9T11ey4C",
+   "contributors": "P Rathoriya, RR Panda, NK Nagwani",
+   "about": "International Conference on Machine Intelligence and Signal Processing, 139-150",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Function Characterization of Unknown Protein Sequences Using One Hot Encoding and Convolutional Neural Network Based Model",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:9vf0nzSNQJEC",
+   "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+   "about": "International Conference on Machine Intelligence and Signal Processing, 267-277",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Fair Exposure: A Multi-stakeholder Personalized Recommendation System Based on Multi-objective Optimization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:WbkHhVStYXYC",
+   "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+   "about": "Information Systems and Management Science: Conference Proceedings of 3rd …",
+   "year": [
+      ", 2022",
+      2022
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Comparative evaluation of performance and scalability of convolutional neural network implementations on a multisystem HPC architecture",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:tOudhMTPpwUC",
+   "contributors": "S Pandey, NK Nagwani, S Verma",
+   "about": "Journal of Physics: Conference Series 2062 (1), 012008",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "PageRank–Based Extractive Text Summarization",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:CHSYGLWDkRkC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "Data Science and Its Applications, 315-330",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Analysis and design of high performance deep learning algorithm: Convolutional neural networks",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:Tiz5es2fbqcC",
+   "contributors": "P S, N NK, V S",
+   "about": "International Journal of Engineering Trends and Technology 69 (6), 216-224",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Product Recommendation using User Preference and Online Opinion Reviews",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:uWQEDVKXjbEC",
+   "contributors": "S Jain, NK Nagwani",
+   "about": "2021 2nd International Conference for Emerging Technology (INCET), 1-5",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Generic document summarization approach based on controlled stochastic sentence selection",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:p2g8aNsByqUC",
+   "contributors": "S Gupta",
+   "about": "Turkish Journal of Computer and Mathematics Education (TURCOMAT) 12 (11 …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Parallel and scalable deep learning algorithms for high performance computing architectures",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:XiSMed-E-HIC",
+   "contributors": "P S, VS Nagwani NK",
+   "about": "International Journal of Engineering Trends and Technology 69 (4), 236-246",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Biomedical Text Summarization Based on the Itemset Mining Approach",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:u9iWguZQMMsC",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "New Opportunities for Sentiment Analysis and Information Processing, 140-152",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "A Comparative Study of Graph Kernels and Clustering Algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:f2IySw72cVMC",
+   "contributors": "R Bhattacharya, NK Nagwani, S Tripathi",
+   "about": "International Journal of Multimedia Data Engineering and Management (IJMDEM …",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Identification of duplicate bug reports in software bug repositories: a systematic review, challenges, and future scope",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:pyW8ca7W8N0C",
+   "contributors": "NK Nagwani",
+   "about": "Data Deduplication Approaches, 183-201",
+   "year": [
+      ", 2021",
+      2021
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Weighted Dissemination of Bundles in Probabilistic Spray and Wait Routing Protocol",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:u_35RYKgDlwC",
+   "contributors": "D Sharma, S Kumar, NK Nagwani",
+   "about": "Advances in Data and Information Sciences: Proceedings of ICDIS 2019, 3-11",
+   "year": [
+      ", 2020",
+      2020
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Neuro-Fuzzy Approach for Reconstruction of 3-D Spine Model Using 2-D Spine Images and Human Anatomy",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:rO6llkc54NcC",
+   "contributors": "NK Nagwani",
+   "about": "Next Generation Computing Technologies on Computational Intelligence: 4th …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Applying Auto-Regressive Model’s Yule-Walker Approach to Amyotrophic Lateral Sclerosis (ALS) patients’ Data",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:HoB7MX3m0LUC",
+   "contributors": "M Sahu, S Vishwal, S Usha Srivalli, NK Nagwani, S Verma, S Shukla",
+   "about": "Current Medical Imaging 15 (8), 749-760",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Extracting and Summarizing the Commonly Faced Security Issues from Community Question Answering Site",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:g5m5HwL7SMYC",
+   "contributors": "AK Singh, NK Nagwani, S Pandey",
+   "about": "International Journal of Information Security and Privacy (IJISP) 13 (3), 48-59",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Comparative Study of Forecasting Model for Price Prediction of Rice",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:M05iB0D1s5AC",
+   "contributors": "K Verma, NK Nagwani, S Verma",
+   "about": "Ambient Communications and Computer Systems: RACCCS-2018, 195-207",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Utilizing Clustering Techniques for Improving the Boxplots",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:GnPB-g6toBAC",
+   "contributors": "K Patil, NK Nagwani, S Tripathi",
+   "about": "Communication, Networks and Computing: First International Conference, CNC …",
+   "year": [
+      ", 2019",
+      2019
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Analysis of Electroencephalography (EEG) Signals using Visualization Techniques",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:isC4tDSrTZIC",
+   "contributors": "M Sahu, NK Nagwani, S Verma, K Gupta",
+   "about": "Indian Journal of Science and Technology 9, 48",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Finding Non Dominant Electrodes Placed in Electroencephalography (EEG) for Eye State Classification using Rule Mining",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:4JMBOYKVnBMC",
+   "contributors": "M Sahu, NK Nagwani",
+   "about": "International Journal of Advanced Computer Science and Applications 7 (7)",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Study and Analysis of Electrocardiography Signals for Computation of R Peak Value for Sleep Apnea Patient",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:ZeXyd9-uunAC",
+   "contributors": "M Sahu, S Shirke, G Pathak, P Agarwal, R Gupta, V Sodhi, NK Nagwani, ...",
+   "about": "Proceedings of the Second International Conference on Computer and …",
+   "year": [
+      ", 2016",
+      2016
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Adopting E-learning and social networking in medical education",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:SP6oXDckpogC",
+   "contributors": "N Naresh Kumar, B Dhiraj",
+   "about": "",
+   "year": [
+      "",
+      2014
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Visualizing the Bug Distribution Information Available in Software Bug Repositories",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:4TOpqqG69KYC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "Data Mining and Analysis in the Engineering Field, 48-66",
+   "year": [
+      ", 2014",
+      2014
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Naresh Kumar Nagwani",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:eMMeJKvmdy0C",
+   "contributors": "S Verma",
+   "about": "",
+   "year": [
+      "",
+      2011
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Sanjay Chakraborty Prof. NK Nagwani",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:sSrBHYA8nusC",
+   "contributors": "L Dey",
+   "about": "",
+   "year": [
+      "",
+      2011
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "BugML: Software Bug Markup Language",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:0EnyYjriUFMC",
+   "contributors": "NK Nagwani, S Verma",
+   "about": "International Journal of Computer Applications 975, 8887",
+   "year": [
+      ", 2011",
+      2011
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "An Efficient Hybrid Textual Similarity Technique for Analyzing COVID-19 Dataset",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:kRWSkSYxWN8C",
+   "contributors": "S Gupta, A Sharaff, NK Nagwani",
+   "about": "MLWA-D-22-00191",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "LopamudraDey. Performance Comparison of Incremental K-means and Incremental DBSCAN Algorithms",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:5Ul4iDaHHb8C",
+   "contributors": "S Chakraborty, NK Nagwani",
+   "about": "International Journal of Computer Applications, 0975-8887",
+   "year": [
+      ", 0",
+      null
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+},
+ {
+   "article": "Recovery of loss of packet in network using constant packet reordering",
+   "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9_TJhGEAAAAJ&cstart=100&pagesize=100&citation_for_view=9_TJhGEAAAAJ:8k81kl-MbHgC",
+   "contributors": "SK Gonnade, NK Nagwani",
+   "about": "",
+   "year": [
+      "",
+      null
+   ],
+   "cited": null,
+   "addonlinks": "https://scholar.google.com/citations?user=9_TJhGEAAAAJ&hl=en&oi=ao"
+}
+]
