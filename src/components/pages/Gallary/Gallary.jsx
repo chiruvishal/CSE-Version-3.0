@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
 import LazyLoad from 'react-lazyload';
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -15,6 +16,8 @@ import {
   faCircleChevronRight,
   faCircleXmark,
 } from '@fortawesome/free-solid-svg-icons';
+import "react-loading-skeleton/dist/skeleton.css";
+
 
 const Posts=(props)=>{
   const posts = useSelector((state) => state.posts);
@@ -24,6 +27,7 @@ const Posts=(props)=>{
   const [openModal, setOpenModal] = useState(false);
   const [showMore, setShowMore] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [loadingDelay, setLoadingDelay] = useState(5000); // 5 seconds
   const [galleryRef, galleryInView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -113,6 +117,15 @@ const HPost = ({  setCurrentId, post })=>{
     </li>
   );
 };
+useEffect(() => {
+  const loadingTimer = setTimeout(() => {
+    setLoadingDelay(0);
+  }, 5000);
+
+  return () => {
+    clearTimeout(loadingTimer);
+  };
+}, []);
 
   return  posts.length ? (
     <>
@@ -168,12 +181,22 @@ const HPost = ({  setCurrentId, post })=>{
               </ul>
             </div>
           </div>
+          
           <div style={{ width: '100%' }}>
             <div className="student-box1" style={{ width: '100%' }}>
               <h3 className="student-box-heading1">
                 "Enlightened Moments: Capturing NIT Raipur's Eventful Gallery"
               </h3>
               <div className="eventList">
+              {loadingDelay > 0 ? (
+            <div style={{ width: "100%", maxHeight: "100%" }}>
+        <SkeletonTheme baseColor="#2229a3" highlightColor="#edd3f1">
+          <p>
+            <Skeleton count={3} />
+          </p>
+        </SkeletonTheme>
+      </div>
+        ) :(
                 <ul>
                   {posts.map((post) =>
                     (post.tags===props.tag ?(
@@ -183,6 +206,7 @@ const HPost = ({  setCurrentId, post })=>{
                   </div>):null
                   ))}
                 </ul>
+        )}
                 <p style={{ color: 'white' }}>
                   To view the image in fullscreen mode, please click on it.
                 </p>
@@ -198,9 +222,17 @@ const HPost = ({  setCurrentId, post })=>{
                       </div>
 
                       {isLoading ? (
-                        <div className="loading">
-                          <span>NITRR-GALLERY LOADING...</span>
-                        </div>
+                        <div className="skeleton-container">
+            <SkeletonTheme baseColor="#2229a3" highlightColor="#edd3f1">
+              <div className="skeleton-row">
+                {[1, 2, 3].map((index) => (
+                  <div key={index} className="skeleton-box">
+                    <Skeleton width={300} height={200} />
+                  </div>
+                ))}
+              </div>
+            </SkeletonTheme>
+          </div>
                       ) : (
                         <>
                           <div className="galleryWrap">

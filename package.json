@@ -29,6 +29,8 @@
     "react-icons": "4.9.0",
     "react-intersection-observer": "9.4.4",
     "react-lazyload": "3.2.0",
+    "react-loading": "^2.0.3",
+    "react-loading-skeleton": "^3.3.1",
     "react-multi-carousel": "2.8.4",
     "react-owl-carousel": "2.3.3",
     "react-redux": "^8.1.0",
@@ -36,6 +38,7 @@
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
     "resize-observer-polyfill": "^1.5.1",
+    "skeleton": "^0.1.2",
     "swiper": "^9.4.0"
   },
   "scripts": {

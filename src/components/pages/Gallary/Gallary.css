@@ -1,3 +1,41 @@
+.skeleton-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skeleton-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-between; /* Add space between the skeletons */
+}
+
+.skeleton-box {
+  width: calc(33.33% - 10px);
+  max-width: calc(33.33% - 10px);
+  margin-bottom: 10px; /* Add margin bottom for space between the skeletons */
+}
+
+@media (max-width: 600px) {
+  .skeleton-row {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skeleton-box {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px; /* Add margin bottom for space between the skeletons on mobile */
+  }
+}
+
+
+
+
+
+
 .eventList ul {
   list-style: none;
 }
