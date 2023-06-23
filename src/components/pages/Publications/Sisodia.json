@@ -1,0 +1,1145 @@
+[
+  {
+    "article": "Prediction of diabetes using classification algorithms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:aqlVkmm33-oC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Procedia computer science 132, 1578-1585",
+    "year": [", 2018", 2018],
+    "cited": 607,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=147673663341091134"
+  },
+  {
+    "article": "Diabetic Retinal Fundus Images: Preprocessing and Feature Extraction For Early Detection of Diabetic Retinopathy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:Se3iqnhoufwC",
+    "contributors": "Dilip Singh Sisodia, Shruti Nair, Pooja Khobragade",
+    "about": "Biomedical  and Pharmacology Journal 10 (2), 615-626",
+    "year": [", 2017", 2017],
+    "cited": 100,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3169475183616836453"
+  },
+  {
+    "article": "Evaluation of machine learning models for employee churn prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:YOwf2qJgpHMC",
+    "contributors": "DS Sisodia, S Vishwakarma, A Pujahari",
+    "about": "2017 international conference on inventive computing and informatics (icici …",
+    "year": [", 2017", 2017],
+    "cited": 82,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18187374833718252437"
+  },
+  {
+    "article": "Alcohol use disorder detection using EEG Signal features and flexible analytical wavelet transform",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:IWHjjKOFINEC",
+    "contributors": "A Anuragi, DS Sisodia",
+    "about": "Biomedical Signal Processing and Control 52, 384-393",
+    "year": [", 2019", 2019],
+    "cited": 55,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3315252147672950480"
+  },
+  {
+    "article": "Empirical wavelet transform based automated alcoholism detecting using EEG signal features",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:k_IJM867U9cC",
+    "contributors": "A Anuragi, DS Sisodia",
+    "about": "Biomedical Signal Processing and Control 57, 101777",
+    "year": [", 2020", 2020],
+    "cited": 50,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10052638936178522346"
+  },
+  {
+    "article": "Performance evaluation of class balancing techniques for credit card fraud detection",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:M3ejUd6NZC8C",
+    "contributors": "DS Sisodia, NK Reddy, S Bhandari",
+    "about": "2017 IEEE International Conference on power, control, signals and …",
+    "year": [", 2017", 2017],
+    "cited": 50,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16998200200349214577"
+  },
+  {
+    "article": "Web usage pattern analysis through web logs: A review",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:u5HHmVD_uO8C",
+    "contributors": "DS Sisodia, S Verma",
+    "about": "IEEE International Joint Conference on Computer Science and Software …",
+    "year": [", 2012", 2012],
+    "cited": 49,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2116225238116038349"
+  },
+  {
+    "article": "Pair-wise preference relation based probabilistic matrix factorization for collaborative filtering in recommender system",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:NMxIlDl6LWMC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Knowledge-Based Systems 196, 105798",
+    "year": [", 2020", 2020],
+    "cited": 43,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12869757373148481429"
+  },
+  {
+    "article": "Agglomerative approach for identification and elimination of web robots from web server logs to extract knowledge about actual visitors",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:qjMakFHDy7sC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "Journal of Data Analysis and Information Processing 3 (01), 1",
+    "year": [", 2015", 2015],
+    "cited": 40,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8556071592150316740"
+  },
+  {
+    "article": "Epileptic-seizure classification using phase-space representation of FBSE-EWT based EEG sub-band signals and ensemble learners",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:3s1wT3WcHBgC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori",
+    "about": "Biomedical Signal Processing and Control 71, 103138",
+    "year": [", 2022", 2022],
+    "cited": 35,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16307474439896788318"
+  },
+  {
+    "article": "Automated alcoholism detection using fourier-bessel series expansion based empirical wavelet transform",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:blknAaTinKkC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori",
+    "about": "IEEE Sensors Journal 20 (9), 4914-4924",
+    "year": [", 2020", 2020],
+    "cited": 35,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9096863519521871175"
+  },
+  {
+    "article": "Clickbait detection using multiple categorisation techniques",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:r0BpntZqJG4C",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Journal of Information Science 47 (1), 118-128",
+    "year": [", 2021", 2021],
+    "cited": 31,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14909765365504483687"
+  },
+  {
+    "article": "Modeling side information in preference relation based restricted boltzmann machine for recommender systems",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:mB3voiENLucC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Information Sciences 490, 126-145",
+    "year": [", 2019", 2019],
+    "cited": 31,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15961857833228379640"
+  },
+  {
+    "article": "Prediction performance of individual and ensemble learners for chronic kidney disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:KlAtU1dfN6UC",
+    "contributors": "DS Sisodia, A Verma",
+    "about": "2017 international conference on inventive computing and informatics (ICICI …",
+    "year": [", 2017", 2017],
+    "cited": 24,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3152739583847730817"
+  },
+  {
+    "article": "Automated FBSE-EWT based learning framework for detection of epileptic seizures using time-segmented EEG signals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:pqnbT2bcN3wC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori",
+    "about": "Computers in Biology and Medicine 136, 104708",
+    "year": [", 2021", 2021],
+    "cited": 23,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14233604958191052719"
+  },
+  {
+    "article": "EEG-based cross-subject emotion recognition using Fourier-Bessel series expansion based empirical wavelet transform and NCA feature selection method",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:abG-DnoFyZgC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori",
+    "about": "Information Sciences 610, 508-524",
+    "year": [", 2022", 2022],
+    "cited": 20,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=77999873858959016"
+  },
+  {
+    "article": "Fast prediction of web user browsing behaviours using most interesting patterns",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:W7OEmFMy1HYC",
+    "contributors": "DS Sisodia, V Khandal, R Singhal",
+    "about": "Journal of Information Science 44 (1), 74-90",
+    "year": [", 2016", 2016],
+    "cited": 19,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16452400302080743716"
+  },
+  {
+    "article": "Augmented intuitive dissimilarity metric for clustering of web user sessions",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:UeHWp8X0CEIC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "Journal of Information Science 43 (4), 480-491",
+    "year": [", 2016", 2016],
+    "cited": 19,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3471858947488323791"
+  },
+  {
+    "article": "Grouping based job scheduling algorithm using priority queue and hybrid algorithm in grid computing",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:dshw04ExmUIC",
+    "contributors": "P Rosemarry, R Singh, P Singhal, D Sisodia",
+    "about": "International Journal of Grid Computing & Applications 3 (4), 55",
+    "year": [", 2012", 2012],
+    "cited": 18,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5122560921047434490"
+  },
+  {
+    "article": "Aggregation of preference relations to enhance the ranking quality of collaborative filtering based group recommender system",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&citation_for_view=CExet0QAAAAJ:O3NaXMp0MMsC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Expert Systems with Applications 156, 113476",
+    "year": [", 2020", 2020],
+    "cited": 17,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4209732984686433490"
+  },
+  {
+    "article": "Handbook of Research on Advancements of Artificial Intelligence in Healthcare Engineering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:RGFaLdJalmkC",
+    "contributors": "DS Sisodia, RB Pachori, L Garg",
+    "about": "https://www.igi-global.com/book/handbook-research-advancements-artificial …",
+    "year": [", 2020", 2020],
+    "cited": 17,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6532016982522393435"
+  },
+  {
+    "article": "Quad division prototype selection-based k-nearest neighbor classifier for click fraud detection from highly skewed user click dataset",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:g5m5HwL7SMYC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Engineering Science and Technology, an International Journal 28, 101011",
+    "year": [", 2022", 2022],
+    "cited": 16,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16423192415128948908"
+  },
+  {
+    "article": "Gradient boosting learning for fraudulent publisher detection in online advertising",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:35N4QoGY0k4C",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Data Technologies and Applications 55 (2), 216-232",
+    "year": [", 2021", 2021],
+    "cited": 16,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2864885451974478240"
+  },
+  {
+    "article": "A comparative analysis of browsing behavior of human visitors and automatic software agents",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:9yKSN-GCB0IC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "American Journal of Systems and Software 3 (2), 31-35",
+    "year": [", 2015", 2015],
+    "cited": 16,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2036447279657973058"
+  },
+  {
+    "article": "Real-Time Data Augmentation Based Transfer Learning Model for Breast Cancer Diagnosis Using Histopathological Images",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:lSLTfruPkqcC",
+    "contributors": "R Rai, DS Sisodia",
+    "about": "Advances in Biomedical Engineering and Technology, 473-488",
+    "year": [", 2021", 2021],
+    "cited": 15,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15325581792415899530"
+  },
+  {
+    "article": "A performance review of intra and inter-group MANET routing protocols under varying speed of nodes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:roLk4NBRz8UC",
+    "contributors": "DS Sisodia, R Singhal, V Khandal,",
+    "about": "International Journal of Electrical and Computer Engineering 7 (5), 2721-2730",
+    "year": [", 2017", 2017],
+    "cited": 15,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1550490940987467979"
+  },
+  {
+    "article": "A comparative performance study of machine learning algorithms for sentiment analysis of movie viewers using open reviews",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:j3f4tGmQtD8C",
+    "contributors": "DS Sisodia, S Bhandari, NK Reddy, A Pujahari",
+    "about": "Performance Management of Integrated Systems and its Applications in …",
+    "year": [", 2020", 2020],
+    "cited": 14,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7752503938417293145"
+  },
+  {
+    "article": "Ensemble Learning Approach for Clickbait Detection Using Article Headline Features.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:e5wmG9Sq2KIC",
+    "contributors": "DS Sisodia",
+    "about": "Informing Sci. Int. J. an Emerg. Transdiscipl. 22, 31-44",
+    "year": [", 2019", 2019],
+    "cited": 14,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17156045120549597687"
+  },
+  {
+    "article": "Image pixel intensity and artificial neural network based method for pattern recognition",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:u-x6o8ySG0sC",
+    "contributors": "DS Sisodia, S Verma",
+    "about": "World Acad. Sci. Eng. Technol 57, 742-745",
+    "year": [", 2011", 2011],
+    "cited": 14,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16249060140553688058"
+  },
+  {
+    "article": "Preference relation based collaborative filtering with graph aggregation for group recommender system",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:RYcK_YlVTxYC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Applied Intelligence 51, 658-672",
+    "year": [", 2021", 2021],
+    "cited": 13,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6951042195418794282"
+  },
+  {
+    "article": "Alcoholism detection using support vector machines and centered correntropy features of brain EEG signals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:ULOm3_A8WrAC",
+    "contributors": "A Anuragi, DS Sisodia",
+    "about": "2017 International Conference on Inventive Computing and Informatics (ICICI …",
+    "year": [", 2017", 2017],
+    "cited": 13,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16539303163190658486"
+  },
+  {
+    "article": "Data sampling strategies for click fraud detection using imbalanced user click data of online advertising: an empirical review",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:ldfaerwXgEUC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "IETE Technical Review 39 (4), 789-798",
+    "year": [", 2022", 2022],
+    "cited": 12,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8414929575819971157"
+  },
+  {
+    "article": "Compositional framework for multitask learning in the identification of cleavage sites of HIV-1 protease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:JV2RwH3_ST0C",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Journal of Biomedical Informatics 102, 103376",
+    "year": [", 2020", 2020],
+    "cited": 12,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16215662855784742413"
+  },
+  {
+    "article": "DataAutism: an early detection framework of autism in infants using data science",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:iH-uZ7U-co4C",
+    "contributors": "VG Shankar, DS Sisodia, P Chandrakar",
+    "about": "Data Management, Analytics and Innovation: Proceedings of ICDMAI 2019 …",
+    "year": [", 2020", 2020],
+    "cited": 11,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3712032739316568723"
+  },
+  {
+    "article": "Product recommendations using textual similarity based learning models",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:RHpTSmoSYBkC",
+    "contributors": "R Shrivastava, DS Sisodia",
+    "about": "2019 International Conference on Computer Communication and Informatics …",
+    "year": [", 2019", 2019],
+    "cited": 11,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8027238396645558182"
+  },
+  {
+    "article": "Ensemble learners for identification of spoken languages using mel frequency cepstral coefficients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:J_g5lzvAfSwC",
+    "contributors": "DS Sisodia, S Nikhil, GS Kiran, P Sathvik",
+    "about": "2nd International Conference on Data, Engineering and Applications (IDEA), 1-5",
+    "year": [", 2020", 2020],
+    "cited": 10,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11764445108834137429"
+  },
+  {
+    "article": "Model-based collaborative filtering for recommender systems: An empirical survey",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:GnPB-g6toBAC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "2020 First International Conference on Power, Control and Computing …",
+    "year": [", 2020", 2020],
+    "cited": 10,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16115605717131284468"
+  },
+  {
+    "article": "The Impact of Data Re-Sampling on Learning Performance of Class Imbalanced Bankruptcy Prediction Models",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:qUcmZB5y_30C",
+    "contributors": "DS Sisodia, U Verma",
+    "about": "International Journal on Electrical Engineering and Informatics 10 (3), 433-446",
+    "year": [", 2018", 2018],
+    "cited": 10,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7349154540125467730"
+  },
+  {
+    "article": "A discounted fuzzy relational clustering of web users’ using intuitive augmented sessions dissimilarity metric",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:YsMSGLbcyi4C",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "IEEE Access 4, 6883-6893",
+    "year": [", 2016", 2016],
+    "cited": 10,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12230835445468979722"
+  },
+  {
+    "article": "Evolutionary based optimal ensemble classifiers for HIV-1 protease cleavage sites prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:_kc_bZDykSQC",
+    "contributors": "D Singh, P Singh, DS Sisodia",
+    "about": "Expert Systems with Applications 109, 86-99",
+    "year": [", 2018", 2018],
+    "cited": 9,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5946760417383421590"
+  },
+  {
+    "article": "Sentiment analysis of prospective buyers of mega online sale using tweets",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:qxL8FJ1GzNcC",
+    "contributors": "DS Sisodia, NR Reddy",
+    "about": "2017 IEEE International Conference on Power, Control, Signals and …",
+    "year": [", 2017", 2017],
+    "cited": 9,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17003760141475384963"
+  },
+  {
+    "article": "A conglomerate technique for finger print recognition using phone camera captured images",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:4TOpqqG69KYC",
+    "contributors": "DS Sisodia, T Vandana, M Choudhary",
+    "about": "2017 IEEE International Conference on Power, Control, Signals and …",
+    "year": [", 2017", 2017],
+    "cited": 9,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=948206939399670599"
+  },
+  {
+    "article": "Item feature refinement using matrix factorization and boosted learning based user profile generation for content-based recommender systems",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:b0M2c_1WBrUC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Expert Systems with Applications 206, 117849",
+    "year": [", 2022", 2022],
+    "cited": 8,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6232580413334045038"
+  },
+  {
+    "article": "A novel discriminant feature selection–based mutual information extraction from MR brain images for Alzheimer's stages detection and prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:u_35RYKgDlwC",
+    "contributors": "VG Shankar, DS Sisodia, P Chandrakar",
+    "about": "International Journal of Imaging Systems and Technology 32 (4), 1172-1191",
+    "year": [", 2022", 2022],
+    "cited": 8,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1667332500815848270"
+  },
+  {
+    "article": "Deep transfer learning model for automated screening of cervical cancer cells using multi-cell images",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:vV6vV6tmYwMC",
+    "contributors": "V Khobragade, N Jain, DS Sisodia",
+    "about": "Applied Informatics: Third International Conference, ICAI 2020, Ota, Nigeria …",
+    "year": [", 2020", 2020],
+    "cited": 8,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3324571146488443150"
+  },
+  {
+    "article": "Quantitative evaluation of Web user session dissimilarity measures using medoids based relational fuzzy clustering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:Y0pCki6q_DkC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "Indian Journal of Science and Technology 9 (28), 1-9",
+    "year": [", 2016", 2016],
+    "cited": 8,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13954597345461463627"
+  },
+  {
+    "article": "Performance evaluation of an augmented session dissimilarity matrix of web user sessions using relational fuzzy C-means clustering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:IjCSPb-OGe4C",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "International Journal of Applied Engineering and Research 11 (9), 6497-6503",
+    "year": [", 2016", 2016],
+    "cited": 8,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6315213648154412704"
+  },
+  {
+    "article": "Evolutionary based ensemble framework for realizing transfer learning in HIV-1 Protease cleavage sites prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:ZeXyd9-uunAC",
+    "contributors": "D Singh, P Singh, DS Sisodia",
+    "about": "Applied Intelligence 49, 1260-1282",
+    "year": [", 2019", 2019],
+    "cited": 7,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7078213530379209830"
+  },
+  {
+    "article": "Distinct multiple learner-based ensemble smotebagging (ML-ESB) method for classification of binary class imbalance problems",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:_Qo2XoVZTnwC",
+    "contributors": "DS Sisodia, U Verma",
+    "about": "International Journal of Technology 10 (4), 721-730",
+    "year": [", 2019", 2019],
+    "cited": 7,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5650798349828045590"
+  },
+  {
+    "article": "Feature space transformation of user-clicks and deep transfer learning framework for fraudulent publisher detection in online advertising",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:EUQCXRtRnyEC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Applied Soft Computing 125, 109142",
+    "year": [", 2022", 2022],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13700986947268037961"
+  },
+  {
+    "article": "Multi-objective evolutionary approach for the performance improvement of learners using ensembling feature selection and discretization technique on medical data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:YFjsv_pBGBYC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Current medical imaging 16 (4), 355-370",
+    "year": [", 2020", 2020],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8828213916273581086"
+  },
+  {
+    "article": "Automated sms classification and spam analysis using topic modeling",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:NaGl4SEjCO4C",
+    "contributors": "DS Sisodia, S Mahapatra, A Sharma",
+    "about": "2nd International Conference on Data, Engineering and Applications (IDEA), 1-6",
+    "year": [", 2020", 2020],
+    "cited": 6,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8055981953799873804"
+  },
+  {
+    "article": "A hybrid data‐level sampling approach in learning from skewed user‐click data for click fraud detection in online advertising",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:NhqRSupF_l8C",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Expert Systems 40 (2), e13147",
+    "year": [", 2023", 2023],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3274364336180658518"
+  },
+  {
+    "article": "Handling dynamic user preferences using integrated point and distribution estimations in collaborative filtering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:4OULZ7Gr8RgC",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "IEEE Transactions on Systems, Man, and Cybernetics: Systems 52 (10), 6639-6651",
+    "year": [", 2022", 2022],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1521499914392013345"
+  },
+  {
+    "article": "Feature distillation and accumulated selection for automated fraudulent publisher classification from user click data of online advertising",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:fPk4N6BV_jEC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "Data Technologies and Applications",
+    "year": [", 2022", 2022],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14958880179372738265"
+  },
+  {
+    "article": "Performance evaluation of learners for analyzing the hotel customer sentiments based on text reviews",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:4JMBOYKVnBMC",
+    "contributors": "DS Sisodia, S Nikhil, GS Kiran, H Shrawgi",
+    "about": "Performance Management of Integrated Systems and its applications in …",
+    "year": [", 2020", 2020],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1092985900876280164"
+  },
+  {
+    "article": "Compositional model based on factorial evolution for realizing multi-task learning in bacterial virulent protein prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:TFP_iSt0sucC",
+    "contributors": "D Singh, P Singh, DS Sisodia",
+    "about": "Artificial Intelligence in Medicine 101, 101757",
+    "year": [", 2019", 2019],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16545088533664970322"
+  },
+  {
+    "article": "Sleep order detection model using support vector machines and features extracted from brain ECG signals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:Zph67rFs4hoC",
+    "contributors": "DS Sisodia, K Sachdeva, A Anuragi",
+    "about": "2017 international conference on inventive computing and informatics (ICICI …",
+    "year": [", 2017", 2017],
+    "cited": 5,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9141157442752290178"
+  },
+  {
+    "article": "An optimized recommendation framework exploiting textual review based opinion mining for generating pleasantly surprising, novel yet relevant recommendations",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:bFI3QPDXJZMC",
+    "contributors": "R Shrivastava, DS Sisodia, NK Nagwani, UR BP",
+    "about": "Pattern Recognition Letters 159, 91-99",
+    "year": [", 2022", 2022],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6532849997412521273"
+  },
+  {
+    "article": "Long short term memory based functional characterization model for unknown protein sequences using ensemble of shallow and deep features",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:zA6iFVUQeVQC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "Neural Computing and Applications, 1-11",
+    "year": [", 2022", 2022],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2999180795147438126"
+  },
+  {
+    "article": "Multiobjective evolutionary-based multi-kernel learner for realizing transfer learning in the prediction of HIV-1 protease cleavage sites",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:bEWYMUwI8FkC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Soft Computing, 1-25",
+    "year": [", 2019", 2019],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9334338227392406764"
+  },
+  {
+    "article": "Convolution neural network model for predicting single guide RNA efficiency in CRISPR/Cas9 system",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:TQgYirikUcIC",
+    "contributors": "H Shrawgi, DS Sisodia",
+    "about": "Chemometrics and Intelligent Laboratory Systems 189, 149-154",
+    "year": [", 2019", 2019],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13415234763609418123"
+  },
+  {
+    "article": "A comparative performance of classification algorithms in predicting alcohol consumption among secondary school students",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:dhFuZR0502QC",
+    "contributors": "DS Sisodia, R Agrawal, D Sisodia",
+    "about": "Machine Intelligence and Signal Analysis, 523-532",
+    "year": [", 2019", 2019],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12364257545176978680"
+  },
+  {
+    "article": "Performance evaluation of large data clustering techniques on web robot session data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:mVmsd5A6BfQC",
+    "contributors": "DS Sisodia, R Borkar, H Shrawgi",
+    "about": "Machine Intelligence and Signal Analysis, 545-553",
+    "year": [", 2019", 2019],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=780436539065664411"
+  },
+  {
+    "article": "Analysis of public sentiments about mega online sale using tweets on big billions day sale",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:4DMP91E08xMC",
+    "contributors": "DS Sisodia, R Reddy",
+    "about": "Sentiment analysis and knowledge discovery in contemporary business, 59-76",
+    "year": [", 2019", 2019],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8392490461835029048"
+  },
+  {
+    "article": "A subtractive relational fuzzy c-medoids clustering approach to cluster web user sessions from web server logs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:_FxGoFyzp5QC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "International Journal of Applied Engineering Research 12 (7), 1142-1150",
+    "year": [", 2017", 2017],
+    "cited": 4,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13249202027503645002"
+  },
+  {
+    "article": "Framework for Preprocessing and Feature Extraction from Weblogs for Identification of HTTP Flood Request Attacks",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:M3NEmzRMIkIC",
+    "contributors": "DS Sisodia, N Verma",
+    "about": "2018 International Conference on Advanced Computation and Telecommunication …",
+    "year": [", 2018", 2018],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13712261261393074661"
+  },
+  {
+    "article": "Performance evaluation of density-based clustering methods for categorizing web robot sessions",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:maZDTaKrznsC",
+    "contributors": "DS Sisodia, N Verma",
+    "about": "2018 International Conference on Advanced Computation and Telecommunication …",
+    "year": [", 2018", 2018],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10094362189794574624"
+  },
+  {
+    "article": "Categorization performance of unsupervised learning techniques for web robots sessions",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:-f6ydRqryjwC",
+    "contributors": "DS Sisodia, R Khandelwal, A Anuragi",
+    "about": "2018 International Conference on Inventive Research in Computing …",
+    "year": [", 2018", 2018],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12758721043538151177"
+  },
+  {
+    "article": "Performance of unsupervised learning algorithms for online document clustering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:hC7cP41nSMkC",
+    "contributors": "DS Sisodia, A Verma",
+    "about": "2018 International Conference on Inventive Research in Computing …",
+    "year": [", 2018", 2018],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5865609414330021893"
+  },
+  {
+    "article": "Augmented Session Similarity Based Framework for Measuring Web User Concern from Web Server Logs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:LkGwnXOMwfcC",
+    "contributors": "DS Sisodia",
+    "about": "International Journal on Advanced Science, Engineering and Information …",
+    "year": [", 2017", 2017],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8327636685633315309"
+  },
+  {
+    "article": "A Conglomerate Relational Fuzzy Approach for Discovering Web User Session Clusters from Web Server Logs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:zYLM7Y9cAGgC",
+    "contributors": "DS Sisodia, S Verma, OP Vyas",
+    "about": "International Journal of Engineering and Technology 8 (3), 1433-1443",
+    "year": [", 2016", 2016],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11210321692230850354"
+  },
+  {
+    "article": "Application of Weblogs to Construct Smart Web servers to handle user Traffic efficiently",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:d1gkVwhDpl0C",
+    "contributors": "DS Sisodia, S Verma",
+    "about": "International Journal of Advanced Computer Eng Ineering and Architecture …",
+    "year": [", 2011", 2011],
+    "cited": 3,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=401700011934590282"
+  },
+  {
+    "article": "Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:xtRiw3GOFMkC",
+    "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+    "about": "Expert Systems with Applications 213, 119071",
+    "year": [", 2023", 2023],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9796191177380605904"
+  },
+  {
+    "article": "Semi-Supervised Self-Training Approach for Web Robots Activity Detection in Weblog",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:dfsIfKJdRG4C",
+    "contributors": "RR Jagat, DS Sisodia, P Singh",
+    "about": "Evolutionary Computing and Mobile Sustainable Networks: Proceedings of …",
+    "year": [", 2022", 2022],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3183152327847086722"
+  },
+  {
+    "article": "Data sampling methods for analyzing publishers conduct from highly imbalanced dataset in web advertising",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:KxtntwgDAa4C",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "International conference on information systems and management Science, 428-441",
+    "year": [", 2021", 2021],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1539757360381042315"
+  },
+  {
+    "article": "Augmented sequence features and subcellular localization for functional characterization of unknown protein sequences",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:rO6llkc54NcC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "Medical & Biological Engineering & Computing 59, 2297-2310",
+    "year": [", 2021", 2021],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=768551732891367237"
+  },
+  {
+    "article": "Multi-function prediction of unknown protein sequences using multilabel classifiers and augmented sequence features",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:M05iB0D1s5AC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "Iranian Journal of Science and Technology, Transactions A: Science 45 (4 …",
+    "year": [", 2021", 2021],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4294879715135033724"
+  },
+  {
+    "article": "Prospecting the Effect of Topic Modeling in Information Retrieval",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:HoB7MX3m0LUC",
+    "contributors": "A Sharaff, JK Dewangan, DS Sisodia",
+    "about": "International Journal on Semantic Web and Information Systems (IJSWIS) 17 (3 …",
+    "year": [", 2021", 2021],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6924141649010341484"
+  },
+  {
+    "article": "Data Imputation-Based Learning Models for Prediction of Diabetes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:2P1L_qKh6hAC",
+    "contributors": "DS Sisodia, R Agrawal",
+    "about": "2020 International Conference on Decision Aid Sciences and Application (DASA …",
+    "year": [", 2020", 2020],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9944234297207131364"
+  },
+  {
+    "article": "Evolutionary Intelligence-Based Feature Descriptor Selection for Efficient Identification of Anti-Cancer Peptides",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:hMod-77fHWUC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Handbook of Research on Advancements of Artificial Intelligence in …",
+    "year": [", 2020", 2020],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15848474645374743648"
+  },
+  {
+    "article": "Cognitive framework for HIV-1 protease cleavage site classification using evolutionary algorithm",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:R3hNpaxXUhUC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Arabian Journal for Science and Engineering 44, 9007-9027",
+    "year": [", 2019", 2019],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5775232263050126830"
+  },
+  {
+    "article": "Performance evaluation of ensemble learners on smartphone sensor generated human activity data set",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:HDshCWvjkbEC",
+    "contributors": "DS Sisodia, AK Yogi",
+    "about": "Data, Engineering and Applications: Volume 2, 277-284",
+    "year": [", 2019", 2019],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7955819377195620556"
+  },
+  {
+    "article": "Investigation of feature selection techniques on performance of automatic text categorization",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:hFOr9nPyWt4C",
+    "contributors": "DS Sisodia, A Shukla",
+    "about": "Data, Engineering and Applications: Volume 1, 71-82",
+    "year": [", 2019", 2019],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=179763084808575617"
+  },
+  {
+    "article": "Agglomerative Similarity Measure Based Automated Clustering of Scholarly Articles",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:9ZlFYXVOiuMC",
+    "contributors": "DS Sisodia, M Choudhary, T Vandana, R Rai",
+    "about": "Machine Intelligence and Signal Analysis, 533-544",
+    "year": [", 2019", 2019],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11332827234987853601"
+  },
+  {
+    "article": "Comparative performance of interestingness measures to identify redundant and noninformative rules from web usage data",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:3fE2CSJIrl8C",
+    "contributors": "DS Sisodia, R Singhal, V Kandal",
+    "about": "International Journal of Technology 9 (1), 201-211",
+    "year": [", 2018", 2018],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8259966225715154219"
+  },
+  {
+    "article": "Web Access Patterns of Actual Human Visitors and Web Robots: A Correlated Examination",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:8k81kl-MbHgC",
+    "contributors": "DS Sisodia",
+    "about": "Handbook of Research on Pattern Engineering System Development for Big Data …",
+    "year": [", 2018", 2018],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14240696422528239519"
+  },
+  {
+    "article": "A subtractive medoids selection based fuzzy relational clustering of augmented web user sessions",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:hqOjcs7Dif8C",
+    "contributors": "DS Sisodia",
+    "about": "Journal of Intelligent & Fuzzy Systems 33 (4), 2259-2268",
+    "year": [", 2017", 2017],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13130411203444530540"
+  },
+  {
+    "article": "Analysis of spamming threats and some possible solutions for online social networking sites (OSNS)",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:2osOgNQ5qMEC",
+    "contributors": "DS Sisodia, S Verma",
+    "about": "International Journal of Computer and Information Engineering 9 (3), 762-766",
+    "year": [", 2015", 2015],
+    "cited": 2,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13027575052918157144"
+  },
+  {
+    "article": "DISET: a distance based semi-supervised self-training for automated users’ agent activity detection from web access log",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:CHSYGLWDkRkC",
+    "contributors": "RR Jagat, DS Sisodia, P Singh",
+    "about": "Multimedia Tools and Applications 82 (13), 19853-19876",
+    "year": [", 2023", 2023],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4235742440248186310"
+  },
+  {
+    "article": "Utility optimization-based multi-stakeholder personalized recommendation system",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:f2IySw72cVMC",
+    "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+    "about": "Data Technologies and Applications",
+    "year": [", 2022", 2022],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18271001442048329540"
+  },
+  {
+    "article": "Deep networks for brachial plexus nerves segmentation and detection using ultrasound images",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:ZHo1McVdvXMC",
+    "contributors": "K Pisda, P Jain, DS Sisodia",
+    "about": "Information Systems and Management Science: Conference Proceedings of 3rd …",
+    "year": [", 2022", 2022],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11226337415979212376"
+  },
+  {
+    "article": "An Efficient MR Images Based Analysis to Predict Alzheimer's Dementia Stage Using Random Forest Classifier",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:P5F9QuxV20EC",
+    "contributors": "VG Shankar, DS Sisodia, P Chandrakar",
+    "about": "International Conference on Information Systems and Management Science, 104-119",
+    "year": [", 2021", 2021],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14359131409482416255"
+  },
+  {
+    "article": "Longest Common Subsequence based Multistage Collaborative Filtering for Recommender Systems",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:70eg2SAEIzsC",
+    "contributors": "DS Sisodia, I NehaPriyanka, P Amulya",
+    "about": "2020 21st International Arab Conference on Information Technology (ACIT), 1-5",
+    "year": [", 2020", 2020],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17435220025303640859"
+  },
+  {
+    "article": "Neuro-Fuzzy Approach for Reconstruction of 3-D Spine Model Using 2-D Spine Images and Human Anatomy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:isC4tDSrTZIC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "Next Generation Computing Technologies on Computational Intelligence: 4th …",
+    "year": [", 2019", 2019],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11637205217423242353"
+  },
+  {
+    "article": "An empirical analysis of instance-based transfer learning approach on protease substrate cleavage site prediction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:7PzlFSSx8tAC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Machine Intelligence and Signal Analysis, 59-70",
+    "year": [", 2019", 2019],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16621176576626804010"
+  },
+  {
+    "article": "Machine Learning Models for Forecasting of Individual Stocks Price Patterns",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:MXK_kJrjxJIC",
+    "contributors": "Dilip Singh Sisodia, Sagar Jadhav",
+    "about": "Handbook of Research on Pattern Engineering System Development for Big Data …",
+    "year": [", 2018", 2018],
+    "cited": 1,
+    "addonlinks": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6936834707066985086"
+  },
+  {
+    "article": "Ordinal Consistency based Matrix Factorization model for Exploiting Side Information in Collaborative Filtering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:vRqMK49ujn8C",
+    "contributors": "A Pujahari, DS Sisodia",
+    "about": "Information Sciences, 119258",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "On Diverse and Serendipitous Item Recommendation: A Reinforced Similarity and Multi-objective Optimization-Based Composite Recommendation Framework",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:08ZZubdj9fEC",
+    "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+    "about": "Machine Intelligence Techniques for Data Analysis and Signal Processing …",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Performance Evaluation of TQWT and EMD for Automated Major Depressive Disorder Detection Using EEG Signals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=20&pagesize=80&citation_for_view=CExet0QAAAAJ:tOudhMTPpwUC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori, D Singh",
+    "about": "Machine Intelligence Techniques for Data Analysis and Signal Processing …",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Evaluating Feature Importance to Investigate Publishers Conduct for Detecting Click Fraud",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:l7t_Zn2s7bgC",
+    "contributors": "D Sisodia, DS Sisodia, D Singh",
+    "about": "Machine Intelligence Techniques for Data Analysis and Signal Processing …",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Stacked Generalization Architecture for Predicting Publisher Behaviour from Highly Imbalanced User-Click Data Set for Click Fraud Detection",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:738O_yMBCRsC",
+    "contributors": "D Sisodia, DS Sisodia",
+    "about": "New Generation Computing, 1-26",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Web-S4AE: a semi-supervised stacked sparse autoencoder model for web robot detection",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:K3LRdlH-MEoC",
+    "contributors": "RR Jagat, DS Sisodia, P Singh",
+    "about": "Neural Computing and Applications, 1-16",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Automated Classification of Focal and Non-focal Epileptic iEEG Signals using 1D-Convolutional Neural Network",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:4fKUyHm3Qg0C",
+    "contributors": "AS Jangde, DS Sisodia",
+    "about": "2023 2nd International Conference on Applied Artificial Intelligence and …",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Classification of focal and non-focal EEG signals using optimal geometrical features derived from a second-order difference plot of FBSE-EWT rhythms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:uWQEDVKXjbEC",
+    "contributors": "A Anuragi, DS Sisodia, RB Pachori",
+    "about": "Artificial Intelligence in Medicine 139, 102542",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Preface: Proceedings of the 1st International Conference on Computational Intelligence and Network Security-2022 (ICCINS-2022)",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:tS2w5q8j5-wC",
+    "contributors": "KJ Naik, P Chandrakar, DS Sisodia",
+    "about": "COMPUTATIONAL INTELLIGENCE AND NETWORK SECURITY 2724 (1), 010001",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Balancing Techniques for Improving Automated Detection of Hate Speech and Offensive Language on Social Media",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:p2g8aNsByqUC",
+    "contributors": "BAC Reddy, GK Chandra, DS Sisodia, A Anuragi",
+    "about": "2023 2nd International Conference for Innovation in Technology (INOCON), 1-8",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "A Novel Continuous-time Hidden Markov Model Based on a Bag of Features Extracted from MR Brain Images for Alzheimer's Stage Progression and Detection.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:SP6oXDckpogC",
+    "contributors": "VG Shankar, DS Sisodia, P Chandrakar",
+    "about": "Current Medical Imaging",
+    "year": [", 2023", 2023],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Functional characterization of unknown protein sequences using Neuro-Fuzzy based machine learning approach and sequence augmented feature",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:_xSYboBqXhAC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "Expert Systems with Applications 205, 117760",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "A Novel PCA-Logistic Regression for Intrusion Detection System",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:WbkHhVStYXYC",
+    "contributors": "RO Ogundokun, M Odusami, DS Sisodia, JB Awotunde, DP Tiwari",
+    "about": "International Conference on Information Systems and Management Science, 575-588",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Diagnosis Expert System on Breast Cancer Using Fuzzy Logic and Clustering Technique",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:Tiz5es2fbqcC",
+    "contributors": "JB Awotunde, DS Sisodia, PA Ayodele, RO Ogundokun, VS Chouhan",
+    "about": "International Conference on Information Systems and Management Science, 589-601",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Automated Spoken Language Identification Using Convolutional Neural Networks & Spectrograms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:u9iWguZQMMsC",
+    "contributors": "H Shrawgi, DS Sisodia, P Gupta",
+    "about": "International Conference on Information Systems and Management Science, 152-163",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Low-Dose COVID-19 CT Image Denoising Using CNN and its Method Noise Thresholding.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:D03iK_w7-QYC",
+    "contributors": "M Diwakar, NK Pandey, R Singh, D Sisodia, C Arya, P Singh, ...",
+    "about": "Current Medical Imaging",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Function Characterization of Unknown Protein Sequences Using One Hot Encoding and Convolutional Neural Network Based Model",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:XiSMed-E-HIC",
+    "contributors": "S Agrawal, DS Sisodia, NK Nagwani",
+    "about": "International Conference on Machine Intelligence and Signal Processing, 267-277",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Fair Exposure: A Multi-stakeholder Personalized Recommendation System Based on Multi-objective Optimization",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:SeFeTyx0c_EC",
+    "contributors": "R Shrivastava, DS Sisodia, NK Nagwani",
+    "about": "Information Systems and Management Science: Conference Proceedings of 3rd …",
+    "year": [", 2022", 2022],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Multiple aggregation model using Ensembles Classifier for feature selection: A Homogeneous Approach",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:pyW8ca7W8N0C",
+    "contributors": "SS Kshatri, D Singh, DS Sisodia",
+    "about": "2021 IEEE International Conference on Technology, Research, and Innovation …",
+    "year": [", 2021", 2021],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Analysis of the Effect of Feature Selection and Class Balancing Methods with Supervised Algorithms in Web Robot Detection Problem",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:nb7KW1ujOQ8C",
+    "contributors": "RR Jagat, DS Sisodia, P Singh",
+    "about": "International Conference on Information Systems and Management Science, 442-453",
+    "year": [", 2021", 2021],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "2020 First International Conference on Power, Control and Computing Technologies (ICPC2T) 03-05 January 2020 Department of Electrical Engineering",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:BqipwSGYUEgC",
+    "contributors": "AD Prasad, AY Abdelaziz, A Sharaff, A Roy, A Kumar, A Pujahari, ...",
+    "about": "",
+    "year": ["", 2020],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "A Comparative Performance Study of Machine Learning Algorithms for Sentiment Analysis of Movie Viewers",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:ns9cj8rnVeAC",
+    "contributors": "DS Sisodia, S Bhandari, NK Reddy, A Pujahari",
+    "about": "Performance Management of Integrated Systems and its Applications in …",
+    "year": [", 2019", 2019],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Genetic Algorithm Based Pre-Processing Strategy for High Dimensional Micro-Array Gene Classification: Application of Nature Inspired Intelligence",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:L8Ckcad2t8MC",
+    "contributors": "D Singh, DS Sisodia, P Singh",
+    "about": "Nature-Inspired Algorithms for Big Data Frameworks, 22-46",
+    "year": [", 2019", 2019],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "An Empirical Investigation of Discretization Techniques on the Classification of Protein–Protein Interaction",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:QIV2ME_5wuYC",
+    "contributors": "DS Sisodia, M Singh",
+    "about": "Machine Intelligence and Signal Analysis, 509-521",
+    "year": [", 2019", 2019],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "A Relative Performance of Dissimilarity Measures for Matching Relational Web Access Patterns between User Sessions",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:5nxA0vEk-isC",
+    "contributors": "DS Sisodia",
+    "about": "Handbook of Research on Pattern Engineering System Development for Big Data …",
+    "year": [", 2018", 2018],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Evaluation of Mutual Influence and Correlation Performance between Global Stock Indices Using Unsupervised Learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:kNdYIx-mwKoC",
+    "contributors": "DS Sisodia, S Jadhav",
+    "about": "International Journal of Applied Business and Economic Research 15 (26), 125-137",
+    "year": [", 2017", 2017],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "A Comprehensive Comparative Performance of Different Mobile Ad-Hoc Network Routing Protocols with Increasing Node Instances",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:0EnyYjriUFMC",
+    "contributors": "DS Sisodia, R Singhal, V Khandal",
+    "about": "Far East Journal of Electronics and Communications 17 (5), 1047-1064",
+    "year": [", 2017", 2017],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "INDIA Com-2016",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:ufrVoPGSRksC",
+    "contributors": "MN Hoda",
+    "about": "",
+    "year": ["", 2016],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "Machine Intelligence Techniques for Data Analysis and Signal Processing",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:B3FOqHPlNUQC",
+    "contributors": "DS Sisodia, L Garg, RB Pachori, M Tanveer",
+    "about": "",
+    "year": ["", null],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "article": "CICT 2016",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CExet0QAAAAJ&cstart=100&pagesize=100&citation_for_view=CExet0QAAAAJ:eQOLeE2rZwMC",
+    "contributors": "R Thool, A Patel, PS Sajja, A Gosai, RM Suresh, M Shrimali, DR Kathiriya, ...",
+    "about": "",
+    "year": ["", null],
+    "cited": null,
+    "addonlinks": "https://scholar.google.com/citations?user=CExet0QAAAAJ&hl=en&oi=ao"
+  }
+]
