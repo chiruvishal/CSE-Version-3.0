@@ -1,10 +1,15 @@
 import React, { useEffect, useRef } from 'react';
-import {Chart} from 'chart.js/auto';
+import { Chart } from 'chart.js/auto';
+import { useInView } from 'react-intersection-observer';
 
 const BarChart2 = () => {
   const chartRef = useRef(null);
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Only trigger once when chart enters viewport
+  });
 
   useEffect(() => {
+    let chartInstance = null;
     const chartOptions = {
       type: 'bar',
       data: {
@@ -21,25 +26,45 @@ const BarChart2 = () => {
         scales: {
           y: {
             beginAtZero: true,
+            ticks: {
+              stepSize: 40,
+            },
           },
         },
         layout: {
-            padding: {
-              top: 10,
-              right: 30,
-              
-              left: 30,
-            },
+          padding: {
+            top: 10,
+            right: 30,
+            left: 30,
           },
+        },
+        animation: {
+          duration: inView ? 700 : 0, // Animation duration in milliseconds
+          easing: 'easeInOutQuart', // Animation easing function
+        },
       },
     };
 
     if (chartRef && chartRef.current) {
-      new Chart(chartRef.current, chartOptions);
+      if (chartInstance) {
+        chartInstance.destroy();
+      }
+      chartInstance = new Chart(chartRef.current, chartOptions);
     }
-  }, []);
+    
+    return () => {
+      // Clean up chart instance on component unmount
+      if (chartInstance) {
+        chartInstance.destroy();
+      }
+    };
+  }, [inView]);
 
-  return <canvas ref={chartRef} />;
+  return (
+    <div ref={ref}>
+      <canvas ref={chartRef} />
+    </div>
+  );
 };
 
 export default BarChart2;
