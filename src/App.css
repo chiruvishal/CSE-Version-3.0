@@ -117,3 +117,7 @@
   border-right: 100px solid transparent;
   z-index: 1;
 }
+
+*{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
