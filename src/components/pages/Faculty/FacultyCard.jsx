@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import FacultyDetails from './FacultyDetail';
+//import { BrowserRouter, Routes, Route } from 'react-router-dom';
+//import FacultyDetails from './FacultyDetail';
 
 const FacultyCard = ({ id, name, picture, Designition, email, phone }) => {
   const handleImageClick = () => {
