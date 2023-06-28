@@ -127,7 +127,7 @@ useEffect(() => {
   };
 }, []);
 
-  return  posts.length ? (
+  return(
     <>
       <div>
         <div
@@ -321,7 +321,7 @@ useEffect(() => {
         </div>
       </div>
     </>
-  ):null;
+  )
 };
 
 const Gallary=(props)=>{

@@ -1,9 +1,9 @@
-.Acha a{
+.Acha a {
   color: white;
 }
-.cardhari {
+.cardhar {
   border-radius: 25px;
-  background-color: rgb(243, 242, 242);
+  background-color: #f2eaea;
   margin: 20px;
 }
 
@@ -33,18 +33,18 @@
 
 .overlay::before,
 .overlay::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #1d1ce5;
+  background-color: #f2eaea;
 }
 
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: rgb(243, 242, 242);
+  background-color: #f2eaea;
 }
 
 .card-imagehar {
@@ -98,20 +98,13 @@
   background: #265df2;
 }
 
-@media (max-width: 425px) {
-  .cardhari {
-    width: calc(50% - 40px);
-  }
-}
-
-@media (max-width: 375px) {
-  .cardhari {
-    width: calc(50% - 10px);
-  }
-}
-
-@media (max-width: 320px) {
-  .cardhari {
-    width: calc(100% - 30px);
-  }
+.galleryWrap12 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
 }
