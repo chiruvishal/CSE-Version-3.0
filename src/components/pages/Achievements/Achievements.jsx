@@ -127,7 +127,7 @@ const Posts=(props)=> {
   const [loadingMore, setLoadingMore] = useState(false);
   const [loadedImages, setLoadedImages] = useState(6);
   const galleryClassName = `gallery ${
-    animateGallery ? 'animate__animated animate__fadeInUp' : ''
+    animateGallery ? 'animate_animated animate_fadeInUp' : ''
   }`;
   const toggleShowMore = () => {
     setLoadingMore(true);
@@ -268,7 +268,7 @@ const Posts=(props)=> {
                         </div>
                       ) : (
                         <>
-                          <div className="galleryWrap">
+                          <div className="galleryWrap12">
                           {posts.map((post) => (
                                  post.tags===props.tag ?(
                                 <LazyLoad item key={post._id} height={200} offset={100} once>
