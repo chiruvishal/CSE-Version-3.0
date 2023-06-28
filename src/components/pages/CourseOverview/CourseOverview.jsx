@@ -3,6 +3,7 @@ import "./CourseOverview.css";
 import { Link } from "react-router-dom";
 
 const courseData = [
+  
   {
     year: "1st Year",
     semesters: [
@@ -211,6 +212,7 @@ export default function CourseOverview() {
                           value={selectedYear}
                           onChange={handleYearChange}
                         >
+                          <option value=""> -select Year - </option>{" "}
                           <option value="1st Year"> 1 st Year </option>{" "}
                           <option value="2nd Year"> 2 nd Year </option>{" "}
                           <option value="3rd Year"> 3 rd Year </option>{" "}
@@ -222,6 +224,7 @@ export default function CourseOverview() {
                           value={selectedSemester}
                           onChange={handleSemesterChange}
                         >
+                          <option value=""> -select Sem - </option>{" "}
                           <option value="Semester I"> Semester I </option>{" "}
                           <option value="Semester II"> Semester II </option>{" "}
                         </select>{" "}
