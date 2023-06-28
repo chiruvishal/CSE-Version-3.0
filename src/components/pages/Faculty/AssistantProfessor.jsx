@@ -6,6 +6,7 @@ import './FacultyCard.css';
 export default function FacultyOverview() {
   const facultyMembers = [
     {
+      id: '3',
       name: 'Dr.Aakank Sharaff',
       picture: 'https://i.postimg.cc/3d48tShj/img4.png',
       Designition: 'Assistant Professor',
@@ -13,6 +14,7 @@ export default function FacultyOverview() {
       phone: 'Phone: 8817813946',
     },
     {
+      id: '4',
       name: 'Dr. Veena Anand',
       picture: 'https://i.postimg.cc/6TTtQj8s/img5.png',
       Designition: 'Assistant Professor',
@@ -20,6 +22,7 @@ export default function FacultyOverview() {
       phone: 'Phone:7587071023',
     },
     {
+      id: '5',
       name: 'Dr. Manu Vardhan',
       picture: 'https://i.postimg.cc/CBsBLv5n/img6.png',
       Designition: 'Assistant Professor',
@@ -27,6 +30,7 @@ export default function FacultyOverview() {
       phone: 'Phone:9770543061',
     },
     {
+      id: '6',
       name: 'Dr. Preeti Chandraka',
       picture: 'https://i.postimg.cc/V5z0HcZq/img7.png',
       Designition: 'Assistant Professor Grade-I',
@@ -34,6 +38,7 @@ export default function FacultyOverview() {
       phone: 'Phone:7003171408',
     },
     {
+      id: '7',
       name: 'Dr. K. Jairam Naik',
       picture: 'https://i.postimg.cc/BLSZNJZt/img8.png" alt="img8',
       Designition: 'Assistant Professor',
@@ -41,6 +46,7 @@ export default function FacultyOverview() {
       phone: 'Phone:09959971548',
     },
     {
+      id: '8',
       name: 'Dr. Deepak Singh',
       picture: 'https://i.postimg.cc/560YbSVj/img9.png" alt="img9',
       Designition: 'Assistant Professor Grade-II',
@@ -48,6 +54,7 @@ export default function FacultyOverview() {
       phone: 'Phone:9827916708',
     },
     {
+      id: '9',
       name: 'Dr. Sonal Yadav',
       picture: 'https://i.postimg.cc/tngTRp88/img10.png" alt="img10',
       Designition: 'Assistant Professor Grade-II',
@@ -55,6 +62,7 @@ export default function FacultyOverview() {
       phone: 'Phone:9785999900',
     },
     {
+      id: '10',
       name: 'Dr. Jitendra Kumar Rout',
       picture: 'https://i.postimg.cc/nj2rtCSv/img11.png" alt="img11',
       Designition: 'Assistant Professor',
@@ -121,6 +129,7 @@ export default function FacultyOverview() {
               {facultyMembers.map((faculty, index) => (
                 <React.Fragment key={faculty.name}>
                   <FacultyCard
+                  id={faculty.id}
                     name={faculty.name}
                     picture={faculty.picture}
                     Designition={faculty.Designition}

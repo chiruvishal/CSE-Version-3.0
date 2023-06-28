@@ -76,12 +76,7 @@ function StudentSection() {
               <a className="student-link" href="#">
                 Scholarships for students
               </a>
-              <a className="student-link" href="#">
-                Resource 5
-              </a>
-              <a className="student-link" href="#">
-                Resource 6
-              </a>
+              
             </div>
 
             <h2 className="contacts-heading">Contacts</h2>
