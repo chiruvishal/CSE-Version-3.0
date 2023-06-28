@@ -73,10 +73,11 @@
 #sel {
   width: 250px;
   height: 30px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: #b666c3;
   color: white;
-  padding: 5px;
+  padding: 3px;
+  padding-top: 1px;
 }
 .selectyear {
   padding: 10px;

@@ -13,52 +13,19 @@ export default function Projects() {
       publishs: [
         {
           description:
-            'Domngam Boje, Mini Loya, Ananta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
-          studentname: "anumay",
+            "Bridging the Innovation Gap, Foundation for Innovation and Collaborative Education (FICE)- An Intel-sponsored social enterprise and sponsored of some Atal tinkering Labs (A NITI Ayog, Govt. of India initiative), Bangalore, India. Project Duration: Four months (December 2017 to March 2018) (Role: Consultant).",
+          studentname: "",
           professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
+          Technologis: "",
           link: "jbjbj",
         },
-        {
-          description: "jbjbjb",
-          studentname: "anumay",
-          professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
-          link: "jojoj",
-        },
-        {
-          description: "jjbuj",
-          studentname: "anumay",
-          professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
-          link: "hihih",
-        },
-      ],
-    },
-    {
-      year: "2022",
-      publishs: [
         {
           description:
-            'Domngam Boje, Mini Loya, anuanta Kumar Atta* "Amidoquinoline-based xylofuranose derivative for selective detection of Cu2+ in aqueous medium", Journal of Photochemistry and Photobiology A: Chemistry, vol. 437, pp. 114468, 2023.',
-          studentname: "anumay",
+            "Modeling of autonomous software agents’ behavior to defend HTTP request attacks, sponsored by Chhattisgarh Council of Science & Technology (CCOST).    Project Duration: from December 2015 to July 2020 (Role: Principal Investigator).",
+          studentname: "",
           professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
-          link: "jbjbj",
-        },
-        {
-          description: "jbjbjb",
-          studentname: "anumay",
-          professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
+          Technologis: "",
           link: "jojoj",
-        },
-        {
-          description: "jjbuj",
-          studentname: "anumay",
-          professorname: "Dr.dilip singh sisodia",
-          Technologis: "React php",
-          link: "hihih",
         },
       ],
     },
