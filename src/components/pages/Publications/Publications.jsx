@@ -12,8 +12,12 @@ import NagwaniSir from "./NagwaniSir.json";
 import PradeepSir from "./PradeepSir.json";
 import PreetiMan from "./PreetiMam.json";
 import VeenaMam from "./VeenaMam.json";
+import { event } from "jquery";
 export default function Publications() {
-  const years = [2023, 2022];
+  const years = [
+    2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012,
+    2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000,
+  ];
   const Professors = [
     "Dr.Dilip Singh Sisodia",
     "Dr.Naresh k. Nagwani",
@@ -30,6 +34,7 @@ export default function Publications() {
   const [isVisible, setIsVisible] = useState(false);
   const [prof, setprof] = useState("Dr.Dilip Singh Sisodia");
   let currentyear = 2023;
+  const [Year, setYear] = useState(0);
   const sectionRef = useRef(null);
   const [data, setData] = useState(Sisodias);
   const selectHandler = (event) => {
@@ -49,7 +54,20 @@ export default function Publications() {
     if (event.target.value == "Dr.K. Jairam Naik") setData(JairamSir);
     if (event.target.value == "Dr.Veena Anand") setData(VeenaMam);
   };
-  // //const res = publish.find(({ year }) => year === Year);
+  const selectHandler1 = (event1) => {
+    //console.log(Year + " 1");
+    //console.log(event1.target.value);
+    setYear(event1.target.value);
+    //console.log(event1.target.value);
+    //console.log(Year);
+  };
+  useEffect(() => {
+    setTimeout(() => {
+      setYear(Year);
+    }, 1000);
+    console.log(Year);
+  });
+  //const res = publish.find(({ year }) => year === Year);
   // const result = publish.find(({ year }) => year === Year);
   // console.log(result);
   useEffect(() => {
@@ -125,14 +143,24 @@ export default function Publications() {
             <div className="maint">
               <div className="selectyr">
                 <div className="selectyeasr">
-                  <select name="Year" id="sel" onChange={selectHandler}>
-                    <option value="Dr.Dilip Singh Sisodia">
-                      --Select Professor--
-                    </option>
-                    {Professors.map((pr) => (
-                      <option value={pr}>{pr}</option>
-                    ))}
-                  </select>
+                  <div>
+                    <select name="Year" id="sel" onChange={selectHandler}>
+                      <option value="Dr.Dilip Singh Sisodia">
+                        --Select Professor--
+                      </option>
+                      {Professors.map((pr) => (
+                        <option value={pr}>{pr}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <select name="Yer" id="sel" onChange={selectHandler1}>
+                      <option value={0}>--Select Year--</option>
+                      {years.map((yr) => (
+                        <option value={yr}>{yr}</option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
                 <div className="syear">
                   <h2>Professor Name: {prof}</h2>
@@ -151,16 +179,19 @@ export default function Publications() {
                     </tr>
                   </thead>
                   <tbody>
-                    {data.map((pub, idx) => (
-                      <tr>
-                        <td>{idx + 1}</td>
-                        <td>{pub.article}</td>
-                        <td>{pub.year[1]}</td>
-                        <td>
-                          <a href={pub.link}>Link</a>
-                        </td>
-                      </tr>
-                    ))}
+                    {data.map((pub, idx) =>
+                      parseInt(Year) === parseInt(pub.year[1]) ||
+                      parseInt(Year) === 0 ? (
+                        <tr>
+                          <td>{idx + 1}</td>
+                          <td>{pub.article}</td>
+                          <td>{pub.year[1]}</td>
+                          <td>
+                            <a href={pub.link}>Link</a>
+                          </td>
+                        </tr>
+                      ) : null
+                    )}
                   </tbody>
                 </table>
                 {/* ) : null
