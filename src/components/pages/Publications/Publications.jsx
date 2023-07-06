@@ -61,12 +61,12 @@ export default function Publications() {
     //console.log(event1.target.value);
     //console.log(Year);
   };
-  useEffect(() => {
-    setTimeout(() => {
-      setYear(Year);
-    }, 1000);
-    console.log(Year);
-  });
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setYear(Year);
+  //   }, 1000);
+  //   // console.log(Year);
+  // });
   //const res = publish.find(({ year }) => year === Year);
   // const result = publish.find(({ year }) => year === Year);
   // console.log(result);
