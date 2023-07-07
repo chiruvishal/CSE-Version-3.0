@@ -10,6 +10,21 @@ var hills =
     "https://i.postimg.cc/g0wP9MbV/Whats-App-Image-2023-05-26-at-23-44-04.jpg";
 import "./MyCarousel.css";
 
+var head1 = "Discover a Whole New World";
+var para1 =  "Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment for aspiring computer science engineers.";
+var head2 =  "Discover";
+var para2 =  "Welcome Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on";
+
+const thoughts = [
+    {
+        "head" : head1,
+        "para" : para1
+    },
+    {
+        "head": head2,
+        "para": para2
+    }
+]
 function MyCarousel() {
     const settings = {
         autoplay: true,
@@ -23,6 +38,9 @@ function MyCarousel() {
     return ( 
         <div className = "carsel" >
         <div className = "part1" >
+            <Slider {...settings }>
+        {thoughts.map((thought)=>
+        <div>
         <img src = { mountains }
         className = "slide_img col-lg-12"
         alt = "Responsive img" />
@@ -30,15 +48,17 @@ function MyCarousel() {
         <div class = "gfg" >
         <div class = "gfgcard" >
         <div class = "contentyz" >
-        <h1> Discover a Whole New World </h1>
+        <h1> {thought.head}</h1>
         <p>
-        Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment
-        for aspiring computer science engineers.
+            {thought.para}
         </p>
         </div> 
         </div> 
         </div>
         </div>
+        </div>
+        )}
+        </Slider>
         </div>
         <div className = "part2">
         <Slider {...settings }>
