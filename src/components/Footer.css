@@ -1,3 +1,9 @@
+@media screen and (min-width: 2559px) {
+  .temp {
+    transform: scale(0.8)!important;
+  }
+}
+
 /* Container styles */
 .containerf {
   max-width: 1200px;
