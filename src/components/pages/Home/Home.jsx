@@ -6,6 +6,8 @@ import './Home.css';
 import MyCarousel from './MyCarousel';
 import Welcome from './Welcome';
 import TopAchievementsHome from './TopAchievementsHome';
+import AllCarousel from './AllCarousel';
+import About from '../About/About'
 
 const Counter = ({ target }) => {
   const counterRef = useRef(null);
@@ -54,6 +56,7 @@ export default function Home() {
     <div>
       <MyCarousel />
       <Welcome />
+      <About/>
       <TopAchievementsHome heading="Achievements" tag="3"/>
 
       <div>
