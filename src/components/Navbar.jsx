@@ -80,18 +80,23 @@ export default function Navbar() {
           </li>
           <li className="parent-menu">
             <a className='hover1'>
-              About
+              Academics
             </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
-              <li>
-                <Link to="/About" onClick={handleLinkClick}>
-                  History
+            <li>
+                <Link to="/Course" onClick={handleLinkClick}>
+                  Course
                 </Link>
               </li>
               <li>
-                <Link to="/VisionAndMission" onClick={handleLinkClick}>
-                  Vision and Mission
+                <Link to="/Acamdemics" onClick={handleLinkClick}>
+                  Programs Offered
+                </Link>
+              </li>
+              <li>
+                <Link to="/AcamdemicActivities" onClick={handleLinkClick}>
+                  Activities
                 </Link>
               </li>
               <li>
@@ -135,11 +140,6 @@ export default function Navbar() {
             </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
-              <li>
-                <Link to="/Course" onClick={handleLinkClick}>
-                  Course
-                </Link>
-              </li>
               <li>
                 <Link to="/AluminiNetwork" onClick={handleLinkClick}>
                   Alumni Network

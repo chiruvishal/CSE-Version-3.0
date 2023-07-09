@@ -22,6 +22,9 @@ import FacultyDetail from './components/pages/Faculty/FacultyDetail';
 import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
 import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
 import Staff from './components/pages/Faculty/Staff';
+import Academics from "./components/pages/Academics/Academics";
+import AcademicActivities from "./components/pages/Academics/AcademicActivities";
+
 
 import ShowData from './components/pages/Publications/ShowData';
 
@@ -53,15 +56,14 @@ function App() {
             <Route path="/AssistantProfessor" component={AssistantProfessor} />
             <Route path="/TempararyFaculty" component={TempararyFaculty} />
             <Route path="/Staff" component={Staff} />
-            <Route path="/About" component={About} />
+            <Route path="/Academics" component={Academics} />
+            <Route path="/AcademicActivities" component={AcademicActivities} />
             <Route path="/VisionAndMission" component={VisionAndMission} />
             <Route path="/Research-Areas" component={ResearchAreas} />
             <Route path="/Research-Areas" component={ResearchAreas} />
             <Route path="/Project" component={Project} />
             <Route path="/Publications" component={Publications} />
-
             <Route path="/Show" component={ShowData} />
-
             <Route path="/Course" component={Course} />
             <Route path="/AluminiNetwork" component={AluminiNetwork} />
             <Route path="/Gallery" component={Gal } />

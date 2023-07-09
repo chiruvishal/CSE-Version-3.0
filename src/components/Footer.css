@@ -1,3 +1,7 @@
+.f1{
+  color: white!important;
+
+}
 @media screen and (min-width: 2559px) {
   .temp {
     transform: scale(0.8)!important;
@@ -487,7 +491,7 @@
 .contact-info-item {
   display: flex;
   align-items: center;
-  color: white;
+  color: white!important;
 }
 
 .contact-info-link {

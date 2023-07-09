@@ -1,6 +1,6 @@
 import React from 'react';
 import { TfiLocationPin } from 'react-icons/tfi';
-import { AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineMessage } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 
 import { Link } from 'react-router-dom';
@@ -69,16 +69,17 @@ const Footer = () => {
                     </p>
                     <p className="contact-info-item">
                       <span className="iconf">
-                        <AiOutlinePhone size={32} />
+                        <AiOutlineMessage size={32} />
                       </span>
-                      Phone:(+91)-771-2254200
+                      <Link to="ContactUs" className="f1">
+                      Fill out our contact form</Link>
                     </p>
                     <p>
                       <a href="#" className="contact-info-link">
                         <span className="iconf">
                           <AiOutlineMail size={32} />
                         </span>
-                        Email- director@nitrr.ac.in registrar@nitrr.ac.in
+                        Email- Ace@gmail.com
                       </a>
                     </p>
                   </div>
