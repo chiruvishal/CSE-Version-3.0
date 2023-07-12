@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 export default function Research() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+  const [contents, setcontents] = useState(false);
+  const [proj, setproj] = useState(false);
+  const [application, setappication] = useState(false);
   const areas = [
     {
       areaname: "Artificial Intelligence",
