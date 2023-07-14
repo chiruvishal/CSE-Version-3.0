@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 body,
 input,
 textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .containert {
@@ -71,7 +71,7 @@ textarea {
 }
 
 .contact-formt:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 26px;
   height: 26px;
@@ -183,7 +183,7 @@ textarea.inputt {
 
 .input-containert span:before,
 .input-containert span:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 10%;
   opacity: 0;
@@ -282,7 +282,7 @@ textarea.inputt {
 }
 
 .contact-infot:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 110px;
   height: 100px;
@@ -309,7 +309,7 @@ textarea.inputt {
 }
 
 .big-circlet:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 360px;
   height: 360px;
@@ -411,5 +411,114 @@ textarea.inputt {
 
   .btnt {
     padding: 0.45rem 1.2rem;
+  }
+  @media (max-width: 2560px) {
+    .containert {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      padding: 10rem;
+      background-color: #fafafa;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .formt {
+      max-width: 2560px;
+      padding: 10rem;
+    }
+
+    .contact-formt {
+      padding: 6rem;
+    }
+
+    .circlet {
+      width: 260px;
+      height: 260px;
+      top: 260px;
+      right: -80px;
+    }
+
+    .circle.one {
+      width: 180px;
+      height: 180px;
+      top: 120px;
+      right: -110px;
+    }
+
+    .circle.two {
+      width: 120px;
+      height: 120px;
+      top: 40px;
+      right: 50px;
+    }
+
+    .contact-formt:before {
+      width: 40px;
+      height: 40px;
+      top: 100px;
+      left: -20px;
+    }
+
+    form {
+      padding: 6rem 5.8rem;
+    }
+
+    .titlet {
+      font-size: 3rem;
+    }
+
+    .inputt {
+      padding: 1.2rem 2.5rem;
+    }
+
+    textarea.inputt {
+      padding: 1.6rem 2.5rem;
+    }
+
+    .input-containert label {
+      font-size: 1.8rem;
+    }
+
+    .btnt {
+      padding: 1.6rem 3.2rem;
+      font-size: 2.5rem;
+    }
+
+    .contact-infot {
+      padding: 6rem 5.8rem;
+    }
+
+    .contact-infot .titlet {
+      font-size: 3rem;
+    }
+
+    .informationt {
+      margin: 1.4rem 0;
+      font-size: 2.5rem;
+    }
+
+    .icont {
+      width: 56px;
+      margin-right: 1.4rem;
+    }
+
+    .social-mediat {
+      padding: 4rem 0 0 0;
+    }
+
+    .social-mediat p {
+      font-size: 2.5rem;
+    }
+
+    .social-iconst a {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      margin-right: 1rem;
+    }
   }
 }
