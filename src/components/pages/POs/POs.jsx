@@ -1,6 +1,6 @@
-import React from 'react';
-import './POs.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./POs.css";
+import { Link } from "react-router-dom";
 export default function POs() {
   return (
     <>
@@ -9,44 +9,46 @@ export default function POs() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg)',
-          }}
-        >
+            backgroundImage: "url(https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg)",
+          }}>
           <div className="nitr-header-transparent-substitute "></div>
           <div className="nitr-page-title-bottom-gradient"></div>
           <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
             <div
               className="nitr-page-title-content nitr-item-pdlr"
-              style={{ paddingBottom: '60px' }}
-            >
+              style={{ paddingBottom: "60px" }}>
               <div className="green-line-text">About</div>
             </div>
           </div>
         </div>
-        <div className="main-box">
-          <div className="side-box">
+        <div className="main-boxx">
+          <div className="side-boxxx">
             <div className="side-container">
               <div className="side-top-box">
-                <p>About US</p>
+                <p> Acadamics </p>{" "}
               </div>
-
               <ul className="side-link">
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/About">The institute</Link>
-                </li>
+                  <Link to="/Course"> Course </Link>{" "}
+                </li>{" "}
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/VisionAndMission">Vision And Mission</Link>
-                </li>
+                  <Link to="/Academics"> Programs Offered </Link>{" "}
+                </li>{" "}
                 <li>
-                  {' '}
+                  {" "}
                   <div className="side-border-left" />
-                  <Link to="/POs">POs,PEOs,PSOs</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+                  <Link to="/Activities"> Activities</Link>{" "}
+                </li>{" "}
+                <li>
+                  {" "}
+                  <div className="side-border-left" />
+                  <Link to="/POs"> POs,PEOs,PSOs</Link>{" "}
+                </li>{" "}
+              </ul>{" "}
+            </div>{" "}
+          </div>{" "}
           <div className="dr">
             <div className="Aiml">
               <h3 className="headm">PEOs, PSOs and POs</h3>

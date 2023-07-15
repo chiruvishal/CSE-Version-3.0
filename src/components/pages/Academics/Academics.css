@@ -1,0 +1,36 @@
+.para{
+    padding: 2%;
+    position: relative;
+}
+.expand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .expand-icon.expanded {
+    background-color: #555;
+  }
+  
+  .expand-icon span {
+    
+    margin-top: -1px;
+  }
+  
+  .expanded-content {
+    margin-top: 20px;
+    
+  }

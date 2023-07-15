@@ -90,7 +90,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/Acamdemics" onClick={handleLinkClick}>
+                <Link to="/Academics" onClick={handleLinkClick}>
                   Programs Offered
                 </Link>
               </li>

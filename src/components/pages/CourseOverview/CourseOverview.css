@@ -47,6 +47,7 @@ h1 {
   background: #072ff7;
   border-bottom: 1px solid transparent;
   text-align: center;
+  color: white;
   background-image: -webkit-linear-gradient(
     -180deg,
     rgb(42, 39, 167) 0%,
@@ -83,6 +84,7 @@ button {
   display: block;
   align-items: center;
   justify-content: center;
+  
 }
 .containerxy {
   display: flex;
@@ -303,10 +305,25 @@ h3 {
   .buttonx {
     margin-left: 40px;
   }
+ 
 }
 @media screen and(max-width:400px) {
   .to-centerx {
     margin-left: 0px;
+  }
+  .tabsx {
+    padding: 10px 8px; /* Adjust the padding as needed */
+    border-bottom: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.274);
+  }
+
+  .active-tabsx {
+    border-top: 2px solid #0c0c0c; /* Adjust the color and size as needed */
+  }
+
+  .active-tabsx::before {
+    content: '';
+    display: none;
   }
   .containersy {
     margin-left: 5px;
@@ -319,3 +336,55 @@ h3 {
     margin-left: 0px;
   }
 }
+@media screen and (min-width: 2560px) {
+  .to-centerx {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+  }
+
+  .containersy {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 0;
+    width: 840px;
+    height: 840px;
+  }
+
+  .boxx {
+    width: 700px;
+    height: 600px;
+    margin: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+  }
+  .columnx {
+    padding: 20px;
+  }
+
+  .side-boxxx {
+    margin-top: 200px;
+  }
+  .dropdownx {
+    width: 250px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 80px auto;
+    border-radius: 7px;
+    background-color: #2c2f48;
+    color: #fff;
+  }
+
+  .tabsx {
+    padding: 30px;
+    font-size: 24px;
+  }
+
+  .buttonx {
+    margin-left: 150px;
+    width: 50%;
+    padding: 15px 30px;
+  }
+}
+

@@ -3,58 +3,58 @@ import "./CourseOverview.css";
 import { Link } from "react-router-dom";
 
 const courseData = [
-  
   {
     year: "1st Year",
     semesters: [
       {
         name: "Semester I",
-        pdfLink: "https://drive.google.com/file/d/1fLW5XICAMCuwbQL6_6NqOvXVpyumi3J5/view?usp=sharing"
+        pdfLink:
+          "https://drive.google.com/file/d/1fLW5XICAMCuwbQL6_6NqOvXVpyumi3J5/view?usp=sharing",
       },
       {
         name: "Semester II",
-        pdfLink: "https://example.com/year1_sem2.pdf"
-      }
-    ]
+        pdfLink: "https://example.com/year1_sem2.pdf",
+      },
+    ],
   },
   {
     year: "2nd Year",
     semesters: [
       {
         name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf"
+        pdfLink: "https://example.com/year2_sem1.pdf",
       },
       {
         name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf"
-      }
-    ]
+        pdfLink: "https://example.com/year2_sem2.pdf",
+      },
+    ],
   },
   {
     year: "3rd Year",
     semesters: [
       {
         name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf"
+        pdfLink: "https://example.com/year2_sem1.pdf",
       },
       {
         name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf"
-      }
-    ]
+        pdfLink: "https://example.com/year2_sem2.pdf",
+      },
+    ],
   },
   {
     year: "4th Year",
     semesters: [
       {
         name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf"
+        pdfLink: "https://example.com/year2_sem1.pdf",
       },
       {
         name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf"
-      }
-    ]
+        pdfLink: "https://example.com/year2_sem2.pdf",
+      },
+    ],
   },
   // Add more years and semesters as needed
 ];
@@ -76,15 +76,18 @@ export default function CourseOverview() {
   };
 
   const handleShowButtonClick = () => {
-    const selectedCourse = courseData.find(course => course.year === selectedYear);
+    const selectedCourse = courseData.find(
+      (course) => course.year === selectedYear
+    );
     if (selectedCourse) {
-      const selectedSemesterData = selectedCourse.semesters.find(semester => semester.name === selectedSemester);
+      const selectedSemesterData = selectedCourse.semesters.find(
+        (semester) => semester.name === selectedSemester
+      );
       if (selectedSemesterData) {
         window.open(selectedSemesterData.pdfLink, "_blank");
       }
     }
   };
- 
 
   return (
     <>
@@ -94,15 +97,13 @@ export default function CourseOverview() {
           style={{
             backgroundImage:
               "url(https://i.postimg.cc/x1sfgTzb/Untitled-design-4.jpg)",
-          }}
-        >
+          }}>
           <div className="nitr-header-transparent-substitute "> </div>{" "}
           <div className="nitr-page-title-bottom-gradient"> </div>{" "}
           <div className="nitr-page-title-container green destinations-section-wrapper nitr-container ">
             <div
               className="nitr-page-title-content nitr-item-pdlr"
-              style={{ paddingBottom: "60px" }}
-            >
+              style={{ paddingBottom: "60px" }}>
               <div className="green-line-text"> Course </div>{" "}
             </div>{" "}
           </div>{" "}
@@ -111,7 +112,7 @@ export default function CourseOverview() {
           <div className="side-boxxx">
             <div className="side-container">
               <div className="side-top-box">
-                <p> Student Zone </p>{" "}
+                <p> Acadamics </p>{" "}
               </div>
               <ul className="side-link">
                 <li>
@@ -120,22 +121,17 @@ export default function CourseOverview() {
                 </li>{" "}
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/AluminiNetwork"> Alumini - Network </Link>{" "}
+                  <Link to="/Academics"> Programs Offered </Link>{" "}
                 </li>{" "}
                 <li>
                   {" "}
                   <div className="side-border-left" />
-                  <Link to="/Gallery"> Gallery </Link>{" "}
+                  <Link to="/Activities"> Activities</Link>{" "}
                 </li>{" "}
                 <li>
                   {" "}
                   <div className="side-border-left" />
-                  <Link to="/StudentSection"> Student Section </Link>{" "}
-                </li>{" "}
-                <li>
-                  {" "}
-                  <div className="side-border-left" />
-                  <Link to="/Achievements"> Achievements </Link>{" "}
+                  <Link to="/POs"> POs,PEOs,PSOs</Link>{" "}
                 </li>{" "}
               </ul>{" "}
             </div>{" "}
@@ -145,14 +141,12 @@ export default function CourseOverview() {
               <div className="bloc-tabsx">
                 <button
                   className={toggleState === 1 ? "tabsx active-tabsx" : "tabsx"}
-                  onClick={() => toggleTab(1)}
-                >
+                  onClick={() => toggleTab(1)}>
                   Curriculum{" "}
                 </button>{" "}
                 <button
                   className={toggleState === 2 ? "tabsx active-tabsx" : "tabsx"}
-                  onClick={() => toggleTab(2)}
-                >
+                  onClick={() => toggleTab(2)}>
                   Schedule{" "}
                 </button>{" "}
               </div>
@@ -160,8 +154,7 @@ export default function CourseOverview() {
                 <div
                   className={
                     toggleState === 1 ? "contentx active-contentx" : "contentx"
-                  }
-                >
+                  }>
                   <div className="containerxy">
                     <div className="boxx">
                       <div className="columnx"> Curriculum </div>{" "}
@@ -169,8 +162,7 @@ export default function CourseOverview() {
                         <select
                           className="dropdownx"
                           value={selectedYear}
-                          onChange={handleYearChange}
-                        >
+                          onChange={handleYearChange}>
                           <option value=""> -select Year - </option>{" "}
                           <option value="1st Year"> 1 st Year </option>{" "}
                           <option value="2nd Year"> 2 nd Year </option>{" "}
@@ -181,8 +173,7 @@ export default function CourseOverview() {
                         <select
                           className="dropdownx"
                           value={selectedSemester}
-                          onChange={handleSemesterChange}
-                        >
+                          onChange={handleSemesterChange}>
                           <option value=""> -select Sem - </option>{" "}
                           <option value="Semester I"> Semester I </option>{" "}
                           <option value="Semester II"> Semester II </option>{" "}
@@ -191,8 +182,7 @@ export default function CourseOverview() {
                       <br />
                       <button
                         className="buttonx"
-                        onClick={handleShowButtonClick}
-                      >
+                        onClick={handleShowButtonClick}>
                         Show{" "}
                       </button>{" "}
                     </div>{" "}
@@ -201,8 +191,7 @@ export default function CourseOverview() {
                 <div
                   className={
                     toggleState === 2 ? "contentx active-contentx" : "contentx"
-                  }
-                >
+                  }>
                   <div className="containerxy">
                     <div className="boxx">
                       <div className="columnx"> Schedule </div>{" "}
@@ -210,8 +199,7 @@ export default function CourseOverview() {
                         <select
                           className="dropdownx"
                           value={selectedYear}
-                          onChange={handleYearChange}
-                        >
+                          onChange={handleYearChange}>
                           <option value=""> -select Year - </option>{" "}
                           <option value="1st Year"> 1 st Year </option>{" "}
                           <option value="2nd Year"> 2 nd Year </option>{" "}
@@ -222,8 +210,7 @@ export default function CourseOverview() {
                         <select
                           className="dropdownx"
                           value={selectedSemester}
-                          onChange={handleSemesterChange}
-                        >
+                          onChange={handleSemesterChange}>
                           <option value=""> -select Sem - </option>{" "}
                           <option value="Semester I"> Semester I </option>{" "}
                           <option value="Semester II"> Semester II </option>{" "}
@@ -232,8 +219,7 @@ export default function CourseOverview() {
                       <br />
                       <button
                         className="buttonx"
-                        onClick={handleShowButtonClick}
-                      >
+                        onClick={handleShowButtonClick}>
                         Show{" "}
                       </button>{" "}
                     </div>{" "}
