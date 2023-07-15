@@ -1,6 +1,6 @@
 .card {
   border-radius: 25px;
-  background-color: rgb(243, 242, 242);
+  background-color: #F7F7F7;
 }
 .image-content,
 .card-content {
@@ -35,7 +35,7 @@
 }
 .overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: rgb(243, 242, 242);
+  background-color: #F7F7F7;
 }
 .card-image {
   position: relative;
