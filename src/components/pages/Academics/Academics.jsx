@@ -31,7 +31,7 @@ export default function Academics() {
             </div>
           </div>
         </div>
-        <h1 className="consulting">Academics</h1>
+        
       </div>
       <div className="main-boxx">
         <div className="side-boxxx">
@@ -60,7 +60,7 @@ export default function Academics() {
           </div>
         </div>
         <div className="academics-col">
-          <div className="Aiml">
+          <div className="Aiml Acad-mic">
             <h3 className="headm">BTech</h3>
             <div className="para">
               <p>
@@ -217,7 +217,7 @@ export default function Academics() {
             )}
           </div>
         
-          <div className="Aiml">
+          <div className="Aiml Acad-mic">
             <h3 className="headm">PhD</h3>
             <div className="para">
               <p>

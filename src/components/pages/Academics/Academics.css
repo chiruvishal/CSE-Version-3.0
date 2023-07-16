@@ -38,3 +38,21 @@
   .expanded-content h2{
     padding-left: 10px;
   }
+
+  @media screen and (max-width : 450px) {
+    .Acad-mic{
+      margin-left: 55px;
+    }
+  }
+
+  @media screen and (max-width : 400px) {
+    .Acad-mic{
+      margin-left: 30px;
+    }
+  }
+
+  @media screen and (max-width : 330px) {
+    .Acad-mic{
+      margin-left: 10px;
+    }
+  }
