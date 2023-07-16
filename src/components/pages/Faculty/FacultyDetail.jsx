@@ -3,6 +3,9 @@ import { Link, useParams, useHistory } from 'react-router-dom';
 import './FacultyDetail.css';
 import Drop from './Drop';
 import './Drop.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers, faUser } from '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function FacultyDetail() {
   const queryParameters = new URLSearchParams(window.location.search);
@@ -229,33 +232,35 @@ export default function FacultyDetail() {
       </div>
 
       <div className="main-box">
-        <div className="side-box">
-          <div className="side-container">
-            <div className="side-top-box">
-              <p>Faculty</p>
-            </div>
-
-            <ul className="side-link">
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Faculty">Associate Professor</Link>
-              </li>
-              <li>
-                <div className="side-border-left" />
-                <Link to="/AssistantProfessor">Assistant Professor</Link>
-              </li>
-              <li>
-                <div className="side-border-left" />
-                <Link to="/TempararyFaculty">Temporary Faculty</Link>
-              </li>
-              <li>
-                <div className="side-border-left" />
-                <Link to="/Staff">Staff</Link>
-              </li>
-            </ul>
+      <div className="side-box">
+  <div className="faculty-list">
+    <h3>Faculty Members</h3>
+    <ul>
+      {facultyMembers.map((faculty) => (
+          <div className="faculty-names">
+              {faculty.id <= 10 ? (
+          <Link to={`/FacultyDetail?id=${faculty.id}`}>
+            <h4>{faculty.name}</h4>
+          </Link>
+        ) : (
+          <h4>{faculty.name}</h4>
+        )}
           </div>
-        </div>
-
+      ))}
+    </ul>
+  </div>
+</div>
+        <div className="navi">
+        <div  classNamestyle={{ padding: '20px' }}> 
+                <Link to="/Faculty"  style={{ paddingRight: '30px' }}>
+                  <FontAwesomeIcon icon={faUsers} className="nav-icon" />
+                  Faculty
+                </Link>
+                <Link to="/Staff">
+                  <FontAwesomeIcon icon={faUser} className="nav-icon" />
+                  Staff
+                </Link>
+            </div>
         <div className="Aiml Fdm wel">
           <div className="areafd">
             <p>{faculty.name}</p>
@@ -316,6 +321,7 @@ export default function FacultyDetail() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
