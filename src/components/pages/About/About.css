@@ -14,7 +14,9 @@
 .fas {
   margin-right: 10px;
 }
-
+.Aiml{
+  padding: 20px;
+}
 .headm {
   /* font-size: 24px; */
   font-weight: bold;
@@ -24,6 +26,7 @@
   /* color:rgb(85, 18, 105); */
   color: white;
   border-radius: 5px;
+  padding: 5px;
 }
 .fas {
   padding-left: 2px;
@@ -33,6 +36,22 @@
   padding-right: 16px;
   font-size: 16px;
   line-height: 1.5;
+}
+@media screen and (min-width: 3840px) {
+  .Aiml {
+    padding: 40px;
+  }
+
+  .headm {
+    font-size: xxx-large;
+    margin-bottom: 30px;
+  }
+
+  .mess {
+    padding-top: 32px;
+    padding-right: 32px;
+    font-size: 24px;
+  }
 }
 .pic {
   justify-content: center;

@@ -84,7 +84,7 @@ export default function POs() {
         <div className="dro">
      <div className="Aiml wel abcd">
        <h3 className="headm">  <i className="fas fa-eye icon"></i>
-              <span className="icon-text">Vision & Mission</span></h3>
+              <span className="icon-text">Vision</span></h3>
        {/* <div id="director-message" className="containerw mx-auto my-10"> */}
        
        <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
@@ -95,7 +95,9 @@ export default function POs() {
               alt="college"
             />
           </div>
+          
           <div id="content" className="flexw1 flex-colw basis-8/12 space-y-4 p-6">
+            
             <p className="mv1">
             To promote Research and Development in the frontier areas of
                   Computer Science & Engineering. To generate Competent
@@ -108,6 +110,8 @@ export default function POs() {
           
           
         </div>
+        <h3 className="headm">  <i className="fas fa-plane icon-rotate"></i>
+              <span className="icon-text">Mission</span></h3>
         <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
           <div id="content" className="flexw flex-colw basis-8/12 space-y-4 p-6">
             <p className="mv">

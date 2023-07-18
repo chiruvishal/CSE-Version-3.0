@@ -234,7 +234,7 @@ export default function FacultyDetail() {
       <div className="main-box">
       <div className="side-box">
   <div className="faculty-list">
-    <h3>Faculty Members</h3>
+    <h3  style={{ padding: '10px' }}>Faculty Members</h3>
     <ul>
       {facultyMembers.map((faculty) => (
           <div className="faculty-names">
