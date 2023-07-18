@@ -100,7 +100,7 @@
 
 
 .counter-upp {
-  background: url("https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg") no-repeat;
+  background: url("https://i.postimg.cc/Vk1yh5Ws/IMG-2585.jpg") no-repeat;
   min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
@@ -163,18 +163,18 @@
 }
 
 @media screen and (max-width: 1036px) {
-  .counter-up {
+  .counter-upp {
     padding: 50px 50px 0 50px;
   }
 
-  .counter-up .content .box {
+  .counter-upp .content .box {
     width: calc(50% - 30px);
     margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .counter-up .content .box {
+  .counter-upp .content .box {
     width: 100%;
   }
 }
@@ -184,7 +184,7 @@
     padding: 20px;
   }
 
-  .counter-up {
+  .counter-upp {
     padding: 30px 20px 0 20px;
   }
 }
@@ -282,6 +282,19 @@
   .company-logos-carousel img {
     max-width: 150px;
   }
+  
+  .hire-section {
+    margin-top: 0px;
+  }
+
+  .hire-section h2 {
+    font-size: 30px;
+  }
+
+  .hire-description p {
+    font-size: 18px;
+  }
+
 }
 
 
@@ -338,6 +351,17 @@
     max-width: 80px;
     margin: 5px;
   }
+  .hire-section {
+    margin-top: 0px;
+  }
+
+  .hire-section h2 {
+    font-size: 30px;
+  }
+
+  .hire-description p {
+    font-size: 18px;
+  }
 }
 .bar1{
   padding-left: 20%;
@@ -374,4 +398,32 @@
     height: auto;
     margin: 5px;
   }
+}
+
+
+.hire-section {
+  margin-top: 0px;
+  padding: 20px;
+ 
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+.hire-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #337ab7;
+}
+.hire-description {
+ 
+  box-shadow: inset;
+  border-radius: 4px;
+  border: 1px solid #484848;
+  padding: 20px;
+ 
+  background: rgb(255, 255, 255);
+}
+.hire-description p {
+  color: rgb(46, 46, 46);
+  margin-bottom: 0px;
 }
