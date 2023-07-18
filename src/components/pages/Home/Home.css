@@ -70,18 +70,18 @@
 }
 
 @media screen and (max-width: 1036px) {
-  .counter-up {
+  .counter-uppp {
     padding: 50px 50px 0 50px;
   }
 
-  .counter-up .content .box {
+  .counter-uppp .content .box {
     width: calc(50% - 30px);
     margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .counter-up .content .box {
+  .counter-uppp .content .box {
     width: 100%;
   }
 }
@@ -91,7 +91,7 @@
     padding: 20px;
   }
 
-  .counter-up {
+  .counter-uppp {
     padding: 30px 20px 0 20px;
   }
 }
