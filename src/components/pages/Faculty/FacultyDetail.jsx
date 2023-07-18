@@ -252,7 +252,7 @@ export default function FacultyDetail() {
 </div>
         <div className="navi">
         <div  classNamestyle={{ padding: '20px' }}> 
-                <Link to="/Faculty"  style={{ paddingRight: '30px' }}>
+                <Link to="/Faculty">
                   <FontAwesomeIcon icon={faUsers} className="nav-icon" />
                   Faculty
                 </Link>
