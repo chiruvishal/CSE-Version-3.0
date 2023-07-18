@@ -234,29 +234,23 @@ export default function FacultyDetail() {
       <div className="main-box">
       <div className="side-box">
   <div className="faculty-list">
-    <h3  style={{ padding: '10px' }}>Faculty Members</h3>
+    <h3 style={{ padding: '10px' }}>Faculty Members</h3>
     <ul>
       {facultyMembers.map((faculty) => (
           <div className="faculty-names">
-              {faculty.id <= 10 ? (
-          <Link to={`/FacultyDetail?id=${faculty.id}`}>
-            <h4>{faculty.name}</h4>
-          </Link>
-        ) : (
-          <h4>{faculty.name}</h4>
-        )}
+              <h4>{faculty.name}</h4>
           </div>
       ))}
     </ul>
   </div>
 </div>
         <div className="navi">
-        <div  classNamestyle={{ padding: '20px' }}> 
-                <Link to="/Faculty">
+        <div style={{ padding: '10px' }}> 
+                <Link to="/Faculty"  style={{paddingLeft: '80px' }}>
                   <FontAwesomeIcon icon={faUsers} className="nav-icon" />
                   Faculty
                 </Link>
-                <Link to="/Staff">
+                <Link to="/Staff" style={{ paddingLeft: '30px' }}>
                   <FontAwesomeIcon icon={faUser} className="nav-icon" />
                   Staff
                 </Link>
