@@ -8,10 +8,10 @@ function StudentSection() {
       <div>
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
-          style={{ 
+          style={{
             backgroundImage:
-              'url(https://i.postimg.cc/x1c6d7wZ/f7075b94-4c69-4bb5-857a-fcedb4e740ad.jpg)',
-            
+              'url(https://i.postimg.cc/jSjk1BTB/CSE-final.jpg)',
+
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -37,10 +37,7 @@ function StudentSection() {
                   <div className="side-border-left" />
                   <Link to="/Course">Course</Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Project">Alumini-Network</Link>
-                </li>
+                
                 <li>
                   {' '}
                   <div className="side-border-left" />
@@ -76,7 +73,7 @@ function StudentSection() {
               <a className="student-link" href="#">
                 Scholarships for students
               </a>
-              
+
             </div>
 
             <h2 className="contacts-heading">Contacts</h2>

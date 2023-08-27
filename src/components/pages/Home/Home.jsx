@@ -50,8 +50,8 @@ const Counter = ({ target }) => {
 
 export default function Home() {
 
- 
-    
+
+
   return (
     <div>
       <MyCarousel />
@@ -60,11 +60,11 @@ export default function Home() {
       <TopAchievementsHome heading="Achievements" tag="3"/>
 
       <div>
-      
-     
+
+
       <div className="counter-uppp">
         <div className="content">
-    
+
           <div className="box">
             <div className="icon">
               <i className="fas fa-gift"></i>
@@ -72,7 +72,7 @@ export default function Home() {
       <Counter target={508} />
                 <div className="text">Offers Received</div>
               </div>
-    
+
     <div className="box">
       <div className="icon">
         <i className="fas fa-users"></i>
@@ -98,4 +98,3 @@ export default function Home() {
     </div>
   );
 }
-

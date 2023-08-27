@@ -87,6 +87,7 @@
 }
 
 .slide_img {
+  object-fit: cover;
   height: 500px;
 }
 .slide_box {

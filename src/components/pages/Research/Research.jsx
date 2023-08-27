@@ -115,7 +115,7 @@ export default function Research() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/7Z4dMDxk/20191210-225056.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -143,12 +143,7 @@ export default function Research() {
                     <p>Research Areas</p>
                   </Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Project">
-                    <p>Projects</p>
-                  </Link>
-                </li>
+                
                 <li>
                   {" "}
                   <div className="side-border-left" />

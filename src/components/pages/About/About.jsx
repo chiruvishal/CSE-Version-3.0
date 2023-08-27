@@ -7,9 +7,9 @@ export default function POs() {
       {" "}
       {/* <Navbar /> */}{" "}
       <div>
-        
+
         <div className="main-box">
-          
+
           <div class="drop">
             <div className="Aiml wel abcd">
               <h3 class="headm">
@@ -49,35 +49,24 @@ export default function POs() {
               </div>{" "}
               {/* </div> */}{" "}
             </div>{" "}
-            
+
           </div>{" "}
-          
+
         </div>{" "}
         <div>
-      
-     
+
       <div className="counter-up">
-        <div className="content">
-    
+        <div>
           <div className="box">
-            <div className="icon">
-              <i className="fas fa-gift"></i>
-      </div>
-                <div className="text">Offers Received</div>
-              </div>
-    
+              <h4> नित्यं यातो शुभोदयं</h4>
+          </div>
+        <div className="box">
+        <h4> Nityam Yato Shubhodayam</h4>
+       </div>
     <div className="box">
-      <div className="icon">
-        <i className="fas fa-users"></i>
-      </div>
-                <div className="text">Students Placed</div>
-              </div>
-    <div className="box">
-      <div className="icon">
-        <i className="fas fa-award"></i>
-      </div>
-                <div className="text">Cr Highest Package</div>
-              </div>
+      <h4> Let the rise of goodness happen every day</h4>
+    </div>
+
   </div>
 </div>
 </div>
@@ -86,7 +75,7 @@ export default function POs() {
        <h3 className="headm">  <i className="fas fa-eye icon"></i>
               <span className="icon-text">Vision</span></h3>
        {/* <div id="director-message" className="containerw mx-auto my-10"> */}
-       
+
        <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
         <div className="basis-4/12">
             <img
@@ -95,9 +84,9 @@ export default function POs() {
               alt="college"
             />
           </div>
-          
+
           <div id="content" className="flexw1 flex-colw basis-8/12 space-y-4 p-6">
-            
+
             <p className="mv1">
             To promote Research and Development in the frontier areas of
                   Computer Science & Engineering. To generate Competent
@@ -107,8 +96,8 @@ export default function POs() {
                   and to become Entrepreneurs.
             </p>
           </div>
-          
-          
+
+
         </div>
         <h3 className="headm">  <i className="fas fa-plane icon-rotate"></i>
               <span className="icon-text">Mission</span></h3>

@@ -96,7 +96,7 @@ export default function CourseOverview() {
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
             backgroundImage:
-              "url(https://i.postimg.cc/x1sfgTzb/Untitled-design-4.jpg)",
+              "url(https://i.postimg.cc/X72GbNpj/20191210-102521.jpg)",
           }}>
           <div className="nitr-header-transparent-substitute "> </div>{" "}
           <div className="nitr-page-title-bottom-gradient"> </div>{" "}
@@ -123,11 +123,7 @@ export default function CourseOverview() {
                   <div className="side-border-left" />
                   <Link to="/Academics"> Programs Offered </Link>{" "}
                 </li>{" "}
-                <li>
-                  {" "}
-                  <div className="side-border-left" />
-                  <Link to="/Activities"> Activities</Link>{" "}
-                </li>{" "}
+                
                 <li>
                   {" "}
                   <div className="side-border-left" />
