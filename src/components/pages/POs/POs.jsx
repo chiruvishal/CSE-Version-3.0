@@ -9,7 +9,7 @@ export default function POs() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
           }}>
           <div className="nitr-header-transparent-substitute "></div>
           <div className="nitr-page-title-bottom-gradient"></div>
@@ -36,11 +36,7 @@ export default function POs() {
                   <div className="side-border-left" />
                   <Link to="/Academics"> Programs Offered </Link>{" "}
                 </li>{" "}
-                <li>
-                  {" "}
-                  <div className="side-border-left" />
-                  <Link to="/Activities"> Activities</Link>{" "}
-                </li>{" "}
+
                 <li>
                   {" "}
                   <div className="side-border-left" />

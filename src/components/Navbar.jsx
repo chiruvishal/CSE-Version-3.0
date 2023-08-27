@@ -26,7 +26,7 @@ export default function Navbar() {
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
-    
+
   };
   const [isLogoScrolled, setIsLogoScrolled] = useState(false);
 
@@ -94,11 +94,7 @@ export default function Navbar() {
                   Programs Offered
                 </Link>
               </li>
-              <li>
-                <Link to="/AcamdemicActivities" onClick={handleLinkClick}>
-                  Activities
-                </Link>
-              </li>
+
               <li>
                 <Link to="/POs" onClick={handleLinkClick}>
                   POs, PEOs, PSOs
@@ -122,11 +118,7 @@ export default function Navbar() {
                   Areas
                 </Link>
               </li>
-              <li>
-                <Link to="/Project" onClick={handleLinkClick}>
-                  Project
-                </Link>
-              </li>
+
               <li>
                 <Link to="/Publications" onClick={handleLinkClick}>
                   Publications
@@ -140,11 +132,7 @@ export default function Navbar() {
             </a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
-              <li>
-                <Link to="/AluminiNetwork" onClick={handleLinkClick}>
-                  Alumni Network
-                </Link>
-              </li>
+
               <li>
                 <Link to="/Gallery" onClick={handleLinkClick}>
                   Gallery

@@ -199,7 +199,7 @@ const Posts=(props)=> {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/FsMqtTSQ/IMG-2725.jpg)',
+            backgroundImage: 'url(https://i.postimg.cc/x1tQtmmL/DSS-Bangkok1.jpg)',
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -225,10 +225,7 @@ const Posts=(props)=> {
                   <div className="side-border-left" />
                   <Link to="/Course">Course</Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Alumini-Network">Alumini-Network</Link>
-                </li>
+
                 <li>
                   {' '}
                   <div className="side-border-left" />

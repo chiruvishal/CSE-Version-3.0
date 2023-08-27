@@ -159,10 +159,7 @@ useEffect(() => {
                   <div className="side-border-left" />
                   <Link to="/Course">Course</Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/AluminiNetwork">Alumini-Network</Link>
-                </li>
+              
                 <li>
                   {' '}
                   <div className="side-border-left" />
