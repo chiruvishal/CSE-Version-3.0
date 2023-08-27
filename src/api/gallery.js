@@ -1,6 +1,6 @@
 import axios from "axios";
 
-  const url = "https://ace-backend-ii.onrender.com/posts/gallery";
+  const url = "https://neon-begonia-f47024.netlify.app/posts/gallery";
 //  const url = "http://localhost:5000/posts/news";
 
  const apifetchPosts = () => axios.get(url);
