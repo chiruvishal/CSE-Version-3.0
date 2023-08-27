@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import './Navbar.css';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
       {
-        pageLanguage: 'en',
+        pageLanguage: "en",
         autoDisplay: false,
       },
-      'google_translate_element'
+      "google_translate_element"
     );
   };
   useEffect(() => {
-    var addScript = document.createElement('script');
+    var addScript = document.createElement("script");
     addScript.setAttribute(
-      'src',
-      '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     );
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
@@ -26,7 +26,6 @@ export default function Navbar() {
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
-    
   };
   const [isLogoScrolled, setIsLogoScrolled] = useState(false);
 
@@ -36,26 +35,26 @@ export default function Navbar() {
       setIsLogoScrolled(scroll >= 300);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const handleLinkClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
     handleMenuToggle();
   };
 
   return (
-    <div className={`head-box ${isLogoScrolled ? 'scrolled' : ''}`}>
-      <header id="header" className={isLogoScrolled ? 'scrolled1' : ''}>
+    <div className={`head-box ${isLogoScrolled ? "scrolled" : ""}`}>
+      <header id="header" className={isLogoScrolled ? "scrolled1" : ""}>
         <div className="clear wrap">
           <div className="logo fl">
             <a href="" title="">
               <img
-                className={`logo1 ${isLogoScrolled ? 'scrolled' : ''}`}
+                className={`logo1 ${isLogoScrolled ? "scrolled" : ""}`}
                 src="https://i.postimg.cc/gc66cnjk/4-F4-BA61-B-8331-4369-A3-FC-24-D6-F239-A800-preview-rev-1.png"
               />
             </a>
@@ -63,7 +62,7 @@ export default function Navbar() {
         </div>
       </header>
       <div id="google_translate_element"></div>
-      <nav className={`animenu ${isMenuOpen ? 'open' : ''}`}>
+      <nav className={`animenu ${isMenuOpen ? "open" : ""}`}>
         <div className="menu-icon" onClick={handleMenuToggle}>
           <label htmlFor="menu-toggle" className="menu-toggle">
             <i className="fas fa-bars"></i>
@@ -79,12 +78,10 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-            <a className='hover1'>
-              Academics
-            </a>
+            <a className="hover1">Academics</a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
-            <li>
+              <li>
                 <Link to="/Course" onClick={handleLinkClick}>
                   Course
                 </Link>
@@ -112,9 +109,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-          <a className='hover1'>
-              Research Areas
-            </a>
+            <a className="hover1">Research Areas</a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
@@ -122,11 +117,11 @@ export default function Navbar() {
                   Areas
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/Project" onClick={handleLinkClick}>
                   Project
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/Publications" onClick={handleLinkClick}>
                   Publications
@@ -135,9 +130,7 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="parent-menu">
-          <a className='hover1'>
-              Student Zone
-            </a>
+            <a className="hover1">Student Zone</a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
