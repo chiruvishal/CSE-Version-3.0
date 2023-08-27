@@ -1,6 +1,6 @@
 import axios from "axios";
 
-  const url = "https://jade-frangipane-f24c40.netlify.app/posts/news";
+  const url = "https://tuv9qtqn3c39.onrender.com/posts/news";
 //  const url = "http://localhost:5000/posts/news";
 
  const apifetchPosts = () => axios.get(url);
