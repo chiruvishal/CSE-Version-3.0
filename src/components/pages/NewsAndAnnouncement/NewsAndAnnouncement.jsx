@@ -19,7 +19,8 @@ const Post = ({ setCurrentId, post }) => {
     <div className="for-border">
       <div className="newsdes">{post.creator}</div>
       <div className="alink">
-        <a href={post.title}>{post.message}</a>
+        {/* <a href={post.title}>{post.message}</a> */}
+        {post.message}
       </div>
     </div>
     // </div>
