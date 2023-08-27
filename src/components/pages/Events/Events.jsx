@@ -10,7 +10,7 @@ import 'react-multi-carousel/lib/styles.css';
 import './Events.css';
 const responsive = {
   desktop: {
-    breakpoint: { max: 3000, min: 1200 },
+    breakpoint: { max: 2000, min: 1200 },
     items: 3,
     slidesToSlide: 3, // optional, default to 1.
   },
