@@ -143,7 +143,7 @@ export default function Research() {
                     <p>Research Areas</p>
                   </Link>
                 </li>
-                
+
                 <li>
                   {" "}
                   <div className="side-border-left" />
@@ -155,9 +155,10 @@ export default function Research() {
             </div>
           </div>
           <div
-            className={` areasa ${
-              isVisible ? "animate__animated animate__slideInLeft" : ""
-            }`}
+            // className={` areasa ${
+            //   isVisible ? "animate__animated animate__slideInLeft" : ""
+            // }`}
+            className="areasa"
           >
             <h3 className="hea">Research Areas</h3>
             {areas.map(({ areaname, desc, content }) => (

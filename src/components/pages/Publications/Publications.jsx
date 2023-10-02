@@ -122,7 +122,6 @@ export default function Publications() {
                   <div className="side-border-left" />
                   <Link to="/Research-Areas">Areas</Link>
                 </li>
-
                 <li>
                   {" "}
                   <div className="side-border-left" />
@@ -132,9 +131,10 @@ export default function Publications() {
             </div>
           </div>
           <div
-            className={`publication ${
-              isVisible ? "animate__animated animate__slideInUp" : ""
-            }`}
+            // className={`publication ${
+            //   isVisible ? "animate__animated animate__slideInUp" : ""
+            // }`}
+            className="publication"
           >
             <h3 className="heap">Publications</h3>
             <div className="maint">
