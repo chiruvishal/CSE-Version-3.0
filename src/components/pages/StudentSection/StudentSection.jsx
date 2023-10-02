@@ -21,7 +21,7 @@ function StudentSection() {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: '60px' }}
             >
-              <div className="green-line-text">Student Section</div>
+              <div className="green-line-text Student-text">Student Section</div>
             </div>
           </div>
         </div>
@@ -33,11 +33,6 @@ function StudentSection() {
               </div>
 
               <ul className="side-link">
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Course">Course</Link>
-                </li>
-                
                 <li>
                   {' '}
                   <div className="side-border-left" />

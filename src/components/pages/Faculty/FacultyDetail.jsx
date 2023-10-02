@@ -221,7 +221,11 @@ export default function FacultyDetail() {
 
   return (
     <>
-      <div className="nitr-page-title-wrap nitr-style-custom nitr-left-align">
+      <div className="nitr-page-title-wrap nitr-style-custom nitr-left-align" style={{
+              backgroundImage:
+                'url(https://i.postimg.cc/T3nsTnj5/IMG-2597.jpg)',
+            }}>
+
         <div className="nitr-header-transparent-substitute"></div>
         <div className="nitr-page-title-bottom-gradient"></div>
         <div className="nitr-page-title-container green destinations-section-wrapper nitr-container">

@@ -55,7 +55,7 @@ export default function POs() {
         </div>{" "}
         <div>
 
-      <div className="counter-up">
+      <div className="counter-up"  style={{fontSize: '40px',  color: '#550882'}}>
         <div>
           <div className="box">
               <h4> नित्यं यातो शुभोदयं</h4>

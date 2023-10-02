@@ -6,7 +6,14 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
+@media (max-width: 767px) {
+  .Placements-text {
+    color: white;
+    font-size: 33px; 
+    white-space: nowrap;
+    margin-left: 2% ;
+  }
+}
 
 
 .counter-up {

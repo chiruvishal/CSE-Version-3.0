@@ -27,7 +27,7 @@ export default function Academics() {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: "60px" }}
             >
-              <div className="green-line-text">Academics</div>
+              <div className="green-line-text Academics-text">Programs Offered</div>
             </div>
           </div>
         </div>

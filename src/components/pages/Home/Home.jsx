@@ -6,13 +6,12 @@ import './Home.css';
 import MyCarousel from './MyCarousel';
 import Welcome from './Welcome';
 import TopAchievementsHome from './TopAchievementsHome';
-import AllCarousel from './AllCarousel';
 import About from '../About/About'
 
 const Counter = ({ target }) => {
   const counterRef = useRef(null);
   const { ref, inView } = useInView({
-    triggerOnce: true, // Only trigger once when counter enters viewport
+    triggerOnce: true, 
     threshold: 1,
   });
   useEffect(() => {
@@ -49,9 +48,6 @@ const Counter = ({ target }) => {
 
 
 export default function Home() {
-
-
-
   return (
     <div>
       <MyCarousel />

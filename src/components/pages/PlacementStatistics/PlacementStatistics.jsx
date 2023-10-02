@@ -61,7 +61,7 @@ const PlacementSection = () => {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: '60px' }}
             >
-              <div className="green-line-text">Placements</div>
+              <div className="green-line-text Placements-text">Placements</div>
             </div>
           </div>
         </div>
