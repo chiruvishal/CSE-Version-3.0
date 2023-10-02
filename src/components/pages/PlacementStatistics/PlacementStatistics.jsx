@@ -12,7 +12,7 @@ const Counter = ({ target }) => {
     threshold: 1,
   });
 
-  
+
 
   useEffect(() => {
     if (!inView) return;
@@ -45,13 +45,13 @@ const Counter = ({ target }) => {
 };
 const PlacementSection = () => {
 
-  
+
   return (
     <div>
     <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/FsMqtTSQ/IMG-2725.jpg)',
+            backgroundImage: 'url(https://i.postimg.cc/CxCJbCWs/IMG-2585-2.jpg)',
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -73,13 +73,13 @@ const PlacementSection = () => {
         </p>
         </div>
 
-        
+
          <div>
-      
-     
+
+
             <div className="counter-up">
               <div className="content">
-          
+
                 <div className="box">
                   <div className="icon">
                     <i className="fas fa-gift"></i>
@@ -87,7 +87,7 @@ const PlacementSection = () => {
             <Counter target={508} />
                 <div className="text">Offers Received</div>
               </div>
-          
+
           <div className="box">
             <div className="icon">
               <i className="fas fa-users"></i>
@@ -109,12 +109,12 @@ const PlacementSection = () => {
       <div className="placement-trends">
         <h2 style={{color: "#337ab7"}}>Placement Trends</h2>
       </div>
-      
+
       <div className='bar1'>
       <h3>Total offers over the past 5 Sessions</h3>
-      <BarChart /> 
+      <BarChart />
     </div>
-      
+
       <div className='bar1'>
       <h3>No of companies participated</h3>
       <BarChart2 />
@@ -127,7 +127,7 @@ const PlacementSection = () => {
       <h3 style={{color:"black", fontSize: '24px'}}>Number of Students Placed</h3>
 
       <div className="counter-upp">
-              <div className="content">               
+              <div className="content">
           <div className="box">
             <div className="icon">
               <i className="fas fa-users"></i>
@@ -158,7 +158,7 @@ const PlacementSection = () => {
             <Counter target={74} />
                 <div className="text">2018-19</div>
               </div>
-          
+
         </div>
       </div>
 
@@ -217,17 +217,17 @@ const PlacementSection = () => {
         <img src="https://i.postimg.cc/50Sqzqpd/FDAC5-A0-A-54-BA-4-E56-8351-268-FD52394-B6.jpg" alt="" />
 
         </div>
-      
+
     </div>
-   
-    
+
+
     </div>
-    
+
     </div>
   );
 };
 
-  
+
 
 
 export default PlacementSection;

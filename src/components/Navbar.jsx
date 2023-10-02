@@ -91,11 +91,7 @@ export default function Navbar() {
                   Programs Offered
                 </Link>
               </li>
-              <li>
-                <Link to="/AcamdemicActivities" onClick={handleLinkClick}>
-                  Activities
-                </Link>
-              </li>
+
               <li>
                 <Link to="/POs" onClick={handleLinkClick}>
                   POs, PEOs, PSOs
@@ -122,6 +118,7 @@ export default function Navbar() {
                   Project
                 </Link>
               </li> */}
+
               <li>
                 <Link to="/Publications" onClick={handleLinkClick}>
                   Publications
@@ -133,11 +130,7 @@ export default function Navbar() {
             <a className="hover1">Student Zone</a>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
-              <li>
-                <Link to="/AluminiNetwork" onClick={handleLinkClick}>
-                  Alumni Network
-                </Link>
-              </li>
+
               <li>
                 <Link to="/Gallery" onClick={handleLinkClick}>
                   Gallery

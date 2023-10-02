@@ -97,7 +97,7 @@ export default function Publications() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/J4Xc7kCr/pexels-element-digital-1370295.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -122,10 +122,6 @@ export default function Publications() {
                   <div className="side-border-left" />
                   <Link to="/Research-Areas">Areas</Link>
                 </li>
-                {/* <li>
-                  <div className="side-border-left" />
-                  <Link to="/Project">Project</Link>
-                </li> */}
                 <li>
                   {" "}
                   <div className="side-border-left" />

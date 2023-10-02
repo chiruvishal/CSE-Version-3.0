@@ -27,7 +27,7 @@ const Posts=(props)=>{
   const [openModal, setOpenModal] = useState(false);
   const [showMore, setShowMore] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [loadingDelay, setLoadingDelay] = useState(5000); // 5 seconds
+  const [loadingDelay, setLoadingDelay] = useState(7000); // 5 seconds
   const [galleryRef, galleryInView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -159,10 +159,7 @@ useEffect(() => {
                   <div className="side-border-left" />
                   <Link to="/Course">Course</Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/AluminiNetwork">Alumini-Network</Link>
-                </li>
+              
                 <li>
                   {' '}
                   <div className="side-border-left" />
@@ -181,7 +178,7 @@ useEffect(() => {
               </ul>
             </div>
           </div>
-          
+
           <div style={{ width: '100%' }}>
             <div className="student-box1" style={{ width: '100%' }}>
               <h3 className="student-box-heading1">
@@ -325,7 +322,7 @@ useEffect(() => {
 };
 
 const Gallary=(props)=>{
-  const [currentId, setCurrentId] = useState(0);
+  const [currentId, setCurrentId] = useState("");
 
   const dispatch = useDispatch();
 
