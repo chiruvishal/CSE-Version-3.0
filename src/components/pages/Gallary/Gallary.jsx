@@ -156,11 +156,6 @@ useEffect(() => {
 
               <ul className="side-link">
                 <li>
-                  <div className="side-border-left" />
-                  <Link to="/Course">Course</Link>
-                </li>
-              
-                <li>
                   {' '}
                   <div className="side-border-left" />
                   <Link to="/Gallery">Gallery</Link>
@@ -173,7 +168,7 @@ useEffect(() => {
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Publication">Activities</Link>
+                  <Link to="/Achievements">Achievements</Link>
                 </li>
               </ul>
             </div>

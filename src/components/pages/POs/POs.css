@@ -1,3 +1,12 @@
+@media (max-width: 767px) {
+  .POs-text {
+    color: white;
+    font-size: 33px; 
+    white-space: nowrap;
+    margin-left: 2% ;
+  }
+}
+
 .dr h2{
   text-align: left;
   padding-left: 16px;

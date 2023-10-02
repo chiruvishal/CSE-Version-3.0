@@ -1,3 +1,12 @@
+@media (max-width: 767px) {
+  .Academics-text {
+    color: white;
+    font-size: 30px; 
+    white-space: nowrap;
+    margin-left: 2% ;
+  }
+}
+
 .para{
     padding: 2%;
     position: relative;

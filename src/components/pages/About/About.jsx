@@ -57,7 +57,27 @@ export default function POs() {
           </div>{" "}
 
         </div>{" "}
+<<<<<<< HEAD
       
+=======
+        <div>
+
+      <div className="counter-up"  style={{fontSize: '40px',  color: '#550882'}}>
+        <div>
+          <div className="box">
+              <h4> नित्यं यातो शुभोदयं</h4>
+          </div>
+        <div className="box">
+        <h4> Nityam Yato Shubhodayam</h4>
+       </div>
+    <div className="box">
+      <h4> Let the rise of goodness happen every day</h4>
+    </div>
+
+  </div>
+</div>
+</div>
+>>>>>>> 9b9b71db5d50185f3bdf3c28e1ec48dc06031a89
         <div className="dro">
      <div className="Aiml wel abcd">
        <h3 className="headm">  <i className="fas fa-eye icon"></i>

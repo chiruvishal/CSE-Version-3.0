@@ -17,7 +17,7 @@ export default function POs() {
             <div
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: "60px" }}>
-              <div className="green-line-text">About</div>
+              <div className="green-line-text  POs-text"> POs,PEOs,PSOs</div>
             </div>
           </div>
         </div>
