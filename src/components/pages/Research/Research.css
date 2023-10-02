@@ -95,8 +95,10 @@
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
   box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px inset;
-  margin: 20px;
-  padding: 15px;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: justify;
 }
 .areahead {
   border: 2px solid rgb(42, 39, 167);
@@ -105,7 +107,7 @@
   background-color: rgb(42, 39, 167);
   border-radius: 20px;
   color: white;
-  margin-top: -35px;
+  margin-top: -42px;
   margin-left: 10px;
 }
 .prof {
@@ -184,5 +186,10 @@
   .Aiml {
     margin-top: 30px;
     margin-left: 10px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 650px) {
+  .Aiml {
+    margin-top: 50px;
   }
 }
