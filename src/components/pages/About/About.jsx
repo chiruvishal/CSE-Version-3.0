@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect,useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
 import "./About.css";
 import { Link } from "react-router-dom";
+
+
+
 export default function POs() {
   return (
     <>
@@ -53,6 +57,9 @@ export default function POs() {
           </div>{" "}
 
         </div>{" "}
+<<<<<<< HEAD
+      
+=======
         <div>
 
       <div className="counter-up"  style={{fontSize: '40px',  color: '#550882'}}>
@@ -70,6 +77,7 @@ export default function POs() {
   </div>
 </div>
 </div>
+>>>>>>> 9b9b71db5d50185f3bdf3c28e1ec48dc06031a89
         <div className="dro">
      <div className="Aiml wel abcd">
        <h3 className="headm">  <i className="fas fa-eye icon"></i>

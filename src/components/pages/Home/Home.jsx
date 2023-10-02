@@ -80,8 +80,8 @@ export default function Home() {
       <div className="icon">
         <i className="fas fa-award"></i>
       </div>
-      <Counter target={2} />
-                <div className="text">Cr Highest Package</div>
+      <Counter target={200} />
+                <div className="text">Lakh Highest Package</div>
               </div>
   </div>
 </div>

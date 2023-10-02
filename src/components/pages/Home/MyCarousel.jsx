@@ -14,10 +14,10 @@ var hoi="https://i.postimg.cc/jSjk1BTB/CSE-final.jpg";
 
 import "./MyCarousel.css";
 
-var head1 = "Discover a Whole New World";
-var para1 =  "Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment for aspiring computer science engineers.";
-var head2 =  "Discover";
-var para2 =  "Welcome Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on";
+var head1 = "A dream come true!";
+var para1 =  "Being one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment for aspiring computer science engineers.";
+var head2 =  "Where Talent meets Opportunity";
+var para2 =  "Welcome Welcome to the CSE department of NIT Raipur!";
 
 const thoughts = [
     {
@@ -26,7 +26,7 @@ const thoughts = [
     },
     {
         "head": head2,
-        "para": para2
+        "para": para1
     }
 ]
 function MyCarousel() {
