@@ -12,7 +12,7 @@ const DirectorMessage = () => {
         <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
           <div className="basis-4/12">
             <img
-              src="https://i.postimg.cc/RFk37Ct0/Department-of-Computer-Science-Engineering-2.png"
+              src="https://i.postimg.cc/NfpbyZsW/Mr-Pradeep-Singh.jpg"
               className="basis-4/12 h-full w-full object-cover hodimg"
               alt="Director's Image"
             />
@@ -22,24 +22,10 @@ const DirectorMessage = () => {
             className="flexw flex-colw basis-8/12 space-y-4 p-6"
           >
             <h2 className="text-xl font-medium text-dark-purple mess1">
-              Dr.Dilip Singh Sisodia{" "}
+              Dr.Pradeep Singh{" "}
             </h2>{" "}
             <p className="mess">
-              Dr.Dilip Singh Sisodia is Working as Associate Professor at the
-              Department of Computer Science and Engineering, National Institute
-              of Technology Raipur, Raipur, India.Dr.Sisodia have expertise in
-              various fields of computer science including Artificial
-              Intelligence, Machine Learning, Soft Computing, Computation
-              intelligence, Theoretical computer science and many
-              more.Dr.Sisodia has contributed to more than 100 refereed
-              articles, including 78 papers in Web of Science / Scopus indexed
-              journals, his conference proceedings and book chapters have been
-              published by reputed international publishers.Some notable
-              publication destinations of Dr.Sisodia are IEEE Transactions on
-              Systems: Man, and Cybernetics Systems, Knowledge base systems,
-              Expert system, and applications, Information Sciences and more.He
-              has also shared his work at various international conferences in
-              countries like Israel, Spain, Singapore, Thailand, and more.{" "}
+            The field of Computer Science and Engineering (CSE) is a dynamic and ever-evolving domain that promises a world of opportunities for aspiring tech enthusiasts. In today's digital age, CSE is at the forefront of innovation, driving advancements in artificial intelligence, data science, cybersecurity, and more. As we continue to witness rapid technological advancements, the demand for skilled CSE professionals is soaring. Graduates in this field not only enjoy a wide array of career options but also stand a strong chance of securing lucrative placements in top-tier tech companies. The future prospects for CSE graduates are exceptionally promising, offering the potential for groundbreaking contributions to technology and society, making it an immensely attractive and rewarding field for those with a passion for problem-solving and innovation.{" "}
             </p>{" "}
           </div>{" "}
         </div>{" "}

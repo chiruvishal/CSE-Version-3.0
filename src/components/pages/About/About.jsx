@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect,useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
 import "./About.css";
 import { Link } from "react-router-dom";
+
+
+
 export default function POs() {
   return (
     <>
@@ -53,23 +57,7 @@ export default function POs() {
           </div>{" "}
 
         </div>{" "}
-        <div>
-
-      <div className="counter-up">
-        <div>
-          <div className="box">
-              <h4> नित्यं यातो शुभोदयं</h4>
-          </div>
-        <div className="box">
-        <h4> Nityam Yato Shubhodayam</h4>
-       </div>
-    <div className="box">
-      <h4> Let the rise of goodness happen every day</h4>
-    </div>
-
-  </div>
-</div>
-</div>
+      
         <div className="dro">
      <div className="Aiml wel abcd">
        <h3 className="headm">  <i className="fas fa-eye icon"></i>

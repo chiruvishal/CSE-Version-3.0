@@ -13,7 +13,6 @@ const Counter = ({ target }) => {
   });
 
 
-
   useEffect(() => {
     if (!inView) return;
 
@@ -45,13 +44,29 @@ const Counter = ({ target }) => {
 };
 const PlacementSection = () => {
 
+  const buttonStyles = {
+     padding: '10px 20px',
+     backgroundColor: '#337ab7', // Background color
+     color: '#fff', // Text color
+     border: 'none',
+     borderRadius: '5px',
+     cursor: 'pointer',
+     fontSize: '16px',
+   };
+    const handleButtonClick = () => {
+       // Replace the URL with the link you want to open
+       const linkToOpen = "https://tpo.nitrr.ac.in/Reports/placement_report_2021.pdf";
+       window.open(linkToOpen, "_blank");
+     };
+
 
   return (
     <div>
     <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/CxCJbCWs/IMG-2585-2.jpg)',
+            backgroundImage: 'url(https://i.postimg.cc/8C0X39J2/Big-Tech-companies.jpg)',
+              backgroundSize: 'cover'
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -71,6 +86,9 @@ const PlacementSection = () => {
         <p>
         The placement section of the Computer Science branch at NIT Raipur is known for its remarkable track record and industry collaborations. With a strong emphasis on technical skills and practical knowledge, the department prepares students to excel in the ever-evolving field of computer science. The placement team organizes various training programs, workshops, and mock interviews to enhance students' employability. Renowned companies from diverse sectors actively participate in the recruitment process, offering enticing job opportunities and internships. The department's extensive network and alumni connections further contribute to the successful placement of students, ensuring a bright future for aspiring computer science graduates from NIT Raipur.
         </p>
+
+
+        <button style={buttonStyles} onClick={handleButtonClick}>Official Placement Report</button>
         </div>
 
 
