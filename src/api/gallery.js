@@ -1,6 +1,6 @@
 import axios from "axios";
 
-  const url = "https://vjbvehzpjfs8.onrender.com/posts/gallery";
+  const url = "https://tuv9qtqn3c39.onrender.com/posts/gallery";
 //  const url = "http://localhost:5000/posts/news";
 
  const apifetchPosts = () => axios.get(url);
