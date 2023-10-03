@@ -5,10 +5,14 @@ var mountains = "https://i.postimg.cc/xCzKGZqB/Cyan-and-Black-Simple-Circular-Ge
 
 //part2
 
+var shit1 = "https://i.postimg.cc/PrjNv9dj/aaaaaaaa.jpg";
+var shit2= "https://i.postimg.cc/cJpdytHS/aaaaaaa.jpg";
+var shit3 = "https://i.postimg.cc/Xq33XMd1/aaaaaa.jpg";
+var shit4 = "https://i.postimg.cc/hGdqr403/aaaa.jpg";
 var groups = "https://i.postimg.cc/K881L85C/w12.jpg";
-var cats = "https://i.postimg.cc/zX6CFQdJ/w3-3.jpg";
 var dogs = "https://i.postimg.cc/k4Y6XVzn/w5.jpg";
 var shit = "https://i.postimg.cc/8ctSVW0H/w14-2.jpg";
+var cats = "https://i.postimg.cc/zX6CFQdJ/w3-3.jpg";
 var crap = "https://i.postimg.cc/ydpMQBgQ/w11-3.jpg";
 var hoi="https://i.postimg.cc/jSjk1BTB/CSE-final.jpg";
 
@@ -67,6 +71,12 @@ function MyCarousel() {
         <div className = "part2">
         <Slider {...settings }>
 
+        <div className = "row" >
+        <img src = { shit4 }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" /
+        >
+        </div>
         <div className = "row" >
         <img src = { shit }
         className = "slide_img col-lg-12"
