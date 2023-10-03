@@ -11,10 +11,9 @@ const DirectorMessage = () => {
       <div id="director-message" className="containerw mx-auto my-10">
         <div className="flexw flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">
           <div className="basis-4/12">
-            <img
-              src="https://i.postimg.cc/qMrJWV55/p.jpg"
+            <img src="https://i.postimg.cc/qMrJWV55/p.jpg"
               className="basis-4/12 h-full w-full object-cover hodimg"
-              alt="Director's Image"
+              alt="HOD's Image"
             />
           </div>{" "}
           <div
