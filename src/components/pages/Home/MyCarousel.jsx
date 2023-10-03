@@ -77,6 +77,12 @@ function MyCarousel() {
         alt = "Responsive img" /
         >
         </div>
+        <div className = "row" >
+        <img src = { shit }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" /
+        >
+        </div>
 
         <div className = "row" >
         <img src = { cats }
