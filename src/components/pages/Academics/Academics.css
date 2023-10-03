@@ -1,3 +1,12 @@
+@media (max-width: 767px) {
+  .Academics-text {
+    color: white;
+    font-size: 30px; 
+    white-space: nowrap;
+    margin-left: 2% ;
+  }
+}
+
 .para{
     padding: 2%;
     position: relative;
@@ -33,4 +42,26 @@
   .expanded-content {
     margin-top: 20px;
     
+  }
+
+  .expanded-content h2{
+    padding-left: 10px;
+  }
+
+  @media screen and (max-width : 450px) {
+    .Acad-mic{
+      margin-left: 55px;
+    }
+  }
+
+  @media screen and (max-width : 400px) {
+    .Acad-mic{
+      margin-left: 30px;
+    }
+  }
+
+  @media screen and (max-width : 330px) {
+    .Acad-mic{
+      margin-left: 10px;
+    }
   }

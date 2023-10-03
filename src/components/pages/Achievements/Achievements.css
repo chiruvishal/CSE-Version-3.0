@@ -1,3 +1,11 @@
+@media (max-width: 767px) {
+ 
+  .Achievements-text {
+    font-size: 33px; 
+  }
+}
+
+
 .card {
   border-radius: 25px;
   background-color: #F7F7F7;

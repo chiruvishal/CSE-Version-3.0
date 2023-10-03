@@ -47,7 +47,7 @@ export default function Research() {
     },
     {
       areaname: "Data Minig | Text Mining",
-      desc: "",
+      desc: "Data mining is a powerful technique used in college research to extract valuable insights and patterns from large and complex datasets. It involves the process of discovering meaningful information, trends, and relationships within the data, often with the aid of specialized software tools. In the context of college research, data mining can be applied to various fields, including social sciences, business, healthcare, and more. Researchers can use data mining to analyze large amounts of data collected from surveys, experiments, observations, or existing databases to uncover hidden patterns and gain a deeper understanding of the subject under investigation.",
       content: [
         {
           imglink: "https://i.postimg.cc/C52R1xhg/Mr-Dilip-Singh-Sisodia.jpg",
@@ -68,7 +68,7 @@ export default function Research() {
     },
     {
       areaname: "Software Engineering",
-      desc: "",
+      desc: "Software engineering is a discipline that focuses on the systematic development, maintenance, and management of software systems. It encompasses a set of principles, methods, tools, and practices that help in building high-quality software that meets user requirements while considering constraints such as time, budget, and resources. In the context of college research, software engineering plays a crucial role in studying and improving the software development process, exploring new methodologies, and addressing various challenges in software design, development, and maintenance. Researchers in this field aim to advance the understanding and practice of software engineering through empirical studies, experiments, and the development of new techniques and tools.",
       content: [
         {
           imglink: "https://i.postimg.cc/hGJPnStH/Ms-Aakanksha-Sharaff.jpg",
@@ -115,7 +115,7 @@ export default function Research() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/7Z4dMDxk/20191210-225056.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -143,12 +143,7 @@ export default function Research() {
                     <p>Research Areas</p>
                   </Link>
                 </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Project">
-                    <p>Projects</p>
-                  </Link>
-                </li>
+
                 <li>
                   {" "}
                   <div className="side-border-left" />
@@ -160,9 +155,10 @@ export default function Research() {
             </div>
           </div>
           <div
-            className={` areasa ${
-              isVisible ? "animate__animated animate__slideInLeft" : ""
-            }`}
+            // className={` areasa ${
+            //   isVisible ? "animate__animated animate__slideInLeft" : ""
+            // }`}
+            className="areasa"
           >
             <h3 className="hea">Research Areas</h3>
             {areas.map(({ areaname, desc, content }) => (

@@ -23,7 +23,6 @@ import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
 import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
 import Staff from './components/pages/Faculty/Staff';
 import Academics from "./components/pages/Academics/Academics";
-import AcademicActivities from "./components/pages/Academics/AcademicActivities";
 
 
 import ShowData from './components/pages/Publications/ShowData';
@@ -57,7 +56,6 @@ function App() {
             <Route path="/TempararyFaculty" component={TempararyFaculty} />
             <Route path="/Staff" component={Staff} />
             <Route path="/Academics" component={Academics} />
-            <Route path="/AcademicActivities" component={AcademicActivities} />
             <Route path="/VisionAndMission" component={VisionAndMission} />
             <Route path="/Research-Areas" component={ResearchAreas} />
             <Route path="/Research-Areas" component={ResearchAreas} />

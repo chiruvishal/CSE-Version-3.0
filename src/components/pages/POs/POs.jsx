@@ -9,7 +9,7 @@ export default function POs() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
           }}>
           <div className="nitr-header-transparent-substitute "></div>
           <div className="nitr-page-title-bottom-gradient"></div>
@@ -17,7 +17,7 @@ export default function POs() {
             <div
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: "60px" }}>
-              <div className="green-line-text">About</div>
+              <div className="green-line-text  POs-text"> POs,PEOs,PSOs</div>
             </div>
           </div>
         </div>
@@ -36,11 +36,7 @@ export default function POs() {
                   <div className="side-border-left" />
                   <Link to="/Academics"> Programs Offered </Link>{" "}
                 </li>{" "}
-                <li>
-                  {" "}
-                  <div className="side-border-left" />
-                  <Link to="/Activities"> Activities</Link>{" "}
-                </li>{" "}
+
                 <li>
                   {" "}
                   <div className="side-border-left" />
@@ -50,7 +46,7 @@ export default function POs() {
             </div>{" "}
           </div>{" "}
           <div className="dr">
-            <div className="Aiml">
+            <div className="Aiml Acad-mic">
               <h3 className="headm">PEOs, PSOs and POs</h3>
               {/* <div id="director-message" className="containerw mx-auto my-10"> */}
               <div className="flexi flex-colw space-y-6 rounded-lg bg-light-purple overflow-hidden shadow-md md:flex-row md:space-y-0 md:space-x-6">

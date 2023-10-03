@@ -55,21 +55,9 @@ export default function Publications() {
     if (event.target.value == "Dr.Veena Anand") setData(VeenaMam);
   };
   const selectHandler1 = (event1) => {
-    //console.log(Year + " 1");
-    //console.log(event1.target.value);
-    setYear(event1.target.value);
-    //console.log(event1.target.value);
-    //console.log(Year);
+    setYear(event1.target.value); 
   };
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setYear(Year);
-  //   }, 1000);
-  //   // console.log(Year);
-  // });
-  //const res = publish.find(({ year }) => year === Year);
-  // const result = publish.find(({ year }) => year === Year);
-  // console.log(result);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -97,7 +85,7 @@ export default function Publications() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/yNBbxWnQ/IMG-2618.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/J4Xc7kCr/pexels-element-digital-1370295.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -107,7 +95,7 @@ export default function Publications() {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: "60px" }}
             >
-              <div className="green-line-text">Publications</div>
+              <div className="green-line-text Publications-text">Publications</div>
             </div>
           </div>
         </div>
@@ -123,10 +111,6 @@ export default function Publications() {
                   <Link to="/Research-Areas">Areas</Link>
                 </li>
                 <li>
-                  <div className="side-border-left" />
-                  <Link to="/Project">Project</Link>
-                </li>
-                <li>
                   {" "}
                   <div className="side-border-left" />
                   <Link to="/Publications">Publications</Link>
@@ -135,9 +119,7 @@ export default function Publications() {
             </div>
           </div>
           <div
-            className={`publication ${
-              isVisible ? "animate__animated animate__slideInUp" : ""
-            }`}
+            className="publication"
           >
             <h3 className="heap">Publications</h3>
             <div className="maint">

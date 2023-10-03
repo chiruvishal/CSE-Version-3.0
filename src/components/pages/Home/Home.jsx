@@ -6,13 +6,12 @@ import './Home.css';
 import MyCarousel from './MyCarousel';
 import Welcome from './Welcome';
 import TopAchievementsHome from './TopAchievementsHome';
-import AllCarousel from './AllCarousel';
 import About from '../About/About'
 
 const Counter = ({ target }) => {
   const counterRef = useRef(null);
   const { ref, inView } = useInView({
-    triggerOnce: true, // Only trigger once when counter enters viewport
+    triggerOnce: true, 
     threshold: 1,
   });
   useEffect(() => {
@@ -49,9 +48,6 @@ const Counter = ({ target }) => {
 
 
 export default function Home() {
-
- 
-    
   return (
     <div>
       <MyCarousel />
@@ -60,11 +56,11 @@ export default function Home() {
       <TopAchievementsHome heading="Achievements" tag="3"/>
 
       <div>
-      
-     
-      <div className="counter-up">
+
+
+      <div className="counter-uppp">
         <div className="content">
-    
+
           <div className="box">
             <div className="icon">
               <i className="fas fa-gift"></i>
@@ -72,7 +68,7 @@ export default function Home() {
       <Counter target={508} />
                 <div className="text">Offers Received</div>
               </div>
-    
+
     <div className="box">
       <div className="icon">
         <i className="fas fa-users"></i>
@@ -84,8 +80,8 @@ export default function Home() {
       <div className="icon">
         <i className="fas fa-award"></i>
       </div>
-      <Counter target={2} />
-                <div className="text">Cr Highest Package</div>
+      <Counter target={200} />
+                <div className="text">Lakh Highest Package</div>
               </div>
   </div>
 </div>
@@ -98,4 +94,3 @@ export default function Home() {
     </div>
   );
 }
-

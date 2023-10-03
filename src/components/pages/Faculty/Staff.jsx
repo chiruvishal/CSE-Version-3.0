@@ -3,51 +3,55 @@ import './Staff.css';
 import { Link } from 'react-router-dom';
 import FacultyCard from './FacultyCard';
 import './FacultyCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers, faUser } from '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 export default function FacultyOverview() {
   const facultyMembers = [
-    {
+    { id:'15',
       name: 'Mr. Naveen Prakash Sharma',
       picture: 'https://i.postimg.cc/4Nfp8jsh/Mr-Sharma.jpg',
       Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
     },
-    {
-      name: 'Ravishankar Sahu',
+    { id:'16',
+      name: 'Mr. Ravishankar Sahu',
       picture: 'https://i.postimg.cc/MHNMK3fz/Ravishankar-Sahu.jpg',
       Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
     },
-    {
-      name: 'Ravi Shankar Pandey',
+    { id:'17',
+      name: 'Mr. Ravi Shankar Pandey',
       picture: 'https://i.postimg.cc/PqCxVs6K/Ravi-Shankar-Pandey.jpg',
       Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
     },
-    {
-      name: 'Laxman Kumar Dhivar',
+    { id:'18',
+      name: 'Mr. Laxman Kumar Dhivar',
       picture: 'https://i.postimg.cc/fTy69zkH/Laxman-Kumar-Dhivar.jpg',
       Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
     },
-    {
-      name: 'Anjali Parate',
+    { id:'19',
+      name: 'Ms. Anjali Parate',
       picture: 'https://i.postimg.cc/tRwLF0Pp/Ms-Parate.jpg',
       Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
     },
-    {
+    { id:'20',
       name: 'Mr. Rama Shankar Vastrakar',
       picture: 'https://i.postimg.cc/4dKW3dWt/Mr-Rama-Shankar-Vastrakar.jpg',
       Designition: 'Office Assistant',
       email: 'Email:rama.shankar83@gmail.com',
       phone: 'Phone:7898987826',
     },
-    {
+    { id:'21',
       name: 'Mr. Ajay Kumar',
       picture: 'https://i.postimg.cc/9F1Zv2pj/Mr-Ajay-Kumar.jpg',
       Designition: 'Office Attendant',
@@ -77,38 +81,35 @@ export default function FacultyOverview() {
               style={{ paddingBottom: '60px' }}
             >
               <div className="green-line-text">People</div>
-
+                
             </div>
           </div>
         </div>
+         
         <div className="main-box">
           <div className="side-box">
-            <div className="side-container">
-              <div className="side-top-box">
-                <p>Faculty</p>
-              </div>
-
-              <ul className="side-link">
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Faculty">Associate Professor</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/AssistantProfessor">Assistant Professor</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/TempararyFaculty">Temparary Faculty</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Staff">Staff</Link>
-                </li>
-              </ul>
+          <div className="faculty-list">
+    <h3>Staff Members</h3>
+    <ul>
+      {facultyMembers.map((faculty) => (
+          <div className="faculty-names">
+              <h4>{faculty.name}</h4>
             </div>
+      ))}
+    </ul>
+  </div>
           </div>
           <div className="drops">
+          <div  style={{ padding: '20px' }}> 
+                <Link to="/Faculty"  style={{ paddingRight: '30px' }}>
+                  <FontAwesomeIcon icon={faUsers} className="nav-icon" />
+                  Faculty
+                </Link>
+                <Link to="/Staff">
+                  <FontAwesomeIcon icon={faUser} className="nav-icon" />
+                  Staff
+                </Link>
+            </div>
             <h3>Staff</h3>
 
             <div>

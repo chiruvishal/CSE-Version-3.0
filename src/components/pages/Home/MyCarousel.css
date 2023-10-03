@@ -5,7 +5,6 @@
 }
 
 .part1 {
-  margin-top: 20px;
   width: 30%;
 
   position: relative;
@@ -88,6 +87,7 @@
 }
 
 .slide_img {
+  object-fit: cover;
   height: 500px;
 }
 .slide_box {

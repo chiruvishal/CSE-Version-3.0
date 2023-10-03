@@ -11,92 +11,6 @@ import 'animate.css';
 import LazyLoad from 'react-lazyload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Posts=(props)=> {
-  // const achievement = [
-  //   {
-  //     name: 'achievements 2023',
-  //     cards: [
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
-  //         achiename: 'John Doe',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://st3.depositphotos.com/2056297/14633/i/600/depositphotos_146330135-stock-photo-portrait-of-sexy-man.jpg',
-  //         achiename: 'Alex Johnson',
-  //         description: 'Bronze Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-  //         achiename: 'Sarah Wilson',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
-  //         achiename: 'Sarah Wilson',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
-  //         achiename: 'Alex Johnson',
-  //         description: 'Bronze Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //         year: '2022',
-  //         category: 'Department Achievements',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-  //         achiename: 'Sarah Wilson',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //         year: '2023',
-  //         category: 'Department Achievements',
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: 'Achuevements 2023',
-  //     cards: [
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxSsttf-3xG2xjCs4i5slPn__SDHoEtouzMnj56MLfIucdXbAjmWZFKlQ-pUah2Bn5mQ&usqp=CAU',
-  //         achiename: 'John Doe',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmxW7AeJl9pvhROKaAajwyQAhEZlPtDS3vQ&usqp=CAU',
-  //         achiename: 'Alex Johnson',
-  //         description: 'Bronze Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtzoRCUpOk1hwIJtkV44PE2jE7MhmpdhbZnA&usqp=CAUmedal_image4.jpg',
-  //         achiename: 'Sarah Wilson',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //       {
-  //         imageUrl:
-  //           'https://upload.wikimedia.org/wikipedia/commons/3/31/My-Passport-Size%28Small-Beard%29-1MB.jpg',
-  //         achiename: 'Sarah Wilson',
-  //         description: 'Gold Medalist',
-  //         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //       },
-  //     ],
-  //   },
-  // ];
   const posts = useSelector((state) => state.posts);
   //
   // const [selectedEvent, setSelectedEvent] = useState(0);
@@ -199,7 +113,7 @@ const Posts=(props)=> {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/FsMqtTSQ/IMG-2725.jpg)',
+            backgroundImage: 'url(https://i.postimg.cc/x1tQtmmL/DSS-Bangkok1.jpg)',
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -209,7 +123,7 @@ const Posts=(props)=> {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: '60px' }}
             >
-              <div className="green-line-text">Achievements</div>
+              <div className="green-line-text Achievements-text">Achievements</div>
             </div>
           </div>
         </div>
@@ -221,14 +135,6 @@ const Posts=(props)=> {
               </div>
 
               <ul className="side-link">
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Course">Course</Link>
-                </li>
-                <li>
-                  <div className="side-border-left" />
-                  <Link to="/Alumini-Network">Alumini-Network</Link>
-                </li>
                 <li>
                   {' '}
                   <div className="side-border-left" />
@@ -242,7 +148,7 @@ const Posts=(props)=> {
                 <li>
                   {' '}
                   <div className="side-border-left" />
-                  <Link to="/Activities">Activities</Link>
+                  <Link to="/Achievements">Achievements</Link>
                 </li>
               </ul>
             </div>

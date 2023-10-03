@@ -4,18 +4,20 @@ import { Link } from "react-router-dom";
 
 export default function Academics() {
   const [expanded, setExpanded] = useState(false);
-
+  const [expanded2, setExpanded2] = useState(false);
   const toggleExpand = () => {
     setExpanded(!expanded);
   };
-
+  const toggleExpand2 = ()=>{
+    setExpanded2(!expanded2);
+  };
   return (
     <>
       <div>
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/9fpN7VnW/IMG-2585.jpg)",
+            backgroundImage: "url(https://i.postimg.cc/FRNMr4Bp/PSX-20191214-104836.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute"></div>
@@ -25,11 +27,11 @@ export default function Academics() {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: "60px" }}
             >
-              <div className="green-line-text">Academics</div>
+              <div className="green-line-text Academics-text">Programs Offered</div>
             </div>
           </div>
         </div>
-        <h1 className="consulting">Academics</h1>
+
       </div>
       <div className="main-boxx">
         <div className="side-boxxx">
@@ -46,10 +48,7 @@ export default function Academics() {
                 <div className="side-border-left"></div>
                 <Link to="/Academics">Programs Offered</Link>
               </li>
-              <li>
-                <div className="side-border-left"></div>
-                <Link to="/Activities">Activities</Link>
-              </li>
+
               <li>
                 <div className="side-border-left"></div>
                 <Link to="/POs">POs, PEOs, PSOs</Link>
@@ -57,8 +56,8 @@ export default function Academics() {
             </ul>
           </div>
         </div>
-        <div className="dr">
-          <div className="Aiml">
+        <div className="academics-col">
+          <div className="Aiml Acad-mic">
             <h3 className="headm">BTech</h3>
             <div className="para">
               <p>
@@ -214,8 +213,98 @@ export default function Academics() {
               </div>
             )}
           </div>
-        </div>
-        
+
+          <div className="Aiml Acad-mic">
+            <h3 className="headm">PhD</h3>
+            <div className="para">
+              <p>
+              The PhD program in Computer Science at NIT Raipur is designed to provide students with advanced knowledge and research skills
+              in various areas of computer science and engineering. The program offers opportunities for students to engage in cutting-edge
+              research, contribute to the existing body of knowledge, and pursue academic or industry careers.
+              </p>
+              <div
+                className={`expand-icon ${expanded2 ? "expanded" : ""}`}
+                onClick={toggleExpand2}
+              >
+                <span>{expanded2 ? "-" : "+"}</span>
+              </div>
+            </div>
+            {expanded2 && (
+              <div className="expanded-content">
+                <h2>Programme Outcomes (POs)</h2>
+                <ol className="pos" start={1}>
+                  <li>
+                  <b>Advanced Knowledge:</b>Students will demonstrate an in-depth understanding of advanced concepts, theories, and
+                  methodologies in Computer Science and Engineering.
+                  </li>
+                  <li>
+                  <b>Independent Research:</b>Students will be able to design, conduct, and manage independent research projects
+                  that contribute to the body of knowledge in their research area.
+                  </li>
+                  <li>
+                  <b>Analytical Skills:</b>Students will develop advanced analytical and problem-solving skills to address complex issues in computer science and engineering,
+                  utilizing interdisciplinary approaches where necessary.
+                  </li>
+                  <li>
+                  <b>Communication Proficiency:</b>Students will exhibit effective written and oral communication skills, enabling them to present research findings,
+                  write scholarly papers, and engage in scholarly discussions.
+                  </li>
+                  <li>
+                  <b>Lifelong Learning:</b>Students will engage in continuous learning and professional development, staying abreast of emerging technologies,
+                  research trends, and ethical considerations in the field.
+                  </li>
+                </ol>
+                <h2>Programme Educational Objectives (PEOs)</h2>
+                <ol className="peo" start={1}>
+                <li>
+                    <b>Expertise:</b>  Graduates will demonstrate advanced knowledge and expertise in their
+                    specialized area of research within Computer Science and Engineering.
+                  </li>
+                  <li>
+                    <b>Research Contribution:</b> Graduates will contribute to the advancement of knowledge in their field through
+                    original research, publications, and scholarly activities.
+                  </li>
+                  <li>
+                    <b>Problem Solving:</b>  Graduates will possess the skills to critically analyze complex problems and provide
+                    innovative solutions by applying advanced research methodologies and techniques.
+                  </li>
+                  <li>
+                    <b>Communication:</b> Graduates will exhibit effective communication and presentation skills,
+                    enabling them to disseminate research findings and collaborate with interdisciplinary teams.
+                  </li>
+                  <li>
+                    <b>Career Success:</b> Graduates will pursue successful careers in academia, industry, or entrepreneurship,
+                    demonstrating leadership, ethical conduct, and adaptability to evolving technological challenges.
+                  </li>
+                </ol>
+                <h2>Programme Specific Objectives (PSOs)</h2>
+                <ol className="pso" start={1}>
+                  <li>
+                  The program will have a structured coursework component that includes a combination of core courses, elective courses,
+                  and seminars to provide students with a solid foundation and specialization in their research area.
+                  </li>
+                  <li>
+                  The program will require students to complete a comprehensive research project or dissertation under the guidance
+                  of a faculty advisor, demonstrating their ability to conduct original research.
+                  </li>
+                  <li>
+                  The program will facilitate opportunities for students to collaborate with faculty members, research groups, and industry
+                  partners to foster interdisciplinary research and professional networking.
+                  </li>
+                  <li>
+                  The program will provide access to state-of-the-art facilities, research resources, and computing infrastructure to
+                  support students' research endeavors.
+                  </li>
+                  <li>
+                  The program will have a mechanism for evaluating and assessing student progress, including regular presentations, exams,
+                  and research reviews, to ensure the students' growth and attainment of the program's educational outcomes.
+                  </li>
+                </ol>
+              </div>
+            )}
+          </div>
+
+       </div>
       </div>
     </>
   );

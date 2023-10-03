@@ -1,19 +1,23 @@
 import React from "react";
 import Slider from "infinite-react-carousel";
+var mountains = "https://i.postimg.cc/xCzKGZqB/Cyan-and-Black-Simple-Circular-General-Hospital-Logo-1.png";
 
-var cloud_mountains = "https://i.postimg.cc/tTMgBRng/Untitled-design-3.png";
-var mountains =
-    "https://i.postimg.cc/xCzKGZqB/Cyan-and-Black-Simple-Circular-General-Hospital-Logo-1.png";
-var groups =
-    "https://i.postimg.cc/vmDGYYf6/Whats-App-Image-2023-05-31-at-01-31-31.jpg";
-var hills =
-    "https://i.postimg.cc/g0wP9MbV/Whats-App-Image-2023-05-26-at-23-44-04.jpg";
+
+//part2
+
+var groups = "https://i.postimg.cc/K881L85C/w12.jpg";
+var cats = "https://i.postimg.cc/zX6CFQdJ/w3-3.jpg";
+var dogs = "https://i.postimg.cc/k4Y6XVzn/w5.jpg";
+var shit = "https://i.postimg.cc/8ctSVW0H/w14-2.jpg";
+var crap = "https://i.postimg.cc/ydpMQBgQ/w11-3.jpg";
+var hoi="https://i.postimg.cc/jSjk1BTB/CSE-final.jpg";
+
 import "./MyCarousel.css";
 
-var head1 = "Discover a Whole New World";
-var para1 =  "Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment for aspiring computer science engineers.";
-var head2 =  "Discover";
-var para2 =  "Welcome Welcome to the CSE department of NIT Raipur!As one of the premier institutions in India, we pride ourselves on";
+var head1 = "A dream come true!";
+var para1 =  "Being one of the premier institutions in India, we pride ourselves on offering a dynamic and innovative learning environment for aspiring computer science engineers.";
+var head2 =  "Where Talent meets Opportunity";
+var para2 =  "Welcome Welcome to the CSE department of NIT Raipur!";
 
 const thoughts = [
     {
@@ -22,7 +26,7 @@ const thoughts = [
     },
     {
         "head": head2,
-        "para": para2
+        "para": para1
     }
 ]
 function MyCarousel() {
@@ -35,7 +39,7 @@ function MyCarousel() {
         arrows: true,
         pauseOnHover: true,
     };
-    return ( 
+    return (
         <div className = "carsel" >
         <div className = "part1" >
             <Slider {...settings }>
@@ -52,8 +56,8 @@ function MyCarousel() {
         <p>
             {thought.para}
         </p>
-        </div> 
-        </div> 
+        </div>
+        </div>
         </div>
         </div>
         </div>
@@ -62,19 +66,36 @@ function MyCarousel() {
         </div>
         <div className = "part2">
         <Slider {...settings }>
-        <div className = "row">
-        <img src = { cloud_mountains }
+
+        <div className = "row" >
+        <img src = { shit }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" /
+        >
+        </div>
+
+        <div className = "row" >
+        <img src = { cats }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" />
+        </div>
+        <div className = "row" >
+        <img src = { hoi }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" />
+        </div>
+        <div className = "row" >
+        <img src = { dogs }
+        className = "slide_img col-lg-12"
+        alt = "Responsive img" />
+        </div>
+        <div className = "row" >
+        <img src = { crap }
         className = "slide_img col-lg-12"
         alt = "Responsive img" />
         </div>
         <div className = "row" >
         <img src = { groups }
-        className = "slide_img col-lg-12"
-        alt = "Responsive img" /
-        >
-        </div>
-        <div className = "row" >
-        <img src = { hills }
         className = "slide_img col-lg-12"
         alt = "Responsive img" />
         </div>

@@ -12,7 +12,6 @@ const Counter = ({ target }) => {
     threshold: 1,
   });
 
-  
 
   useEffect(() => {
     if (!inView) return;
@@ -45,13 +44,29 @@ const Counter = ({ target }) => {
 };
 const PlacementSection = () => {
 
-  
+  const buttonStyles = {
+     padding: '10px 20px',
+     backgroundColor: '#337ab7', // Background color
+     color: '#fff', // Text color
+     border: 'none',
+     borderRadius: '5px',
+     cursor: 'pointer',
+     fontSize: '16px',
+   };
+    const handleButtonClick = () => {
+       // Replace the URL with the link you want to open
+       const linkToOpen = "https://tpo.nitrr.ac.in/Reports/placement_report_2021.pdf";
+       window.open(linkToOpen, "_blank");
+     };
+
+
   return (
     <div>
     <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: 'url(https://i.postimg.cc/FsMqtTSQ/IMG-2725.jpg)',
+            backgroundImage: 'url(https://i.postimg.cc/8C0X39J2/Big-Tech-companies.jpg)',
+              backgroundSize: 'cover'
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -61,7 +76,7 @@ const PlacementSection = () => {
               className="nitr-page-title-content nitr-item-pdlr"
               style={{ paddingBottom: '60px' }}
             >
-              <div className="green-line-text">Placements</div>
+              <div className="green-line-text Placements-text">Placements</div>
             </div>
           </div>
         </div>
@@ -71,13 +86,18 @@ const PlacementSection = () => {
         <p>
         The placement section of the Computer Science branch at NIT Raipur is known for its remarkable track record and industry collaborations. With a strong emphasis on technical skills and practical knowledge, the department prepares students to excel in the ever-evolving field of computer science. The placement team organizes various training programs, workshops, and mock interviews to enhance students' employability. Renowned companies from diverse sectors actively participate in the recruitment process, offering enticing job opportunities and internships. The department's extensive network and alumni connections further contribute to the successful placement of students, ensuring a bright future for aspiring computer science graduates from NIT Raipur.
         </p>
+
+
+        <button style={buttonStyles} onClick={handleButtonClick}>Official Placement Report</button>
         </div>
+
+
          <div>
-      
-     
+
+
             <div className="counter-up">
               <div className="content">
-          
+
                 <div className="box">
                   <div className="icon">
                     <i className="fas fa-gift"></i>
@@ -85,7 +105,7 @@ const PlacementSection = () => {
             <Counter target={508} />
                 <div className="text">Offers Received</div>
               </div>
-          
+
           <div className="box">
             <div className="icon">
               <i className="fas fa-users"></i>
@@ -107,12 +127,12 @@ const PlacementSection = () => {
       <div className="placement-trends">
         <h2 style={{color: "#337ab7"}}>Placement Trends</h2>
       </div>
-      
+
       <div className='bar1'>
       <h3>Total offers over the past 5 Sessions</h3>
-      <BarChart /> 
+      <BarChart />
     </div>
-      
+
       <div className='bar1'>
       <h3>No of companies participated</h3>
       <BarChart2 />
@@ -124,8 +144,8 @@ const PlacementSection = () => {
       </div>
       <h3 style={{color:"black", fontSize: '24px'}}>Number of Students Placed</h3>
 
-      <div className="counter-up">
-              <div className="content">               
+      <div className="counter-upp">
+              <div className="content">
           <div className="box">
             <div className="icon">
               <i className="fas fa-users"></i>
@@ -156,12 +176,20 @@ const PlacementSection = () => {
             <Counter target={74} />
                 <div className="text">2018-19</div>
               </div>
-          
+
         </div>
       </div>
 
 
       </div>
+      <div className="hire-section">
+      <h2 style={{color: "#337ab7"}}>Why hire from us?</h2>
+    <div className="hire-description">
+        <p>
+        Our graduates stand out with a strong academic foundation, cutting-edge tech exposure, and hands-on industry projects. Equipped with exceptional problem-solving skills, leadership, and teamwork abilities, they bring diverse perspectives and an entrepreneurial spirit. Our emphasis on research and innovation ensures adaptability to emerging technologies. With a proven track record of successful alumni, hiring from our CSE department guarantees access to talented, motivated professionals ready to make a remarkable impact on your company. Partner with us to discover the potential our graduates can bring to your organization.
+        </p>
+        </div>
+        </div>
       <div className="recruiters-section">
         <h2 style={{color: "#337ab7"}}>Our Recruiters</h2>
         <div className="recruiters">
@@ -207,14 +235,17 @@ const PlacementSection = () => {
         <img src="https://i.postimg.cc/50Sqzqpd/FDAC5-A0-A-54-BA-4-E56-8351-268-FD52394-B6.jpg" alt="" />
 
         </div>
-      
+
     </div>
+
+
     </div>
+
     </div>
   );
 };
 
-  
+
 
 
 export default PlacementSection;
