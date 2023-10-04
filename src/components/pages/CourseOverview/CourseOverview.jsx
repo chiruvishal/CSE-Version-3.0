@@ -2,81 +2,142 @@ import React, { useState } from "react";
 import "./CourseOverview.css";
 import { Link } from "react-router-dom";
 
-const courseData = [
-  {
-    year: "1st Year",
-    semesters: [
-      {
-        name: "Semester I",
-        pdfLink:
-          "https://drive.google.com/file/d/1fLW5XICAMCuwbQL6_6NqOvXVpyumi3J5/view?usp=sharing",
-      },
-      {
-        name: "Semester II",
-        pdfLink: "https://example.com/year1_sem2.pdf",
-      },
-    ],
-  },
-  {
-    year: "2nd Year",
-    semesters: [
-      {
-        name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf",
-      },
-      {
-        name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf",
-      },
-    ],
-  },
-  {
-    year: "3rd Year",
-    semesters: [
-      {
-        name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf",
-      },
-      {
-        name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf",
-      },
-    ],
-  },
-  {
-    year: "4th Year",
-    semesters: [
-      {
-        name: "Semester I",
-        pdfLink: "https://example.com/year2_sem1.pdf",
-      },
-      {
-        name: "Semester II",
-        pdfLink: "https://example.com/year2_sem2.pdf",
-      },
-    ],
-  },
-  // Add more years and semesters as needed
-];
 export default function CourseOverview() {
   const [toggleState, setToggleState] = useState(1);
+  const [selectedYear, setSelectedYear] = useState(" ");
+  const [selectedSemester, setSelectedSemester] = useState(" ");
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
-  const [selectedYear, setSelectedYear] = useState(" ");
-  const [selectedSemester, setSelectedSemester] = useState(" ");
 
   const handleYearChange = (event) => {
     setSelectedYear(event.target.value);
+    // Reset the selected semester when the year changes
+    setSelectedSemester("");
   };
 
   const handleSemesterChange = (event) => {
     setSelectedSemester(event.target.value);
   };
+  const getCourseData = () => {
+    const curriculumData = [
+      {
+        year: "1st Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1NJ6Qqhq9T7fVL8B2M4HGngPJEHJlGszG/view?usp=sharing",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "https://drive.google.com/file/d/1NJ6Qqhq9T7fVL8B2M4HGngPJEHJlGszG/view?usp=sharing",
+          },
+        ],
+      },
+      {
+        year: "2nd Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1R9S2jmkkOK4NcL5fYfLOGATcpvFVAk--/view?usp=sharingf",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "https://drive.google.com/file/d/15R8EvgdfV35Fay8Sm-a8PCyjCY8-JR1a/view?usp=sharing",
+          },
+        ],
+      },
+      {
+        year: "3rd Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1qmloaiRVcXiL_zae2nLU2nGsfYImdOkq/view?usp=sharing",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "https://drive.google.com/file/d/1wvsQ6harP5R286QkkH31bnDvnMTsftnx/view?usp=sharing",
+          },
+        ],
+      },
+      {
+        year: "4th Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1Z4YKo3KQKT8xeZ9D31w0iODqNAKBYku7/view?usp=sharing",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "https://drive.google.com/file/d/12LVtecxzGq-iki0IWg0CrEaK20i4CvTM/view?usp=sharing",
+          },
+        ],
+      },
+    ];
+
+    const scheduleData = [
+      {
+        year: "1st Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1H3BRdLlZfbhjYEIU8cdg_Kmqr-7C6NdT/view?usp=sharing ",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "",
+          },
+        ],
+      },
+      {
+        year: "2nd Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1wBriY7ZnetRR8-zSlGEIWKGRJXriulZu/view?usp=sharing ",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "",
+          },
+        ],
+      },
+      {
+        year: "3rd Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1wBriY7ZnetRR8-zSlGEIWKGRJXriulZu/view?usp=sharing",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "",
+          },
+        ],
+      },
+      {
+        year: "4th Year",
+        semesters: [
+          {
+            name: "Semester I",
+            pdfLink: "https://drive.google.com/file/d/1wBriY7ZnetRR8-zSlGEIWKGRJXriulZu/view?usp=sharing ",
+          },
+          {
+            name: "Semester II",
+            pdfLink: "",
+          },
+        ],
+      },
+    ];
+
+    return toggleState === 1 ? curriculumData : scheduleData;
+  };
+
 
   const handleShowButtonClick = () => {
-    const selectedCourse = courseData.find(
+    const courseDataForTab = getCourseData();
+    const selectedCourse = courseDataForTab.find(
       (course) => course.year === selectedYear
     );
     if (selectedCourse) {
@@ -84,11 +145,17 @@ export default function CourseOverview() {
         (semester) => semester.name === selectedSemester
       );
       if (selectedSemesterData) {
-        window.open(selectedSemesterData.pdfLink, "_blank");
+        const pdfLink = selectedSemesterData.pdfLink;
+        if (pdfLink) {
+          
+          window.open(pdfLink, "_blank");
+        } else {
+          
+          alert("PDF coming soon");
+        }
       }
     }
   };
-
   return (
     <>
       <div>
