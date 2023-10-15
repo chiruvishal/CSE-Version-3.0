@@ -113,10 +113,11 @@
 .prof {
   display: flex;
   flex-direction: row;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   flex-wrap: wrap;
-  padding: 2rem;
-  padding-top: 0.5rem;
+  padding: 1rem;
+  padding-top: 0.7rem;
+  gap: 1.2rem;
 }
 .contentarea {
   max-width: 125px;
@@ -124,13 +125,13 @@
   flex-direction: row;
   margin-right: 2rem;
   padding: 2px;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .content > a {
   padding: 7px;
 }
 .profname {
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
 }
 @keyframes borderAnimation {
   0% {

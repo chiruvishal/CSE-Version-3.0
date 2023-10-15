@@ -10,7 +10,7 @@ export default function Research() {
   const [application, setappication] = useState(false);
   const areas = [
     {
-      areaname: "Artificial Intelligence",
+      areaname: "Artificial Intelligence and Machine Learning",
       desc: "In general, AI systems work by ingesting large amounts of labeled training data, analyzing the data for correlations and patterns, and using these patterns to make predictions about future states. In this way, a chatbot that is fed examples of text can learn to generate lifelike exchanges with people, or an image recognition tool can learn to identify and describe objects in images by reviewing millions of examples. New, rapidly improving generative AI techniques can create realistic text, images, music and other media.",
       content: [
         {
@@ -41,6 +41,11 @@ export default function Research() {
         {
           imglink: "https://i.postimg.cc/1X4CPK6F/visahal.jpg",
           name: "Mr.Vishal Sathawane",
+          proflink: "",
+        },
+        {
+          imglink: "https://i.postimg.cc/mkTPpVDC/dsingh.png",
+          name: "Dr. Deepak Singh",
           proflink: "",
         },
       ],
@@ -87,6 +92,38 @@ export default function Research() {
         },
       ],
     },
+    {
+      areaname: "Distributed System",
+      desc: "A distributed system is a network of autonomous computers that work together to achieve a common goal. These systems are designed to improve reliability, scalability, and performance compared to centralized counterparts. They can vary in hardware, software, and location, allowing for diverse and flexible applications. Distributed systems offer fault tolerance and horizontal scalability, making them ideal for handling complex and resource-intensive tasks.",
+      content: [
+        {
+          imglink: "https://i.postimg.cc/wx0m183p/Jairam-Photo-3.jpg",
+          name: "Dr. K. Jairam Naik",
+          proflink: "",
+        },
+        {
+          imglink: "https://i.postimg.cc/pdHT0qyC/Mr-Manu-Vardhan.jpg",
+          name: "Dr. Manu Vardhan",
+          proflink: "",
+        },
+        {
+          imglink: "https://i.postimg.cc/654ptDvz/ninesh.jpg",
+          name: "Mr. Nilesh Kumar Verma",
+          proflink: "",
+        },
+      ],
+    },
+    {
+      areaname: "Network Security",
+      desc: "Network security consists of the policies, processes and practices adopted to prevent, detect and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.Network Security protects your network and data from breaches, intrusions and other threats. This is a vast and overarching term that describes hardware and software solutions as well as processes or rules and configurations relating to network use, accessibility, and overall threat protection.",
+      content: [
+        {
+          imglink: "https://i.postimg.cc/wv9kdX4c/Dr-Preeti-Chandrakar.jpg",
+          name: "Dr.Preeti Chandrakar",
+          proflink: "",
+        },
+      ],
+    },
   ];
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -115,7 +152,8 @@ export default function Research() {
         <div
           className="nitr-page-title-wrap nitr-style-custom nitr-left-align"
           style={{
-            backgroundImage: "url(https://i.postimg.cc/7Z4dMDxk/20191210-225056.jpg)",
+            backgroundImage:
+              "url(https://i.postimg.cc/7Z4dMDxk/20191210-225056.jpg)",
           }}
         >
           <div className="nitr-header-transparent-substitute "></div>
@@ -172,7 +210,7 @@ export default function Research() {
                 <div className="prof">
                   {content.map(({ imglink, name, proflink }) => (
                     <div className="contentarea">
-                      <img src={imglink} height="72" width="50"></img>
+                      <img src={imglink} height="90" width="70"></img>
                       <div className="profname">
                         <a href={proflink}>{name}</a>
                       </div>
