@@ -14,10 +14,10 @@ export default function POs() {
 
         <div className="main-box">
 
-          <div class="drop">
+          <div className="drop">
             <div className="Aiml wel abcd">
-              <h3 class="headm">
-                <i class="fas fa-university"> </i>{" "}
+              <h3 className="headm">
+                <i className="fas fa-university"> </i>{" "}
                 <span className="icon-txt"> About Institute </span>{" "}
               </h3>{" "}
               {/* <div id="director-message" className="containerw mx-auto my-10"> */}{" "}

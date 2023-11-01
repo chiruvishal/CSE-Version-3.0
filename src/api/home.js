@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //  const url = "https://tuv9qtqn3c39.onrender.com/posts/news";
-  const url = "http://192.168.1.39:5000/posts/news";
+  const url = "http://localhost:5000/posts/news";
 
  const apifetchPosts = () => axios.get(url);
 

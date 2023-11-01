@@ -315,7 +315,7 @@ img {
 .ie9tips img {
     display: block;
     margin: 0 auto;
-    opactiy: 0.9;
+    opacity: 0.9;
     filter: alpha(opacity=90);
     max-width: 100%;
 }
@@ -514,7 +514,6 @@ img {
     text-decoration: none;
 }
 
-.animenu__nav {}
 
 .animenu__nav>li {
     position: relative;
@@ -531,7 +530,6 @@ img {
     color: #fff;
 }
 
-.animenu__nav>li>a {}
 
 .animenu__nav>li>a:first-child:nth-last-child(2):before {
     content: '';
@@ -607,7 +605,6 @@ img {
     display: block !important;
 }
 
-.animenu_nav--open .animenunav_child {}
 
 .animenu_nav_child>li dl {
     position: absolute;
